@@ -15,7 +15,7 @@ html {
 body {
   margin: 0;
   background-color: #F5F5F5;
-  font-family: "Karla", sans-serif;
+  color: #131316;
 }
 
 img {
@@ -35,8 +35,61 @@ img {
   }
 }
 
+body {
+  font-family: "Karla", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cardo", serif;
+  margin-top: 0;
+}
+
+.hero {
+  height: 95vh;
+  padding: 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero__cartel {
+  background-color: #FFFFFC;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  padding: 0.75rem 2.5rem 0.75em 1.5em;
+}
+
+.hero__leyenda {
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.hero__titulo {
+  font-size: 1.563rem;
+}
+
+#index {
+  background-image: url(../img/hero/hero-suspiria-2018.jpg);
+  background-position: 35% center;
+}
+
 .navbar {
-  background-color: #212227;
+  background-color: #131316;
 }
 
 .navbar-dark,
@@ -76,4 +129,7 @@ img {
 }
 
 */
+.main-content {
+  padding: 3rem 0;
+}
 /*# sourceMappingURL=main.css.map */
