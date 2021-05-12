@@ -1,12 +1,7 @@
 
-/*  
-Bootstrap: Override colores navbar
-
-// Agrega margin a los nav-links en desktop 
-@media(min-width: 996px) {
-    .nav-item {
-        margin-left: 1.2rem !important;
-    }
+.navbar {
+    background-color: $black;
+    
 }
 
 // Override color a los nav-links
@@ -14,18 +9,12 @@ Bootstrap: Override colores navbar
 .navbar-brand,
 .navbar-nav,
 .nav-link {
-    color: $primary !important;
+    color: $white !important;
 
     &:hover,
     &:focus {
-        color: $secondary !important;
+        color: $primary !important;
     }
-}
-
-// Color para mostrar página activa en navbar
-.active {
-    font-weight: 700;
-    color: $white !important;
 }
 
 // Override color del navbar-toggler
@@ -38,4 +27,14 @@ Bootstrap: Override colores navbar
         color: $primary;
     }
 }
+ 
+ 
+/* 
+
+// Color para mostrar página activa en navbar
+.active {
+    font-weight: 700;
+    color: $white !important;
+}
+
 */
