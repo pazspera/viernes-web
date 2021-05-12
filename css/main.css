@@ -183,13 +183,13 @@ h6 {
 
 .navbar-dark,
 .navbar-toggler {
-  color: #E3170A;
+  color: rgba(255, 255, 252, 0.3);
 }
 
 .navbar-dark:hover, .navbar-dark:focus,
 .navbar-toggler:hover,
 .navbar-toggler:focus {
-  color: #E3170A;
+  color: rgba(255, 255, 252, 0.3);
 }
 
 /* 

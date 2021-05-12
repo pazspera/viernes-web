@@ -32,11 +32,11 @@
 // Override color del navbar-toggler
 .navbar-dark, 
 .navbar-toggler {
-    color: $primary;
+    color: rgba($white, 0.3);
 
     &:hover,
     &:focus {
-        color: $primary;
+        color: rgba($white, 0.3);
     }
 }
  
