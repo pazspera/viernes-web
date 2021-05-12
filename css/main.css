@@ -129,14 +129,15 @@ h6 {
 
 .navbar-brand {
   font-size: 1.563rem;
-  text-transform: uppercase;
-  font-family: "Wallpoet", cursive;
+  font-family: "Major Mono Display", monospace;
   padding: 0;
 }
 
 .navbar .nav-link {
   font-size: 1rem;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
 }
 
 .navbar-dark,
