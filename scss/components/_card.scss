@@ -1,0 +1,12 @@
+.card-pelicula {
+
+    &__contenido{
+        background-color: $black;
+        padding: 0.75rem;
+    }
+
+    &__titulo {
+        color: $white;
+        margin: 0;
+    }
+}
