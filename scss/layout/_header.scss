@@ -1,7 +1,18 @@
 
 .navbar {
     background-color: $black;
+
+    &-brand {
+        font-size: $size4;
+        text-transform: uppercase;
+        font-family: $font-logo;
+        padding: 0;
+    }
     
+    .nav-link {
+        font-size: $size6;
+        font-weight: 700;
+    }
 }
 
 // Override color a los nav-links
