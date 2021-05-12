@@ -7,7 +7,25 @@
     }
 
     &__titulo {
-        color: $white;
         margin: 0;
+        font-size: $size4;
     }
+
+    &__titulo a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+// Override estilo cards Bootstrap
+.card {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: $light-gray;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }

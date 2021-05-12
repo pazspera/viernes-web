@@ -60,8 +60,25 @@ h6 {
 }
 
 .card-pelicula__titulo {
-  color: #FFFFFC;
   margin: 0;
+  font-size: 1.563rem;
+}
+
+.card-pelicula__titulo a {
+  color: #FFFFFC;
+  text-decoration: none;
+}
+
+.card {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #F5F5F5;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
 }
 
 .hero {
