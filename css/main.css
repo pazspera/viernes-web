@@ -138,9 +138,18 @@ h6 {
   font-size: 1.563rem;
 }
 
+.hero__datos {
+  background-color: #FFFFFC;
+}
+
 #index {
-  background-image: url(../img/hero/hero-suspiria-2018.jpg);
+  background-image: url(../img/hero/hero_suspiria_2018.jpg);
   background-position: 35% center;
+}
+
+#fantastic_fox {
+  background-image: url(../img/hero/hero_fantastic_fox.jpg);
+  padding-top: 50px;
 }
 
 .grid-peliculas {
