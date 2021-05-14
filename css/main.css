@@ -21,6 +21,8 @@ body {
 img {
   max-width: 100%;
   display: block;
+  /* Saca borde debajo img */
+  vertical-align: -webkit-baseline-middle;
 }
 
 @media (min-width: 720px) {
@@ -220,7 +222,7 @@ h6 {
 
 .main__titulo {
   font-size: 2.441rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .pelicula-info {
@@ -278,9 +280,5 @@ h6 {
   font-size: 0.8rem;
   text-align: center;
   margin-top: 0.15rem;
-}
-
-.pelicula__img {
-  margin-bottom: 3px;
 }
 /*# sourceMappingURL=main.css.map */
