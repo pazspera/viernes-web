@@ -232,21 +232,32 @@ h6 {
 
 .pelicula__hero {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .pelicula__hero .hero {
-  height: 90vh;
+  height: 80vh;
 }
 
-@media (min-width: 768px) {
-  .pelicula__hero .hero {
-    height: 80vh;
-  }
-}
-
+/* @media(min-width: 768px){
+    .pelicula__hero {
+        .hero {
+            height: 80vh;
+        }
+    }
+} */
 @media (min-width: 992px) {
   .pelicula__hero .hero {
     height: 100vh;
   }
+}
+
+.pelicula__sinopsis__titulo {
+  font-size: 2.441rem;
+  margin-bottom: 1.5rem;
+}
+
+.pelicula__sinopsis__texto {
+  line-height: 2.5;
 }
 /*# sourceMappingURL=main.css.map */

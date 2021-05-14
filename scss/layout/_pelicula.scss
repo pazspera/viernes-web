@@ -18,24 +18,37 @@
 
 .pelicula__hero {
     position: relative;
+    margin-bottom: $padding-main; // Separa Sinopsis de hero
     // Modificación de hero para películas individuales
     .hero {
-        height: 90vh;
-        // Vh mobible
+        height: 80vh;
+        // Vh mobile
     }
 }
 
-@media(min-width: 768px){
+/* @media(min-width: 768px){
     .pelicula__hero {
         .hero {
             height: 80vh;
         }
     }
-}
+} */
 @media(min-width: 992px){
     .pelicula__hero {
         .hero {
             height: 100vh;
         }
+    }
+}
+
+.pelicula__sinopsis {
+
+    &__titulo {
+        font-size: $size2;
+        margin-bottom: 1.5rem;
+    }
+
+    &__texto {
+        line-height: 2.5;
     }
 }
