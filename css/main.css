@@ -269,4 +269,10 @@ h6 {
 .pelicula__actor {
   max-width: 200px;
 }
+
+.pelicula__actor__nombre {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.15rem;
+}
 /*# sourceMappingURL=main.css.map */
