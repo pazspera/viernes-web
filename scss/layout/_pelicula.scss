@@ -4,7 +4,7 @@
     background-color: $white;
     padding: 1.25rem 1rem;
     position: absolute;
-    top: 85%;
+    top: 90%;
 
     &__titulo {
         font-size: $size4;
@@ -21,23 +21,26 @@
     margin-bottom: $padding-main; // Separa Sinopsis de hero
     // Modificación de hero para películas individuales
     .hero {
-        height: 80vh;
+        height: 60vh;
         // Vh mobile
     }
 }
 
-/* @media(min-width: 768px){
+@media(min-width: 768px){
     .pelicula__hero {
         .hero {
             height: 80vh;
         }
     }
-} */
+}
 @media(min-width: 992px){
     .pelicula__hero {
         .hero {
             height: 100vh;
         }
+    }
+    .pelicula-info{
+        top: 86%;
     }
 }
 
