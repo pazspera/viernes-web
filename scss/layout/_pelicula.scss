@@ -47,8 +47,7 @@
 
 // Película contenido 
 .pelicula__titulo {
-        font-size: $size2;
-        margin-bottom: 1.5rem;
+        
 }
 
 .pelicula__sinopsis {
@@ -66,4 +65,9 @@
         text-align: center;
         margin-top: 0.15rem;
     }
+}
+
+// Película img
+.pelicula__img {
+    margin-bottom: 3px;
 }

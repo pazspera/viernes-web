@@ -214,6 +214,15 @@ h6 {
   padding: 0 0 1.5rem 0;
 }
 
+.main-img {
+  margin: 3rem 0;
+}
+
+.main__titulo {
+  font-size: 2.441rem;
+  margin-bottom: 1.5rem;
+}
+
 .pelicula-info {
   background-color: #FFFFFC;
   padding: 1.5rem 2rem;
@@ -257,11 +266,6 @@ h6 {
   }
 }
 
-.pelicula__titulo {
-  font-size: 2.441rem;
-  margin-bottom: 1.5rem;
-}
-
 .pelicula__sinopsis__texto {
   line-height: 2.5;
 }
@@ -274,5 +278,9 @@ h6 {
   font-size: 0.8rem;
   text-align: center;
   margin-top: 0.15rem;
+}
+
+.pelicula__img {
+  margin-bottom: 3px;
 }
 /*# sourceMappingURL=main.css.map */
