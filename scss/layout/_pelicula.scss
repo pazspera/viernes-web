@@ -1,0 +1,41 @@
+// Página películas individuales
+
+.pelicula-info {
+    background-color: $white;
+    padding: 1.25rem 1rem;
+    position: absolute;
+    top: 85%;
+
+    &__titulo {
+        font-size: $size4;
+        margin-bottom: 0.75rem;
+    }
+
+    &__texto{
+        margin-bottom: 0.5rem;
+    }
+}
+
+.pelicula__hero {
+    position: relative;
+    // Modificación de hero para películas individuales
+    .hero {
+        height: 90vh;
+        // Vh mobible
+    }
+}
+
+@media(min-width: 768px){
+    .pelicula__hero {
+        .hero {
+            height: 80vh;
+        }
+    }
+}
+@media(min-width: 992px){
+    .pelicula__hero {
+        .hero {
+            height: 100vh;
+        }
+    }
+}

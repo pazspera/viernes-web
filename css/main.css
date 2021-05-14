@@ -138,10 +138,6 @@ h6 {
   font-size: 1.563rem;
 }
 
-.hero__datos {
-  background-color: #FFFFFC;
-}
-
 #index {
   background-image: url(../img/hero/hero_suspiria_2018.jpg);
   background-position: 35% center;
@@ -216,5 +212,41 @@ h6 {
 
 .main-text {
   padding: 0 0 1.5rem 0;
+}
+
+.pelicula-info {
+  background-color: #FFFFFC;
+  padding: 1.25rem 1rem;
+  position: absolute;
+  top: 85%;
+}
+
+.pelicula-info__titulo {
+  font-size: 1.563rem;
+  margin-bottom: 0.75rem;
+}
+
+.pelicula-info__texto {
+  margin-bottom: 0.5rem;
+}
+
+.pelicula__hero {
+  position: relative;
+}
+
+.pelicula__hero .hero {
+  height: 90vh;
+}
+
+@media (min-width: 768px) {
+  .pelicula__hero .hero {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .pelicula__hero .hero {
+    height: 100vh;
+  }
 }
 /*# sourceMappingURL=main.css.map */
