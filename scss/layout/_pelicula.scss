@@ -1,5 +1,5 @@
 // Página películas individuales
-
+// Película hero + info
 .pelicula-info {
     background-color: $white;
     padding: 1.25rem 1rem;
@@ -18,7 +18,7 @@
 
 .pelicula__hero {
     position: relative;
-    margin-bottom: $padding-main; // Separa Sinopsis de hero
+    margin-bottom: $padding-main*2; // Separa Sinopsis de hero
     // Modificación de hero para películas individuales
     .hero {
         height: 60vh;
@@ -28,6 +28,7 @@
 
 @media(min-width: 768px){
     .pelicula__hero {
+        margin-bottom: $padding-main;
         .hero {
             height: 80vh;
         }
@@ -44,14 +45,15 @@
     }
 }
 
-.pelicula__sinopsis {
-
-    &__titulo {
+// Película contenido 
+.pelicula__titulo {
         font-size: $size2;
         margin-bottom: 1.5rem;
-    }
+}
 
+.pelicula__sinopsis {
     &__texto {
         line-height: 2.5;
     }
 }
+

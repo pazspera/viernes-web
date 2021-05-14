@@ -232,7 +232,7 @@ h6 {
 
 .pelicula__hero {
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .pelicula__hero .hero {
@@ -240,6 +240,9 @@ h6 {
 }
 
 @media (min-width: 768px) {
+  .pelicula__hero {
+    margin-bottom: 3rem;
+  }
   .pelicula__hero .hero {
     height: 80vh;
   }
@@ -254,7 +257,7 @@ h6 {
   }
 }
 
-.pelicula__sinopsis__titulo {
+.pelicula__titulo {
   font-size: 2.441rem;
   margin-bottom: 1.5rem;
 }
