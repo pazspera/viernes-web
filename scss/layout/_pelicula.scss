@@ -2,7 +2,7 @@
 // Película hero + info
 .pelicula-info {
     background-color: $white;
-    padding: 1.25rem 1rem;
+    padding: 1.5rem 2rem;
     position: absolute;
     top: 86%;
 
@@ -57,3 +57,7 @@
     }
 }
 
+// Película Elenco
+.pelicula__actor {
+    max-width: 200px;   
+}

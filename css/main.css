@@ -216,7 +216,7 @@ h6 {
 
 .pelicula-info {
   background-color: #FFFFFC;
-  padding: 1.25rem 1rem;
+  padding: 1.5rem 2rem;
   position: absolute;
   top: 86%;
 }
@@ -264,5 +264,9 @@ h6 {
 
 .pelicula__sinopsis__texto {
   line-height: 2.5;
+}
+
+.pelicula__actor {
+  max-width: 200px;
 }
 /*# sourceMappingURL=main.css.map */
