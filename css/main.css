@@ -218,7 +218,7 @@ h6 {
   background-color: #FFFFFC;
   padding: 1.25rem 1rem;
   position: absolute;
-  top: 90%;
+  top: 86%;
 }
 
 .pelicula-info__titulo {
@@ -236,7 +236,7 @@ h6 {
 }
 
 .pelicula__hero .hero {
-  height: 60vh;
+  height: 80vh;
 }
 
 @media (min-width: 768px) {
