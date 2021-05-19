@@ -145,6 +145,10 @@ h6 {
   background-position: 35% center;
 }
 
+#historial_peliculas {
+  background-image: url(../img/hero/hero_historial_peliculas.jpg);
+}
+
 #fantastic_fox {
   background-image: url(../img/hero/hero_fantastic_fox.jpg);
   padding-top: 50px;
@@ -227,7 +231,7 @@ h6 {
 
 .main__titulo {
   font-size: 2.441rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .pelicula-info {
