@@ -235,6 +235,7 @@ h6 {
   padding: 1.5rem 2rem;
   position: absolute;
   top: 86%;
+  min-width: 339px;
 }
 
 .pelicula-info__titulo {
