@@ -40,16 +40,27 @@
         </nav>
     </header>
 
-    <section class="pelicula__hero mb-0">
-      <div class="hero" id="historial_peliculas"></div>
+    <section class="pelicula__hero">
+      <div class="hero" id="historial_peliculas">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 ms-auto col-sm-8 offset-sm-4 col-md-7 offset-5 col-lg-5 offset-lg-7">
+              <div class="pelicula-info">
+                <h1 class="pelicula-info__titulo">Historial de películas</h1>
+                <p class="pelicula-info__texto mb-0">Todos los viernes todos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
       
     <main class="main-content">
       <div class="main-text">
         <div class="container">
           <div class="row">
+            <!-- Párrafo inicial -->
             <div class="col-12">
-              <h1 class="main__titulo">Historial de películas</h1>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem numquam minima, adipisci reprehenderit eligendi blanditiis. Ad beatae culpa molestias ab. Ad adipisci, culpa beatae corrupti ratione illum doloremque voluptas sequi nobis repellendus quisquam rerum? Quaerat?</p>
             </div>
           </div>
@@ -58,17 +69,16 @@
       <div class="main-text">
         <div class="container">
           <div class="row">
-            <div class="card card-pelicula col-12 col-md-6">
-              <img src="../img/2021-mulholland.jpg" alt="" class="card-img-top">
-              <div class="card-body card-pelicula__contenido">
-                <h2 class="card-pelicula__titulo"><a href="#" class=" stretched-link">2021</a></h2>
-              </div>
+            <div class="card card-pelicula card-vertical col-12 col-md-4">
+              <div class="card-body card-vertical__contenido">
+                <h2 class="card-vertical__titulo"><a href="2021_peliculas.html" class=" stretched-link">2021</a></h2>
+              </div><img src="../img/2021-mulholland.jpg" alt="" class="card-img-top">
             </div>
-            <div class="card card-pelicula col-12 col-md-6">
-              <img src="../img/2020-brazil.jpg" alt="" class="card-img-top">
-              <div class="card-body card-pelicula__contenido">
-                <h2 class="card-pelicula__titulo"><a href="#" class=" stretched-link">2020</a></h2>
+            <div class="card card-pelicula card-vertical col-12 col-md-4">
+              <div class="card-body card-vertical__contenido">
+                <h2 class="card-vertical__titulo"><a href="#" class=" stretched-link">2020</a></h2>
               </div>
+              <img src="../img/2020-brazil.jpg" alt="" class="card-img-top">
             </div>
           </div>
         </div>

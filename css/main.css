@@ -95,6 +95,25 @@ h6 {
   text-decoration: none;
 }
 
+.card-vertical {
+  margin-bottom: 2rem;
+}
+
+.card-vertical__contenido {
+  background-color: #131316;
+  padding: 0.75rem;
+}
+
+.card-vertical__titulo {
+  margin: 0;
+  font-size: 1.563rem;
+}
+
+.card-vertical__titulo a {
+  color: #FFFFFC;
+  text-decoration: none;
+}
+
 .card {
   border: none !important;
   border-radius: 0 !important;
@@ -138,6 +157,23 @@ h6 {
 
 .hero__titulo {
   font-size: 1.563rem;
+}
+
+.hero__cartel--titulo-solo {
+  background-color: #FFFFFC;
+  padding: 1.5rem 2rem;
+  position: absolute;
+  top: 86%;
+  min-width: 339px;
+}
+
+.hero__cartel--titulo-solo__titulo {
+  font-size: 1.563rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero__cartel--titulo-solo__texto {
+  margin-bottom: 0.5rem;
 }
 
 #index {
@@ -253,14 +289,14 @@ h6 {
 
 .pelicula__hero {
   position: relative;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .pelicula__hero .hero {
   height: 80vh;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .pelicula__hero {
     margin-bottom: 3rem;
   }

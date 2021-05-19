@@ -17,6 +17,25 @@
     }
 }
 
+.card-vertical {
+    margin-bottom: 2rem;
+    
+    &__contenido{
+        background-color: $black;
+        padding: 0.75rem;
+    }
+
+    &__titulo {
+        margin: 0;
+        font-size: $size4;
+    }
+
+    &__titulo a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
 // Override estilo cards Bootstrap
 .card {
     border: none !important;

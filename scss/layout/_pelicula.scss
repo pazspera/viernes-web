@@ -19,7 +19,7 @@
 
 .pelicula__hero {
     position: relative;
-    margin-bottom: $padding-main*2; // Separa Sinopsis de hero
+    margin-bottom: $padding-main; // Separa Sinopsis de hero
     // Modificación de hero para películas individuales
     .hero {
         height: 80vh;
@@ -27,7 +27,7 @@
     }
 }
 
-@media(min-width: 768px){
+@media(max-width: 768px){
     .pelicula__hero {
         margin-bottom: $padding-main;
         .hero {

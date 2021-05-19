@@ -25,3 +25,19 @@
     }
 }
 
+.hero__cartel--titulo-solo {
+    background-color: $white;
+    padding: 1.5rem 2rem;
+    position: absolute;
+    top: 86%;
+    min-width: 339px;
+
+    &__titulo {
+        font-size: $size4;
+        margin-bottom: 0.75rem;
+    }
+
+    &__texto{
+        margin-bottom: 0.5rem;
+    }
+}
