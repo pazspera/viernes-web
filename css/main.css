@@ -185,6 +185,10 @@ h6 {
   background-image: url(../img/hero/hero_historial_peliculas.jpg);
 }
 
+#peliculas_2021 {
+  background-image: url(../img/hero/hero_2021.jpg);
+}
+
 #fantastic_fox {
   background-image: url(../img/hero/hero_fantastic_fox.jpg);
   padding-top: 50px;
