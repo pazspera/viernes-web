@@ -318,6 +318,10 @@ h6 {
   }
 }
 
+.pelicula__sinopsis {
+  margin-top: 1rem;
+}
+
 .pelicula__sinopsis__texto {
   line-height: 2.5;
 }
