@@ -326,10 +326,10 @@ h6 {
 
 @media (min-width: 1320px) {
   .pelicula-info__titulo {
-    font-size: 3.052rem;
+    font-size: 1.563rem;
   }
   .pelicula-info__texto {
-    font-size: 1.953rem;
+    font-size: 1.25rem;
   }
 }
 
