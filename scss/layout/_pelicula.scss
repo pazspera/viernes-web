@@ -46,10 +46,18 @@
     }
 }
 
-// Película contenido 
-.pelicula__titulo {
-        
+// Cambio tipografía en xxl
+@media(min-width: 1320px){
+    .pelicula__titulo {
+        font-size: $size2;
+    }
+    .pelicula__texto {
+        font-size: $size4;
+    }
 }
+
+// Película contenido 
+
 
 .pelicula__sinopsis {
     margin-top: 1rem;
