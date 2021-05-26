@@ -209,6 +209,10 @@ h6 {
   background-position: 35% center;
 }
 
+#suspiria_2018b {
+  background-image: url(../img/hero/blanc_floor.jpg);
+}
+
 .grid-peliculas {
   padding: 1.5rem 0;
 }
