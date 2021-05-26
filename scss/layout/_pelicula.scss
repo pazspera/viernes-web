@@ -48,10 +48,10 @@
 
 // Cambio tipografía en xxl
 @media(min-width: 1320px){
-    .pelicula__titulo {
+    .pelicula-info__titulo {
         font-size: $size2;
     }
-    .pelicula__texto {
+    .pelicula-info__texto {
         font-size: $size4;
     }
 }
