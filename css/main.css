@@ -339,6 +339,12 @@ h6 {
 }
 
 @media (min-width: 1320px) {
+  .pelicula__hero .hero {
+    height: 85vh;
+  }
+}
+
+@media (min-width: 1320px) {
   .pelicula-info__titulo {
     font-size: 1.953rem;
   }

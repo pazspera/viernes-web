@@ -47,6 +47,14 @@
     }
 }
 
+@media(min-width: 1320px){
+    .pelicula__hero{
+        .hero {
+            height: 85vh;
+        }
+    }
+}
+
 // Cambio tipografía en xxl
 @media(min-width: 1320px){
     .pelicula-info__titulo {
