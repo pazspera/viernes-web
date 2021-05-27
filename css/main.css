@@ -298,12 +298,13 @@ h6 {
 }
 
 .pelicula-info__titulo {
-  font-size: 1.563rem;
+  font-size: 1.953rem;
   margin-bottom: 0.75rem;
 }
 
 .pelicula-info__texto {
   margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 .pelicula__hero {
@@ -338,7 +339,7 @@ h6 {
     font-size: 1.953rem;
   }
   .pelicula-info__texto {
-    font-size: 1.563rem;
+    font-size: 1.25rem;
   }
 }
 
