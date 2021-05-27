@@ -331,20 +331,20 @@ h6 {
 
 @media (min-width: 992px) {
   .pelicula__hero .hero {
-    height: 95vh;
+    height: 90vh;
   }
-  .pelicula-info {
-    top: 86%;
+  .pelicula__hero .pelicula-info {
+    top: 80%;
   }
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 992px) and (min-width: 1320px) {
   .pelicula__hero .hero {
     height: 90vh;
   }
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 992px) and (min-width: 1320px) {
   .pelicula-info__titulo {
     font-size: 1.953rem;
   }
@@ -353,21 +353,20 @@ h6 {
   }
 }
 
-.pelicula__sinopsis {
-  margin-top: 1rem;
-}
-
-.pelicula__sinopsis__texto {
-  line-height: 2.5;
-}
-
-.pelicula__actor {
-  max-width: 200px;
-}
-
-.pelicula__actor__nombre {
-  font-size: 0.8rem;
-  text-align: center;
-  margin-top: 0.15rem;
+@media (min-width: 992px) {
+  .pelicula__sinopsis {
+    margin-top: 1rem;
+  }
+  .pelicula__sinopsis__texto {
+    line-height: 2.5;
+  }
+  .pelicula__actor {
+    max-width: 200px;
+  }
+  .pelicula__actor__nombre {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.15rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

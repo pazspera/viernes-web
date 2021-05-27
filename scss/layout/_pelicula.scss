@@ -39,18 +39,17 @@
 @media(min-width: 992px){
     .pelicula__hero {
         .hero {
-            height: 100vh;
-        }
+            height: 90vh;
     }
     .pelicula-info{
-        top: 86%;
+        top: 80%;
     }
 }
 
 @media(min-width: 1320px){
     .pelicula__hero{
         .hero {
-            height: 85vh;
+            height: 90vh;
         }
     }
 }
@@ -86,4 +85,4 @@
         margin-top: 0.15rem;
     }
 }
-
+}
