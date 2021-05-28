@@ -214,7 +214,7 @@ h6 {
 }
 
 #suspiria_2018b {
-  background-image: url(../img/hero/blanc_floor.jpg);
+  background-image: url(../img/hero/hero_suspiria_2018_b.jpg);
   background-position: right;
 }
 
@@ -368,5 +368,10 @@ h6 {
     text-align: center;
     margin-top: 0.15rem;
   }
+}
+
+.pelicula-hero {
+  display: -ms-grid;
+  display: grid;
 }
 /*# sourceMappingURL=main.css.map */
