@@ -23,7 +23,7 @@
     margin-bottom: $padding-main; // Separa Sinopsis de hero
     // Modificación de hero para películas individuales
     .hero {
-        height: 80vh;
+        height: 90vh;
         // Vh mobile
     }
 }
@@ -42,7 +42,7 @@
             height: 90vh;
     }
     .pelicula-info{
-        top: 85%;
+        top: 73vh;
     }
 }
 
@@ -90,7 +90,19 @@
 // PRUEBA 
 // Pelicula Hero con Grid
 
-.pelicula-hero {
+/* .hero-cartel {
     display: grid;
-    
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    height: 110vh;
+    background-color: red;
 }
+
+.hero{
+    grid-column: 1/13;
+    grid-row: 1/4;
+}
+
+.pelicula-info{
+    grid-row: 3/4;
+} */

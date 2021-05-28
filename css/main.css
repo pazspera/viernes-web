@@ -215,7 +215,7 @@ h6 {
 
 #suspiria_2018b {
   background-image: url(../img/hero/hero_suspiria_2018_b.jpg);
-  background-position: right;
+  background-position: center right;
 }
 
 .grid-peliculas {
@@ -317,7 +317,7 @@ h6 {
 }
 
 .pelicula__hero .hero {
-  height: 80vh;
+  height: 90vh;
 }
 
 @media (max-width: 768px) {
@@ -334,7 +334,7 @@ h6 {
     height: 90vh;
   }
   .pelicula__hero .pelicula-info {
-    top: 85%;
+    top: 73vh;
   }
 }
 
@@ -370,8 +370,20 @@ h6 {
   }
 }
 
-.pelicula-hero {
-  display: -ms-grid;
-  display: grid;
+/* .hero-cartel {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    height: 110vh;
+    background-color: red;
 }
+
+.hero{
+    grid-column: 1/13;
+    grid-row: 1/4;
+}
+
+.pelicula-info{
+    grid-row: 3/4;
+} */
 /*# sourceMappingURL=main.css.map */
