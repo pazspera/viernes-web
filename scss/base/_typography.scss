@@ -18,6 +18,10 @@ h6 {
     margin-top: 0;
 }
 
+h2{
+    font-size: $size3;
+}
+
 // Cambio font-size dependiendo tamaño dispositivo
 @media(min-width: 720px){
     html {

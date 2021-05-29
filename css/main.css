@@ -44,6 +44,10 @@ h6 {
   margin-top: 0;
 }
 
+h2 {
+  font-size: 1.953rem;
+}
+
 @media (min-width: 720px) {
   html {
     font-size: 18px;
@@ -325,7 +329,7 @@ h6 {
     margin-bottom: 3rem;
   }
   .pelicula__hero .hero {
-    height: 80vh;
+    height: 90vh;
   }
 }
 
