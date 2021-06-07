@@ -41,3 +41,25 @@
         margin-bottom: 0.5rem;
     }
 }
+
+// Prueba hero con grid
+.hero--cartel-grid{
+    display: grid;
+    height: 120vh;
+    background-color: blue;
+    grid-template-columns: repeat(1fr, 12);
+    grid-template-rows: repeat(1fr, 7);
+
+    &__img{
+       grid-column: 1/12;
+       grid-row: 1/7;
+       background-color: green;
+    }
+
+    &__cartel{
+        grid-column: 8/10;
+        grid-row: 6/8;
+        background-color: white;
+        padding: 2rem;
+    }
+}
