@@ -43,12 +43,12 @@
 }
 
 // Prueba hero con grid
-.hero--cartel-grid{
+/* .hero--cartel-grid{
     display: grid;
     height: 120vh;
     background-color: blue;
     grid-template-columns: repeat(1fr, 12);
-    grid-template-rows: repeat(1fr, 7);
+    grid-template-rows: repeat(minmax(150px, 20vh), 7);
 
     &__img{
        grid-column: 1/12;
@@ -63,3 +63,36 @@
         padding: 2rem;
     }
 }
+ */
+/* 
+
+ .hero-grid{
+     // Mobile
+     display: grid;
+     height: 120vh;
+     grid-template-rows: repeat(7, 15vh);
+     grid-template-columns: repeat(12, 1fr);
+
+     &__cartel{
+        grid-row: 6/8;
+        grid-column: 2/11;
+        background-color: red;
+        padding: 1.5rem 2rem;
+     }
+
+     &__titulo {
+        font-size: $size3;
+        margin-bottom: 1.25rem;
+     }
+  
+     &__texto{
+         font-size: $size5;
+         margin-bottom: 0.5rem;
+     }
+
+     &__texto-final{
+         font-size: $size5;
+         margin-bottom: 1rem;
+     }
+ }
+  */
