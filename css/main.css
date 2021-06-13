@@ -264,6 +264,10 @@ h2 {
   padding-top: 50px;
 }
 
+#rocky_horror {
+  background-image: url(../img/hero/hero_rocky_horror.jpg);
+}
+
 #suspiria_2018 {
   background-image: url(../img/hero/hero_suspiria_2018.jpg);
   background-position: 35% center;
