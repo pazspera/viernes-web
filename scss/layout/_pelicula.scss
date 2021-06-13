@@ -49,8 +49,12 @@
 @media(min-width: 1320px){
     .pelicula__hero{
         .hero {
-            height: 90vh;
+            height: 87vh;
         }
+    }
+    .pelicula-info{
+        top: 89%;
+        // Baja el cartel para que esté cerca del borde inferiro pantalla en tamaños grandes
     }
 }
 
