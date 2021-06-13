@@ -212,8 +212,8 @@ h2 {
 .hero-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (15vh)[4] auto auto;
-      grid-template-rows: repeat(4, 15vh) auto auto;
+  -ms-grid-rows: (15vh)[3] auto auto;
+      grid-template-rows: repeat(3, 15vh) auto auto;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
 }
@@ -224,32 +224,20 @@ h2 {
   -ms-grid-column-span: 12;
   grid-column: 1/13;
   -ms-grid-row: 1;
-  -ms-grid-row-span: 5;
-  grid-row: 1/6;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
 }
 
 .hero-grid__cartel {
   background-color: red;
   padding: 1.5rem 2rem;
   z-index: 10;
-}
-
-.hero-grid__cartel--largo {
-  -ms-grid-row: 5;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 2;
-  grid-row: 5/7;
+  grid-row: 4/6;
   -ms-grid-column: 2;
   -ms-grid-column-span: 10;
   grid-column: 2/12;
-}
-
-.hero-grid__cartel--corto {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 10;
-  grid-column: 2/12;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 2;
-  grid-row: 5/7;
 }
 
 .hero-grid__titulo {
