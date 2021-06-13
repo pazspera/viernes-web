@@ -68,8 +68,15 @@
 // Para mobile
  .hero-grid{
      display: grid;
-     grid-template-rows: repeat(3, 15vh) auto auto ;
      grid-template-columns: repeat(12, 1fr);
+
+     &--cartel-largo{
+        grid-template-rows: repeat(3, 15vh) auto auto;
+     }
+
+     &--cartel-corto{
+         grid-template-rows: repeat(4, 15vh) auto auto;
+     }
 
      &__img{
         background-color: green;

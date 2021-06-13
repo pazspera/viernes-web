@@ -212,10 +212,18 @@ h2 {
 .hero-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (15vh)[3] auto auto;
-      grid-template-rows: repeat(3, 15vh) auto auto;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-grid--cartel-largo {
+  -ms-grid-rows: (15vh)[3] auto auto;
+      grid-template-rows: repeat(3, 15vh) auto auto;
+}
+
+.hero-grid--cartel-corto {
+  -ms-grid-rows: (15vh)[4] auto auto;
+      grid-template-rows: repeat(4, 15vh) auto auto;
 }
 
 .hero-grid__img {
