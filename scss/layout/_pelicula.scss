@@ -61,15 +61,17 @@
 @media(min-width: 1320px){
     .pelicula__hero{
         .hero {
-            height: 87vh;
+            height: 80vh;
         }
     }
     .pelicula-info{
         // Baja el cartel para que esté cerca del borde inferiro pantalla en tamaños grandes
         top: 89%;
+        // Aumenta tamaño para mantener diseño
+        max-width: 490px;
     }
     .pelicula-info--titulo-largo{
-        top: 79vh; // CONFIRMAR
+        top: 76%; // CONFIRMAR
     }
 }
 

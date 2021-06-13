@@ -410,13 +410,14 @@ h2 {
 
 @media (min-width: 992px) and (min-width: 1320px) {
   .pelicula__hero .hero {
-    height: 87vh;
+    height: 80vh;
   }
   .pelicula-info {
     top: 89%;
+    max-width: 490px;
   }
   .pelicula-info--titulo-largo {
-    top: 79vh;
+    top: 76%;
   }
 }
 
