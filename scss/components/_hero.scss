@@ -100,4 +100,45 @@
          margin-bottom: 1rem;
      }
  }
- 
+
+@media(min-width: 576px){
+    .hero-grid{
+
+        &__cartel{
+            grid-column: 5/12;
+        }
+    }
+}
+
+// Para tablet
+@media(min-width: 768px){
+    .hero-grid{
+
+        &__img{
+            background-color: blue;
+        }
+
+        &__cartel{
+            grid-column: 6/12;
+        }
+    }
+}
+
+// Para desktop
+@media(min-width: 992px){
+    .hero-grid{
+
+        &__cartel{
+            grid-column: 7/12;
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .hero-grid{
+
+        &__cartel{
+            grid-column: 7/11;
+        }
+    }
+}

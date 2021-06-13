@@ -255,6 +255,41 @@ h2 {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 576px) {
+  .hero-grid__cartel {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 7;
+    grid-column: 5/12;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-grid__img {
+    background-color: blue;
+  }
+  .hero-grid__cartel {
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 6;
+    grid-column: 6/12;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-grid__cartel {
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 5;
+    grid-column: 7/12;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-grid__cartel {
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 4;
+    grid-column: 7/11;
+  }
+}
+
 #index {
   background-image: url(../img/hero/hero_ravenous.jpg);
 }
