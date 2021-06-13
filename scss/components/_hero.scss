@@ -64,20 +64,33 @@
     }
 }
  */
-/* 
 
+// Para mobile
  .hero-grid{
-     // Mobile
      display: grid;
-     height: 120vh;
-     grid-template-rows: repeat(7, 15vh);
+     grid-template-rows: repeat(4, 15vh) 11vh auto auto 1fr;
      grid-template-columns: repeat(12, 1fr);
 
+     &__img{
+        background-color: green;
+        grid-column: 1/13;
+        grid-row: 1/7;
+     }
+
      &__cartel{
-        grid-row: 6/8;
-        grid-column: 2/11;
         background-color: red;
         padding: 1.5rem 2rem;
+        z-index: 10;
+     }
+
+     &__cartel--largo{
+        grid-row: 6/8;
+        grid-column: 2/12;
+     }
+
+     &__cartel--corto{
+         grid-column: 2/12;
+         grid-row: 6/8;
      }
 
      &__titulo {
@@ -95,4 +108,4 @@
          margin-bottom: 1rem;
      }
  }
-  */
+ 

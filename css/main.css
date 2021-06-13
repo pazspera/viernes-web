@@ -209,38 +209,64 @@ h2 {
     }
 }
  */
-/* 
+.hero-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (15vh)[4] 11vh auto auto 1fr;
+      grid-template-rows: repeat(4, 15vh) 11vh auto auto 1fr;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
 
- .hero-grid{
-     // Mobile
-     display: grid;
-     height: 120vh;
-     grid-template-rows: repeat(7, 15vh);
-     grid-template-columns: repeat(12, 1fr);
+.hero-grid__img {
+  background-color: green;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1/13;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 6;
+  grid-row: 1/7;
+}
 
-     &__cartel{
-        grid-row: 6/8;
-        grid-column: 2/11;
-        background-color: red;
-        padding: 1.5rem 2rem;
-     }
+.hero-grid__cartel {
+  background-color: red;
+  padding: 1.5rem 2rem;
+  z-index: 10;
+}
 
-     &__titulo {
-        font-size: $size3;
-        margin-bottom: 1.25rem;
-     }
-  
-     &__texto{
-         font-size: $size5;
-         margin-bottom: 0.5rem;
-     }
+.hero-grid__cartel--largo {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 2;
+  grid-row: 6/8;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+}
 
-     &__texto-final{
-         font-size: $size5;
-         margin-bottom: 1rem;
-     }
- }
-  */
+.hero-grid__cartel--corto {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 2;
+  grid-row: 6/8;
+}
+
+.hero-grid__titulo {
+  font-size: 1.953rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-grid__texto {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-grid__texto-final {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
 #index {
   background-image: url(../img/hero/hero_ravenous.jpg);
 }
