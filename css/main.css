@@ -21,8 +21,6 @@ body {
 img {
   max-width: 100%;
   display: block;
-  /* Saca borde debajo img */
-  vertical-align: -webkit-baseline-middle;
 }
 
 body {
@@ -359,7 +357,7 @@ h2 {
   position: absolute;
   top: 86%;
   min-width: 339px;
-  max-width: 475px;
+  max-width: 380px;
 }
 
 .pelicula-info__titulo {
@@ -372,9 +370,13 @@ h2 {
   font-size: 1rem;
 }
 
+.pelicula-info--titulo-largo {
+  top: 75%;
+}
+
 .pelicula__hero {
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 4.5rem;
 }
 
 .pelicula__hero .hero {
@@ -383,7 +385,7 @@ h2 {
 
 @media (max-width: 768px) {
   .pelicula__hero {
-    margin-bottom: 3rem;
+    margin-bottom: 4.5rem;
   }
   .pelicula__hero .hero {
     height: 90vh;
@@ -391,11 +393,18 @@ h2 {
 }
 
 @media (min-width: 992px) {
+  .pelicula__hero {
+    margin-bottom: 3rem;
+  }
   .pelicula__hero .hero {
     height: 90vh;
   }
   .pelicula__hero .pelicula-info {
-    top: 73vh;
+    top: 78%;
+    max-width: 460px;
+  }
+  .pelicula__hero .pelicula-info--titulo-largo {
+    top: 70%;
   }
 }
 
@@ -405,6 +414,9 @@ h2 {
   }
   .pelicula-info {
     top: 89%;
+  }
+  .pelicula-info--titulo-largo {
+    top: 79vh;
   }
 }
 

@@ -1,12 +1,13 @@
 // Página películas individuales
 // Película hero + info
+// Pelicula info funciona para títulos con solo una línea
 .pelicula-info {
     background-color: $white;
     padding: 1.5rem 2rem;
     position: absolute;
     top: 86%;
     min-width: 339px;
-    max-width: 475px;
+    max-width: 380px;
 
     &__titulo {
         font-size: $size3;
@@ -19,9 +20,13 @@
     }
 }
 
+.pelicula-info--titulo-largo{
+    top: 75%;
+}
+
 .pelicula__hero {
     position: relative;
-    margin-bottom: $padding-main; // Separa Sinopsis de hero
+    margin-bottom: $padding-main-mobile; // Separa Sinopsis de hero
     // Modificación de hero para películas individuales
     .hero {
         height: 90vh;
@@ -31,7 +36,7 @@
 
 @media(max-width: 768px){
     .pelicula__hero {
-        margin-bottom: $padding-main;
+        margin-bottom: $padding-main-mobile;
         .hero {
             height: 90vh;
         }
@@ -39,11 +44,17 @@
 }
 @media(min-width: 992px){
     .pelicula__hero {
+        margin-bottom: $padding-main-desktop;
         .hero {
             height: 90vh;
     }
     .pelicula-info{
-        top: 73vh;
+        top: 78%;
+        // Tamaño máx para que no exceda tamaño de diseño
+        max-width: 460px;
+    }
+    .pelicula-info--titulo-largo{
+        top: 70%;
     }
 }
 
@@ -54,8 +65,11 @@
         }
     }
     .pelicula-info{
-        top: 89%;
         // Baja el cartel para que esté cerca del borde inferiro pantalla en tamaños grandes
+        top: 89%;
+    }
+    .pelicula-info--titulo-largo{
+        top: 79vh; // CONFIRMAR
     }
 }
 
