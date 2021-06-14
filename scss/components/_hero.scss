@@ -128,10 +128,12 @@
 
         &__img{
             background-color: blue;
+            grid-row: 1/4;
         }
 
         &__cartel{
             grid-column: 6/12;
+            grid-row: 3/5;
         }
     }
 }
