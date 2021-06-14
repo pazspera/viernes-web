@@ -125,15 +125,16 @@
 // Para tablet
 @media(min-width: 768px){
     .hero-grid{
+        grid-template-rows: repeat(4, 15vh) auto auto;    
 
         &__img{
             background-color: blue;
-            grid-row: 1/4;
+            grid-row: 1/5;
         }
 
         &__cartel{
             grid-column: 6/12;
-            grid-row: 3/5;
+            grid-row: 4/6;
         }
     }
 }
