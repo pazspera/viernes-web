@@ -116,6 +116,10 @@
 @media(min-width: 576px){
     .hero-grid{
 
+        &__img{
+            background-color: violet;
+        }
+
         &__cartel{
             grid-column: 5/12;
         }
@@ -125,16 +129,16 @@
 // Para tablet
 @media(min-width: 768px){
     .hero-grid{
-        grid-template-rows: repeat(6, 15vh) auto auto;    
+        grid-template-rows: repeat(4, 15vh) auto auto;    
 
         &__img{
-            background-color: orange;
-            grid-row: 1/7;
+            background-color: blue;
+            grid-row: 1/5;
         }
 
         &__cartel{
             grid-column: 6/12;
-            grid-row: 6/8;
+            grid-row: 4/6;
         }
     }
 }
@@ -142,6 +146,10 @@
 // Para desktop
 @media(min-width: 992px){
     .hero-grid{
+
+        &__img{
+            background-color: gray;
+        }
 
         &__cartel{
             grid-column: 7/12;
@@ -151,6 +159,10 @@
 
 @media(min-width: 1200px){
     .hero-grid{
+
+        &__img{
+            background-color: aqua;
+        }
 
         &__cartel{
             grid-column: 7/11;
