@@ -121,7 +121,7 @@
         }
 
         &__cartel{
-            grid-column: 5/12;
+            grid-column: 4/12;
         }
     }
 }
@@ -141,31 +141,65 @@
             grid-row: 4/6;
         }
     }
+    // Aumenta tamaño títulos largos
+    .hero-grid__cartel--titulo-largo{
+        grid-column: 5/12;
+    }
 }
 
 // Para desktop
 @media(min-width: 992px){
     .hero-grid{
+        grid-template-columns: repeat(14, 1fr);
         
         &__img{
             background-color: gray;
+            grid-column: 1/15;
         }
 
         &__cartel{
-            grid-column: 7/12;
+            grid-column: 8/13;
         }
     }
 }
 
 @media(min-width: 1200px){
     .hero-grid{
+        grid-template-columns: repeat(14, 1fr);
 
         &__img{
             background-color: aqua;
+            grid-column: 1/15;
         }
 
         &__cartel{
-            grid-column: 7/11;
+            grid-column: 8/13;
         }
+    }
+
+    // Aumenta tamaño títulos largos
+    .hero-grid__cartel--titulo-largo{
+        grid-column: 8/13;
+    }
+}
+
+@media(min-width: 1400px){
+    .hero-grid{
+        grid-template-columns: repeat(16, 1fr);
+
+        &__img{
+            background-color: black;
+            grid-column: 1/17;
+        }
+    }
+    // Disminuye tamaño títulos largos
+    .hero-grid__cartel--titulo-largo{
+        grid-column: 9/15;
+    }
+}
+
+@media(min-width: 1800px){
+    .hero-grid__cartel--titulo-largo{
+        grid-column: 8/12;
     }
 }
