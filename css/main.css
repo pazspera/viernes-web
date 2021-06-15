@@ -431,6 +431,10 @@ h2 {
   padding-top: 50px;
 }
 
+#only_lovers {
+  background-image: url(../img/hero/hero_only_lovers.jpg);
+}
+
 #rocky_horror {
   background-image: url(../img/hero/hero_rocky_horror.jpg);
 }
