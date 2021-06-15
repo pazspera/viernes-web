@@ -274,6 +274,7 @@ h2 {
 
 .hero-grid__texto-final {
   margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 @media (min-width: 576px) {
