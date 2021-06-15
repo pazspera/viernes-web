@@ -434,6 +434,10 @@ h2 {
   background-image: url(../img/hero/hero_rocky_horror.jpg);
 }
 
+#lighthouse {
+  background-image: url(../img/hero/hero_lighthouse.webp);
+}
+
 #suspiria_2018 {
   background-image: url(../img/hero/hero_suspiria_2018.jpg);
   background-position: 35% center;
