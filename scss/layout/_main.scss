@@ -7,7 +7,9 @@
 }
 
 .main-img {
-    margin: $padding-main 0;
+    margin: $padding-main auto;
+    max-width: 2145px;
+
 }
 
 .main__titulo {
