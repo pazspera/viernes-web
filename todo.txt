@@ -1,0 +1,2 @@
+- Aumentar cantidad de cols en tamaños superiores a 1400px y 1800px
+- Agregar un contenedor a la fila de img para que queden las 3 una al lado de otra en un container centrado si el tamaño del dispositivo es muy grande
