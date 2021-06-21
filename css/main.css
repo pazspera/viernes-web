@@ -431,6 +431,10 @@ h2 {
   padding-top: 50px;
 }
 
+#juan_muertos {
+  background-image: url(../img/hero/hero_juan_muertos.jpg);
+}
+
 #only_lovers {
   background-image: url(../img/hero/hero_only_lovers.jpg);
 }
@@ -622,6 +626,7 @@ h2 {
     font-size: 0.8rem;
     text-align: center;
     margin-top: 0.15rem;
+    line-height: 1.6;
   }
 }
 
