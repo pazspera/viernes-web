@@ -447,14 +447,6 @@ h2 {
   background-image: url(../img/hero/hero_rumba.jpg);
 }
 
-#rocky_horror {
-  background-image: url(../img/hero/hero_rocky_horror.jpg);
-}
-
-#lighthouse {
-  background-image: url(../img/hero/hero_lighthouse.jpg);
-}
-
 #suspiria_2018 {
   background-image: url(../img/hero/hero_suspiria_2018.jpg);
   background-position: 35% center;
@@ -463,6 +455,18 @@ h2 {
 #suspiria_2018b {
   background-image: url(../img/hero/hero_suspiria_2018_b.jpg);
   background-position: center right;
+}
+
+#rocky_horror {
+  background-image: url(../img/hero/hero_rocky_horror.jpg);
+}
+
+#lighthouse {
+  background-image: url(../img/hero/hero_lighthouse.jpg);
+}
+
+#time_gypsies {
+  background-image: url(../img/hero/hero_time_gypsies.jpg);
 }
 
 .grid-peliculas {
