@@ -373,9 +373,9 @@ h2 {
     grid-column: 1/21;
   }
   .hero-grid__cartel {
-    -ms-grid-column: 10;
+    -ms-grid-column: 11;
     -ms-grid-column-span: 6;
-    grid-column: 10/16;
+    grid-column: 11/17;
   }
   .hero-grid__cartel--titulo-largo {
     -ms-grid-column: 10;
@@ -415,7 +415,7 @@ h2 {
 }
 
 #about {
-  background-image: url(../img/hero/hero_about.jpg);
+  background-image: url(../img/hero/hero_about2.png);
 }
 
 #peliculas_2021 {
