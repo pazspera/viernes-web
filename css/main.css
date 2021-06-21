@@ -379,8 +379,8 @@ h2 {
   }
   .hero-grid__cartel--titulo-largo {
     -ms-grid-column: 10;
-    -ms-grid-column-span: 6;
-    grid-column: 10/16;
+    -ms-grid-column-span: 7;
+    grid-column: 10/17;
   }
 }
 
@@ -437,6 +437,10 @@ h2 {
 
 #only_lovers {
   background-image: url(../img/hero/hero_only_lovers.jpg);
+}
+
+#ravenous {
+  background-image: url(../img/hero/hero_ravenous.jpg);
 }
 
 #rocky_horror {
