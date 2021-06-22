@@ -461,6 +461,10 @@ h2 {
   background-position: center right;
 }
 
+#suspiria_1977 {
+  background-image: url(../img/hero/hero_suspiria_1977.jpg);
+}
+
 #rocky_horror {
   background-image: url(../img/hero/hero_rocky_horror.jpg);
 }
