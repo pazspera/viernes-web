@@ -426,6 +426,10 @@ h2 {
   background-image: url(../img/hero/hero_2020.jpg);
 }
 
+#black_sheep {
+  background-image: url(../img/hero/hero_black_sheep.jpg);
+}
+
 #fantastic_fox {
   background-image: url(../img/hero/hero_fantastic_fox.jpg);
   padding-top: 50px;
