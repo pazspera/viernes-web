@@ -427,11 +427,15 @@ h2 {
 }
 
 #antiviral {
-  background-image: url(../img/hero/hero_antiviral2.jpg);
+  background-image: url(../img/hero/hero_antiviral.jpg);
 }
 
 #black_sheep {
   background-image: url(../img/hero/hero_black_sheep.jpg);
+}
+
+#enter_void {
+  background-image: url(../img/hero/hero_enter_void.jpg);
 }
 
 #fantastic_fox {
