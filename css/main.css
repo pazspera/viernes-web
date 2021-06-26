@@ -9,7 +9,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 body {
@@ -48,19 +48,19 @@ h2 {
 
 @media (min-width: 720px) {
   html {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 
 @media (min-width: 1140px) {
   html {
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 
 @media (min-width: 1320px) {
   html {
-    font-size: 22px;
+    font-size: 23px;
   }
 }
 
@@ -433,6 +433,7 @@ h2 {
 
 #antiviral {
   background-image: url(../img/hero/hero_antiviral.jpg);
+  background-position: left;
 }
 
 #black_rainbow {
@@ -445,6 +446,7 @@ h2 {
 
 #enter_void {
   background-image: url(../img/hero/hero_enter_void.jpg);
+  background-position: 35% center;
 }
 
 #fantastic_fox {
@@ -484,10 +486,12 @@ h2 {
 
 #suspiria_1977 {
   background-image: url(../img/hero/hero_suspiria_1977.jpg);
+  background-position: 5% left;
 }
 
 #synecdoche {
   background-image: url(../img/hero/hero_synecdoche.jpg);
+  background-position: left;
 }
 
 #rocky_horror {
@@ -504,6 +508,7 @@ h2 {
 
 #time_gypsies {
   background-image: url(../img/hero/hero_time_gypsies.jpg);
+  background-position: 10% left;
 }
 
 #trollhunter {
