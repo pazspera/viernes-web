@@ -163,6 +163,7 @@ h2 {
   top: 5%;
   right: 0;
   padding: 0.5rem 2.5rem 0.5em 1.5em;
+  max-width: 390px;
 }
 
 .hero__leyenda {
@@ -679,12 +680,19 @@ h2 {
   }
   .pelicula__actor {
     max-width: 200px;
+    text-align: center;
   }
   .pelicula__actor__nombre {
     font-size: 0.8rem;
     text-align: center;
     margin-top: 0.15rem;
     line-height: 1.6;
+  }
+}
+
+@media (min-width: 100px) {
+  .pelicula__actor__nombre {
+    text-align: center;
   }
 }
 

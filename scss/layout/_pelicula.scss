@@ -99,6 +99,7 @@
 // Película Elenco
 .pelicula__actor {
     max-width: 200px;
+    text-align: center;
     
     &__nombre{
         font-size: $size7;
@@ -109,6 +110,12 @@
 }
 }
 
+@media(min-width: 100px){
+    // Centrar texto en mobile
+    .pelicula__actor__nombre{
+        text-align: center;
+    }
+}
 // PRUEBA 
 // Pelicula Hero con Grid
 
