@@ -176,6 +176,12 @@ h2 {
   font-size: 1.563rem;
 }
 
+@media (min-width: 1700px) {
+  .hero__cartel {
+    max-width: none;
+  }
+}
+
 /* .hero__cartel--titulo-solo {
     background-color: $white;
     padding: 1.5rem 2rem;
