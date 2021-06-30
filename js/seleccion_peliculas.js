@@ -14,20 +14,39 @@ En seleccion_random, lo que hace es seleccionar 3 números random entre 0 y arra
 
 
 function mostrarTodasPeliculas(){
-    /* Desaparece div de  películas random */
     let random_peliculas = document.getElementById('random_peliculas');
+    let todas_peliculas = document.getElementById('todas_peliculas');
+
+    /* Desaparece div de  películas random */
     random_peliculas.className = 'd-none';
     /* Saca d-none de div todas las peliculas */
-    let todas_peliculas = document.getElementById('todas_peliculas');
     todas_peliculas.classList.remove('d-none');
 
+    // Borra contenido random_peliculas para que no se agreguen demasiadas selecciones
+    random_peliculas.innerHTML = '';
 }
 
 function calcularRandomPeliculas(){
-    /* Desaparece div de todas las películas  */
     let todas_peliculas = document.getElementById('todas_peliculas');
+    let random_peliculas = document.getElementById('random_peliculas');
+    let array_peliculas = document.getElementsByClassName('poster');
+    let contador = 0;
+
+    do{
+        // Generar # random del array_peliculas
+        let peli_seleccionada = calculoNumeroRandom(array_peliculas);
+        console.log(peli_seleccionada);
+        random_peliculas.innerHTML += array_peliculas[peli_seleccionada.value];
+        contador++;
+    }while(contador < 3);
+
+    /* Desaparece div de todas las películas  */
     todas_peliculas.className = 'd-none';
     /* Saca d-none de div de películas random */
-    let random_peliculas = document.getElementById('random_peliculas');
     random_peliculas.classList.toggle ('d-none');
+}
+
+function calculoNumeroRandom(arreglo){
+    let numeroRandom = Math.floor(Math.random() * arreglo.length);
+    return numeroRandom;
 }
