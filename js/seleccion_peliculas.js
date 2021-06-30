@@ -14,7 +14,9 @@ En seleccion_random, lo que hace es seleccionar 3 números random entre 0 y arra
 
 let todas_peliculas = document.getElementById('todas_peliculas');
 let random_peliculas = document.getElementById('random_peliculas');
-let array_peliculas = document.getElementsByClassName('poster');
+let peliculas = document.getElementsByClassName('poster');
+// Convertir peliculas en array
+let array_peliculas = Array.from(peliculas);
 let resultado_random = document.getElementById('resultado_random');
 
 function mostrarTodasPeliculas(){
@@ -41,7 +43,14 @@ function calcularRandomPeliculas(){
     // se agreguen muchos grupos de 3 a resultado_random
     if(resultado_random.innerHTML === ''){
         // Generar 3 números aleatorios
-        do{
+        let numeros = [];
+        numeros = generarNumerosDistintos(3);
+        console.log(numeros);
+        for(let i = 0; i < numeros.length; i++){
+            resultado_random.innerHTML += array_peliculas[numeros[i]].outerHTML;
+            // resultado_random.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
+        }
+        /* do{
             // Generar # random del array_peliculas
             let peli_seleccionada = calculoNumeroRandom(array_peliculas);
             console.log(peli_seleccionada);
@@ -49,7 +58,7 @@ function calcularRandomPeliculas(){
             // Eliminar valor del random del array_peliculas
             // array_peliculas.splice(peli_seleccionada, 1);
             contador++;
-        }while(contador < 3);
+        }while(contador < 3); */
     } 
 }
 
