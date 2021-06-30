@@ -64,33 +64,44 @@
       <div class="main-text">
         <div class="container">
           <div class="row">
-            <div class="row">
-              <div class="col-12 col-sm-6 mb-3 d-flex justify-content-center">
-                <a href="pages/historial_peliculas.html" class="btn btn__primary">Elegir tres opciones</a>  
+            <div class="col-12 col-sm-6 mb-3 d-flex justify-content-center">
+              <button class="btn btn__primary" id="btn_random" onclick="calcularRandomPeliculas()">Elegir tres opciones</button>
+            </div>
+            <div class="col-12 col-sm-6 mb-3 d-flex justify-content-center">
+              <button class="btn btn__primary" id="btn_todas" onclick="mostrarTodasPeliculas()">Ver todas las opciones</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Muestra resultado random películas -->
+      <div class="main-text">
+        <div class="container">
+          <div class="row d-none" id="random_peliculas">
+            <h2>Este es el random de las pelis</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Contiene el listado de todas las películas -->
+      <div id="todas_peliculas">
+        <div class="main-text">
+          <div class="container">
+            <div class="row" >
+              <div class="col-6 col-md-4 poster">
+                <a href="https://www.imdb.com/title/tt2375574/" target="_blank"><img src="../img/posters/poster_field_england.jpg" alt="Poster A Field in England"></a>
               </div>
-              <div class="col-12 col-sm-6 mb-3 d-flex justify-content-center">
-                <a href="pages/historial_peliculas.html" class="btn btn__primary">Ver todas las opciones</a>
+              <div class="col-6 col-md-4 poster">
+                <a href="https://www.imdb.com/title/tt1833844/" target="_blank"><img src="../img/posters/poster_berberian.jpg" alt="Poster Berberian Sound Studio"></a>
+              </div>
+              <div class="col-6 col-md-4 poster">
+                <a href="https://www.imdb.com/title/tt8695030/" target="_blank"><img src="../img/posters/poster_dead_dont_die.jpg" alt="Poster The Dead Don't Die"></a>
+              </div>
+              <div class="col-6 col-md-4 poster">
+                <a href="https://www.imdb.com/title/tt0112922/" target="_blank"><img src="../img/posters/poster_dia_bestia.jpg" alt="Poster El día de la bestia"></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      
-
-      <!-- Trailer 
-      <div class="main-text">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="pelicula__titulo">Trailer</h2>
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O-qNERe2P-s" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </main>
 
     <!-- JS Bootstrap -->
