@@ -15,36 +15,44 @@ En seleccion_random, lo que hace es seleccionar 3 números random entre 0 y arra
 let todas_peliculas = document.getElementById('todas_peliculas');
 let random_peliculas = document.getElementById('random_peliculas');
 let array_peliculas = document.getElementsByClassName('poster');
+let resultado_random = document.getElementById('resultado_random');
 
 function mostrarTodasPeliculas(){
-
     /* Desaparece div de  películas random */
     random_peliculas.className = 'd-none';
     /* Saca d-none de div todas las peliculas */
-    todas_peliculas.classList.toggle('d-none');
+    todas_peliculas.classList.remove('d-none');
 
     // Borra contenido random_peliculas para que no se agreguen demasiadas selecciones
-    random_peliculas.innerHTML = '';
+    // random_peliculas.innerHTML = '';
 }
 
 function calcularRandomPeliculas(){
     let contador = 0;
-
-    do{
-        // Generar # random del array_peliculas
-        let peli_seleccionada = calculoNumeroRandom(array_peliculas);
-        console.log(peli_seleccionada);
-        random_peliculas.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
-        // Eliminar valor del random del array_peliculas
-        
-        // array_peliculas.splice(peli_seleccionada, 1);
-        contador++;
-    }while(contador < 3);
-
+    // Borra contenido de resultado_random para que se ejecute el do
+    resultado_random.innerHTML = '';
+    
     /* Desaparece div de todas las películas  */
     todas_peliculas.className = 'd-none';
     /* Saca d-none de div de películas random */
-    random_peliculas.classList.toggle ('d-none');
+    random_peliculas.classList.remove('d-none');
+
+    // Revisa si resultado_random está vacío para evitar que
+    // se agreguen muchos grupos de 3 a resultado_random
+    if(resultado_random.innerHTML === ''){
+        do{
+            // Generar # random del array_peliculas
+            let peli_seleccionada = calculoNumeroRandom(array_peliculas);
+            console.log(peli_seleccionada);
+            resultado_random.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
+            // Eliminar valor del random del array_peliculas
+            
+            // array_peliculas.splice(peli_seleccionada, 1);
+            contador++;
+        }while(contador < 3);
+    } 
+    
+
 }
 
 function calculoNumeroRandom(arreglo){
