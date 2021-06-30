@@ -40,22 +40,40 @@ function calcularRandomPeliculas(){
     // Revisa si resultado_random está vacío para evitar que
     // se agreguen muchos grupos de 3 a resultado_random
     if(resultado_random.innerHTML === ''){
+        // Generar 3 números aleatorios
         do{
             // Generar # random del array_peliculas
             let peli_seleccionada = calculoNumeroRandom(array_peliculas);
             console.log(peli_seleccionada);
             resultado_random.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
             // Eliminar valor del random del array_peliculas
-            
             // array_peliculas.splice(peli_seleccionada, 1);
             contador++;
         }while(contador < 3);
     } 
-    
-
 }
 
 function calculoNumeroRandom(arreglo){
     let numeroRandom = Math.floor(Math.random() * arreglo.length);
     return numeroRandom;
+}
+
+function verSiEstaEnArray(elemento, arreglo){
+    return arreglo.includes(elemento);
+}
+
+function generarNumerosDistintos(cantidadNumAGenerar){
+    let numerosDistintos = [];
+    let contador = 0;
+
+    do{
+        let num = calculoNumeroRandom(array_peliculas);
+        // Revisa si el num está en el array y repite hasta que no esté
+        while(verSiEstaEnArray(num, numerosDistintos)){
+            num = calculoNumeroRandom(array_peliculas);
+        }
+        numerosDistintos[contador] = num;
+        contador++;
+    }while(contador < cantidadNumAGenerar);
+    return numerosDistintos;
 }
