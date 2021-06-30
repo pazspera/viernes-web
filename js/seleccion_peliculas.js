@@ -12,31 +12,32 @@ En seleccion_random, lo que hace es seleccionar 3 números random entre 0 y arra
 
 */
 
+let todas_peliculas = document.getElementById('todas_peliculas');
+let random_peliculas = document.getElementById('random_peliculas');
+let array_peliculas = document.getElementsByClassName('poster');
 
 function mostrarTodasPeliculas(){
-    let random_peliculas = document.getElementById('random_peliculas');
-    let todas_peliculas = document.getElementById('todas_peliculas');
 
     /* Desaparece div de  películas random */
     random_peliculas.className = 'd-none';
     /* Saca d-none de div todas las peliculas */
-    todas_peliculas.classList.remove('d-none');
+    todas_peliculas.classList.toggle('d-none');
 
     // Borra contenido random_peliculas para que no se agreguen demasiadas selecciones
     random_peliculas.innerHTML = '';
 }
 
 function calcularRandomPeliculas(){
-    let todas_peliculas = document.getElementById('todas_peliculas');
-    let random_peliculas = document.getElementById('random_peliculas');
-    let array_peliculas = document.getElementsByClassName('poster');
     let contador = 0;
 
     do{
         // Generar # random del array_peliculas
         let peli_seleccionada = calculoNumeroRandom(array_peliculas);
         console.log(peli_seleccionada);
-        random_peliculas.innerHTML += array_peliculas[peli_seleccionada.value];
+        random_peliculas.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
+        // Eliminar valor del random del array_peliculas
+        
+        // array_peliculas.splice(peli_seleccionada, 1);
         contador++;
     }while(contador < 3);
 
