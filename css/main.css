@@ -417,10 +417,6 @@ h2 {
   }
 }
 
-#index {
-  background-image: url(../img/hero/hero_rumba.jpg);
-}
-
 #historial_peliculas {
   background-image: url(../img/hero/hero_historial_peliculas.jpg);
 }
@@ -452,6 +448,10 @@ h2 {
 
 #black_sheep {
   background-image: url(../img/hero/hero_black_sheep.jpg);
+}
+
+#brick {
+  background-image: url(../img/hero/hero_brick.jpg);
 }
 
 #enter_void {
