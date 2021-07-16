@@ -7,7 +7,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 07, 09),
         img_card: 'img/cards/card_brick.jpg',
         img_card_alt: 'Adolescente hablando en una cabina telefónica de noche',
-        link_pagina: '#'
+        link_pagina: '#',
+        pick: 'Pollo',
     },
     {
         id: 'holy_motors',
@@ -16,7 +17,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 07, 02),
         img_card: 'img/cards/card_holy_motors.jpg',
         img_card_alt: 'Hombre ciego de un ojo parado frente a un grupo de gente',
-        link_pagina: 'pages/peliculas/holy_motors.html'
+        link_pagina: 'pages/peliculas/holy_motors.html',
+        pick: 'la democracia',
     },
     {
         id: 'black_rainbow',
@@ -25,7 +27,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 06, 25),
         img_card: 'img/cards/card_black_rainbow.jpg',
         img_card_alt: 'Hombre caminando en un pasillo con una luz roja de fondo',
-        link_pagina: 'pages/peliculas/black_rainbow.html'
+        link_pagina: 'pages/peliculas/black_rainbow.html',
+        pick: 'Loco',
     },
     {
         id: 'rumba',
@@ -34,7 +37,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 06, 18),
         img_card: 'img/cards/card_rumba.jpg',
         img_card_alt: 'Mujer y hombre bailando en un patio de escuela',
-        link_pagina: 'pages/peliculas/rumba.html'
+        link_pagina: 'pages/peliculas/rumba.html',
+        pick: 'Tutte',
     },
     {
         id: 'ravenous',
@@ -43,7 +47,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 06, 11),
         img_card: 'img/cards/card_ravenous.jpg',
         img_card_alt: 'Hombre con ropa manchada de sangre sonriendo en un bosque',
-        link_pagina: 'pages/peliculas/ravenous.html'
+        link_pagina: 'pages/peliculas/ravenous.html',
+        pick: 'Paz',
     },
     {
         id: 'only_lovers',
@@ -52,7 +57,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 06, 04),
         img_card: 'img/cards/card_only_lovers.jpg',
         img_card_alt: 'Mujer y hombre mirando a cámara con un mosaico de patrones circulares de fondo',
-        link_pagina: 'pages/peliculas/only_lovers.html'
+        link_pagina: 'pages/peliculas/only_lovers.html',
+        pick: 'Geor',
     },
     {
         id: 'juan_muertos',
@@ -61,7 +67,8 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 05, 28),
         img_card: 'img/cards/card_juan.jpg',
         img_card_alt: 'Hombre agarrado de la cornisa de un balcón y una mujer ayudándolo',
-        link_pagina: 'pages/peliculas/juan_muertos.html'
+        link_pagina: 'pages/peliculas/juan_muertos.html',
+        pick: 'Pollo',
     }
 ];
 
@@ -71,7 +78,7 @@ const peliculasCardsOrdenadas = peliculasCards.slice().sort((a, b) => b.fecha_vi
 // Crear un sub-array con las últimas 6 pelis vistas
 const ultimas6Peliculas = peliculasCardsOrdenadas.slice(0,6);
 
-// Prueba imprimir las 6 cards que agregué
+// Printear las cards del sub-array 
 document.getElementById('peliculas-cards-index').innerHTML = `
 ${ultimas6Peliculas.map(function(pelicula_card){
     return `
@@ -85,7 +92,6 @@ ${ultimas6Peliculas.map(function(pelicula_card){
 }).join('')}`;
 
 
-// Printear las cards del sub-array 
 
 /* 
 Este mismo array de cards lo puedo usar para crear las cards de cada mes. Que busque primero por año y después por mes. Podría crear sub-arrays para cada año y mes, después printear las cards de ese mes en cada div que tenga como id el año y mes (ej id="junio-2021")
