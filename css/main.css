@@ -9,7 +9,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 body {
@@ -48,7 +48,7 @@ h2 {
 
 @media (min-width: 720px) {
   html {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -275,7 +275,7 @@ h2 {
 
 .hero-grid__titulo {
   font-size: 1.953rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .hero-grid__texto {
@@ -284,7 +284,7 @@ h2 {
 }
 
 .hero-grid__texto-final {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 1.25rem;
 }
 
