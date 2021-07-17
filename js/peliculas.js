@@ -4,7 +4,7 @@ const peliculasCards = [
         id: 'outrage',
         nombre: 'Outrage',
         anio: '2010',
-        fecha_vista: new Date(2021,07, 16),
+        fecha_vista: new Date(2021,01, 16),
         img_card: 'img/cards/card_outrage.jpg',
         img_card_alt: 'Dos miembros de a Yakuza mirando a cámara y apuntando con un arma',
         link_pagina: '#',
@@ -100,8 +100,6 @@ ${ultimas6Peliculas.map(function(pelicula_card){
     </div>
     `;
 }).join('')}`;
-
-
 
 /* 
 Este mismo array de cards lo puedo usar para crear las cards de cada mes. Que busque primero por año y después por mes. Podría crear sub-arrays para cada año y mes, después printear las cards de ese mes en cada div que tenga como id el año y mes (ej id="junio-2021")
