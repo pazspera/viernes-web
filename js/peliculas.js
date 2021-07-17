@@ -1,6 +1,16 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'outrage',
+        nombre: 'Outrage',
+        anio: '2010',
+        fecha_vista: new Date(2021,07, 16),
+        img_card: 'img/cards/card_outrage.jpg',
+        img_card_alt: 'Dos miembros de a Yakuza mirando a cámara y apuntando con un arma',
+        link_pagina: '#',
+        pick: 'Geor',
+    },
+    {
         id: 'brick',
         nombre: 'Brick',
         anio: '2005',
