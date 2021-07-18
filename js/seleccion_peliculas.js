@@ -247,17 +247,7 @@ function calcularRandomPeliculas(){
         console.log(numeros);
         for(let i = 0; i < numeros.length; i++){
             resultado_random.innerHTML += array_peliculas[numeros[i]].outerHTML;
-            // resultado_random.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
         }
-        /* do{
-            // Generar # random del array_peliculas
-            let peli_seleccionada = calculoNumeroRandom(array_peliculas);
-            console.log(peli_seleccionada);
-            resultado_random.innerHTML += array_peliculas[peli_seleccionada].outerHTML;
-            // Eliminar valor del random del array_peliculas
-            // array_peliculas.splice(peli_seleccionada, 1);
-            contador++;
-        }while(contador < 3); */
     } 
 }
 
