@@ -1,4 +1,5 @@
-
+// Ordenar el array por fecha vista, la más reciente primero
+const peliculasCardsOrdenadas = peliculasCards.slice().sort((a, b) => b.fecha_vista - a.fecha_vista);
 
 // Crear un sub-array con las últimas 6 pelis vistas
 const ultimas6Peliculas = peliculasCardsOrdenadas.slice(0,6);
