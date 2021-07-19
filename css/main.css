@@ -495,11 +495,6 @@ h2 {
 
 #suspiria_2018 {
   background-image: url(../img/hero/hero_suspiria_2018.jpg);
-  background-position: 35% center;
-}
-
-#suspiria_2018b {
-  background-image: url(../img/hero/hero_suspiria_2018_b.jpg);
   background-position: center right;
 }
 
@@ -530,8 +525,8 @@ h2 {
   background-position: 10% left;
 }
 
-#trollhunter {
-  background-image: url(../img/hero/hero_trollhunter.jpg);
+#troll_hunter {
+  background-image: url(../img/hero/hero_troll_hunter.jpg);
 }
 
 .poster {

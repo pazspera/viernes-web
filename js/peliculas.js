@@ -29,6 +29,8 @@ const peliculasCards = [
         img_card_alt: 'Hombre ciego de un ojo parado frente a un grupo de gente',
         link_pagina: 'peliculas/holy_motors.html',
         pick: 'la democracia',
+        director: 'Director: Leos Carax',
+        duracion: '1h 55min',
     },
     {
         id: 'black_rainbow',
@@ -39,6 +41,8 @@ const peliculasCards = [
         img_card_alt: 'Hombre caminando en un pasillo con una luz roja de fondo',
         link_pagina: 'peliculas/black_rainbow.html',
         pick: 'Loco',
+        director: 'Director: Panos Cosmatos',
+        duracion: '1h 50min',
     },
     {
         id: 'rumba',
@@ -49,6 +53,8 @@ const peliculasCards = [
         img_card_alt: 'Mujer y hombre bailando en un patio de escuela',
         link_pagina: 'peliculas/rumba.html',
         pick: 'Tutte',
+        director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
+        duracion: '1h 17min',
     },
     {
         id: 'ravenous',
@@ -59,6 +65,8 @@ const peliculasCards = [
         img_card_alt: 'Hombre con ropa manchada de sangre sonriendo en un bosque',
         link_pagina: 'peliculas/ravenous.html',
         pick: 'Paz',
+        director: 'Directora: Antonia Bird',
+        duracion: '1h 41min',
     },
     {
         id: 'only_lovers',
@@ -69,6 +77,8 @@ const peliculasCards = [
         img_card_alt: 'Mujer y hombre mirando a cámara con un mosaico de patrones circulares de fondo',
         link_pagina: 'peliculas/only_lovers.html',
         pick: 'Geor',
+        director: 'Director: Jim Jarmusch',
+        duracion: '2h 3min',
     },
     {
         id: 'juan_muertos',
@@ -79,6 +89,8 @@ const peliculasCards = [
         img_card_alt: 'Hombre agarrado de la cornisa de un balcón y una mujer ayudándolo',
         link_pagina: 'peliculas/juan_muertos.html',
         pick: 'Pollo',
+        director: 'Director: Alejandro Brugués',
+        duracion: '1h 32min',
     },
     {
         id: 'time_gypsies',
@@ -89,6 +101,8 @@ const peliculasCards = [
         img_card_alt: 'Grupo de personas mirando un ritual funerio en un río',
         link_pagina: 'peliculas/time_gypsies.html',
         pick: 'Loco',
+        director: 'Director: Emir Kusturica',
+        duracion: '2h 22min',
     },
     {
         id: 'troll_hunter',
@@ -99,6 +113,8 @@ const peliculasCards = [
         img_card_alt: 'Hombre en una camioneta iluminando a un troll que sale del bosque',
         link_pagina: 'peliculas/trollhunter.html',
         pick: 'Paz',
+        director: 'Director: André Øvredal',
+        duracion: '1h 43min',
     },
     {
         id: 'black_sheep',
@@ -109,6 +125,8 @@ const peliculasCards = [
         img_card_alt: 'Taxi rodeado de ovejas, varado en una ruta',
         link_pagina: 'peliculas/black_sheep.html',
         pick: 'Paz',
+        director: 'Director: Jonathan King',
+        duracion: '1h 27min',
     },
     {
         id: 'suspiria_2018',
@@ -119,6 +137,8 @@ const peliculasCards = [
         img_card_alt: 'Una mujer mirando a otra desde el umbral de una puerta',
         link_pagina: 'peliculas/suspiria_2018.html',
         pick: 'Paz',
+        director: 'Director: Luca Guadagnino',
+        duracion: '2h 32min',
     },
     {
         id: 'fantastic_fox',
