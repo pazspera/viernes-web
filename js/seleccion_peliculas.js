@@ -1,6 +1,24 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'zatoichi',
+        name: 'Zatoichi',
+        imdb: 'https://www.imdb.com/title/tt0363226/',
+        img: '../img/posters/poster_zatoichi.jpg'
+    },
+    {
+        id: 'hana_bi',
+        name: 'Hana-bi',
+        imdb: 'https://www.imdb.com/title/tt0119250/',
+        img: '../img/posters/poster_hana_bi.jpg'
+    },
+    {
+        id: 'sonatine',
+        name: 'Sonatine',
+        imdb: 'https://www.imdb.com/title/tt0108188/',
+        img: '../img/posters/poster_sonatine.jpg'
+    },
+    {
         id : "vertigo",
         name : "Vertigo",
         imdb : "https://www.imdb.com/title/tt0052357/",
