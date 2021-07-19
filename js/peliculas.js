@@ -7,8 +7,10 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 6, 16),
         img_card: 'img/cards/card_outrage.jpg',
         img_card_alt: 'Dos miembros de a Yakuza mirando a cámara y apuntando con un arma',
-        link_pagina: '#',
+        link_pagina: 'peliculas/outrage.html',
         pick: 'Geor',
+        director: 'Takeshi Kitano',
+        duracion: '1h 49min',
     },
     {
         id: 'brick',
@@ -17,8 +19,10 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 6, 09),
         img_card: 'img/cards/card_brick.jpg',
         img_card_alt: 'Adolescente hablando en una cabina telefónica de noche',
-        link_pagina: '#',
+        link_pagina: 'peliculas/brick.html',
         pick: 'Pollo',
+        director: 'Rian Johnson',
+        duracion: '1h 50min',
     },
     {
         id: 'holy_motors',
