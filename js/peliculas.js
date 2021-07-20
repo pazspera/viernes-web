@@ -40,23 +40,22 @@ const peliculasCards = [
         sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
         cast: [
             {
-                img: 'img/pelicula/holy_motors/holy_motors_cast_1.jpg',
+                img: 'cast_1.jpg',
                 actor: 'Denis Lavant',
             },
             {
-                img: 'img/pelicula/holy_motors/holy_motors_cast_2.jpg',
+                img: 'cast_2.jpg',
                 actor: 'Edith Scob',
             },
             {
-                img: 'img/pelicula/holy_motors/holy_motors_cast_3.jpg',
+                img: 'cast_3.jpg',
                 actor: 'Kylie Minogue',
             },
             {
-                img: 'img/pelicula/holy_motors/holy_motors_cast_4.jpg',
+                img: 'cast_4.jpg',
                 actor: 'Eva Mendes',
             },  
         ],
-
     },
     {
         id: 'black_rainbow',
@@ -70,6 +69,20 @@ const peliculasCards = [
         director: 'Director: Panos Cosmatos',
         duracion: '1h 50min',
         sinopsis: 'Despite being under heavy sedation, a young woman tries to make her way out of the Arboria Institute, a secluded, quasifuturistic commune.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Michael J Rogers',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Eva Bourne',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Rondel Reynoldson',
+            },
+        ]
     },
     {
         id: 'rumba',
@@ -83,6 +96,16 @@ const peliculasCards = [
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duracion: '1h 17min',
         sinopsis: 'Teachers in a rural school, happy couple Fiona and Dom have a common passion: Latin Dancing. One night, after a glorious dance competition, they have a car accident and see their lives turn upside down. Rumba or how optimism and humour can overcome fatality',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Dominique Abel',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Fiona Gordon',
+            },
+        ],
     },
     {
         id: 'ravenous',
@@ -96,6 +119,32 @@ const peliculasCards = [
         director: 'Directora: Antonia Bird',
         duracion: '1h 41min',
         sinopsis: 'In a remote military outpost in the 19th century, Captain John Boyd and his regiment embark on a rescue mission which takes a dark turn when they are ambushed by a sadistic cannibal.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Guy Pearce',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Robert Carlyle',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'David Arquette',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Jeremy Davies',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Jeffrey Jones',
+            },
+            {
+                img: 'cast_6.jpg',
+                actor: 'Neal McDonough',
+            },
+        ],
     },
     {
         id: 'only_lovers',
@@ -109,6 +158,28 @@ const peliculasCards = [
         director: 'Director: Jim Jarmusch',
         duracion: '2h 3min',
         sinopsis: 'Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Tilda Swinton',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Tom Hiddleston',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Mia Wasikowska',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'John Hurt',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Anton Yelchin',
+            },
+        ],
     },
     {
         id: 'juan_muertos',
@@ -121,7 +192,29 @@ const peliculasCards = [
         pick: 'Pollo',
         director: 'Director: Alejandro Brugués',
         duracion: '1h 32min',
-        sinopsis: 'Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.'
+        sinopsis: 'Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Alexis Díaz de Villegas',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jorge Molina',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Andrea Duro',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Andros Perugorría',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Jazz Vilá',
+            },
+        ],
     },
     {
         id: 'time_gypsies',
@@ -135,6 +228,24 @@ const peliculasCards = [
         director: 'Director: Emir Kusturica',
         duracion: '2h 22min',
         sinopsis: 'In this luminous tale set in the area around Sarajevo and in Italy, Perhan, an engaging young Romany (gypsy) with telekinetic powers, is seduced by the quick-cash world of petty crime, which threatens to destroy him and those he loves.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Davor Dujmovic',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Sinolicka Trpkova',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Ljubica Adzovic',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Husnija Hasimovic',
+            },
+        ],
     },
     {
         id: 'troll_hunter',
@@ -148,6 +259,24 @@ const peliculasCards = [
         director: 'Director: André Øvredal',
         duracion: '1h 43min',
         sinopsis: 'A group of students investigates a series of mysterious bear killings, but learns that there are much more dangerous things going on. They start to follow a mysterious hunter, learning that he is actually a troll hunter.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Otto Jespersen',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Glenn Erland Tosterud',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Johanna Mørck',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Tomas Alf Larsen',
+            },
+        ],
     },
     {
         id: 'black_sheep',
@@ -161,6 +290,24 @@ const peliculasCards = [
         director: 'Director: Jonathan King',
         duracion: '1h 27min',
         sinopsis: 'An experiment in genetic engineering turns harmless sheep into bloodthirsty killers that terrorize a sprawling New Zealand farm.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Nathan Meister',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Peter Feeney',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Danielle Mason',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Tammy Davis',
+            },
+        ],
     },
     {
         id: 'suspiria_2018',
@@ -174,6 +321,32 @@ const peliculasCards = [
         director: 'Director: Luca Guadagnino',
         duracion: '2h 32min',
         sinopsis: 'Una oscuridad envuelve una compañía de danza de fama internacional. Una oscuridad que consumirá a la directora artística, a una joven y ambiciosa bailarina y a un terapeuta en duelo. Algunos sucumbirán a la pesadilla. Otros finalmente despertarán.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Dakota Johnson',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Tilda Swinton',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Mia Goth',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Lutz Ebersdorf',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Chloë Grace Moretz',
+            },
+            {
+                img: 'cast_6.jpg',
+                actor: 'Elena Fokina',
+            },
+        ],
     },
     {
         id: 'fantastic_fox',
@@ -187,6 +360,28 @@ const peliculasCards = [
         director: 'Wes Anderson',
         duracion: '1h 27min',
         sinopsis: 'El Sr. y la Sra. Fox viven una feliz vida hogareña con su excéntrico hijo Ash y su sobrino Kristofferson, quien está de visita, hasta que el Sr. Fox recae en sus taimados hábitos y planea el robo de gallinas más grande presenciado por el mundo animal.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'George Clooney',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Meryl Streep',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Jason Schwartzman',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Eric Chase Anderson',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Willem Dafoe',
+            },
+        ],
     },
     {
         id: 'muertos_risa',
@@ -210,6 +405,28 @@ const peliculasCards = [
         director: 'Director: Dario Argento',
         duracion: '1h 35min',
         sinopsis: 'An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jessica Harper',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Joan Bennett',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Alida Valli',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Stefania Casini',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Flavio Bucci',
+            },
+        ],
     },
     {
         id: 'antiviral',
@@ -223,6 +440,28 @@ const peliculasCards = [
         director: 'Director: Brandon Cronenberg',
         duracion: '1h 48min',
         sinopsis: "In a blackly satirical near future, a thriving industry sells celebrity illnesses to their obsessed fans. Employee Syd March's attempts to exploit the system backfire when they involve him in a potentially deadly mystery.",
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Caleb Landry Jones',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Sarah Gadon',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Joe Pingue',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Malcolm McDowell',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Douglas Smith',
+            },
+        ],
     },
     {
         id: 'top_secret',
@@ -256,6 +495,20 @@ const peliculasCards = [
         director: 'Director: Park Chan-Wook',
         duracion: '2h',
         sinopsis: 'After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Choi Min-sik',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Yoo Ji-Tae',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Kang Hye-jeong',
+            },
+        ],
     },
     {
         id: 'enter_void',
@@ -269,6 +522,24 @@ const peliculasCards = [
         director: 'Director: Gaspar Noé',
         duracion: '2h 42min',
         sinopsis: 'An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Nathaniel Brown',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Paz de la Huerta',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Cyril Roy',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Olly Alexander',
+            },
+        ],
     },
     {
         id: 'thx_1138',
@@ -282,6 +553,20 @@ const peliculasCards = [
         director: 'Director: George Lucas',
         duracion: '1h 26min',
         sinopsis: 'In the 25th century, a time when people have designations instead of names, a man, THX 1138, and a woman, LUH 3417, rebel against their rigidly-controlled society.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Robert Duvall',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Maggie McOmie',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Donald Pleasence',
+            },
+        ],
     },
     {
         id: 'synecdoque',
@@ -295,6 +580,28 @@ const peliculasCards = [
         director: 'Director: Charlie Kaufman',
         duracion: '2h 4min',
         sinopsis: 'A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Philip Seymour Hoffman',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Samantha Morton',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Tom Noonan',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Michelle Williams',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Catherine Keener',
+            },
+        ],
     },
     {
         id: 'labyrinth',
@@ -398,6 +705,32 @@ const peliculasCards = [
         director: 'Director: Jim Sharman',
         duracion: '1h 40min',
         sinopsis: 'Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Tim Curry',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Susan Sarandon',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Barry Bostwick',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: "Richard O'Brien",
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Patricia Quinn',
+            },
+            {
+                img: 'cast_6.jpg',
+                actor: 'Nell Campbell',
+            },
+        ],
     },
     {
         id: 'slacker',
@@ -431,6 +764,16 @@ const peliculasCards = [
         director: 'Director: Robert Eggers',
         duracion: '1h 49min',
         sinopsis: 'Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Willem Dafoe',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Robert Pattinson',
+            },
+        ],
     },
     {
         id: 'paprika',
