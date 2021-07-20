@@ -45,3 +45,13 @@ document.getElementById('current_movie_sinopsis').innerHTML = `
   </div>
 `;
 
+// Recorrer e imprimir arreglo de cast img
+document.getElementById('current_movie_cast').innerHTML = `
+${currentMovie.cast.map(function(cast){
+  return `
+  <figure class="pelicula__actor col-6 col-sm-4">
+    <img src="../../${cast.img}" alt="${cast.actor}">
+    <figcaption class="pelicula__actor__nombre">${cast.actor}</figcaption>
+  </figure>
+  `;
+}).join('')}`;

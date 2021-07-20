@@ -38,6 +38,25 @@ const peliculasCards = [
         director: 'Director: Leos Carax',
         duracion: '1h 55min',
         sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
+        cast: [
+            {
+                img: 'img/pelicula/holy_motors/holy_motors_cast_1.jpg',
+                actor: 'Denis Lavant',
+            },
+            {
+                img: 'img/pelicula/holy_motors/holy_motors_cast_2.jpg',
+                actor: 'Edith Scob',
+            },
+            {
+                img: 'img/pelicula/holy_motors/holy_motors_cast_3.jpg',
+                actor: 'Kylie Minogue',
+            },
+            {
+                img: 'img/pelicula/holy_motors/holy_motors_cast_4.jpg',
+                actor: 'Eva Mendes',
+            },  
+        ],
+
     },
     {
         id: 'black_rainbow',
