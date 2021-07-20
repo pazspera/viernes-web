@@ -11,6 +11,7 @@ const peliculasCards = [
         pick: 'Geor',
         director: 'Takeshi Kitano',
         duracion: '1h 49min',
+        sinopsis: 'The boss of a major crime syndicate orders his lieutenant to bring a rogue gang of drug traffickers in line, a job that gets passed on to his long-suffering subordinate.',
     },
     {
         id: 'brick',
@@ -23,6 +24,7 @@ const peliculasCards = [
         pick: 'Pollo',
         director: 'Rian Johnson',
         duracion: '1h 50min',
+        sinopsis: 'A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.',
     },
     {
         id: 'holy_motors',
