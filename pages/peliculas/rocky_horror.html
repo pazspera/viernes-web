@@ -15,47 +15,16 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>The Rocky Horror Picture Show  - Viernes</title>
 </head>
-<body>
+<body id="current_movie" class="rocky_horror">
     <header-component3></header-component3>
 
-    <section class="hero-grid">
-      <div class="hero-grid__img" id="rocky_horror"></div>
-      <div class="hero-grid__cartel hero-grid__cartel--titulo-largo">
-        <h1 class="hero-grid__titulo">The Rocky Horror Picture Show (1975)</h1>
-        <p class="hero-grid__texto">Director: Jim Sharman</p>
-        <p class="hero-grid__texto">1h 40min</p>
-        <p class="hero-grid__texto-final">Elección del Loco</p>
-      </div>
+    <section class="hero-grid" id="current_movie_hero">
     </section>
 
-    <!-- <section class="pelicula__hero">
-      <div class="hero" id="rocky_horror"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 ms-auto col-sm-8 offset-sm-4 col-md-7 offset-5 col-lg-6 offset-lg-6">
-            <div class="pelicula-info pelicula-info--titulo-largo">
-              <h1 class="pelicula-info__titulo">The Rocky Horror Picture Show (1975)</h1>
-              <p class="pelicula-info__texto">Director: Jim Sharman</p>
-              <p class="pelicula-info__texto mb-0">1h 40min</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-      
     <main class="main-content">
       <!-- Sinopsis -->
-      <div class="main-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-8 col-lg-6">
-                <div class="pelicula__sinopsis">
-                  <h2 class="main__titulo">Sinopsis</h2>
-                  <p class="pelicula__sinopsis__texto">Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="main-text" id="current_movie_sinopsis">
+        
       </div>
       <!-- Elenco -->
       <div class="main-text">
@@ -141,5 +110,8 @@
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <!-- Header -->
     <script src="../../js/header.js"></script>
+    <!-- Peliculas -->
+    <script src="../../js/peliculas.js"></script>
+    <script src="../../js/peliculaIndividual.js"></script>
 </body>
 </html>

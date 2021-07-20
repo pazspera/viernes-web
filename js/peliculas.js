@@ -37,6 +37,7 @@ const peliculasCards = [
         pick: 'la democracia',
         director: 'Director: Leos Carax',
         duracion: '1h 55min',
+        sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
     },
     {
         id: 'black_rainbow',
@@ -49,6 +50,7 @@ const peliculasCards = [
         pick: 'Loco',
         director: 'Director: Panos Cosmatos',
         duracion: '1h 50min',
+        sinopsis: 'Despite being under heavy sedation, a young woman tries to make her way out of the Arboria Institute, a secluded, quasifuturistic commune.',
     },
     {
         id: 'rumba',
@@ -61,6 +63,7 @@ const peliculasCards = [
         pick: 'Tutte',
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duracion: '1h 17min',
+        sinopsis: 'Teachers in a rural school, happy couple Fiona and Dom have a common passion: Latin Dancing. One night, after a glorious dance competition, they have a car accident and see their lives turn upside down. Rumba or how optimism and humour can overcome fatality',
     },
     {
         id: 'ravenous',
@@ -73,6 +76,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Directora: Antonia Bird',
         duracion: '1h 41min',
+        sinopsis: 'In a remote military outpost in the 19th century, Captain John Boyd and his regiment embark on a rescue mission which takes a dark turn when they are ambushed by a sadistic cannibal.',
     },
     {
         id: 'only_lovers',
@@ -85,6 +89,7 @@ const peliculasCards = [
         pick: 'Geor',
         director: 'Director: Jim Jarmusch',
         duracion: '2h 3min',
+        sinopsis: 'Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.',
     },
     {
         id: 'juan_muertos',
@@ -97,6 +102,7 @@ const peliculasCards = [
         pick: 'Pollo',
         director: 'Director: Alejandro Brugués',
         duracion: '1h 32min',
+        sinopsis: 'Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.'
     },
     {
         id: 'time_gypsies',
@@ -109,6 +115,7 @@ const peliculasCards = [
         pick: 'Loco',
         director: 'Director: Emir Kusturica',
         duracion: '2h 22min',
+        sinopsis: 'In this luminous tale set in the area around Sarajevo and in Italy, Perhan, an engaging young Romany (gypsy) with telekinetic powers, is seduced by the quick-cash world of petty crime, which threatens to destroy him and those he loves.',
     },
     {
         id: 'troll_hunter',
@@ -121,6 +128,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Director: André Øvredal',
         duracion: '1h 43min',
+        sinopsis: 'A group of students investigates a series of mysterious bear killings, but learns that there are much more dangerous things going on. They start to follow a mysterious hunter, learning that he is actually a troll hunter.',
     },
     {
         id: 'black_sheep',
@@ -133,6 +141,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Director: Jonathan King',
         duracion: '1h 27min',
+        sinopsis: 'An experiment in genetic engineering turns harmless sheep into bloodthirsty killers that terrorize a sprawling New Zealand farm.',
     },
     {
         id: 'suspiria_2018',
@@ -145,6 +154,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Director: Luca Guadagnino',
         duracion: '2h 32min',
+        sinopsis: 'Una oscuridad envuelve una compañía de danza de fama internacional. Una oscuridad que consumirá a la directora artística, a una joven y ambiciosa bailarina y a un terapeuta en duelo. Algunos sucumbirán a la pesadilla. Otros finalmente despertarán.',
     },
     {
         id: 'fantastic_fox',
@@ -155,6 +165,9 @@ const peliculasCards = [
         img_card_alt: 'Dos zorritos ladrones asomándose de la tapa de una alcantarilla',
         link_pagina: 'peliculas/fantastic_fox.html',
         pick: 'Geor', 
+        director: 'Wes Anderson',
+        duracion: '1h 27min',
+        sinopsis: 'El Sr. y la Sra. Fox viven una feliz vida hogareña con su excéntrico hijo Ash y su sobrino Kristofferson, quien está de visita, hasta que el Sr. Fox recae en sus taimados hábitos y planea el robo de gallinas más grande presenciado por el mundo animal.',
     },
     {
         id: 'muertos_risa',
@@ -175,6 +188,9 @@ const peliculasCards = [
         img_card_alt: 'Mujer pasando por un pasillo iluminado de rojo y entrando a una habitación',
         link_pagina: 'peliculas/suspiria_1977.html',
         pick: 'Loco',
+        director: 'Director: Dario Argento',
+        duracion: '1h 35min',
+        sinopsis: 'An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.',
     },
     {
         id: 'antiviral',
@@ -185,6 +201,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre mirando con preocupación un tubo de ensayo con sangre',
         link_pagina: 'peliculas/antiviral.html',
         pick: 'Paz', 
+        director: 'Director: Brandon Cronenberg',
+        duracion: '1h 48min',
+        sinopsis: "In a blackly satirical near future, a thriving industry sells celebrity illnesses to their obsessed fans. Employee Syd March's attempts to exploit the system backfire when they involve him in a potentially deadly mystery.",
     },
     {
         id: 'top_secret',
@@ -215,6 +234,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre con pelo largo sonriendo extrañamente en una habitación',
         link_pagina: 'peliculas/old_boy.html',
         pick: 'Pollo', 
+        director: 'Director: Park Chan-Wook',
+        duracion: '2h',
+        sinopsis: 'After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.',
     },
     {
         id: 'enter_void',
@@ -225,6 +247,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer caminando de espaldas en una tienda con muchas luces de colores',
         link_pagina: 'peliculas/enter_void.html',
         pick: 'Loco', 
+        director: 'Director: Gaspar Noé',
+        duracion: '2h 42min',
+        sinopsis: 'An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.',
     },
     {
         id: 'thx_1138',
@@ -235,6 +260,9 @@ const peliculasCards = [
         img_card_alt: 'Policias enmascarados golpeando a un hombre con palos en una habitación completamente blanca',
         link_pagina: 'peliculas/thx_1138.html',
         pick: 'Loco', 
+        director: 'Director: George Lucas',
+        duracion: '1h 26min',
+        sinopsis: 'In the 25th century, a time when people have designations instead of names, a man, THX 1138, and a woman, LUH 3417, rebel against their rigidly-controlled society.',
     },
     {
         id: 'synecdoque',
@@ -245,6 +273,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer rodeados de mesas mirando hacia arriba',
         link_pagina: 'peliculas/synecdoche.html',
         pick: 'Geor',
+        director: 'Director: Charlie Kaufman',
+        duracion: '2h 4min',
+        sinopsis: 'A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.',
     },
     {
         id: 'labyrinth',
@@ -345,6 +376,9 @@ const peliculasCards = [
         img_card_alt: 'Primer plano de hombre mirando con desafío a cámara',
         link_pagina: 'peliculas/rocky_horror.html',
         pick: 'Loco',
+        director: 'Director: Jim Sharman',
+        duracion: '1h 40min',
+        sinopsis: 'Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.',
     },
     {
         id: 'slacker',
@@ -375,6 +409,9 @@ const peliculasCards = [
         img_card_alt: 'Dos marinos mirando al horizonte con un faro de fondo',
         link_pagina: 'peliculas/lighthouse.html',
         pick: 'Paz', 
+        director: 'Director: Robert Eggers',
+        duracion: '1h 49min',
+        sinopsis: 'Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.',
     },
     {
         id: 'paprika',

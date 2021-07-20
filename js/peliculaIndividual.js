@@ -44,3 +44,4 @@ document.getElementById('current_movie_sinopsis').innerHTML = `
     </div>
   </div>
 `;
+

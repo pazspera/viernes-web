@@ -15,32 +15,16 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Synecdoche, New York - Viernes</title>
 </head>
-<body>
+<body id="current_movie" class="synecdoque">
     <header-component3></header-component3>
 
-    <section class="hero-grid">
-      <div class="hero-grid__img" id="synecdoche"></div>
-      <div class="hero-grid__cartel hero-grid__cartel--titulo-largo">
-        <h1 class="hero-grid__titulo">Synecdoche, New York (2008)</h1>
-        <p class="hero-grid__texto">Director: Charlie Kaufman</p>
-        <p class="hero-grid__texto">2h 4min</p>
-        <p class="hero-grid__texto-final">Elección de Geor</p>
-      </div>
+    <section class="hero-grid" id="current_movie_hero">
     </section>
 
     <main class="main-content">
       <!-- Sinopsis -->
-      <div class="main-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-8 col-lg-6">
-                <div class="pelicula__sinopsis">
-                  <h2 class="main__titulo">Sinopsis</h2>
-                  <p class="pelicula__sinopsis__texto">A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="main-text" id="current_movie_sinopsis">
+        
       </div>
       <!-- Elenco -->
       <div class="main-text">
@@ -120,5 +104,8 @@
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <!-- Header -->
     <script src="../../js/header.js"></script>
+    <!-- Peliculas -->
+    <script src="../../js/peliculas.js"></script>
+    <script src="../../js/peliculaIndividual.js"></script>
 </body>
 </html>

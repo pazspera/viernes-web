@@ -15,32 +15,17 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>The Lighthouse  - Viernes</title>
 </head>
-<body>
+<body id="current_movie" class="lighthouse">
     <header-component3></header-component3>
 
-    <section class="hero-grid">
-      <div class="hero-grid__img" id="lighthouse"></div>
-      <div class="hero-grid__cartel hero-grid__cartel--titulo-largo">
-        <h1 class="hero-grid__titulo">The Lighthouse (2019)</h1>
-        <p class="hero-grid__texto">Director: Robert Eggers</p>
-        <p class="hero-grid__texto">1h 49min</p>
-        <p class="hero-grid__texto-final">Elección de Paz</p>
-      </div>
+    <section class="hero-grid" id="current_movie_hero">
     </section>
+
  
     <main class="main-content">
       <!-- Sinopsis -->
-      <div class="main-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-8 col-lg-6">
-                <div class="pelicula__sinopsis">
-                  <h2 class="main__titulo">Sinopsis</h2>
-                  <p class="pelicula__sinopsis__texto">Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s. </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="main-text" id="current_movie_sinopsis">
+        
       </div>
       <!-- Elenco -->
       <div class="main-text">
@@ -108,5 +93,8 @@
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <!-- Header -->
     <script src="../../js/header.js"></script>
+    <!-- Peliculas -->
+    <script src="../../js/peliculas.js"></script>
+    <script src="../../js/peliculaIndividual.js"></script>
 </body>
 </html>

@@ -15,32 +15,16 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Enter The Void - Viernes</title>
 </head>
-<body>
+<body id="current_movie" class="enter_void">
     <header-component3></header-component3>
 
-    <section class="hero-grid">
-      <div class="hero-grid__img" id="enter_void"></div>
-      <div class="hero-grid__cartel hero-grid__cartel--titulo-largo">
-        <h1 class="hero-grid__titulo">Enter The Void (2009)</h1>
-        <p class="hero-grid__texto">Director: Gaspar Noé</p>
-        <p class="hero-grid__texto">2h 42min</p>
-        <p class="hero-grid__texto-final">Elección del Loco</p>
-      </div>
+    <section class="hero-grid" id="current_movie_hero">
     </section>
 
     <main class="main-content">
       <!-- Sinopsis -->
-      <div class="main-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-8 col-lg-6">
-                <div class="pelicula__sinopsis">
-                  <h2 class="main__titulo">Sinopsis</h2>
-                  <p class="pelicula__sinopsis__texto">An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="main-text" id="current_movie_sinopsis">
+        
       </div>
       <!-- Elenco -->
       <div class="main-text">
@@ -115,5 +99,8 @@
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <!-- Header -->
     <script src="../../js/header.js"></script>
+    <!-- Peliculas -->
+    <script src="../../js/peliculas.js"></script>
+    <script src="../../js/peliculaIndividual.js"></script>
 </body>
 </html>
