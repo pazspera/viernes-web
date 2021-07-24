@@ -312,9 +312,9 @@ h2 {
     grid-row: 1/5;
   }
   .hero-grid__cartel {
-    -ms-grid-column: 6;
-    -ms-grid-column-span: 6;
-    grid-column: 6/12;
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 5;
+    grid-column: 7/12;
     -ms-grid-row: 4;
     -ms-grid-row-span: 2;
     grid-row: 4/6;
@@ -462,6 +462,11 @@ h2 {
 #fantastic_fox {
   background-image: url(../img/hero/hero_fantastic_fox.jpg);
   padding-top: 50px;
+}
+
+#john_dies_end {
+  background-image: url(../img/hero/hero_john_dies_end.jpg);
+  background-position: right;
 }
 
 #juan_muertos {

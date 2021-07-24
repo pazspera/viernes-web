@@ -1,6 +1,19 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'john_dies_end',
+        nombre: 'John Dies at the End',
+        anio: '2012',
+        fecha_vista: new Date(2021, 6, 23),
+        img_card: 'img/cards/card_john_dies_end.jpg',
+        img_card_alt: 'Hombre hablando por un pancho como si fuera un teléfono',
+        link_pagina: '#',
+        pick: 'Paz',
+        director: 'Don Coscarelli',
+        duracion: '1h 39min',
+        sinopsis: 'A new street drug that sends its users across time and dimensions has one drawback: some people return no longer human. Can two college drop-outs save humanity from this silent, otherworldly invasion?',
+    },
+    {
         id: 'outrage',
         nombre: 'Outrage',
         anio: '2010',
@@ -55,6 +68,23 @@ const peliculasCards = [
                 img: 'cast_4.jpg',
                 actor: 'Eva Mendes',
             },  
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre parado frente a una pared con un empapelado de árboles',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre saliendo de una alcantarilla',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer con una máscara turquesa caminando en un estacionamiento lleno de limusinas',
+                class: 'hidden_first',
+            },
         ],
     },
     {

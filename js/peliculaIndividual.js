@@ -55,3 +55,18 @@ ${currentMovie.cast.map(function(cast){
   </figure>
   `;
 }).join('')}`;
+
+// Armar img que va hidden
+/* 
+Recorrer array fila_img, si class == 'hidden_first', escribir el div de la img en una variable y agregar esa variable al final del loop
+Si class == 'always_show', pasar al loop 
+*/
+let img_hidden = '';
+let fila_img = currentMovie.fila_img;
+
+
+
+// Recorrer e imprimir arreglo de img de las películas
+document.getElementById('current_movie_img').innerHTML = `
+
+`;
