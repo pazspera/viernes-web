@@ -17,6 +17,12 @@ ${ultimas6Peliculas.map(function(pelicula_card){
     `;
 }).join('')}`;
 
-/* 
-Este mismo array de cards lo puedo usar para crear las cards de cada mes. Que busque primero por año y después por mes. Podría crear sub-arrays para cada año y mes, después printear las cards de ese mes en cada div que tenga como id el año y mes (ej id="junio-2021")
-*/
+// Actualizar hero index con los datos de la última película vista
+document.getElementById('hero_index').innerHTML = `
+    <div class="hero" id="${peliculasCardsOrdenadas[0].id}">
+        <div class="hero__cartel">
+            <p class="hero__leyenda">El viernes pasado vimos</p>
+            <h3 class="hero__titulo">${peliculasCardsOrdenadas[0].nombre} (${peliculasCardsOrdenadas[0].anio})</h3>
+        </div>
+    </div>
+`;
