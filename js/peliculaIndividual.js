@@ -64,9 +64,20 @@ Si class == 'always_show', pasar al loop
 let img_hidden = '';
 let fila_img = currentMovie.fila_img;
 
-
-
 // Recorrer e imprimir arreglo de img de las películas
 document.getElementById('current_movie_img').innerHTML = `
-
-`;
+${currentMovie.fila_img.map(function(fila_img){
+  if(fila_img.class == 'always_show'){
+    return `
+    <div class="img-fluid col-12 col-md-6 col-xxl-4 pelicula__img">
+        <img src="../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${fila_img.img}" alt="${fila_img.alt}">
+    </div>
+    `;
+  } else if(fila_img.class == 'hidden_first'){
+    return `
+    <div class="img-fluid d-none d-xxl-block col-xxl-4 pelicula__img">
+      <img src="../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${fila_img.img}" alt="${fila_img.alt}">
+    </div>
+    `;
+  }
+}).join('')}`;

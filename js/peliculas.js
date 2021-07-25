@@ -112,7 +112,24 @@ const peliculasCards = [
                 img: 'cast_3.jpg',
                 actor: 'Rondel Reynoldson',
             },
-        ]
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre parado en la puerta de un cuarto futurista iluminado con luz roja',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer escalando por pozo de ascensor',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre de mirada perturbadora manejando',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'rumba',
@@ -134,6 +151,23 @@ const peliculasCards = [
             {
                 img: 'cast_2.jpg',
                 actor: 'Fiona Gordon',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer frente a un pizarrón que tiene un dibujo de un perro',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Pareja bailando a la orilla del mar',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Profesor pretendiendo pelear con sus alumnes',
+                class: 'hidden_first',
             },
         ],
     },
@@ -173,6 +207,23 @@ const peliculasCards = [
             {
                 img: 'cast_6.jpg',
                 actor: 'Neal McDonough',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre arreglando la manga de camisa de otro hombre',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos hombres charlando intensamente',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre descubre varios esqueletos en una cueva',
+                class: 'hidden_first',
             },
         ],
     },
