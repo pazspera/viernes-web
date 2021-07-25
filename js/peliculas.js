@@ -261,6 +261,23 @@ const peliculasCards = [
                 actor: 'Anton Yelchin',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Ava pidiéndole un favor a Adam',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Adam y Eve durmiendo en un avión',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Eve y Adam hablando por videollamada',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'juan_muertos',
@@ -296,6 +313,23 @@ const peliculasCards = [
                 actor: 'Jazz Vilá',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Grupo de personas levantando una bandera de Estados Unidos en el aire',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer apuntando con una honda',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Grupo de personas sonriendo intensamente',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'time_gypsies',
@@ -325,6 +359,23 @@ const peliculasCards = [
             {
                 img: 'cast_4.jpg',
                 actor: 'Husnija Hasimovic',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Familia parada frente a su casa con un grupo de niños tocando instrumentos',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Grupo de personas celebrando en un río',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Una chica y un chico con un acordión',
+                class: 'hidden_first',
             },
         ],
     },
@@ -358,6 +409,23 @@ const peliculasCards = [
                 actor: 'Tomas Alf Larsen',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Cazador de trolls parado delante de una camioneta',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Documentarista posando con una aguja gigante',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Cazador de trolls y equipo de filmación en el bosque de noche',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'black_sheep',
@@ -387,6 +455,23 @@ const peliculasCards = [
             {
                 img: 'cast_4.jpg',
                 actor: 'Tammy Davis',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre acostado en el piso con una oveja bebé encima',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre siendo atacado por una oveja',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer y señora con una escopeta sorprendidas',
+                class: 'hidden_first',
             },
         ],
     },
@@ -428,6 +513,23 @@ const peliculasCards = [
                 actor: 'Elena Fokina',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Personal de la academia de baile mirando a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Sarah golpeando ligeramente un espejo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Susie y Madame Blanc en una pose ritualística',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'fantastic_fox',
@@ -461,6 +563,23 @@ const peliculasCards = [
             {
                 img: 'cast_5.jpg',
                 actor: 'Willem Dafoe',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Zorro con máscara sobre la cara sonriendo con culpa',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Zorro y zorra mirando hacia arriba',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Cazadores con armas enojados',
+                class: 'hidden_first',
             },
         ],
     },
@@ -508,6 +627,23 @@ const peliculasCards = [
                 actor: 'Flavio Bucci',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Susie reflejada en un espejo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer y niño mirando a cámara junto a una mesita llena de platos',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Sarah intentando despertar a Susie',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'antiviral',
@@ -541,6 +677,23 @@ const peliculasCards = [
             {
                 img: 'cast_5.jpg',
                 actor: 'Douglas Smith',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre preocupado mirándose al espejo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Bandejas con carne sintética',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres hablando frente a una máquina extraña',
+                class: 'hidden_first',
             },
         ],
     },
@@ -590,6 +743,23 @@ const peliculasCards = [
                 actor: 'Kang Hye-jeong',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre apuntando a la cabeza de otro hombre con un martillo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre y mujer hablando en un restaurant',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con sangre en la cara cerrando un ojo',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'enter_void',
@@ -621,6 +791,23 @@ const peliculasCards = [
                 actor: 'Olly Alexander',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre mirando a un mujer a través de la puerta de una cocina',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre fumando dmt',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre escribiendo en una pared',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'thx_1138',
@@ -646,6 +833,23 @@ const peliculasCards = [
             {
                 img: 'cast_3.jpg',
                 actor: 'Donald Pleasence',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre en un confesionario futurista',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Operadora teléfonica trabajando en consolas',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre relajado bañado en luz roja',
+                class: 'hidden_first',
             },
         ],
     },
@@ -681,6 +885,23 @@ const peliculasCards = [
             {
                 img: 'cast_5.jpg',
                 actor: 'Catherine Keener',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Caden asomándose en un pasillo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Pintura de una mujer desnuda sentada en una cama',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Caden, Sammy y Claire charlando en un balcón',
+                class: 'hidden_first',
             },
         ],
     },
@@ -812,6 +1033,23 @@ const peliculasCards = [
                 actor: 'Nell Campbell',
             },
         ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Brad y Janet mirando asombradosCaden asomándose en un pasillo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Frank charlando con Brad y Janet',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Magenta y Columbia riéndose en su cuarto',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'slacker',
@@ -853,6 +1091,23 @@ const peliculasCards = [
             {
                 img: 'cast_2.jpg',
                 actor: 'Robert Pattinson',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre parado delante de una casa con el océano de fondo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Primer plano de hombre sufriendo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Gaviota graznando',
+                class: 'hidden_first',
             },
         ],
     },
