@@ -81,3 +81,23 @@ ${currentMovie.fila_img.map(function(fila_img){
     `;
   }
 }).join('')}`;
+
+// Generar automáticamente las cards relacionadas de películas
+/* 
+Agregar a todas las películas un array con tags que se van a comparar
+Recorrer peliculas.js buscando las películas que tengan tags similares a los tags del current
+Basta con que tengan un tag similar para agregarlos a un array nuevo de películas relacionadas que se va a iterar cada vez que se carga la página
+¿Usar un random para iterar en el array de relacionadas?
+Igualmente incluir un límite de 2 películas a mostrar por vez
+*/
+
+let currentMovieTags = currentMovie.tags;
+let arrayTagsEnComun = [];
+/* 
+function tagsEnComun(currentPeli, allPelis){
+  for(let i = 0; i < allPelis.length; i++){
+    for(let j = 0; j < cr)
+  }
+}
+
+ */

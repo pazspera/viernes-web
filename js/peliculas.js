@@ -7,11 +7,43 @@ const peliculasCards = [
         fecha_vista: new Date(2021, 6, 23),
         img_card: 'img/cards/card_john_dies_end.jpg',
         img_card_alt: 'Hombre hablando por un pancho como si fuera un teléfono',
-        link_pagina: '#',
+        link_pagina: 'peliculas/john_dies_end.html',
         pick: 'Paz',
         director: 'Don Coscarelli',
         duracion: '1h 39min',
         sinopsis: 'A new street drug that sends its users across time and dimensions has one drawback: some people return no longer human. Can two college drop-outs save humanity from this silent, otherworldly invasion?',
+        tags: ['drogas', 'ciencia ficción', 'comedia', 'multiverso', 'onírica'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Chase Williamson',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Rob Mayes',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Paul Giamatti',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres mirando a una silueta de persona hecha de cortes de carne',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos hombres mirando a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con máscara parado frente a una iglesia llena de personas',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'outrage',
@@ -25,6 +57,46 @@ const peliculasCards = [
         director: 'Takeshi Kitano',
         duracion: '1h 49min',
         sinopsis: 'The boss of a major crime syndicate orders his lieutenant to bring a rogue gang of drug traffickers in line, a job that gets passed on to his long-suffering subordinate.',
+        tags: ['crimen', 'acción', 'oriental'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Takeshi Kitano',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Kippei Shîna',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Fumiyo Kohinata',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Soichiro Kitamura',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Jun Kunimura',
+            },
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres parados en un estacionamiento, uno con una ametralladora en la mano y el otro, con una pistola',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre rastrillando un jardín zen',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres parados frente a un escritorio, uno tiene la cara vendada',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'brick',
@@ -38,6 +110,46 @@ const peliculasCards = [
         director: 'Rian Johnson',
         duracion: '1h 50min',
         sinopsis: 'A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.',
+        tags: ['crimen', 'acción'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Joseph Gordon-Levitt',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Emilie de Ravin',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Lukas Haas',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Nora Zehetner',
+            },  
+            {
+                img: 'cast_5.jpg',
+                actor: 'Noah Fleiss',
+            },  
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Adolescente apoyado sobre la parte de atrás de un auto convertible',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos adolescente sentados a una mesa con una jarra con forma de gallina',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Pareja de adolescentes sentados en el piso hablando',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'holy_motors',
@@ -51,6 +163,7 @@ const peliculasCards = [
         director: 'Director: Leos Carax',
         duracion: '1h 55min',
         sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
+        tags: ['onírica', 'multiverso', 'francesa'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -99,6 +212,7 @@ const peliculasCards = [
         director: 'Director: Panos Cosmatos',
         duracion: '1h 50min',
         sinopsis: 'Despite being under heavy sedation, a young woman tries to make her way out of the Arboria Institute, a secluded, quasifuturistic commune.',
+        tags: ['distopía', 'onírica', 'ciencia ficciòn'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -143,6 +257,7 @@ const peliculasCards = [
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duracion: '1h 17min',
         sinopsis: 'Teachers in a rural school, happy couple Fiona and Dom have a common passion: Latin Dancing. One night, after a glorious dance competition, they have a car accident and see their lives turn upside down. Rumba or how optimism and humour can overcome fatality',
+        tags: ['comedia', 'musical'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -183,6 +298,7 @@ const peliculasCards = [
         director: 'Directora: Antonia Bird',
         duracion: '1h 41min',
         sinopsis: 'In a remote military outpost in the 19th century, Captain John Boyd and his regiment embark on a rescue mission which takes a dark turn when they are ambushed by a sadistic cannibal.',
+        tags: ['época', 'acción'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -239,6 +355,7 @@ const peliculasCards = [
         director: 'Director: Jim Jarmusch',
         duracion: '2h 3min',
         sinopsis: 'Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.',
+        tags: ['vampiros', 'romance'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -291,6 +408,7 @@ const peliculasCards = [
         director: 'Director: Alejandro Brugués',
         duracion: '1h 32min',
         sinopsis: 'Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.',
+        tags: ['zombies', 'comedia', 'clase b'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -343,6 +461,7 @@ const peliculasCards = [
         director: 'Director: Emir Kusturica',
         duracion: '2h 22min',
         sinopsis: 'In this luminous tale set in the area around Sarajevo and in Italy, Perhan, an engaging young Romany (gypsy) with telekinetic powers, is seduced by the quick-cash world of petty crime, which threatens to destroy him and those he loves.',
+        tags:  ['gitanos', 'realismo mágico', 'drama'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -657,6 +776,7 @@ const peliculasCards = [
         director: 'Director: Brandon Cronenberg',
         duracion: '1h 48min',
         sinopsis: "In a blackly satirical near future, a thriving industry sells celebrity illnesses to their obsessed fans. Employee Syd March's attempts to exploit the system backfire when they involve him in a potentially deadly mystery.",
+        tags: ['distopía', 'drogas', 'ciencia ficción', 'cronenberg'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -1130,6 +1250,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre encadenado a una máquina y personas en el fondo mirando',
         link_pagina: '#',
         pick: 'Loco',
+        tags: ['distopía', 'ciencia ficción'],
     },
     {
         id: 'gattaca',
@@ -1170,6 +1291,7 @@ const peliculasCards = [
         img_card_alt: 'Tres personas caminando por un pasillo futurista',
         link_pagina: '#',
         pick: 'Pollo',
+        tags: ['distopía', 'ciencia ficción'],
     },
     {
         id: 'time_bandits',
@@ -1270,6 +1392,7 @@ const peliculasCards = [
         img_card_alt: 'Televisor antiguo con vhs al costado y una mujer hablando en la pantalla',
         link_pagina: '#',
         pick: 'Loco', 
+        tags: ['drogas', 'gaspar noe'],
     },
     {
         id: 'trainspotting',
