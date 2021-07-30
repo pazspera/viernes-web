@@ -92,12 +92,39 @@ Igualmente incluir un límite de 2 películas a mostrar por vez
 */
 
 let currentMovieTags = currentMovie.tags;
-let arrayTagsEnComun = [];
-/* 
-function tagsEnComun(currentPeli, allPelis){
-  for(let i = 0; i < allPelis.length; i++){
-    for(let j = 0; j < cr)
-  }
+let arrayPelisConTagsEnComun = [];
+
+/* function compararTags(currentMovie, allMovies){
+  console.log(currentMovie);
+  console.log(currentMovie.tags);
+  let arrayCurrentTags = currentMovie.tags; 
+  // Recorre todos los tags de array allMovies
+  allMovies.map(function(movie){
+    let arrayTagsTemporal = movie.tags;
+    for(let i = 0; i < arrayTagsTemporal.length; i++){
+      for(let j = 0; j < arrayCurrentTags.length; j++){
+        if(arrayTagsTemporal.includes(arrayCurrentTags[j])){
+          console.log(arrayTagsTemporal[i])
+        }
+      }
+    }
+    console.log(movie.id);
+    console.log(movie.tags);
+  });
+
+  /* allMovies.map(function(movie){
+    console.log(movie.tags);
+    // Recorrer array currentMovie y comparar tags
+    for(let i = 0; i < allMovies.length; i++){
+      for(let j = 0; i < currentMovie.length; j++){
+        if(movie.tags.includes(currentMovie.tags[i])){
+          arrayPelisConTagsEnComun.push(movie.id[i]);
+        }
+      }
+    }
+  }); 
+  
+  console.log(arrayPelisConTagsEnComun);
 }
 
- */
+compararTags(currentMovie, peliculasCards); */

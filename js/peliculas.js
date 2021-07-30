@@ -57,7 +57,7 @@ const peliculasCards = [
         director: 'Director: Takeshi Kitano',
         duracion: '1h 49min',
         sinopsis: 'The boss of a major crime syndicate orders his lieutenant to bring a rogue gang of drug traffickers in line, a job that gets passed on to his long-suffering subordinate.',
-        tags: ['crimen', 'acción', 'oriental'],
+        tags: ['crimen', 'acción', 'oriental', 'policial'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -110,7 +110,7 @@ const peliculasCards = [
         director: 'Director: Rian Johnson',
         duracion: '1h 50min',
         sinopsis: 'A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.',
-        tags: ['crimen', 'acción'],
+        tags: ['crimen', 'acción', 'policial'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -212,7 +212,7 @@ const peliculasCards = [
         director: 'Director: Panos Cosmatos',
         duracion: '1h 50min',
         sinopsis: 'Despite being under heavy sedation, a young woman tries to make her way out of the Arboria Institute, a secluded, quasifuturistic commune.',
-        tags: ['distopía', 'onírica', 'ciencia ficciòn'],
+        tags: ['distopía', 'onírica', 'ciencia ficción'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -408,7 +408,7 @@ const peliculasCards = [
         director: 'Director: Alejandro Brugués',
         duracion: '1h 32min',
         sinopsis: 'Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.',
-        tags: ['zombies', 'comedia', 'clase b'],
+        tags: ['zombies', 'comedia', 'acción'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -510,6 +510,7 @@ const peliculasCards = [
         director: 'Director: André Øvredal',
         duracion: '1h 43min',
         sinopsis: 'A group of students investigates a series of mysterious bear killings, but learns that there are much more dangerous things going on. They start to follow a mysterious hunter, learning that he is actually a troll hunter.',
+        tags: ['acción', 'realismo mágico', 'comedia', 'mockumentary'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -558,6 +559,7 @@ const peliculasCards = [
         director: 'Director: Jonathan King',
         duracion: '1h 27min',
         sinopsis: 'An experiment in genetic engineering turns harmless sheep into bloodthirsty killers that terrorize a sprawling New Zealand farm.',
+        tags: ['acción', 'comedia'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -606,6 +608,7 @@ const peliculasCards = [
         director: 'Director: Luca Guadagnino',
         duracion: '2h 32min',
         sinopsis: 'Una oscuridad envuelve una compañía de danza de fama internacional. Una oscuridad que consumirá a la directora artística, a una joven y ambiciosa bailarina y a un terapeuta en duelo. Algunos sucumbirán a la pesadilla. Otros finalmente despertarán.',
+        tags:['onírica', 'realismo mágico', 'terror', 'brujas'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -662,6 +665,7 @@ const peliculasCards = [
         director: 'Wes Anderson',
         duracion: '1h 27min',
         sinopsis: 'El Sr. y la Sra. Fox viven una feliz vida hogareña con su excéntrico hijo Ash y su sobrino Kristofferson, quien está de visita, hasta que el Sr. Fox recae en sus taimados hábitos y planea el robo de gallinas más grande presenciado por el mundo animal.',
+        tags: ['comedia', 'animación'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -711,6 +715,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre a punto de darle una cachetada a otro hombre',
         link_pagina: '#',
         pick: 'Pollo', 
+        tags: ['comedia'],
     },
     {
         id: 'suspiria_1977',
@@ -724,6 +729,7 @@ const peliculasCards = [
         director: 'Director: Dario Argento',
         duracion: '1h 35min',
         sinopsis: 'An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.',
+        tags: ['onírica', 'terror', 'brujas'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -776,7 +782,7 @@ const peliculasCards = [
         director: 'Director: Brandon Cronenberg',
         duracion: '1h 48min',
         sinopsis: "In a blackly satirical near future, a thriving industry sells celebrity illnesses to their obsessed fans. Employee Syd March's attempts to exploit the system backfire when they involve him in a potentially deadly mystery.",
-        tags: ['distopía', 'drogas', 'ciencia ficción', 'cronenberg'],
+        tags: ['distopía', 'drogas', 'ciencia ficción', 'cronenberg', 'genética'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -826,6 +832,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre al lado de una ventana con los vidrios rotos',
         link_pagina: '#',
         pick: 'Fede', 
+        tags: ['comedia'],
     },
     {
         id: 'snatch',
@@ -835,7 +842,8 @@ const peliculasCards = [
         img_card: 'img/cards/card_snatch.jpg',
         img_card_alt: 'Hombre alentando a boxeador en un ring',
         link_pagina: '#',
-        pick: 'Geor',    
+        pick: 'Geor',   
+        tags: ['acción', 'comedia'],
     },
     {
         id: 'oldboy',
@@ -849,6 +857,7 @@ const peliculasCards = [
         director: 'Director: Park Chan-Wook',
         duracion: '2h',
         sinopsis: 'After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.',
+        tags: ['perturbadoras', 'oriental', 'acción'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -893,6 +902,7 @@ const peliculasCards = [
         director: 'Director: Gaspar Noé',
         duracion: '2h 42min',
         sinopsis: 'An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.',
+        tags: ['onírica', 'multiverso', 'perturbadoras', 'drogas', 'gaspar noé'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -941,6 +951,7 @@ const peliculasCards = [
         director: 'Director: George Lucas',
         duracion: '1h 26min',
         sinopsis: 'In the 25th century, a time when people have designations instead of names, a man, THX 1138, and a woman, LUH 3417, rebel against their rigidly-controlled society.',
+        tags: ['distopía', 'ciencia ficción'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -985,6 +996,7 @@ const peliculasCards = [
         director: 'Director: Charlie Kaufman',
         duracion: '2h 4min',
         sinopsis: 'A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.',
+        tags: ['realismo mágico', 'perturbadoras', 'oníricas', 'charlie kaufman'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -1034,6 +1046,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer bailando en un baile de máscaras',
         link_pagina: '#',
         pick: 'Pauleta', 
+        tags: ['comedia'],
     },
     {
         id: 'tale_tales',
@@ -1044,6 +1057,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre mirando con una lupa una caja de madera',
         link_pagina: '#',
         pick: 'Paz', 
+        tags: ['época', 'realismo mágico'],
     },
     {
         id: 'mulholland_drive',
@@ -1054,6 +1068,7 @@ const peliculasCards = [
         img_card_alt: 'Dos mujeres escuchando por teléfono con atención',
         link_pagina: '#',
         pick: 'Pollo', 
+        tags: ['perturbadoras', 'onírica', 'realismo mágico', 'lynch'],
     },
     {
         id: 'perfect_blue',
@@ -1064,6 +1079,7 @@ const peliculasCards = [
         img_card_alt: 'Reflejo de una mujer en un espejo roto',
         link_pagina: '#',
         pick: 'Geor', 
+        tags: ['perturbadoras', 'animación', 'oriental'],
     },
     {
         id: 'heavy_metal',
@@ -1074,6 +1090,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre con uniforme militar con un robot ovalado flotante a su lado',
         link_pagina: '#',
         pick: 'Markus', 
+        tags: ['animación'],
     },
     {
         id: 'bad_taste',
@@ -1084,6 +1101,7 @@ const peliculasCards = [
         img_card_alt: 'Grupo de tres extraterrestres caminando por el bosque',
         link_pagina: '#',
         pick: 'Loco', 
+        tags: ['acción', 'clase b'],
     },
     {
         id: 'moon',
@@ -1094,6 +1112,7 @@ const peliculasCards = [
         img_card_alt: 'Astronauta mirando una máquina con un emoji de carita triste en su pantalla',
         link_pagina: '#',
         pick: 'Paz', 
+        tags: ['ciencia ficción'],
     },
     {
         id: 'baron',
@@ -1104,6 +1123,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco',
         link_pagina: '#',
         pick: 'Geor', 
+        tags: ['época', 'comedia'],
     },
     {
         id: 'waking_life',
@@ -1114,6 +1134,7 @@ const peliculasCards = [
         img_card_alt: 'Dos hombre conversando, uno es una silueta de nubes',
         link_pagina: '',
         pick: 'Pollo', 
+        tags: ['oníricas', 'realismo mágico', 'multiverso', 'linklater'],
     },
     {
         id: 'rocky_horror',
@@ -1127,6 +1148,7 @@ const peliculasCards = [
         director: 'Director: Jim Sharman',
         duracion: '1h 40min',
         sinopsis: 'Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.',
+        tags: ['comedia', 'musical'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -1180,6 +1202,7 @@ const peliculasCards = [
         img_card_alt: 'Tres personas conversando en la calle',
         link_pagina: '#',
         pick: 'Loco',
+        tags: ['comedia', 'linklater'], 
     },
     {
         id: 'reanimator',
@@ -1190,6 +1213,7 @@ const peliculasCards = [
         img_card_alt: 'Científico cargando una jeringa con un líquido verde fluorescente',
         link_pagina: '#',
         pick: 'Pollo', 
+        tags: ['acción', 'clase b', 'lovecraft'],
     },
     {
         id: 'lighthouse',
@@ -1203,6 +1227,7 @@ const peliculasCards = [
         director: 'Director: Robert Eggers',
         duracion: '1h 49min',
         sinopsis: 'Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.',
+        tags: ['época', 'realismo mágico'], 
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -1240,6 +1265,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre con traje corriendo por un pasillo de hotel que se derrite' ,
         link_pagina: '#',
         pick: 'Geor', 
+        tags: ['oníricas', 'animación', 'oriental'], 
     },
     {
         id: 'dark_city',
@@ -1261,6 +1287,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre caminando por un pasillo circular',
         link_pagina: '#',
         pick: 'Pollo',
+        tags: ['distopía', 'ciencia ficción', 'genética'],
     },
     {
         id: 'mouth_madness',
@@ -1271,6 +1298,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa',
         link_pagina: '#',
         pick: 'Paz', 
+        tags: ['terror', 'lovecraft', 'john carpenter'],
     },
     {
         id: 'thinking_ending',
@@ -1281,6 +1309,7 @@ const peliculasCards = [
         img_card_alt: 'Dos parejas sentadas a una mesa cenando',
         link_pagina: '#',
         pick: 'Geor', 
+        tags: ['charlie kaufman', 'realismo mágico', 'oníricas', 'perturbadoras'],
     },
     {
         id: 'logans_run',
@@ -1302,6 +1331,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer vestidos con ropa imperial antigua junto a un niño',
         link_pagina: '#',
         pick: 'Geor', 
+        tags: ['época', 'comedia'],
     },
     {
         id: 'coherence',
@@ -1312,6 +1342,7 @@ const peliculasCards = [
         img_card_alt: 'Grupo de personas cenando y divirtiéndose',
         link_pagina: '#',
         pick: 'Paz', 
+        tags: ['ciencia ficción', 'multiverso'],
     },
     {
         id: 'brazil',
@@ -1322,6 +1353,7 @@ const peliculasCards = [
         img_card_alt: 'Oficinista confundido parado en un pasillo',
         link_pagina: '#',
         pick: 'Loco', 
+        tags: ['distopía', 'ciencia ficción', 'perturbadoras'],
     },
     {
         id: 'mishima',
@@ -1332,6 +1364,7 @@ const peliculasCards = [
         img_card_alt: 'Dos mujeres paradas en un muelle',
         link_pagina: '#',
         pick: 'Pollo', 
+        tags: ['drama', 'oriental'],
     },
     {
         id: 'kill_bill',
@@ -1342,6 +1375,7 @@ const peliculasCards = [
         img_card_alt: 'Mujer preparada para atacar con un sable',
         link_pagina: '#',
         pick: 'Pollo', 
+        tags: ['acción', 'quentin tarantino'],
     },
     {
         id: 'wayward_cloud',
@@ -1362,6 +1396,7 @@ const peliculasCards = [
         img_card_alt: 'Manos ensangrentadas sobre una piedra con símbolos tallados',
         link_pagina: '#',
         pick: 'Paz', 
+        tags: ['terror', 'perturbadoras', 'drogas'],
     },
     {
         id: 'mood_indigo',
@@ -1372,6 +1407,7 @@ const peliculasCards = [
         img_card_alt: 'Pareja sentada en un banco mirándose con cariño',
         link_pagina: '#',
         pick: 'Pollo', 
+        tags: ['drama', 'realismo mágico', 'francesa'],
     },
     {
         id: 'tokyo_godfathers',
@@ -1382,6 +1418,7 @@ const peliculasCards = [
         img_card_alt: 'Pareja con una niña y un bebé hablando',
         link_pagina: '#',
         pick: 'Geor',
+        tags: ['animación', 'drama', 'oriental'],
     },
     {
         id: 'climax',
@@ -1392,7 +1429,7 @@ const peliculasCards = [
         img_card_alt: 'Televisor antiguo con vhs al costado y una mujer hablando en la pantalla',
         link_pagina: '#',
         pick: 'Loco', 
-        tags: ['drogas', 'gaspar noe'],
+        tags: ['drogas', 'gaspar noé', 'musical'],
     },
     {
         id: 'trainspotting',
@@ -1403,6 +1440,7 @@ const peliculasCards = [
         img_card_alt: 'Tres hombres comiendo papas fritas y hablando',
         link_pagina: '#',
         pick: 'Loco', 
+        tags: ['drogas', 'drama'],
     },
     {
         id: 'host',
@@ -1413,6 +1451,7 @@ const peliculasCards = [
         img_card_alt: 'Padre e hija tomando un refresco y hablando',
         link_pagina: '#',
         pick: 'Pollo',
+        tags: ['acción', 'clase b'],
     },
     {
         id: 'buen_dia',
@@ -1423,6 +1462,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre haciendo mimica de tocar una guitarra y una mujer riendo',
         link_pagina: '#',
         pick: 'Loco', 
+        tags: ['comedia'],
     },
     {
         id: 'cyborg',
@@ -1433,6 +1473,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer en un campo',
         link_pagina: '#',
         pick: 'Geor', 
+        tags: ['comedia', 'oriental'],
     },
     {
         id: 'neon_demon',
@@ -1443,6 +1484,7 @@ const peliculasCards = [
         img_card_alt: 'Mujer y su reflejo iluminadas por luces de neón',
         link_pagina: '#',
         pick: 'Loco', 
+        tags: ['perturbadoras', 'terror'],
     },
     {
         id: 'true_romance',
@@ -1453,22 +1495,7 @@ const peliculasCards = [
         img_card_alt: 'Pareja en un auto mirándose amorosamente',
         link_pagina: '#',
         pick: 'Pollo',
+        tags: ['romance', 'drama'],
     },
 ];
 
-
-
-/* 
-    {
-        /* 
-        id: ,
-        nombre: ,
-        anio: ,
-        fecha_vista: ,
-        img_card: ,
-        img_card_alt: ,
-        link_pagina: ,
-        pick: , 
-        */
-    //},
-//*/
