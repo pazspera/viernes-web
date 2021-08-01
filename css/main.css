@@ -490,6 +490,11 @@ h2 {
   background-position: left;
 }
 
+#pontypool {
+  background-image: url(../img/hero/hero_pontypool.jpg);
+  background-position: left;
+}
+
 #ravenous {
   background-image: url(../img/hero/hero_ravenous.jpg);
 }

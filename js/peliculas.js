@@ -1,6 +1,54 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'pontypool',
+        nombre: 'Pontypool',
+        anio: '2008',
+        fecha_vista: new Date(2021, 6, 30),
+        img_card: 'img/cards/card_pontypool.jpg',
+        img_card_alt: 'Locutor en una cabina de radio hablando',
+        link_pagina: 'peliculas/pontypool.html',
+        pick: 'Loco',
+        director: 'Bruce McDonald',
+        duracion: '1h 33min',
+        sinopsis: 'A radio host interprets the possible outbreak of a deadly virus which infects the small Ontario town he is stationed in.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Stephen McHattie',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Lisa Houle',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Georgina Reilly',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Hrant Alianak',
+            }
+        ],
+        fila_img: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres con auriculares en una cabina de radio',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Personas detrás de un vidrio golpeándolo con las manos',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Figura de Joey Ramone al lado de una pecera',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'john_dies_end',
         nombre: 'John Dies at the End',
         anio: '2012',
