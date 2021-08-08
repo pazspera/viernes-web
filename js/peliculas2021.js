@@ -144,7 +144,7 @@ ${peliculasJulio21.map(function(pelicula_card){
 }).join('')}`;
 
 // AGOSTO 2021
-// Crear un array con las películas de Julio 2021
+// Crear un array con las películas de Agosto 2021
 const peliculasAgosto21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 7);
 
 // Ordenar películas, la más vieja primero
