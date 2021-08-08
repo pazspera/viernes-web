@@ -100,22 +100,22 @@
 .pelicula__actor {
     max-width: 200px;
     text-align: center;
-    
-    &__name:{
-        font-size: $size7;
-        text-align: center;
-        margin-top: 0.15rem;
-        line-height: 1.6;
-    }
-}
 }
 
+
 @media(min-width: 100px){
-    // Centrar texto en mobile
-    .pelicula__actor__name:{
+    //Centrar texto en mobile
+    .pelicula_actor_name{
         text-align: center;
     }
+    
 }
+@media(min-width: 100px){
+    // Centrar texto en mobile
+    .pelicula__actor__name{
+        text-align: center;
+    }
+} } 
 // PRUEBA 
 // Pelicula Hero con Grid
 

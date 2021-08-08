@@ -513,6 +513,10 @@ h2 {
   background-position: 5% left;
 }
 
+#swiss_army_man {
+  background-image: url(../img/hero/hero_swiss_army_man.jpg);
+}
+
 #synecdoque {
   background-image: url(../img/hero/hero_synecdoque.jpg);
   background-position: left;
@@ -715,16 +719,16 @@ h2 {
     max-width: 200px;
     text-align: center;
   }
-  .pelicula__actor__name: {
-    font-size: 0.8rem;
+}
+
+@media (min-width: 992px) and (min-width: 100px) {
+  .pelicula_actor_name {
     text-align: center;
-    margin-top: 0.15rem;
-    line-height: 1.6;
   }
 }
 
-@media (min-width: 100px) {
-  .pelicula__actor__name: {
+@media (min-width: 992px) and (min-width: 100px) {
+  .pelicula__actor__name {
     text-align: center;
   }
 }

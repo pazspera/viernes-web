@@ -5,32 +5,37 @@ const peliculasCards = [
         name: 'Swiss Army Man',
         date_seen: new Date(2021, 08, 07),
         img_card: 'img/cards/card_swiss_army_man.jpg',
-        img_card_alt: '',
-        link_page: '',
+        img_card_alt: 'Dos hombres acostados a la luz de una fogata',
+        link_page: 'peliculas/swiss_army_man.html',
+        year: 2016,
         pick: 'Pollo',
         director: 'Directores: Dan Kwan & Daniel Scheinert',
         duration: '1h 37min',
         sinopsis: 'A hopeless man stranded on a deserted island befriends a dead body, and together they go on a surreal journey to get home.',
         cast: [
             {
-                id: 'cast_1.jpg',
-                actor: '',
+                img: 'cast_1.jpg',
+                actor: 'Paul Dano',
             },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Daniel Radcliff',
+            }
         ],
         img_row: [
             {
                 img: 'img_1.jpg',
-                alt: 'Dos hombres con auriculares en una cabina de radio',
+                alt: 'Dos hombres hablando en un bosque',
                 class: 'always_show',
             },
             {
                 img: 'img_2.jpg',
-                alt: 'Personas detrás de un vidrio golpeándolo con las manos',
+                alt: 'Dos manos sobre césped haciendo pulgar hacia arriba',
                 class: 'always_show',
             },
             {
                 img: 'img_3.jpg',
-                alt: 'Figura de Joey Ramone al lado de una pecera',
+                alt: 'Hombre andando en una moto acuática en el mar',
                 class: 'hidden_first',
             },
         ],
