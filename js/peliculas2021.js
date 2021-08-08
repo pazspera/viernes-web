@@ -1,9 +1,9 @@
 // ENERO 2021
 // Crear un array con las peliculas de Mayo 2021
-const peliculasEnero21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 0);
+const peliculasEnero21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 0);
 
 // Ordenar películas, la más vieja primero
-peliculasEnero21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasEnero21.sort((a,b) => a.date_seen - b.date_seen);
 
 
 // Printear las cards del subarray de Mayo 2021
@@ -13,7 +13,7 @@ ${peliculasEnero21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -21,10 +21,10 @@ ${peliculasEnero21.map(function(pelicula_card){
 
 // FEBRERO 2021
 // Crear un array con las peliculas de Mayo 2021
-const peliculasFebrero21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 1);
+const peliculasFebrero21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 1);
 
 // Ordenar películas, la más vieja primero
-peliculasFebrero21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasFebrero21.sort((a,b) => a.date_seen - b.date_seen);
 
 
 // Printear las cards del subarray de Mayo 2021
@@ -34,7 +34,7 @@ ${peliculasFebrero21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -42,10 +42,10 @@ ${peliculasFebrero21.map(function(pelicula_card){
 
 // MARZO 2021
 // Crear un array con las peliculas de Mayo 2021
-const peliculasMarzo21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 2);
+const peliculasMarzo21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 2);
 
 // Ordenar películas, la más vieja primero
-peliculasMarzo21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasMarzo21.sort((a,b) => a.date_seen - b.date_seen);
 
 
 // Printear las cards del subarray de Mayo 2021
@@ -55,7 +55,7 @@ ${peliculasMarzo21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -63,10 +63,10 @@ ${peliculasMarzo21.map(function(pelicula_card){
 
 // ABRIL 2021
 // Crear un array con las peliculas de Mayo 2021
-const peliculasAbril21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 3);
+const peliculasAbril21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 3);
 
 // Ordenar películas, la más vieja primero
-peliculasAbril21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasAbril21.sort((a,b) => a.date_seen - b.date_seen);
 
 
 // Printear las cards del subarray de Mayo 2021
@@ -76,7 +76,7 @@ ${peliculasAbril21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -84,10 +84,10 @@ ${peliculasAbril21.map(function(pelicula_card){
 
 // MAYO 2021
 // Crear un array con las peliculas de Mayo 2021
-const peliculasMayo21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 4);
+const peliculasMayo21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 4);
 
 // Ordenar películas, la más vieja primero
-peliculasMayo21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasMayo21.sort((a,b) => a.date_seen - b.date_seen);
 
 
 // Printear las cards del subarray de Mayo 2021
@@ -97,7 +97,7 @@ ${peliculasMayo21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -105,10 +105,10 @@ ${peliculasMayo21.map(function(pelicula_card){
 
 // JUNIO 2021
 // Crear un array con las peliculas de Junio 2021
-const peliculasJunio21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 5);
+const peliculasJunio21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 5);
 
 // Ordenar películas, la más vieja primero
-peliculasJunio21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasJunio21.sort((a,b) => a.date_seen - b.date_seen);
 
 // Printear las cards del subarray de Julio 2021
 document.getElementById('pelis_junio_21').innerHTML = `
@@ -117,7 +117,7 @@ ${peliculasJunio21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -125,10 +125,10 @@ ${peliculasJunio21.map(function(pelicula_card){
 
 // JULIO 2021
 // Crear un array con las películas de Julio 2021
-const peliculasJulio21 = peliculasCards.filter(a => a.fecha_vista.getFullYear() == 2021 && a.fecha_vista.getMonth() == 6);
+const peliculasJulio21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 6);
 
 // Ordenar películas, la más vieja primero
-peliculasJulio21.sort((a,b) => a.fecha_vista - b.fecha_vista);
+peliculasJulio21.sort((a,b) => a.date_seen - b.date_seen);
 
 // Printear las cards del subarray de Julio 2021
 document.getElementById('pelis_julio_21').innerHTML = `
@@ -137,7 +137,27 @@ ${peliculasJulio21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_pagina}" class=" stretched-link">${pelicula_card.nombre} (${pelicula_card.anio})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
+        </div>
+    </div>
+    `;
+}).join('')}`;
+
+// AGOSTO 2021
+// Crear un array con las películas de Julio 2021
+const peliculasAgosto21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 7);
+
+// Ordenar películas, la más vieja primero
+peliculasAgosto21.sort((a,b) => a.date_seen - b.date_seen);
+
+// Printear las cards del subarray de Julio 2021
+document.getElementById('pelis_agosto_21').innerHTML = `
+${peliculasAgosto21.map(function(pelicula_card){
+    return `
+    <div class="card card-pelicula col-12 col-lg-6">
+        <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
+        <div class="card-body card-pelicula__contenido">
+            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name:} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;

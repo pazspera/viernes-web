@@ -101,7 +101,7 @@
     max-width: 200px;
     text-align: center;
     
-    &__nombre{
+    &__name:{
         font-size: $size7;
         text-align: center;
         margin-top: 0.15rem;
@@ -112,7 +112,7 @@
 
 @media(min-width: 100px){
     // Centrar texto en mobile
-    .pelicula__actor__nombre{
+    .pelicula__actor__name:{
         text-align: center;
     }
 }

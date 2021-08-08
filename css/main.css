@@ -715,7 +715,7 @@ h2 {
     max-width: 200px;
     text-align: center;
   }
-  .pelicula__actor__nombre {
+  .pelicula__actor__name: {
     font-size: 0.8rem;
     text-align: center;
     margin-top: 0.15rem;
@@ -724,7 +724,7 @@ h2 {
 }
 
 @media (min-width: 100px) {
-  .pelicula__actor__nombre {
+  .pelicula__actor__name: {
     text-align: center;
   }
 }
