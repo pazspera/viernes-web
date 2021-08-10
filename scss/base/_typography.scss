@@ -47,8 +47,16 @@ h2{
 
 // Decoración para links
 .link-line {
-    padding: 0.35rem 0;
+    padding-bottom: 0.35rem;
     border-bottom-style: solid;
     border-bottom-width: 2.5px;
     width: fit-content;
+    // Poner transition en ambos estados para que se anime en mouseenter y mouseleave
+    transition: all 0.5s ease-in-out;
+
+    &:hover,
+    &:focus {
+        transition: all 0.5s ease-in-out;
+        padding-bottom: 0.15rem;
+    }
 }
