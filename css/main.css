@@ -71,7 +71,7 @@ h2 {
 .link-line {
   padding: 0.35rem 0;
   border-bottom-style: solid;
-  border-bottom-width: 1.5px;
+  border-bottom-width: 2.5px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -152,7 +152,7 @@ h2 {
 }
 
 .hero {
-  height: 95vh;
+  height: 70vh;
   padding: 2em 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,6 +183,12 @@ h2 {
 
 .hero__titulo {
   font-size: 1.563rem;
+}
+
+@media (min-width: 1000px) {
+  .hero {
+    height: 90vh;
+  }
 }
 
 @media (min-width: 1700px) {
