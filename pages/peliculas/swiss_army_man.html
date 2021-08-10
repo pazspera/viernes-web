@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="../../img/favicon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Karla:wght@300;400;700&family=Major+Mono+Display&display=swap" rel="stylesheet"> 
@@ -26,34 +28,35 @@
       <div class="main-text" id="current_movie_sinopsis">
         
       </div>
-    </main>
-    
-    <!-- Elenco -->
-    <div class="main-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="main__titulo">Elenco</h2>
+      <!-- Elenco -->
+      <div class="main-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="main__titulo">Elenco</h2>
+            </div>
+          </div>
+          <div class="row" id="current_movie_cast">
           </div>
         </div>
-        <div class="row" id="current_movie_cast">
+      </div>
+  
+      <!-- Fila img -->
+      <div class="main-img">
+        <div class="row g-0" id="current_movie_img">
+  
         </div>
       </div>
-    </div>
-
-    <!-- Fila img -->
-    <div class="main-img">
-      <div class="row g-0" id="current_movie_img">
-
-      </div>
-    </div>
+    </main>
     
-
+    <footer-component></footer-component>
 
     <!-- JS Bootstrap -->
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <!-- Header -->
     <script src="../../js/header.js"></script>
+    <!-- Footer -->
+    <script src="../../js/footer.js"></script>
     <!-- Peliculas -->
     <script src="../../js/peliculas.js"></script>
     <script src="../../js/peliculaIndividual.js"></script>
