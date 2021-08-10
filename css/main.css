@@ -761,9 +761,12 @@ h2 {
     max-width: 200px;
     text-align: center;
   }
+  figcaption .pelicula__actor__name {
+    text-align: center !important;
+  }
 }
 
-@media (min-width: 992px) and (min-width: 100px) {
+@media (min-width: 992px) and (max-width: 100px) {
   .pelicula_actor_name {
     text-align: center;
   }

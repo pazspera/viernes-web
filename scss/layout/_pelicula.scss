@@ -102,8 +102,12 @@
     text-align: center;
 }
 
+figcaption .pelicula__actor__name {
+    text-align: center !important;
+}
 
-@media(min-width: 100px){
+
+@media(max-width: 100px){
     //Centrar texto en mobile
     .pelicula_actor_name{
         text-align: center;

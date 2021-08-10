@@ -51,7 +51,7 @@ ${currentMovie.cast.map(function(cast){
   return `
   <figure class="pelicula__actor col-6 col-sm-4">
     <img src="../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${cast.img}" alt="${cast.actor}">
-    <figcaption class="pelicula__actor__name:">${cast.actor}</figcaption>
+    <figcaption class="pelicula__actor__name text-center">${cast.actor}</figcaption>
   </figure>
   `;
 }).join('')}`;
