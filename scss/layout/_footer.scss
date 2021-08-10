@@ -1,5 +1,25 @@
 .footer{
     background-color: $black;
-    padding: 0.75rem 0;
+    padding: 1.2rem 0;
     color: $white;
+    
+}
+
+.footer p, 
+.footer i {
+    margin-bottom: 0;
+}
+
+.footer__heart{
+    color: $primary;
+}
+
+.footer a {
+    color: $white !important;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $primary !important;
+    }
 }

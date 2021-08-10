@@ -44,3 +44,11 @@ h2{
 .uppercase{
     text-transform: uppercase;
 }
+
+// Decoración para links
+.link-line {
+    padding: 0.35rem 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    width: fit-content;
+}

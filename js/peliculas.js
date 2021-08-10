@@ -3,7 +3,7 @@ const peliculasCards = [
     {
         id: 'swiss_army_man',
         name: 'Swiss Army Man',
-        date_seen: new Date(2021, 08, 07),
+        date_seen: new Date(2021, 07, 08),
         img_card: 'img/cards/card_swiss_army_man.jpg',
         img_card_alt: 'Dos hombres acostados a la luz de una fogata',
         link_page: 'peliculas/swiss_army_man.html',
