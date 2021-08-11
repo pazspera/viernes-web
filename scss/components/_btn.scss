@@ -9,12 +9,14 @@
     &__primary {
         background-color: $white;
         color: $black;
+        transition: all 0.5s ease-in-out;
 
         &:hover,
         &:focus, 
         &:active {
             background-color: $black;
             color: $white;
+            transition: all 0.5s ease-in-out;
         }
         
         &:focus {

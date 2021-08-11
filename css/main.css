@@ -97,11 +97,15 @@ h2 {
 .btn__primary {
   background-color: #FFFFFC;
   color: #131316;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn__primary:hover, .btn__primary:focus, .btn__primary:active {
   background-color: #131316;
   color: #FFFFFC;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn__primary:focus {
@@ -589,10 +593,14 @@ h2 {
 .footer a {
   color: #FFFFFC !important;
   text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .footer a:hover, .footer a:focus {
   color: #E3170A !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .grid-peliculas {
@@ -621,6 +629,8 @@ h2 {
 .navbar-nav,
 .nav-link {
   color: #FFFFFC !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-dark:hover, .navbar-dark:focus,
@@ -631,6 +641,8 @@ h2 {
 .nav-link:hover,
 .nav-link:focus {
   color: #E3170A !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-dark,

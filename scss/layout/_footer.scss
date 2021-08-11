@@ -17,9 +17,11 @@
 .footer a {
     color: $white !important;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 
     &:hover,
     &:focus {
         color: $primary !important;
+        transition: all 0.5s ease-in-out;
     }
 }
