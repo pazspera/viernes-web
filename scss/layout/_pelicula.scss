@@ -34,6 +34,12 @@
     }
 }
 
+// Estilo contenedor btn_nav entre películas
+#pelicula_btn_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media(max-width: 768px){
     .pelicula__hero {
         margin-bottom: $padding-main-mobile;

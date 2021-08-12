@@ -13,7 +13,7 @@ ${peliculasEnero21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -34,7 +34,7 @@ ${peliculasFebrero21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -55,7 +55,7 @@ ${peliculasMarzo21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -76,7 +76,7 @@ ${peliculasAbril21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -97,7 +97,7 @@ ${peliculasMayo21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -117,7 +117,7 @@ ${peliculasJunio21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -137,7 +137,7 @@ ${peliculasJulio21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -157,7 +157,7 @@ ${peliculasAgosto21.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;

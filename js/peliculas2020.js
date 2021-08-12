@@ -12,7 +12,7 @@ ${peliculasMayo20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -32,7 +32,7 @@ ${peliculasJunio20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -52,7 +52,7 @@ ${peliculasJulio20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -73,7 +73,7 @@ ${peliculasAgosto20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -94,7 +94,7 @@ ${peliculasSeptiembre20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -115,7 +115,7 @@ ${peliculasOctubre20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name
             } (${pelicula_card.year})</a></h2>
         </div>
     </div>
@@ -137,7 +137,7 @@ ${peliculasNoviembre20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;
@@ -158,7 +158,7 @@ ${peliculasDiciembre20.map(function(pelicula_card){
     <div class="card card-pelicula col-12 col-lg-6">
         <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
         <div class="card-body card-pelicula__contenido">
-            <h2 class="card-pelicula__titulo"><a href="${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
         </div>
     </div>
     `;

@@ -113,6 +113,16 @@ h2 {
           box-shadow: 0 0 0 0.25rem #FFFFFC;
 }
 
+.btn--previous {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.btn--next {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 .card-pelicula {
   margin-bottom: 2rem;
 }
@@ -713,6 +723,15 @@ h2 {
 
 .pelicula__hero .hero {
   height: 90vh;
+}
+
+#pelicula_btn_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 768px) {
