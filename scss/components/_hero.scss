@@ -211,7 +211,7 @@
         }
 
         &__cartel{
-            grid-column: 11/17;
+            grid-column: 10/17;
         }
     }
     // Disminuye tamaño títulos largos
@@ -223,18 +223,25 @@
 @media(min-width: 1800px){
     .hero-grid{
         &__cartel{
-            grid-column: 10/16;
+            grid-column: 10/15;
         }
     }
 
     .hero-grid__cartel--titulo-largo{
-        grid-column: 10/16;
+        grid-column: 10/15;
     }
 }
 
 @media(min-width:2000px){
     .hero-grid__cartel,
     .hero-grid__cartel--titulo-largo{
-        grid-column: 10/15;
+        grid-column: 10/14;
+    }
+}
+
+@media(min-width:2700px){
+    .hero-grid__cartel,
+    .hero-grid__cartel--titulo-largo{
+        grid-column: 10/13;
     }
 }
