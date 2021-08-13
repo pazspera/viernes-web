@@ -1141,10 +1141,56 @@ const peliculasCards = [
         name: 'Tale of Tales',
         year: 2015,
         date_seen: new Date(2021, 1, 12),
+        director: 'Director: Matteo Garrone',
+        duration: '2h 14min',  
         img_card: 'img/cards/card_tale_tales.jpg',
         img_card_alt: 'Hombre mirando con una lupa una caja de madera',
-        link_page: '#',
+        sinopsis: 'From the bitter quest of the Queen of Longtrellis, to two mysterious sisters who provoke the passion of a king, to the King of Highhills obsessed with a giant Flea, these tales are inspired by the fairytales by Giambattista Basile.',
+        link_page: 'tale_tales.html',
         pick: 'Paz', 
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Salma Hayek',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Vincent Cassel',
+            }, 
+            {
+                img: 'cast_3.jpg',
+                actor: 'Toby Jones',
+            }, 
+            {
+                img: 'cast_4.jpg',
+                actor: 'John C. Reilly',
+            }, 
+            {
+                img: 'cast_5.jpg',
+                actor: 'Beve Cave',
+            }, 
+            {
+                img: 'cast_6.jpg',
+                actor: 'Christian Lees',
+            }, 
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Reina parada a la orilla del río junto a una criatura marina gigante muerta',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Laberinto en un bosque',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mago encapuchado susurrando en un castillo',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['época', 'realismo mágico'],
     },
     {

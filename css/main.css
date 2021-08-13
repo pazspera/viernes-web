@@ -560,6 +560,10 @@ h2 {
   background-position: left;
 }
 
+#tale_tales {
+  background-image: url(../img/hero/hero_tale_tales.webp);
+}
+
 #rocky_horror {
   background-image: url(../img/hero/hero_rocky_horror.jpg);
 }
