@@ -11,7 +11,7 @@ const peliculasCards = [
         pick: 'Geor',
         duration: '2h 18min',
         director: 'Director: Paul Thomas Anderson',
-        sinopsis: 'Un veterano de la marina vuelve a casa después de la guerra perturbado y inseguro sobre su futuro, hasta que es tentado por La Causa y su carismático líder.',
+        sinopsis: 'Un veterano de la marina vuelve a casa después de la guerra perturbado y inseguro sobre su futuro hasta que es tentado por La Causa y su carismático líder.',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -55,7 +55,7 @@ const peliculasCards = [
         pick: 'Pollo',
         director: 'Directores: Dan Kwan & Daniel Scheinert',
         duration: '1h 37min',
-        sinopsis: 'A hopeless man stranded on a deserted island befriends a dead body, and together they go on a surreal journey to get home.',
+        sinopsis: 'Un hombre desesperado varado en una isla desierta se hace amigo de un cadáver. Juntos se embarcarán en un viaje surrealista para volver a casa.',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -95,7 +95,7 @@ const peliculasCards = [
         pick: 'Loco',
         director: 'Director: Bruce McDonald',
         duration: '1h 33min',
-        sinopsis: 'A radio host interprets the possible outbreak of a deadly virus which infects the small Ontario town he is stationed in.',
+        sinopsis: 'Un locutor de radio reporta un posible epidemia de un virus mortal que infecta la ciudad de Ontario.',
         cast: [
             {
                 img: 'cast_1.jpg',
