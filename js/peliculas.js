@@ -1,6 +1,50 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'master',
+        name: 'The Master',
+        date_seen: new Date(2021, 07, 13),
+        img_card: 'img/cards/card_master.jpg',
+        img_card_alt: 'Hombre posando y mirando a cámara',
+        link_page: 'master.html',
+        year: 2012,
+        pick: 'Geor',
+        duration: '2h 18min',
+        director: 'Director: Paul Thomas Anderson',
+        sinopsis: 'Un veterano de la marina vuelve a casa después de la guerra perturbado y inseguro sobre su futuro, hasta que es tentado por La Causa y su carismático líder.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Philip Seymour Hoffman',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Joaquin Phoenix',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Amy Adams',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre en un desierto sacando una foto con una cámara antigua',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con la cara pegada a una pared, un grupo de personas lo miran',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'swiss_army_man',
         name: 'Swiss Army Man',
         date_seen: new Date(2021, 07, 08),
