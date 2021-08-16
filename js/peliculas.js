@@ -1790,6 +1790,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre haciendo mimica de tocar una guitarra y una mujer riendo',
         link_page: '#',
         pick: 'Loco', 
+        sinopsis: 'Una relación se desarrolla entre dos argentinos solitarios que se conocen por casualidad en un café en California.',
         tags: ['comedia'],
     },
     {
