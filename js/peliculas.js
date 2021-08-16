@@ -396,7 +396,7 @@ const peliculasCards = [
         pick: 'Tutte',
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duration: '1h 17min',
-        sinopsis: 'Teachers in a rural school, happy couple Fiona and Dom have a common passion: Latin Dancing. One night, after a glorious dance competition, they have a car accident and see their lives turn upside down. Rumba or how optimism and humour can overcome fatality',
+        sinopsis: 'Fiona y Dom son maestros de una escuela de campo. Comparten su pasión por el baile latino y están muy enamorados. Los fines de semana, acuden a los concursos regionales de baile. En su casa rebosan los trofeos. Una noche, de vuelta de un concurso, intentan evitar a un torpe suicida, plantado en medio de la carretera. Su coche se aplasta contra una pared. Y su vida vuelca.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1hIK4xRI3bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'musical'],
         cast: [
