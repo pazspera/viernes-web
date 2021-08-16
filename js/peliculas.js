@@ -982,8 +982,51 @@ const peliculasCards = [
         date_seen: new Date (2021, 3, 2),
         img_card: 'img/cards/card_top_secret.jpg',
         img_card_alt: 'Hombre al lado de una ventana con los vidrios rotos',
-        link_page: '#',
+        duration: '1h 30min',
+        director: 'Directores: Jim Abrahams, David Zucker & Jerry Zucker',
+        link_page: 'top_secret.html',
+        sinopsis: 'Parodia de películas de espías de la Segunda Guerra Mundial en las que un cantante de rock and roll estadounidense se involucra en un complot de la Resistencia para rescatar a un científico encarcelado en Alemania Oriental.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J4hX23pyXxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         pick: 'Fede', 
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Val Kilmer',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Lucy Gutteridge',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Peter Cushing',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Christopher Villiers',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Jeremy Kemp',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Tres mercenarios con armas mirando amenazadoramente',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer y hombre caminando agarrados del brazo en una fiesta elegante',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre atrapado dentro de estructura metálica mirando a cámara con una sonrisa',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['comedia'],
     },
     {

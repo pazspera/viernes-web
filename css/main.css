@@ -598,6 +598,10 @@ h2 {
   background-position: 10% left;
 }
 
+#top_secret {
+  background-image: url(../img/hero/hero_top_secret.jpg);
+}
+
 #troll_hunter {
   background-image: url(../img/hero/hero_troll_hunter.jpg);
 }
