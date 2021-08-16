@@ -993,9 +993,60 @@ const peliculasCards = [
         date_seen: new Date(2021, 2, 26),
         img_card: 'img/cards/card_snatch.jpg',
         img_card_alt: 'Hombre alentando a boxeador en un ring',
-        link_page: '#',
+        director: 'Director: Guy Ritchie',
+        duration: '1h 44min',
+        link_page: 'snatch.html',
+        sinopsis: 'Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.',
         pick: 'Geor',   
         tags: ['acción', 'comedia'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9Jar2XkBboo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jason Statham',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Brad Pitt',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Stephen Graham',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Vinnie Jones',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Dennis Farina',
+            },
+            {
+                img: 'cast_6.jpg',
+                actor: 'Benicio del Toro',
+            },
+            {
+                img: 'cast_7.jpg',
+                actor: 'Alan Ford',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre sosteniendo tres cartas de poker en la mano',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Tres hombres sentados delante de una casa rodante',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre apuntándole con un arma en la cabeza a otro hombre',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'oldboy',
