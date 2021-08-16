@@ -146,7 +146,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Director: Don Coscarelli',
         duration: '1h 39min',
-        sinopsis: 'A new street drug that sends its users across time and dimensions has one drawback: some people return no longer human. Can two college drop-outs save humanity from this silent, otherworldly invasion?',
+        sinopsis: 'Una nueva droga callejera que envía a sus consumidores a través del tiempo y las dimensiones tiene un inconveniente: algunas personas ya no regresan como seres humanos.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IfJp417dyig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['drogas', 'ciencia ficción', 'comedia', 'multiverso', 'onírica'],
         cast: [
@@ -192,7 +192,7 @@ const peliculasCards = [
         pick: 'Geor',
         director: 'Director: Takeshi Kitano',
         duration: '1h 49min',
-        sinopsis: 'The boss of a major crime syndicate orders his lieutenant to bring a rogue gang of drug traffickers in line, a job that gets passed on to his long-suffering subordinate.',
+        sinopsis: 'El jefe de un importante sindicato del crimen ordena a su lugarteniente que ponga orden en una banda de traficantes de drogas, un trabajo que pasa a su sufrido subordinado.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3Fj3htxRRHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['crimen', 'acción', 'oriental', 'policial'],
         cast: [
@@ -246,7 +246,7 @@ const peliculasCards = [
         pick: 'Pollo',
         director: 'Director: Rian Johnson',
         duration: '1h 50min',
-        sinopsis: 'A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.',
+        sinopsis: 'Un adolescente solitario se adentra en las profundidades de una red criminal de la escuela secundaria para investigar la desaparición de su ex-novia.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4Zfw8__A7ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['crimen', 'acción', 'policial'],
         cast: [
@@ -350,7 +350,7 @@ const peliculasCards = [
         pick: 'Loco',
         director: 'Director: Panos Cosmatos',
         duration: '1h 50min',
-        sinopsis: 'Despite being under heavy sedation, a young woman tries to make her way out of the Arboria Institute, a secluded, quasifuturistic commune.',
+        sinopsis: 'Una mujer muy sedada con ESP intenta escapar de la comuna aislada donde la han mantenido cautiva.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/bi7aQ-bKziY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'onírica', 'ciencia ficción'],
         cast: [
@@ -438,7 +438,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Directora: Antonia Bird',
         duration: '1h 41min',
-        sinopsis: 'In a remote military outpost in the 19th century, Captain John Boyd and his regiment embark on a rescue mission which takes a dark turn when they are ambushed by a sadistic cannibal.',
+        sinopsis: 'En un remoto puesto militar del siglo XIX, el capitán John Boyd y su regimiento se embarcan en una misión de rescate que da un giro oscuro cuando son emboscados por un caníbal sádico.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/l7BDiNktrLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['época', 'acción'],
         cast: [
@@ -604,7 +604,7 @@ const peliculasCards = [
         pick: 'Loco',
         director: 'Director: Emir Kusturica',
         duration: '2h 22min',
-        sinopsis: 'In this luminous tale set in the area around Sarajevo and in Italy, Perhan, an engaging young Romany (gypsy) with telekinetic powers, is seduced by the quick-cash world of petty crime, which threatens to destroy him and those he loves.',
+        sinopsis: 'En esta brillante historia que se desarrolla en Sarajevo y en Italia, Perhan, un encantador joven rumano (de etnia gitana) con poderes telequinéticos, se deja seducir por el mundo del dinero rápido de la delincuencia, que amenaza con destruirlo a él y a las personas que ama.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J9K1iQ57LbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags:  ['gitanos', 'realismo mágico', 'drama'],
         cast: [
@@ -654,7 +654,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Director: André Øvredal',
         duration: '1h 43min',
-        sinopsis: 'A group of students investigates a series of mysterious bear killings, but learns that there are much more dangerous things going on. They start to follow a mysterious hunter, learning that he is actually a troll hunter.',
+        sinopsis: 'Un grupo de estudiantes investiga lo que parece ser una matanza por parte de un oso y descubre que el responsable es algo mucho más peligroso.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uvwEyHeRSvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['acción', 'realismo mágico', 'comedia', 'mockumentary'],
         cast: [
@@ -704,7 +704,7 @@ const peliculasCards = [
         pick: 'Paz',
         director: 'Director: Jonathan King',
         duration: '1h 27min',
-        sinopsis: 'An experiment in genetic engineering turns harmless sheep into bloodthirsty killers that terrorize a sprawling New Zealand farm.',
+        sinopsis: 'Un experimento de ingeniería genética convierte ovejas inofensivas en asesinos sedientos de sangre que aterrorizan a una granja de Nueva Zelanda.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hhck0SLcA6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['acción', 'comedia'],
         cast: [
@@ -864,6 +864,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre a punto de darle una cachetada a otro hombre',
         link_page: '#',
         pick: 'Pollo', 
+        sinopsis: 'Nino y Bruno son dos comediantes que alcanzan el éxito con su dúo, convirtiéndose en grandes celebridades de televisión. Sin embargo, el odio entre ellos crece tan rápido y tanto como su fama.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CBAXcZIRzKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia'],
     },
@@ -878,7 +879,7 @@ const peliculasCards = [
         pick: 'Loco',
         director: 'Director: Dario Argento',
         duration: '1h 35min',
-        sinopsis: 'An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.',
+        sinopsis: 'Un estadounidense recién llegado a una prestigiosa academia alemana de ballet se da cuenta de que la escuela es una fachada para algo siniestro en medio de una serie de horripilantes asesinatos.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/y31qSjZ2s-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['onírica', 'terror', 'brujas'],
         cast: [
@@ -932,7 +933,7 @@ const peliculasCards = [
         pick: 'Paz', 
         director: 'Director: Brandon Cronenberg',
         duration: '1h 48min',
-        sinopsis: "In a blackly satirical near future, a thriving industry sells celebrity illnesses to their obsessed fans. Employee Syd March's attempts to exploit the system backfire when they involve him in a potentially deadly mystery.",
+        sinopsis: "En un futuro cercano obscuro, una próspera industria vende enfermedades de celebridades a sus obsesionados fans. Los intentos del empleado Syd March de explotar el sistema fracasan cuando lo involucran en un misterio potencialmente mortal.",
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XIZb50HiBCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'drogas', 'ciencia ficción', 'cronenberg', 'genética'],
         cast: [
@@ -1039,7 +1040,7 @@ const peliculasCards = [
         director: 'Director: Guy Ritchie',
         duration: '1h 44min',
         link_page: 'snatch.html',
-        sinopsis: 'Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.',
+        sinopsis: 'Promotores de boxeo sin escrúpulos, editores violentos, un gánster ruso, ladrones amateur incompetentes, y joyeros supuestamente judíos se enfrentan para seguirle la pista a un preciado diamante robado.',
         pick: 'Geor',   
         tags: ['acción', 'comedia'],
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9Jar2XkBboo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -1102,7 +1103,7 @@ const peliculasCards = [
         pick: 'Pollo', 
         director: 'Director: Park Chan-Wook',
         duration: '2h',
-        sinopsis: 'After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.',
+        sinopsis: 'Tras ser secuestrado y aprisionado durante 15 años, Oh Dae-Su es liberado y tiene 5 días para encontrar a su captor.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/w4UUGIIZxFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['perturbadoras', 'oriental', 'acción'],
         cast: [
@@ -1148,7 +1149,7 @@ const peliculasCards = [
         pick: 'Loco', 
         director: 'Director: Gaspar Noé',
         duration: '2h 42min',
-        sinopsis: 'An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.',
+        sinopsis: 'Un traficante francés que vive en Tokio es traicionado por su mejor amigo y asesinado en un negocio de drogas. Su alma, observando las repercusiones de su muerte, busca la resurrección.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/F0d82zVw8Q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['onírica', 'multiverso', 'perturbadoras', 'drogas', 'gaspar noé'],
         cast: [
@@ -1198,7 +1199,7 @@ const peliculasCards = [
         pick: 'Loco', 
         director: 'Director: George Lucas',
         duration: '1h 26min',
-        sinopsis: 'In the 25th century, a time when people have designations instead of names, a man, THX 1138, and a woman, LUH 3417, rebel against their rigidly-controlled society.',
+        sinopsis: 'En el siglo veinticinco, una época en la que la gente tiene designaciones en lugar de nombres, un hombre, THX 1138, y una mujer, LUH 3417, se rebelan contra su sociedad rígidamente controlada.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eHgqfVQWv7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'ciencia ficción'],
         cast: [
@@ -1244,7 +1245,7 @@ const peliculasCards = [
         pick: 'Geor',
         director: 'Director: Charlie Kaufman',
         duration: '2h 4min',
-        sinopsis: 'A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.',
+        sinopsis: 'Un director de teatro, en el proceso de crear una réplica de Nueva York en un almacén para su próxima obra, tiene dificultades en el trabajo y con las mujeres en su vida.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i2q8F0yRmrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['realismo mágico', 'perturbadoras', 'oníricas', 'charlie kaufman'],
         cast: [
@@ -1295,6 +1296,7 @@ const peliculasCards = [
         img_card: 'img/cards/card_labyrinth.jpg',
         img_card_alt: 'Hombre y mujer bailando en un baile de máscaras',
         link_page: '#',
+        sinopsis: 'Una chica de 16 tiene 13 horas para llegar al centro del laberinto y rescatar a su hermano pequeño del rey Goblin.',
         pick: 'Pauleta', 
         tags: ['comedia'],
     },
@@ -1307,7 +1309,7 @@ const peliculasCards = [
         duration: '2h 14min',  
         img_card: 'img/cards/card_tale_tales.jpg',
         img_card_alt: 'Hombre mirando con una lupa una caja de madera',
-        sinopsis: 'From the bitter quest of the Queen of Longtrellis, to two mysterious sisters who provoke the passion of a king, to the King of Highhills obsessed with a giant Flea, these tales are inspired by the fairytales by Giambattista Basile.',
+        sinopsis: 'Sigue la historia de la amarga búsqueda de la Reina de Longtrellis, dos misteriosas hermanas que provocan la pasión de un rey y el Rey de Highhills obsesionado con una pulga gigante.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Afup26-_3iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         link_page: 'tale_tales.html',
         pick: 'Paz', 
@@ -1365,6 +1367,7 @@ const peliculasCards = [
         img_card_alt: 'Dos mujeres escuchando por teléfono con atención',
         link_page: '#',
         pick: 'Pollo', 
+        sinopsis: 'Tras un accidente en Mulholland Drive, una mujer amnésica y una aspirante a actriz recorrerán Los Ángeles buscando respuestas en un viaje más allá de los sueños y la realidad.',
         tags: ['perturbadoras', 'onírica', 'realismo mágico', 'lynch'],
     },
     {
@@ -1376,6 +1379,7 @@ const peliculasCards = [
         img_card_alt: 'Reflejo de una mujer en un espejo roto',
         link_page: '#',
         pick: 'Geor', 
+        sinopsis: 'Una excantante de pop que ahora es actriz es acosada por un fan obsesionado y un fantasma de su pasado.',
         tags: ['perturbadoras', 'animación', 'oriental'],
     },
     {
@@ -1386,6 +1390,7 @@ const peliculasCards = [
         img_card: 'img/cards/card_heavy_metal.jpg',
         img_card_alt: 'Hombre con uniforme militar con un robot ovalado flotante a su lado',
         link_page: '#',
+        sinopsis: 'Un orbe verde, encarnación del mal supremo, aterroriza a una joven con una antología de historias extrañas sobre fantasías oscuras, erotismo y horror.',
         pick: 'Markus', 
         tags: ['animación'],
     },
@@ -1398,6 +1403,7 @@ const peliculasCards = [
         img_card_alt: 'Grupo de tres extraterrestres caminando por el bosque',
         link_page: '#',
         pick: 'Loco', 
+        sinopsis: 'Una pequeña ciudad de la costa está más tranquila que nunca. Todos sus habitantes han desaparecido. Su destino ha sido decidido por un grupo de aliens en busca de carne humana para las hamburgesas de un fast-food intergaláctico. Un cuerpo especial se enfrentará a los extraterrestres.',
         tags: ['acción', 'clase b'],
     },
     {
@@ -1409,6 +1415,7 @@ const peliculasCards = [
         img_card_alt: 'Astronauta mirando una máquina con un emoji de carita triste en su pantalla',
         link_page: '#',
         pick: 'Paz', 
+        sinopsis: 'El astronauta Sam Bell tiene un encuentro personal por excelencia hacia el final de su estadía de tres años en la Luna, donde, trabajando junto a su computadora, GERTY, envía a la Tierra paquetes de un recurso que ha ayudado a disminuir los problemas de energía de nuestro planeta.',
         tags: ['ciencia ficción'],
     },
     {
@@ -1420,6 +1427,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco',
         link_page: '#',
         pick: 'Geor', 
+        sinopsis: 'El descarado Barón Munchausen cuenta sus numerosas aventuras, desde conocer a un hombre en la Luna hasta derrotar él solo a un ejército turco entero.',
         tags: ['época', 'comedia'],
     },
     {
@@ -1429,8 +1437,9 @@ const peliculasCards = [
         date_seen: new Date(2020, 10, 20),
         img_card: 'img/cards/card_waking_life.jpg',
         img_card_alt: 'Dos hombre conversando, uno es una silueta de nubes',
-        link_page: '',
+        link_page: '#',
         pick: 'Pollo', 
+        sinopsis: 'Un hombre se mueve a través de un sueño conociendo a varias personas y discutiendo los significados y propósitos del universo.',
         tags: ['oníricas', 'realismo mágico', 'multiverso', 'linklater'],
     },
     {
@@ -1500,6 +1509,7 @@ const peliculasCards = [
         img_card_alt: 'Tres personas conversando en la calle',
         link_page: '#',
         pick: 'Loco',
+        sinopsis: 'Un día en la vida de Austin, mientras la cámara se desplaza de un lugar a otro y ofrece una breve mirada a los excesos, los inadaptados sociales, los marginados y los bichos raros.',
         tags: ['comedia', 'linklater'], 
     },
     {
@@ -1511,6 +1521,7 @@ const peliculasCards = [
         img_card_alt: 'Científico cargando una jeringa con un líquido verde fluorescente',
         link_page: '#',
         pick: 'Pollo', 
+        sinopsis: 'Después de que un extraño estudiante de medicina llega al campus, un chico y su novia se ven involucrados en experimentos centrados en la re-animación de tejido muerto.',
         tags: ['acción', 'clase b', 'lovecraft'],
     },
     {
@@ -1524,7 +1535,7 @@ const peliculasCards = [
         pick: 'Paz', 
         director: 'Director: Robert Eggers',
         duration: '1h 49min',
-        sinopsis: 'Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.',
+        sinopsis: 'La historia de un guardián del faro llamado Old en la Maine de principios del siglo XX.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hyag7lR8CPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['época', 'realismo mágico'], 
         cast: [
@@ -1564,6 +1575,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre con traje corriendo por un pasillo de hotel que se derrite' ,
         link_page: '#',
         pick: 'Geor', 
+        sinopsis: 'Cuando una máquina que permite a los terapeutas entrar en los sueños de sus pacientes es robada, una gran catástrofe amenaza. Solo una joven terapeuta, Paprika, puede detenerlo.',
         tags: ['oníricas', 'animación', 'oriental'], 
     },
     {
@@ -1575,6 +1587,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre encadenado a una máquina y personas en el fondo mirando',
         link_page: '#',
         pick: 'Loco',
+        sinopsis: 'Un hombre con problemas de memoria lucha contra pequeñas imágenes, como la de una esposa a la que no recuerda, o la de un mundo sin sol.',
         tags: ['distopía', 'ciencia ficción'],
     },
     {
@@ -1586,6 +1599,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre caminando por un pasillo circular',
         link_page: '#',
         pick: 'Pollo',
+        sinopsis: 'Un hombre genéticamente inferior asume la identidad de uno superior para cumplir su sueño de viajar al espacio.',
         tags: ['distopía', 'ciencia ficción', 'genética'],
     },
     {
@@ -1597,6 +1611,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa',
         link_page: '#',
         pick: 'Paz', 
+        sinopsis: 'Un investigador de seguros sospecha del impacto que los libros de terror de cierto autor tienen en su audiencia.',
         tags: ['terror', 'lovecraft', 'john carpenter'],
     },
     {
@@ -1608,6 +1623,7 @@ const peliculasCards = [
         img_card_alt: 'Dos parejas sentadas a una mesa cenando',
         link_page: '#',
         pick: 'Geor', 
+        sinopsis: 'Pese a albergar dudas sobre la relación con su nueva pareja, una joven emprende un viaje por carretera con su novio Jake rumbo a la granja de los padres de este, donde empieza a cuestionarse todo lo que creía saber.',
         tags: ['charlie kaufman', 'realismo mágico', 'oníricas', 'perturbadoras'],
     },
     {
@@ -1619,6 +1635,7 @@ const peliculasCards = [
         img_card_alt: 'Tres personas caminando por un pasillo futurista',
         link_page: '#',
         pick: 'Pollo',
+        sinopsis: 'Un idílico futuro de ciencia ficción tiene un fallo: la vida debe acabar a la edad de 30 años.',
         tags: ['distopía', 'ciencia ficción'],
     },
     {
@@ -1629,7 +1646,8 @@ const peliculasCards = [
         img_card: 'img/cards/card_time_bandits.jpg',
         img_card_alt: 'Hombre y mujer vestidos con ropa imperial antigua junto a un niño',
         link_page: '#',
-        pick: 'Geor', 
+        pick: 'Geor',
+        sinopsis: 'Un joven accidentalmente se une a una banda de enanos que viajan a través del tiempo, mientras saltan de era en era en busca de un tesoro que robar.',
         tags: ['época', 'comedia'],
     },
     {
@@ -1641,6 +1659,7 @@ const peliculasCards = [
         img_card_alt: 'Grupo de personas cenando y divirtiéndose',
         link_page: '#',
         pick: 'Paz', 
+        sinopsis: 'Cosas estrañas empiezan a suceder cuando un grupo de amigos que se reúnen para una cena y un cometa pasa por encima.',
         tags: ['ciencia ficción', 'multiverso'],
     },
     {
@@ -1652,6 +1671,7 @@ const peliculasCards = [
         img_card_alt: 'Oficinista confundido parado en un pasillo',
         link_page: '#',
         pick: 'Loco', 
+        sinopsis: 'Un burócrata, en un mundo retro-futuro, trata de corregir un error administrativo y se convierte en enemigo del Estado.',
         tags: ['distopía', 'ciencia ficción', 'perturbadoras'],
     },
     {
@@ -1663,6 +1683,7 @@ const peliculasCards = [
         img_card_alt: 'Dos mujeres paradas en un muelle',
         link_page: '#',
         pick: 'Pollo', 
+        sinopsis: 'Relata la vida del célebre escritor japonés Yukio Mishima.',
         tags: ['drama', 'oriental'],
     },
     {
@@ -1674,6 +1695,7 @@ const peliculasCards = [
         img_card_alt: 'Mujer preparada para atacar con un sable',
         link_page: '#',
         pick: 'Pollo', 
+        sinopsis: 'La esposa debe matar a su ex jefe y amante Bill, quien la traicionó en su ceremonia de boda, le disparó en la cabeza y se llevó a su hija no nacida. Pero primero, debe hacer sufrir a los otros cuatro miembros del Escuadrón de Asesinato de Víboras Mortales.',
         tags: ['acción', 'quentin tarantino'],
     },
     {
@@ -1685,6 +1707,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer',
         link_page: '#',
         pick: 'Geor', 
+        sinopsis: 'Hsiao-Kang, que trabaja como actor pornográfico, se encuentra con Shiang-chyi una vez más. Mientras tanto, la ciudad de Taipei se enfrenta a una escasez de agua que hace que las ventas de sandías se disparen.',
     },
     {
         id: 'midsommar',
@@ -1696,6 +1719,7 @@ const peliculasCards = [
         link_page: '#',
         pick: 'Paz', 
         tags: ['terror', 'perturbadoras', 'drogas'],
+        sinopsis: 'Un joven convence a su novia de que le acompañe a un festival de verano en Suecia que resulta no ser lo que parece.',
     },
     {
         id: 'mood_indigo',
@@ -1705,7 +1729,8 @@ const peliculasCards = [
         img_card: 'img/cards/card_mood_indigo.jpg',
         img_card_alt: 'Pareja sentada en un banco mirándose con cariño',
         link_page: '#',
-        pick: 'Pollo', 
+        pick: 'Pollo',
+        sinopsis: 'Colin se esfuerza por encontrar una cura para su amante Chloe después de que le diagnostican una enfermedad inusual causada por una flor que crece en sus pulmones.',
         tags: ['drama', 'realismo mágico', 'francesa'],
     },
     {
@@ -1717,6 +1742,7 @@ const peliculasCards = [
         img_card_alt: 'Pareja con una niña y un bebé hablando',
         link_page: '#',
         pick: 'Geor',
+        sinopsis: 'En Noche Buena, tres personas sin hogar en las calles de Tokyo encuentran a un recién nacido entre la basura e intentan encontrar a sus padres.',
         tags: ['animación', 'drama', 'oriental'],
     },
     {
@@ -1728,6 +1754,7 @@ const peliculasCards = [
         img_card_alt: 'Televisor antiguo con vhs al costado y una mujer hablando en la pantalla',
         link_page: '#',
         pick: 'Loco', 
+        sinopsis: 'Uno grupo de bailarines franceses se reúne en una escuela abandonada y remota para ensayar en una noche invernal. Una fiesta que iba a durar toda la noche se transforma en una pesadilla plagada de alucinaciones cuando descubren que su sangría está envenenada con LSD.',
         tags: ['drogas', 'gaspar noé', 'musical'],
     },
     {
@@ -1739,6 +1766,7 @@ const peliculasCards = [
         img_card_alt: 'Tres hombres comiendo papas fritas y hablando',
         link_page: '#',
         pick: 'Loco', 
+        sinopsis: 'Renton, inmerso en el mundo de las drogas de Edimburgo, intenta desintoxicarse.',
         tags: ['drogas', 'drama'],
     },
     {
@@ -1750,6 +1778,7 @@ const peliculasCards = [
         img_card_alt: 'Padre e hija tomando un refresco y hablando',
         link_page: '#',
         pick: 'Pollo',
+        sinopsis: 'Un monstruo emerge del río Han en Seúl y empieza a atacar a la gente. La familia de una de las víctimas hace lo que puede para rescatarla de sus garras.',
         tags: ['acción', 'clase b'],
     },
     {
@@ -1772,6 +1801,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer en un campo',
         link_page: '#',
         pick: 'Geor', 
+        sinopsis: 'Una chica que cree ser un cíborg de combate ingresa en un hospital psiquiátrico, donde conoce a otros psicóticos. Al final, se enamora de un hombre que cree que puede robar las almas de las personas.',
         tags: ['comedia', 'oriental'],
     },
     {
@@ -1783,6 +1813,7 @@ const peliculasCards = [
         img_card_alt: 'Mujer y su reflejo iluminadas por luces de neón',
         link_page: '#',
         pick: 'Loco', 
+        sinopsis: 'Una aspirante a modelo, Jesse, es nueva en Los Ángeles. Sin embargo, su belleza y juventud, que genera gran fascinación y envidia en la industria de la moda, les resultará siniestra.',
         tags: ['perturbadoras', 'terror'],
     },
     {
@@ -1794,6 +1825,7 @@ const peliculasCards = [
         img_card_alt: 'Pareja en un auto mirándose amorosamente',
         link_page: '#',
         pick: 'Pollo',
+        sinopsis: 'En Detroit, un friki de la cultura pop se casa con una prostituta, le roba cocaína a su chulo, e intenta venderla en Hollywood. Los propietarios de la coca les siguen la pista para recuperarla.',
         tags: ['romance', 'drama'],
     },
 ];
