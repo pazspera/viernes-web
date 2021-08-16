@@ -82,6 +82,22 @@ ${currentMovie.img_row.map(function(img_row){
   }
 }).join('')}`;
 
+// Imprimir trailer
+document.getElementById('current_movie_trailer').innerHTML = `
+<div class="container">
+<div class="row">
+  <div class="col-12">
+    <h2 class="main__titulo">Trailer</h2>
+  </div>
+  <div class="col col-lg-9" >
+    <div class="ratio ratio-16x9">
+      ${currentMovie.trailer}
+    </div>
+  </div>
+</div>
+</div>
+`;
+
 /* Botones anterior/siguiente para navegar entre los viernes */
 /* 
 - Buscar index de la current peli

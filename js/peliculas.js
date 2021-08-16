@@ -12,6 +12,7 @@ const peliculasCards = [
         duration: '2h 18min',
         director: 'Director: Paul Thomas Anderson',
         sinopsis: 'Un veterano de la marina vuelve a casa después de la guerra perturbado y inseguro sobre su futuro hasta que es tentado por La Causa y su carismático líder.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uBn5dURHsUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -56,6 +57,7 @@ const peliculasCards = [
         director: 'Directores: Dan Kwan & Daniel Scheinert',
         duration: '1h 37min',
         sinopsis: 'Un hombre desesperado varado en una isla desierta se hace amigo de un cadáver. Juntos se embarcarán en un viaje surrealista para volver a casa.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4v92gXetGqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -96,6 +98,7 @@ const peliculasCards = [
         director: 'Director: Bruce McDonald',
         duration: '1h 33min',
         sinopsis: 'Un locutor de radio reporta un posible epidemia de un virus mortal que infecta la ciudad de Ontario.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H4EoVxwJecM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -144,6 +147,7 @@ const peliculasCards = [
         director: 'Director: Don Coscarelli',
         duration: '1h 39min',
         sinopsis: 'A new street drug that sends its users across time and dimensions has one drawback: some people return no longer human. Can two college drop-outs save humanity from this silent, otherworldly invasion?',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IfJp417dyig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['drogas', 'ciencia ficción', 'comedia', 'multiverso', 'onírica'],
         cast: [
             {
@@ -189,6 +193,7 @@ const peliculasCards = [
         director: 'Director: Takeshi Kitano',
         duration: '1h 49min',
         sinopsis: 'The boss of a major crime syndicate orders his lieutenant to bring a rogue gang of drug traffickers in line, a job that gets passed on to his long-suffering subordinate.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3Fj3htxRRHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['crimen', 'acción', 'oriental', 'policial'],
         cast: [
             {
@@ -242,6 +247,7 @@ const peliculasCards = [
         director: 'Director: Rian Johnson',
         duration: '1h 50min',
         sinopsis: 'A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4Zfw8__A7ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['crimen', 'acción', 'policial'],
         cast: [
             {
@@ -295,6 +301,7 @@ const peliculasCards = [
         director: 'Director: Leos Carax',
         duration: '1h 55min',
         sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/NWu9WjEcdbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['onírica', 'multiverso', 'francesa'],
         cast: [
             {
@@ -344,6 +351,7 @@ const peliculasCards = [
         director: 'Director: Panos Cosmatos',
         duration: '1h 50min',
         sinopsis: 'Despite being under heavy sedation, a young woman tries to make her way out of the Arboria Institute, a secluded, quasifuturistic commune.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/bi7aQ-bKziY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'onírica', 'ciencia ficción'],
         cast: [
             {
@@ -389,6 +397,7 @@ const peliculasCards = [
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duration: '1h 17min',
         sinopsis: 'Teachers in a rural school, happy couple Fiona and Dom have a common passion: Latin Dancing. One night, after a glorious dance competition, they have a car accident and see their lives turn upside down. Rumba or how optimism and humour can overcome fatality',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1hIK4xRI3bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'musical'],
         cast: [
             {
@@ -430,6 +439,7 @@ const peliculasCards = [
         director: 'Directora: Antonia Bird',
         duration: '1h 41min',
         sinopsis: 'In a remote military outpost in the 19th century, Captain John Boyd and his regiment embark on a rescue mission which takes a dark turn when they are ambushed by a sadistic cannibal.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/l7BDiNktrLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['época', 'acción'],
         cast: [
             {
@@ -487,6 +497,7 @@ const peliculasCards = [
         director: 'Director: Jim Jarmusch',
         duration: '2h 3min',
         sinopsis: 'Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pkeWhokaPPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['vampiros', 'romance'],
         cast: [
             {
@@ -540,6 +551,7 @@ const peliculasCards = [
         director: 'Director: Alejandro Brugués',
         duration: '1h 32min',
         sinopsis: 'Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gYuxT5nQJ8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['zombies', 'comedia', 'acción'],
         cast: [
             {
@@ -593,6 +605,7 @@ const peliculasCards = [
         director: 'Director: Emir Kusturica',
         duration: '2h 22min',
         sinopsis: 'In this luminous tale set in the area around Sarajevo and in Italy, Perhan, an engaging young Romany (gypsy) with telekinetic powers, is seduced by the quick-cash world of petty crime, which threatens to destroy him and those he loves.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J9K1iQ57LbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags:  ['gitanos', 'realismo mágico', 'drama'],
         cast: [
             {
@@ -642,6 +655,7 @@ const peliculasCards = [
         director: 'Director: André Øvredal',
         duration: '1h 43min',
         sinopsis: 'A group of students investigates a series of mysterious bear killings, but learns that there are much more dangerous things going on. They start to follow a mysterious hunter, learning that he is actually a troll hunter.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uvwEyHeRSvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['acción', 'realismo mágico', 'comedia', 'mockumentary'],
         cast: [
             {
@@ -691,6 +705,7 @@ const peliculasCards = [
         director: 'Director: Jonathan King',
         duration: '1h 27min',
         sinopsis: 'An experiment in genetic engineering turns harmless sheep into bloodthirsty killers that terrorize a sprawling New Zealand farm.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hhck0SLcA6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['acción', 'comedia'],
         cast: [
             {
@@ -740,6 +755,7 @@ const peliculasCards = [
         director: 'Director: Luca Guadagnino',
         duration: '2h 32min',
         sinopsis: 'Una oscuridad envuelve una compañía de danza de fama internacional. Una oscuridad que consumirá a la directora artística, a una joven y ambiciosa bailarina y a un terapeuta en duelo. Algunos sucumbirán a la pesadilla. Otros finalmente despertarán.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/BY6QKRl56Ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags:['onírica', 'realismo mágico', 'terror', 'brujas'],
         cast: [
             {
@@ -797,6 +813,7 @@ const peliculasCards = [
         director: 'Wes Anderson',
         duration: '1h 27min',
         sinopsis: 'El Sr. y la Sra. Fox viven una feliz vida hogareña con su excéntrico hijo Ash y su sobrino Kristofferson, quien está de visita, hasta que el Sr. Fox recae en sus taimados hábitos y planea el robo de gallinas más grande presenciado por el mundo animal.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/n2igjYFojUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'animación'],
         cast: [
             {
@@ -847,6 +864,7 @@ const peliculasCards = [
         img_card_alt: 'Hombre a punto de darle una cachetada a otro hombre',
         link_page: '#',
         pick: 'Pollo', 
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CBAXcZIRzKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia'],
     },
     {
@@ -861,6 +879,7 @@ const peliculasCards = [
         director: 'Director: Dario Argento',
         duration: '1h 35min',
         sinopsis: 'An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/y31qSjZ2s-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['onírica', 'terror', 'brujas'],
         cast: [
             {
@@ -914,6 +933,7 @@ const peliculasCards = [
         director: 'Director: Brandon Cronenberg',
         duration: '1h 48min',
         sinopsis: "In a blackly satirical near future, a thriving industry sells celebrity illnesses to their obsessed fans. Employee Syd March's attempts to exploit the system backfire when they involve him in a potentially deadly mystery.",
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XIZb50HiBCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'drogas', 'ciencia ficción', 'cronenberg', 'genética'],
         cast: [
             {
@@ -989,6 +1009,7 @@ const peliculasCards = [
         director: 'Director: Park Chan-Wook',
         duration: '2h',
         sinopsis: 'After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/w4UUGIIZxFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['perturbadoras', 'oriental', 'acción'],
         cast: [
             {
@@ -1034,6 +1055,7 @@ const peliculasCards = [
         director: 'Director: Gaspar Noé',
         duration: '2h 42min',
         sinopsis: 'An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/F0d82zVw8Q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['onírica', 'multiverso', 'perturbadoras', 'drogas', 'gaspar noé'],
         cast: [
             {
@@ -1083,6 +1105,7 @@ const peliculasCards = [
         director: 'Director: George Lucas',
         duration: '1h 26min',
         sinopsis: 'In the 25th century, a time when people have designations instead of names, a man, THX 1138, and a woman, LUH 3417, rebel against their rigidly-controlled society.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eHgqfVQWv7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'ciencia ficción'],
         cast: [
             {
@@ -1128,6 +1151,7 @@ const peliculasCards = [
         director: 'Director: Charlie Kaufman',
         duration: '2h 4min',
         sinopsis: 'A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York City inside a warehouse as part of his new play.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i2q8F0yRmrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['realismo mágico', 'perturbadoras', 'oníricas', 'charlie kaufman'],
         cast: [
             {
@@ -1190,6 +1214,7 @@ const peliculasCards = [
         img_card: 'img/cards/card_tale_tales.jpg',
         img_card_alt: 'Hombre mirando con una lupa una caja de madera',
         sinopsis: 'From the bitter quest of the Queen of Longtrellis, to two mysterious sisters who provoke the passion of a king, to the King of Highhills obsessed with a giant Flea, these tales are inspired by the fairytales by Giambattista Basile.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Afup26-_3iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         link_page: 'tale_tales.html',
         pick: 'Paz', 
         cast: [
@@ -1326,6 +1351,7 @@ const peliculasCards = [
         director: 'Director: Jim Sharman',
         duration: '1h 40min',
         sinopsis: 'Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4plqh6obZW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'musical'],
         cast: [
             {
@@ -1405,6 +1431,7 @@ const peliculasCards = [
         director: 'Director: Robert Eggers',
         duration: '1h 49min',
         sinopsis: 'Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hyag7lR8CPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['época', 'realismo mágico'], 
         cast: [
             {
