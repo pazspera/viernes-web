@@ -1557,10 +1557,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 11, 4),
         img_card: 'img/cards/card_moon.jpg',
         img_card_alt: 'Astronauta mirando una máquina con un emoji de carita triste en su pantalla',
-        link_page: '#',
+        link_page: 'moon.html',
         pick: 'Paz', 
-        sinopsis: 'El astronauta Sam Bell tiene un encuentro personal por excelencia hacia el final de su estadía de tres años en la Luna, donde, trabajando junto a su computadora, GERTY, envía a la Tierra paquetes de un recurso que ha ayudado a disminuir los problemas de energía de nuestro planeta.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WWoDBcSW4_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        duration: '1h 37min',
+        director: 'Director: Duncan Jones',
+        sinopsis: 'El astronauta Sam Bell tiene un encuentro personal por excelencia hacia el final de su estadía de 3 años en la Luna, donde, trabajando junto a su computadora, GERTY, envía a la Tierra paquetes de un recurso que ha ayudado a disminuir los problemas de energía de nuestro planeta.',
         tags: ['ciencia ficción'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Sam Rockwell',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Kevin Spacey',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Dominique McElligott',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre en un desierto sacando una foto con una cámara antigua',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con la cara pegada a una pared, un grupo de personas lo miran',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'baron',

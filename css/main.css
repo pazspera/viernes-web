@@ -531,6 +531,11 @@ h2 {
   background-image: url(../img/hero/hero_labyrinth.jpg);
 }
 
+#moon {
+  background-image: url(../img/hero/hero_moon.jpg);
+  background-position: left;
+}
+
 #mulholland_drive {
   background-image: url(../img/hero/hero_mulholland_drive.jpg);
 }
