@@ -1366,8 +1366,50 @@ const peliculasCards = [
         img_card: 'img/cards/card_mulholland_drive.jpg',
         img_card_alt: 'Dos mujeres escuchando por teléfono con atención',
         link_page: '#',
+        director: 'Director: David Lynch',
+        duration: '2h 27min',
         pick: 'Pollo', 
         sinopsis: 'Tras un accidente en Mulholland Drive, una mujer amnésica y una aspirante a actriz recorrerán Los Ángeles buscando respuestas en un viaje más allá de los sueños y la realidad.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jbZJ487oJlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Naomi Watts',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Laura Harring',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Justin Theroux',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Melissa George',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Patrick Fischler',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Grupo de personas bailando jitterbug',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Pareja de personas mayores sonriendo en un auto',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombres conversando en un campo de noche, uno de ellos está vestido como cowboy',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['perturbadoras', 'onírica', 'realismo mágico', 'lynch'],
     },
     {
