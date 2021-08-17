@@ -396,7 +396,7 @@ const peliculasCards = [
         pick: 'Tutte',
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duration: '1h 17min',
-        sinopsis: 'Fiona y Dom son maestros de una escuela de campo. Comparten su pasión por el baile latino y están muy enamorados. Los fines de semana, acuden a los concursos regionales de baile. En su casa rebosan los trofeos. Una noche, de vuelta de un concurso, intentan evitar a un torpe suicida, plantado en medio de la carretera. Su coche se aplasta contra una pared. Y su vida vuelca.',
+        sinopsis: 'Fiona y Dom son maestros de una escuela de campo. Comparten su pasión por el baile latino y están muy enamorados. Una noche, de vuelta de un concurso de baile, intentan evitar a un torpe suicida, plantado en medio de la carretera. Su coche se aplasta contra una pared. Y su vida vuelca.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1hIK4xRI3bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'musical'],
         cast: [
@@ -1295,9 +1295,39 @@ const peliculasCards = [
         date_seen: new Date(2021, 1, 19),
         img_card: 'img/cards/card_labyrinth.jpg',
         img_card_alt: 'Hombre y mujer bailando en un baile de máscaras',
-        link_page: '#',
-        sinopsis: 'Una chica de 16 tiene 13 horas para llegar al centro del laberinto y rescatar a su hermano pequeño del rey Goblin.',
+        link_page: 'labyrinth.html',
+        duration: '1h 41min',
+        director: 'Director: Jim Henson',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/O2yd4em1I6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Una chica de 16 años tiene 13 horas para llegar al centro del laberinto y rescatar a su hermano pequeño del rey Goblin.',
         pick: 'Pauleta', 
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'David Bowie',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jennifer Connelly',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer y niño atrapados en un laberinto de escaleras',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Marioneta de un anciano en un laberinto',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Grupo de goblins',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['comedia'],
     },
     {
@@ -1365,7 +1395,7 @@ const peliculasCards = [
         date_seen: new Date(2021, 1, 5),
         img_card: 'img/cards/card_mulholland_drive.jpg',
         img_card_alt: 'Dos mujeres escuchando por teléfono con atención',
-        link_page: '#',
+        link_page: 'mulholland_drive.html',
         director: 'Director: David Lynch',
         duration: '2h 27min',
         pick: 'Pollo', 
