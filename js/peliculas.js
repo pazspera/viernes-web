@@ -1787,9 +1787,47 @@ const peliculasCards = [
         date_seen: new Date(2020, 8, 18),
         img_card: 'img/cards/card_mouth_madness.jpg',
         img_card_alt: 'Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa',
-        link_page: '#',
+        link_page: 'mouth_madness.html',
         pick: 'Paz', 
+        duration: '1h 35min',
+        director: 'John Carpenter',
         sinopsis: 'Un investigador de seguros sospecha del impacto que los libros de terror de cierto autor tienen en su audiencia.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qMjcDVEFQDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Sam Neill',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jürgen Prochnow',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Julie Carmen',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'David Warner',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre en un desierto sacando una foto con una cámara antigua',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con la cara pegada a una pared, un grupo de personas lo miran',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['terror', 'lovecraft', 'john carpenter'],
     },
     {
