@@ -544,6 +544,11 @@ h2 {
   background-position: left;
 }
 
+#perfect_blue {
+  background-image: url(../img/hero/hero_perfect_blue.jpg);
+  background-position: center;
+}
+
 #pontypool {
   background-image: url(../img/hero/hero_pontypool.jpg);
   background-position: left;

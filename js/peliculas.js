@@ -1449,9 +1449,47 @@ const peliculasCards = [
         date_seen: new Date(2021, 0, 22),
         img_card: 'img/cards/card_perfect_blue.jpg',
         img_card_alt: 'Reflejo de una mujer en un espejo roto',
-        link_page: '#',
+        link_page: 'perfect_blue.html',
         pick: 'Geor', 
+        director: 'Director: Satoshi Kon',
+        duration: '1h 21min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4uRakM7gpo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'Una excantante de pop que ahora es actriz es acosada por un fan obsesionado y un fantasma de su pasado.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Junko Iwao',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Rica Matsumoto',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Shinpachi Tsuji',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Masaaki Ôkura',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer mirando por la ventana de un balcón, su reflejo se ve en el vidrio',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Tres personas mirando a través de una cámara de video',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Reflejo de una mujer en un monitor de computadora',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['perturbadoras', 'animación', 'oriental'],
     },
     {
