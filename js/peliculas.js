@@ -1499,9 +1499,43 @@ const peliculasCards = [
         date_seen: new Date(2021, 0, 8),
         img_card: 'img/cards/card_heavy_metal.jpg',
         img_card_alt: 'Hombre con uniforme militar con un robot ovalado flotante a su lado',
-        link_page: '#',
+        link_page: 'heavy_metal.html',
         sinopsis: 'Un orbe verde, encarnación del mal supremo, aterroriza a una joven con una antología de historias extrañas sobre fantasías oscuras, erotismo y horror.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gIum5aIUVlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        director: 'Directores: Gerald Potterton, John Bruno & John Halas',
+        duration: '1h 26min',
         pick: 'Markus', 
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Richard Romanus',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'John Candy',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Eugene Levy',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre con casco amenazando con una mano en alto',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer sosteniendo una espada frente a una estatua gigante',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Grupo de alienígenas sentados en una tribuna',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['animación'],
     },
     {
