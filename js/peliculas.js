@@ -1239,7 +1239,7 @@ const peliculasCards = [
         name: 'Synecdoche, New York',
         year: 2008,
         date_seen: new Date(2021, 1, 27),
-        img_card: 'img/cards/card_synecdoque.jpg',
+        img_card: 'img/cards/card_synecdoche.jpg',
         img_card_alt: 'Hombre y mujer rodeados de mesas mirando hacia arriba',
         link_page: 'synecdoche.html',
         pick: 'Geor',
