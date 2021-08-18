@@ -1235,8 +1235,8 @@ const peliculasCards = [
         ],
     },
     {
-        id: 'synecdoque',
-        name: 'Synecdoque, New York',
+        id: 'synecdoche',
+        name: 'Synecdoche, New York',
         year: 2008,
         date_seen: new Date(2021, 1, 27),
         img_card: 'img/cards/card_synecdoque.jpg',

@@ -529,7 +529,6 @@ h2 {
 
 #mouth_madness {
   background-image: url(../img/hero/hero_mouth_madness.jpg);
-  background-position: left;
 }
 
 #labyrinth {
@@ -595,8 +594,8 @@ h2 {
   background-position: left;
 }
 
-#synecdoque {
-  background-image: url(../img/hero/hero_synecdoque.jpg);
+#synecdoche {
+  background-image: url(../img/hero/hero_synecdoche.jpg);
   background-position: left;
 }
 
