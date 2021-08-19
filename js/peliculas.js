@@ -1837,10 +1837,48 @@ const peliculasCards = [
         date_seen: new Date(2020, 8, 11),
         img_card: 'img/cards/card_thinking_ending.jpg',
         img_card_alt: 'Dos parejas sentadas a una mesa cenando',
-        link_page: '#',
+        link_page: 'thinking_ending.html',
+        director: 'Director: Charlie Kaufman',
+        duration: '2h 14min',
         pick: 'Geor', 
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cDTg62vsV4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'Pese a albergar dudas sobre la relación con su nueva pareja, una joven emprende un viaje por carretera con su novio Jake rumbo a la granja de los padres de este, donde empieza a cuestionarse todo lo que creía saber.',
         tags: ['charlie kaufman', 'realismo mágico', 'oníricas', 'perturbadoras'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jesse Plemons',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jessie Buckley',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Toni Collette',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'David Thewlis',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre en un desierto sacando una foto con una cámara antigua',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con la cara pegada a una pared, un grupo de personas lo miran',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'logans_run',
