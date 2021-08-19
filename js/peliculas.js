@@ -1763,10 +1763,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 9, 9),
         img_card: 'img/cards/card_dark_city.jpg',
         img_card_alt: 'Hombre encadenado a una máquina y personas en el fondo mirando',
-        link_page: '#',
+        link_page: 'dark_city.html',
+        duration: '1h 40min',
+        director: 'Director: Alex Proyas',
         pick: 'Loco',
         sinopsis: 'Un hombre con problemas de memoria lucha contra pequeñas imágenes, como la de una esposa a la que no recuerda, o la de un mundo sin sol.',
         tags: ['distopía', 'ciencia ficción'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gt9HkO-cGGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Rufus Sewell',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Kiefer Sutherland',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Jennifer Connelly',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'William Hurt',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: "Richard O'Brien",
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre parado en la calle con cara de preocupación',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre pálido con sombrero señalando con la mano',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mano moviendo fichas en un tablero',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'gattaca',

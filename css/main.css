@@ -500,6 +500,10 @@ h2 {
   background-image: url(../img/hero/hero_brick.jpg);
 }
 
+#dark_city {
+  background-image: url(../img/hero/hero_dark_city.jpg);
+}
+
 #enter_void {
   background-image: url(../img/hero/hero_enter_void.jpg);
   background-position: 35% center;
