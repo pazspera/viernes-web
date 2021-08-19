@@ -510,6 +510,10 @@ h2 {
   padding-top: 50px;
 }
 
+#gattaca {
+  background-image: url(../img/hero/hero_gattaca.jpg);
+}
+
 #john_dies_end {
   background-image: url(../img/hero/hero_john_dies_end.jpg);
   background-position: right;

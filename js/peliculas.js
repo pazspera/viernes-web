@@ -1775,10 +1775,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 8, 26),
         img_card: 'img/cards/card_gattaca.jpg',
         img_card_alt: 'Hombre caminando por un pasillo circular',
-        link_page: '#',
+        link_page: 'gattaca.html',
+        director: 'Director: Andrew Niccol',
+        duration: '1h 46min',
         pick: 'Pollo',
         sinopsis: 'Un hombre genéticamente inferior asume la identidad de uno superior para cumplir su sueño de viajar al espacio.',
         tags: ['distopía', 'ciencia ficción', 'genética'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/W_KruQhfvW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Ethan Hawke',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Uma Thurman',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Jude Law',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre parado en la cima de una escalera mirando a un hombre en silla de ruedas',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre limpiando el techo de un edificio y mirando el lanzamiento de un cohete que se ve a la distancia',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer y hombre viajando en un auto de noche',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'mouth_madness',
@@ -1865,17 +1899,17 @@ const peliculasCards = [
         img_row: [
             {
                 img: 'img_1.jpg',
-                alt: 'Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran',
+                alt: 'Hombre y mujer mirando por la ventanilla de un auto',
                 class: 'always_show',
             },
             {
                 img: 'img_2.jpg',
-                alt: 'Hombre en un desierto sacando una foto con una cámara antigua',
+                alt: 'Dos parejas sentadas a la mesa cenando',
                 class: 'always_show',
             },
             {
                 img: 'img_3.jpg',
-                alt: 'Hombre con la cara pegada a una pared, un grupo de personas lo miran',
+                alt: 'Mujer parada en un mostrador, otras dos mujeres la atienden',
                 class: 'hidden_first',
             },
         ],
