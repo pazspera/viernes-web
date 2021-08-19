@@ -1751,9 +1751,51 @@ const peliculasCards = [
         date_seen: new Date(2020, 9, 16),
         img_card: 'img/cards/card_paprika.jpg',
         img_card_alt: 'Hombre con traje corriendo por un pasillo de hotel que se derrite' ,
-        link_page: '#',
+        link_page: 'paprika.html',
+        director: 'Director: Satoshi Kon',
+        duration: '1h 30min',
         pick: 'Geor', 
         sinopsis: 'Cuando una máquina que permite a los terapeutas entrar en los sueños de sus pacientes es robada, una gran catástrofe amenaza. Solo una joven terapeuta, Paprika, puede detenerlo.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/SBrUhQ0_qYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Megumi Hayashibara',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Akio Ôtsuka',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Tôru Furuya',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Katsunosuke Hori',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Tôru Emori',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer mirando su reflejo en la ventana de un rascacielos',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Desfile exuberante con gente disfrazada',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre sentado trabajando en un cuarto oscuro lleno de equipamiento',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['oníricas', 'animación', 'oriental'], 
     },
     {

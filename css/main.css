@@ -569,6 +569,10 @@ h2 {
   background-position: left;
 }
 
+#paprika {
+  background-image: url(../img/hero/hero_paprika.jpg);
+}
+
 #perfect_blue {
   background-image: url(../img/hero/hero_perfect_blue.jpg);
   background-position: center;
