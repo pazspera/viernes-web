@@ -1774,10 +1774,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 10, 6),
         img_card: 'img/cards/card_slacker.jpg',
         img_card_alt: 'Tres personas conversando en la calle',
-        link_page: '#',
+        link_page: 'slacker.html',
+        director: 'Director: Richard Linklater',
+        duration: '1h 37min',
         pick: 'Loco',
         sinopsis: 'Un día en la vida de Austin, mientras la cámara se desplaza de un lugar a otro y ofrece una breve mirada a los excesos, los inadaptados sociales, los marginados y los bichos raros.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KlmfRuXxuXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'linklater'], 
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Richard Linklater',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jerry Delony',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Teresa Taylor',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Tres hombres paseando en un auto',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos personas charlando en una mesa llena de botellas de cerveza vacías',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Tres personas charlando en un jardín',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'reanimator',
