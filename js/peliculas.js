@@ -1665,10 +1665,49 @@ const peliculasCards = [
         date_seen: new Date(2020, 10, 20),
         img_card: 'img/cards/card_waking_life.jpg',
         img_card_alt: 'Dos hombre conversando, uno es una silueta de nubes',
-        link_page: '#',
+        link_page: 'waking_life.html',
+        director: 'Director: Richard Linklater',
+        duration: '1h 41min',
         pick: 'Pollo', 
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xX10vQEa56E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'Un hombre se mueve a través de un sueño conociendo a varias personas y discutiendo los significados y propósitos del universo.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Wiley Wiggins',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Bill Wise',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Kim Krizan',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Charles Gunning',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mono sentado en una silla proyectando una película',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Pareja conversando en la cama',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre mayor y hombre joven sentados a una mesa charlando',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['oníricas', 'realismo mágico', 'multiverso', 'linklater'],
+
     },
     {
         id: 'rocky_horror',
