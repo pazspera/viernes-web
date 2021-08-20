@@ -1786,10 +1786,48 @@ const peliculasCards = [
         date_seen: new Date(2020, 9, 30),
         img_card: 'img/cards/card_reanimator.jpg',
         img_card_alt: 'Científico cargando una jeringa con un líquido verde fluorescente',
-        link_page: '#',
+        link_page: 'reanimator.html',
+        director: 'Director: Stuart Gordon',
+        duration: '1h 44min',
         pick: 'Pollo', 
         sinopsis: 'Después de que un extraño estudiante de medicina llega al campus, un chico y su novia se ven involucrados en experimentos centrados en la re-animación de tejido muerto.',
         tags: ['acción', 'clase b', 'lovecraft'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zf-5_Je_D80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jeffrey Combs',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Bruce Abbott',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Barbara Crampton',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'David Gale',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre en un cuarto de hospital mirando por un microscopio',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre empujando una camilla por un pasillo de hospital',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con la cara ensangrentada agarrándose la cabeza',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'lighthouse',
