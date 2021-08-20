@@ -1598,14 +1598,64 @@ const peliculasCards = [
     },
     {
         id: 'baron',
-        name: 'The Fabulous Baron Munchausen',
+        name: 'The Adventures of Baron Munchausen',
         year: 1988,
         date_seen: new Date(2020, 10, 28),
         img_card: 'img/cards/card_baron.jpg',
         img_card_alt: 'Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco',
-        link_page: '#',
+        link_page: 'baron.html',
         pick: 'Geor', 
+        duration: '2h 6min',
+        director: 'Director: Terry Gilliam',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/C1M-vhN8lsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'El descarado Barón Munchausen cuenta sus numerosas aventuras, desde conocer a un hombre en la Luna hasta derrotar él solo a un ejército turco entero.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'John Neville',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Eric Idle',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Jack Purvis',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Winston Dennis',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Sarah Polley',
+            }, 
+            {
+                img: 'cast_6.jpg',
+                actor: 'Uma Thurman',
+            }, 
+            {
+                img: 'cast_7.jpg',
+                actor: 'Robin Williams',
+            }, 
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Escenario de teatro con un hombre parado con los brazos extendidos grandilocuentemente',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre y niña parados en una habitación, una cara gigante les habla desde la derecha',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Pareja bailando y flotando entre nubes',
+                class: 'hidden_first',
+            },
+        ],
         tags: ['época', 'comedia'],
     },
     {
