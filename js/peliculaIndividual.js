@@ -46,7 +46,27 @@ document.getElementById('current_movie_sinopsis').innerHTML = `
 `;
 
 // Recorrer e imprimir arreglo de cast img
+
 document.getElementById('current_movie_cast').innerHTML = `
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="main__titulo">Elenco</h2>
+      </div>
+    </div>
+    <div class="row" id="current_movie_cast">
+      ${currentMovie.cast.map(function(cast){
+        return `
+        <figure class="pelicula__actor col-6 col-sm-4">
+          <img src="../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${cast.img}" alt="${cast.actor}">
+          <figcaption class="pelicula__actor__name text-center">${cast.actor}</figcaption>
+        </figure>
+        `;
+      }).join('')}
+    </div>
+  </div>`;
+
+/* document.getElementById('current_movie_cast').innerHTML = `
 ${currentMovie.cast.map(function(cast){
   return `
   <figure class="pelicula__actor col-6 col-sm-4">
@@ -54,7 +74,7 @@ ${currentMovie.cast.map(function(cast){
     <figcaption class="pelicula__actor__name text-center">${cast.actor}</figcaption>
   </figure>
   `;
-}).join('')}`;
+}).join('')}`; */
 
 // Armar img que va hidden
 /* 
