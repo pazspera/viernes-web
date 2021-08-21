@@ -1,6 +1,51 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'double',
+        name: 'The Double',
+        date_seen: new Date(2021, 07, 20),
+        img_card: 'img/cards/card_double.jpg',
+        img_card_alt: '',
+        link_page: 'double.html',
+        year: 2013,
+        pick: 'Paz',
+        duration: '1h 33min',
+        director: 'Director: Richard Ayoade',
+        sinopsis: 'Un empleado de una agencia gubernamental descubre que su vida poco envidiable da un giro con la llegada de un nuevo compañero de trabajo que es tanto su doble físico como su opuesto: seguro, carismático y seductor con las mujeres.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xWhikLYeSQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jesse Eisenberg',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Mia Wasikowska',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Wallace Shawn',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres iguales sentados a una mesa hablando',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer y hombre hablando en un mostrador',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con un trapo en la cara mirando hacia arriba',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'master',
         name: 'The Master',
         date_seen: new Date(2021, 07, 13),
