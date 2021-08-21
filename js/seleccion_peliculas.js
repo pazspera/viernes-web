@@ -1,6 +1,18 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'enemy',
+        name: 'Enemy',
+        imdb: 'https://www.imdb.com/title/tt2316411/',
+        img: '../img/posters/poster_enemy.jpg',
+    },
+    {
+        id: 'one_i_love',
+        name: 'The One I Love',
+        imdb: 'https://www.imdb.com/title/tt2756032/',
+        img: '../img/posters/poster_one_i_love.jpg',
+    },
+    {
         id: 'magnolia',
         name: 'Magnolia',
         imdb: 'https://www.imdb.com/title/tt0175880/',
