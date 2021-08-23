@@ -1033,7 +1033,7 @@ const peliculasCards = [
         link_page: 'top_secret.html',
         sinopsis: 'Parodia de películas de espías de la Segunda Guerra Mundial en las que un cantante de rock and roll estadounidense se involucra en un complot de la Resistencia para rescatar a un científico encarcelado en Alemania Oriental.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J4hX23pyXxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        pick: 'Fede', 
+        pick: 'Fisura Castels', 
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -2223,10 +2223,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 7, 28),
         img_card: 'img/cards/card_time_bandits.jpg',
         img_card_alt: 'Hombre y mujer vestidos con ropa imperial antigua junto a un niño',
-        link_page: '#',
+        link_page: 'time_bandits.html',
         pick: 'Geor',
+        duration: '1h 56min',
+        director: 'Director: Terry Gilliam',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/vioocIR0gHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'Un joven accidentalmente se une a una banda de enanos que viajan a través del tiempo, mientras saltan de era en era en busca de un tesoro que robar.',
         tags: ['época', 'comedia'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Sean Connery',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Shelley Duvall',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'John Cleese',
+            }, 
+            {
+                img: 'cast_4.jpg',
+                actor: 'Michael Palin',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Katherine Helmond',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Pasillo iluminado con una luz brillante y una cara flotante en el medio',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Grupo de personas vestidas como Napoleon sentadas a una mesa',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Personas vestidas de carnaval mirando a cámara',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'coherence',
