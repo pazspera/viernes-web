@@ -560,6 +560,10 @@ h2 {
   background-position: left;
 }
 
+#muertos_risa {
+  background-image: url(../img/hero/hero_muertos_risa.jpg);
+}
+
 #mulholland_drive {
   background-image: url(../img/hero/hero_mulholland_drive.jpg);
 }

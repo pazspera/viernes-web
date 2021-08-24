@@ -907,11 +907,40 @@ const peliculasCards = [
         date_seen: new Date(2021, 3, 23) ,
         img_card: 'img/cards/card_muertos_risa.jpg',
         img_card_alt: 'Hombre a punto de darle una cachetada a otro hombre',
-        link_page: '#',
+        link_page: 'muertos_risa.html',
         pick: 'Pollo', 
+        director: 'Director: Alex de la Iglesia',
+        duration: '1h 53min',
         sinopsis: 'Nino y Bruno son dos comediantes que alcanzan el éxito con su dúo, convirtiéndose en grandes celebridades de televisión. Sin embargo, el odio entre ellos crece tan rápido y tanto como su fama.',
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CBAXcZIRzKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MsOgZ-6WtCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Santiago Segura',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'El Gran Wyoming',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres caminando en una ruta de noche',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Tres hombres vestidos formales delante de una calesita',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre vestido elegante y otro hombre sacudiendo su mano con un plumero',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'suspiria_1977',
