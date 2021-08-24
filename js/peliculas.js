@@ -2211,10 +2211,48 @@ const peliculasCards = [
         date_seen: new Date(2020, 8, 4),
         img_card: 'img/cards/card_logans_run.jpg',
         img_card_alt: 'Tres personas caminando por un pasillo futurista',
-        link_page: '#',
+        link_page: 'logans_run.html',
+        duration: '1h 59min',
+        director: 'Director: Michael Anderson',
         pick: 'Pollo',
         sinopsis: 'Un idílico futuro de ciencia ficción tiene un fallo: la vida debe acabar a la edad de 30 años.',
         tags: ['distopía', 'ciencia ficción'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/USADM5Gk9Gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Michael York',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jenny Agutter',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Richard Jordan',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Farrah Fawcett',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Grupo de personas con túnicas blancas paradas en círculo mirando una luz roja',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Gente caminado por un pasillo futurista iluminado con luces fluor',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres mirando un panel de control futurista',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'time_bandits',

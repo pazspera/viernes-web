@@ -547,6 +547,10 @@ h2 {
   background-image: url(../img/hero/hero_labyrinth.jpg);
 }
 
+#logans_run {
+  background-image: url(../img/hero/hero_logans_run.jpg);
+}
+
 #moon {
   background-image: url(../img/hero/hero_moon.jpg);
   background-position: left;
