@@ -2315,10 +2315,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 7, 21),
         img_card: 'img/cards/card_coherence.jpg',
         img_card_alt: 'Grupo de personas cenando y divirtiéndose',
-        link_page: '#',
+        link_page: 'coherence.html',
+        duration: '1h 29min',
+        director: 'Director: James Ward Byrkit',
         pick: 'Paz', 
         sinopsis: 'Cosas estrañas empiezan a suceder cuando un grupo de amigos que se reúnen para una cena y un cometa pasa por encima.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/eo3If7uZOo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['ciencia ficción', 'multiverso'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Emily Baldoni',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Maury Sterling',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Nicholas Brendon',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre hablando en una cena',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Serie de números anotados en un papel cuadriculado',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer sentada a la mesa mirando papeles con cara de preocupación',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'brazil',
