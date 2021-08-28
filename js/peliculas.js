@@ -1,11 +1,60 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'mother',
+        name: 'Mother!',
+        date_seen: new Date(2021, 07,27),
+        img_card: 'img/cards/card_mother.jpg',
+        img_card_alt: '',
+        link_page: 'mother.html',
+        year: 2017,
+        pick: 'Fisura Castels',
+        duration: '2h 1min',
+        director: 'Director: Darren Aronofsky',
+        sinopsis: 'La relación de una pareja es puesta a prueba cuando llegan a casa visitas sin invitación, interrumpiendo su tranquila existencia.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XpICoc65uh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jennifer Lawrence',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Javier Bardem',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Ed Harris',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Michelle Pfeiffer',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre parado en una escalera mirando hacia abajo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer mirando hacia arriba',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Casa victoriana en un prado',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
         id: 'double',
         name: 'The Double',
         date_seen: new Date(2021, 07, 20),
         img_card: 'img/cards/card_double.jpg',
-        img_card_alt: '',
+        img_card_alt: 'Hombre parado al lado de una televisión',
         link_page: 'double.html',
         year: 2013,
         pick: 'Paz',

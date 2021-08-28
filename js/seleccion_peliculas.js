@@ -1,6 +1,18 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'uncut_gems',
+        name: 'Uncut Gems',
+        imdb: 'https://www.imdb.com/title/tt5727208/',
+        img: '../img/posters/poster_uncut_gems.jpg'
+    },
+    {
+        id: 'total_recall',
+        name: 'Total Recall',
+        imdb: 'https://www.imdb.com/title/tt0100802/',
+        img: '../img/posters/poster_total_recall.jpg'
+    },
+    {
         id: 'enemy',
         name: 'Enemy',
         imdb: 'https://www.imdb.com/title/tt2316411/',
@@ -161,12 +173,6 @@ const arregloPosters = [
         name : "Melancholia",
         imdb :  "https://www.imdb.com/title/tt1527186/",
         img : "../img/posters/poster_melancholia.jpg"
-    },
-    {
-        id : "mother",
-        name : "Mother",
-        imdb :  "https://www.imdb.com/title/tt5109784/",
-        img : "../img/posters/poster_mother.jpg"
     },
     {
         id : "planet_terror",

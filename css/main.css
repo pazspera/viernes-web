@@ -560,6 +560,10 @@ h2 {
   background-position: left;
 }
 
+#mother {
+  background-image: url(../img/hero/hero_mother.jpg);
+}
+
 #muertos_risa {
   background-image: url(../img/hero/hero_muertos_risa.jpg);
 }
