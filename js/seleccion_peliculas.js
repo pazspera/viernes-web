@@ -151,12 +151,6 @@ const arregloPosters = [
         img : "../img/posters/poster_from_dusk.jpg"
     },
     {
-        id : "human_nature",
-        name : "Human Nature",
-        imdb :  "https://www.imdb.com/title/tt0219822/",
-        img : "../img/posters/poster_human_nature.jpg"
-    },
-    {
         id : "isle_dogs",
         name : "Isle of Dogs",
         imdb : "https://www.imdb.com/title/tt5104604/", 

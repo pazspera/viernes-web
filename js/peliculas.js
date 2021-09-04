@@ -1,11 +1,56 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'human_nature',
+        name: 'Human Nature',
+        date_seen: new Date(2021, 08, 03),
+        img_card: 'img/cards/card_human_nature.jpg',
+        img_card_alt: 'Hombre en una habitación de vidrio sentado en un sillón y fumando una pipa',
+        link_page: 'human_nature.html',
+        pick: 'El Loco',
+        year: 2001,
+        director: 'Director: Michel Gondry',
+        duration: '1h 36min',
+        sinopsis: 'A woman is in love with a man in love with another woman, and all three have designs on a young man raised as an ape.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1gjUtwtxv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Tim Robbins',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Patricia Arquette',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Rhys Ifans',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre encerrado dentro de un cuarto de vidrio sosteniendo un tenedor',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer y hombre caminando cautelosamente por el bosque',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre encerrado dentro de un cuadro de vidrio mirando a mujer apoyada sobre el vidrio',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'mother',
         name: 'Mother!',
         date_seen: new Date(2021, 07,27),
         img_card: 'img/cards/card_mother.jpg',
-        img_card_alt: '',
+        img_card_alt: 'Mujer mirando una pared con atención',
         link_page: 'mother.html',
         year: 2017,
         pick: 'Fisura Castels',
