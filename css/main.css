@@ -426,6 +426,11 @@ h2 {
   background-image: url(../img/hero/hero_black_sheep.jpg);
 }
 
+#brazil {
+  background-image: url(../img/hero/hero_brazil.jpg);
+  background-position: left;
+}
+
 #brick {
   background-image: url(../img/hero/hero_brick.jpg);
 }

@@ -2518,10 +2518,48 @@ const peliculasCards = [
         date_seen: new Date(2020, 7, 14),
         img_card: 'img/cards/card_brazil.jpg',
         img_card_alt: 'Oficinista confundido parado en un pasillo',
-        link_page: '#',
+        link_page: 'brazil.html',
+        director: 'Director: Terry Gilliam',
+        duration: '2h 12min',
         pick: 'Loco', 
         sinopsis: 'Un burócrata, en un mundo retro-futuro, trata de corregir un error administrativo y se convierte en enemigo del Estado.',
         tags: ['distopía', 'ciencia ficción', 'perturbadoras'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZKPFC8DA9_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jonathan Pryce',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Kim Greist',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Michael Palin',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Katherine Helmond',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Oficina retro futurista con un monitor donde se ve la cara de un hombre',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos hombres mirando fijamente a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Burócrata sentado en una oficina color gris',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'mishima',
