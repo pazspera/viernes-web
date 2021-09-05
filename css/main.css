@@ -702,13 +702,11 @@ h2 {
 }
 
 /* 
-
 // Color para mostrar página activa en navbar
 .active {
     font-weight: 700;
     color: $white !important;
 }
-
 */
 .main-content {
   padding: 3rem 0;
@@ -847,12 +845,10 @@ h2 {
     height: 110vh;
     background-color: red;
 }
-
 .hero{
     grid-column: 1/13;
     grid-row: 1/4;
 }
-
 .pelicula-info{
     grid-row: 3/4;
 } */
