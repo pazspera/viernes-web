@@ -2531,10 +2531,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 17),
         img_card: 'img/cards/card_midsommar.jpg',
         img_card_alt: 'Manos ensangrentadas sobre una piedra con símbolos tallados',
-        link_page: '#',
+        link_page: 'midsommar.html',
         pick: 'Paz', 
+        duration: '2h 28min',
+        director: 'Director: Ari Aster',
         tags: ['terror', 'perturbadoras', 'drogas'],
         sinopsis: 'Un joven convence a su novia de que le acompañe a un festival de verano en Suecia que resulta no ser lo que parece.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Vnghdsjmd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Florence Pugh',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jack Reynor',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Vilhelm Blomgren',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'William Jackson Harper',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Will Poulter',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Grupo de personas en una tarde soleada sentadas en el pasto',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Tapete con dibujos',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre en un prado parado delante de una pirámide amarilla',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'mood_indigo',
