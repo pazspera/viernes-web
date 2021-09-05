@@ -2568,10 +2568,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 7, 8),
         img_card: 'img/cards/card_mishima.jpg',
         img_card_alt: 'Dos mujeres paradas en un muelle',
-        link_page: '#',
+        link_page: 'mishima.html',
+        duration: '2h',
+        director: 'Director: Paul Schrader',
         pick: 'Pollo', 
         sinopsis: 'Relata la vida del célebre escritor japonés Yukio Mishima.',
         tags: ['drama', 'oriental'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/LzaXtBr5210" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Ken Ogata',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Masayuki Shionoya',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Junkichi Orimoto',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre sentado en el piso apuntando a su estómago con un sable',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre frente a un templo barriendo pétalos de rosas',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres hablando de una oficina pintada de blanco',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'kill_bill',

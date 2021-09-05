@@ -498,6 +498,10 @@ h2 {
   background-image: url(../img/hero/hero_midsommar.webp);
 }
 
+#mishima {
+  background-image: url(../img/hero/hero_mishima.jpg);
+}
+
 #moon {
   background-image: url(../img/hero/hero_moon.jpg);
   background-position: left;
