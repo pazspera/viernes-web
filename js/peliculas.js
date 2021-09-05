@@ -1713,10 +1713,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 11, 12),
         img_card: 'img/cards/card_bad_taste.jpg',
         img_card_alt: 'Grupo de tres extraterrestres caminando por el bosque',
-        link_page: '#',
+        link_page: 'bad_taste.html',
+        duration: '1h 31min',
+        director: 'Director: Peter Jackson',
         pick: 'Loco', 
         sinopsis: 'Una pequeña ciudad de la costa está más tranquila que nunca. Todos sus habitantes han desaparecido. Su destino ha sido decidido por un grupo de aliens en busca de carne humana para las hamburgesas de un fast-food intergaláctico. Un cuerpo especial se enfrentará a los extraterrestres.',
         tags: ['acción', 'clase b'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7IHwKJOZZ6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Peter Jackson',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: "Pete O'Herne",
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Doug Wren',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Auto pequeño en un camino y dos personas haciendo autostop',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Extraterrestres en un auto tapándose las orejas',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con un hacha en la mano caminando por una ruta',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'moon',

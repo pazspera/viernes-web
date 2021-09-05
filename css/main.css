@@ -414,6 +414,10 @@ h2 {
   background-position: left;
 }
 
+#bad_taste {
+  background-image: url(../img/hero/hero_bad_taste.jpg);
+}
+
 #black_rainbow {
   background-image: url(../img/hero/hero_black_rainbow.jpg);
 }
