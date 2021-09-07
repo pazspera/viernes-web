@@ -2614,10 +2614,56 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 31),
         img_card: 'img/cards/card_kill_bill.jpg',
         img_card_alt: 'Mujer preparada para atacar con un sable',
-        link_page: '#',
+        link_page: 'kill_bill.html',
+        duration: '4h 7min',
+        director: 'Director: Quentin Tarantino',
         pick: 'Pollo', 
         sinopsis: 'La esposa debe matar a su ex jefe y amante Bill, quien la traicionó en su ceremonia de boda, le disparó en la cabeza y se llevó a su hija no nacida. Pero primero, debe hacer sufrir a los otros cuatro miembros del Escuadrón de Asesinato de Víboras Mortales.',
         tags: ['acción', 'quentin tarantino'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/s_iExUQIH9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Uma Thurman',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'David Carradine',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Lucy Liu',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Daryl Hannah',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Vivica A. Fox',
+            },
+            {
+                img: 'cast_6.jpg',
+                actor: 'Michael Madsen',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer en un traje amarillo parada delante de un sable',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos mujeres y dos hombres mirando a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Maestro de artes marciales sentado en una escalera de un templo',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'wayward_cloud',
