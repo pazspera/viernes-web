@@ -1,6 +1,18 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'dogtooth',
+        name: 'Dogtooth',
+        imdb: 'https://www.imdb.com/title/tt1379182/',
+        img: '../img/posters/poster_dogtooth.jpg',
+    },
+    {
+        id: 'love',
+        name: 'Love',
+        imdb: 'https://www.imdb.com/title/tt3774694/',
+        img: '../img/posters/poster_love.jpg'
+    },
+    {
         id: 'uncut_gems',
         name: 'Uncut Gems',
         imdb: 'https://www.imdb.com/title/tt5727208/',

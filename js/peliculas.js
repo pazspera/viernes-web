@@ -1,6 +1,59 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'holy_mountain',
+        name: 'Holy Mountain',
+        date_seen: new Date(2021, 08, 10),
+        img_card: 'img/cards/card_holy_mountain.jpg',
+        img_card_alt: 'Hombre con un sombrero grande sentado con una cabra a cada lado',
+        link_page: 'holy_mountain.html',
+        pick: 'El Pollo',
+        year: 1973,
+        director: 'Director: Alejandro Jodorowsky',
+        sinopsis: 'En un mundo corrupto impulsado por la corrupción, un poderoso alquimista guía a un joven mesiánico y siete figuras materialistas a la Montaña Sagrada, donde esperan alcanzar la iluminación.',
+        duration: '1h 54min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qmR0vi0ifzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Alejandro Jodorowsky',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Horacio Salinas',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Richard Rutowski',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Adriana Page',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Luis Lomelí',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Tres personas junto a un buey en un cuarto con cuadros de cartas de tarot',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mesa vista desde arriba que parece un ojo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres vestidos con túnicas y sombrero en un cuarto de espejos',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'human_nature',
         name: 'Human Nature',
         date_seen: new Date(2021, 08, 03),
@@ -11,7 +64,7 @@ const peliculasCards = [
         year: 2001,
         director: 'Director: Michel Gondry',
         duration: '1h 36min',
-        sinopsis: 'A woman is in love with a man in love with another woman, and all three have designs on a young man raised as an ape.',
+        sinopsis: 'Un científico obsesivo y una naturalista descubren a un hombre que ha nacido y se ha criado en estado salvaje. Mientras el científico intenta educarlo, su amante lucha por preservar los instintos simiescos del hombre, porque según ella, representan la libertad. En medio de esta lucha por el poder, surge un insólito triángulo amoroso.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1gjUtwtxv0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
