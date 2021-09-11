@@ -2,7 +2,7 @@
 const peliculasCards = [
     {
         id: 'holy_mountain',
-        name: 'Holy Mountain',
+        name: 'The Holy Mountain',
         date_seen: new Date(2021, 08, 10),
         img_card: 'img/cards/card_holy_mountain.jpg',
         img_card_alt: 'Hombre con un sombrero grande sentado con una cabra a cada lado',
