@@ -2790,10 +2790,48 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 10),
         img_card: 'img/cards/card_mood_indigo.jpg',
         img_card_alt: 'Pareja sentada en un banco mirándose con cariño',
-        link_page: '#',
+        link_page: 'mood_indigo.html',
         pick: 'Pollo',
+        director: 'Director: Michel Gondry',
+        duration: '2h 11min',
         sinopsis: 'Colin se esfuerza por encontrar una cura para su amante Chloe después de que le diagnostican una enfermedad inusual causada por una flor que crece en sus pulmones.',
         tags: ['drama', 'realismo mágico', 'francesa'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/38ugyccL5zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Romain Duris',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Audrey Tautou',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Omar Sy',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Gad Elmaleh',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres y una mujer haciendo un picnic en un campo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre vestido de ratón comiendo un trozo de queso',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres bailando en un living',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'tokyo_godfathers',
