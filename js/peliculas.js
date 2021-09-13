@@ -2898,10 +2898,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 5, 19),
         img_card: 'img/cards/card_trainspotting.jpg',
         img_card_alt: 'Tres hombres comiendo papas fritas y hablando',
-        link_page: '#',
+        link_page: 'trainspotting.html',
         pick: 'Loco', 
+        duration: '1h 33min',
+        director: 'Director: Danny Boyle',
         sinopsis: 'Renton, inmerso en el mundo de las drogas de Edimburgo, intenta desintoxicarse.',
         tags: ['drogas', 'drama'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8LuxOYIpu-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Ewan McGregor',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jonny Lee Miller',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Ewen Bremmer',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Robert Carlyle',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Kevin McKidd',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Cinco hombres en una cancha de fútbol posando delante de una pelota',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre sentado con las piernas cruzadas frente a una cama',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre reflejado en varios espejos',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'host',
