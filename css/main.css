@@ -635,6 +635,10 @@ h2 {
   background-position: 10% left;
 }
 
+#tokyo_godfathers {
+  background-image: url(../img/hero/hero_tokyo_godfathers.jpg);
+}
+
 #top_secret {
   background-image: url(../img/hero/hero_top_secret.jpg);
 }

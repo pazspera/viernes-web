@@ -2840,10 +2840,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 3),
         img_card: 'img/cards/card_tokyo_godfathers.jpg',
         img_card_alt: 'Pareja con una niña y un bebé hablando',
-        link_page: '#',
+        director: 'Director: Satoshi Kon',
+        duration: '1h 33min',
+        link_page: 'tokyo_godfathers.html',
         pick: 'Geor',
         sinopsis: 'En Noche Buena, tres personas sin hogar en las calles de Tokyo encuentran a un recién nacido entre la basura e intentan encontrar a sus padres.',
         tags: ['animación', 'drama', 'oriental'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZL_2E-HfIZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Tôru Emori',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Yoshiaki Umegaki',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Aya Okamoto',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Tres personas cuidando un bebé',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Chica con un sombrero parada entre las góndolas de un supermercado',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre mayor tomando alcohol sobre bolsas de basura',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'climax',
