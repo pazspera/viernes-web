@@ -3018,10 +3018,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 4, 15),
         img_card: 'img/cards/card_neon_demon.jpg',
         img_card_alt: 'Mujer y su reflejo iluminadas por luces de neón',
-        link_page: '#',
+        link_page: 'neon_demon.html',
         pick: 'Loco', 
+        duration: '1h 57min',
+        director: 'Director: Nicolas Winding Refn',
         sinopsis: 'Una aspirante a modelo, Jesse, es nueva en Los Ángeles. Sin embargo, su belleza y juventud, que genera gran fascinación y envidia en la industria de la moda, les resultará siniestra.',
         tags: ['perturbadoras', 'terror'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cipOTUO0CmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Elle Fanning',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Christina Hendricks',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Jena Malone',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Abbey Lee',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Keanu Reeves',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer observando a otra mujer que está mirándose al espejo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer tirada en el piso con la boca ensangrentada y fotos de revista rotas esparcidas a su alrededor',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer asomándose desde detrás de una pared de ladrillos grises',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'true_romance',
