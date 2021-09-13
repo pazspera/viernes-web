@@ -2976,10 +2976,40 @@ const peliculasCards = [
         date_seen: new Date(2020, 4, 22),
         img_card: 'img/cards/card_cyborg.jpg',
         img_card_alt: 'Hombre y mujer en un campo',
-        link_page: '#',
+        link_page: 'cyborg.html',
         pick: 'Geor', 
+        director: 'Director: Park Chan-Wook',
+        duration: '1h 47min',
         sinopsis: 'Una chica que cree ser un cíborg de combate ingresa en un hospital psiquiátrico, donde conoce a otros psicóticos. Al final, se enamora de un hombre que cree que puede robar las almas de las personas.',
         tags: ['comedia', 'oriental'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/E1Wn7GfJnnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Lim Soo-jung',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Rain',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer con pintura verde en la cara estirando las manos hacia la cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre con una máscara de conejo de cartón parado delante de una reja',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer y hombre caminando en un cuarto de apariencia industrial',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'neon_demon',
