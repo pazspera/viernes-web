@@ -10,7 +10,7 @@ const peliculasCards = [
         pick: 'El Pollo',
         year: 1973,
         director: 'Director: Alejandro Jodorowsky',
-        sinopsis: 'En un mundo corrupto impulsado por la corrupción, un poderoso alquimista guía a un joven mesiánico y siete figuras materialistas a la Montaña Sagrada, donde esperan alcanzar la iluminación.',
+        sinopsis: 'En un mundo corrupto impulsado por la avaricia, un poderoso alquimista guía a un joven mesiánico y siete figuras materialistas a la Montaña Sagrada, donde esperan alcanzar la iluminación.',
         duration: '1h 54min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qmR0vi0ifzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
