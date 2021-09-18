@@ -1,6 +1,61 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'milagro_ptinto',
+        name: 'El milagro de P.Tinto',
+        date_seen: new Date(2021, 08, 17),
+        img_card: 'img/cards/card_milagro_ptinto.jpg',
+        img_card_alt: 'Dos hombres arreglando el motor de un auto pequeño pintado de rosa',
+        link_page: 'milagro_ptinto.html',
+        pick: 'Geor',
+        year: 1998,
+        director: 'Director: Javier Fesser',
+        sinopsis: 'En su más tierna infancia, el niño P. Tinto tiene una revelación: su propósito en la vida es la de ser padre de familia numerosa. A partir de entonces sueña con un montón de hijos que crezcan a su alrededor sanos y fuertes. Casado con Olivia vive en una casa perdida en un valle. Cincuenta años después, ya de ancianos, ven cómo lo que habían esperado toda su vida se hace realidad, quizás por un milagro.',
+        duration: '1h 46min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/s0fT8i9IhKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        weeklyPicks: ['Así en el cielo como en la tierra', 'Amanece, que no es poco', 'El milagro de P.Tinto'],
+        secondPick: 'Amanece, que no es poco',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Luis Ciges',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Silvia Casanova',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Pablo Pinedo',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Javier Aller',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Emilio Gavira',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres toomando gaseosa en un campo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Auto pequeño visto desde una ventana',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Sacerdote en un aula, detrás de su cabeza se ve un triángulo representando la Santísima Trinidad',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'holy_mountain',
         name: 'The Holy Mountain',
         date_seen: new Date(2021, 08, 10),
@@ -13,6 +68,8 @@ const peliculasCards = [
         sinopsis: 'En un mundo corrupto impulsado por la avaricia, un poderoso alquimista guía a un joven mesiánico y siete figuras materialistas a la Montaña Sagrada, donde esperan alcanzar la iluminación.',
         duration: '1h 54min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qmR0vi0ifzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        weeklyPicks: ['Love', 'Dogtooth', 'The Holy Mountain'],
+        secondPick: 'Dogtooth',
         cast: [
             {
                 img: 'cast_1.jpg',

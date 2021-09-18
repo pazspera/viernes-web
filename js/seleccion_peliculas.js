@@ -1,256 +1,312 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'amanece_poco',
+        name: 'Amanece, que no es poco',
+        imdb: 'https://www.imdb.com/title/tt0094641/',
+        img: '../img/posters/poster_amanece_poco.jpg',
+        secondPick: 1,
+    },
+    {
+        id: 'asi_cielo_tierra',
+        name: 'Así en el cielo como en la tierra',
+        imdb: 'https://www.imdb.com/title/tt0112403/',
+        img: '../img/posters/poster_asi_cielo_tierra.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'dogtooth',
         name: 'Dogtooth',
         imdb: 'https://www.imdb.com/title/tt1379182/',
         img: '../img/posters/poster_dogtooth.jpg',
+        secondPick: 1,
     },
     {
         id: 'love',
         name: 'Love',
         imdb: 'https://www.imdb.com/title/tt3774694/',
-        img: '../img/posters/poster_love.jpg'
+        img: '../img/posters/poster_love.jpg',
+        secondPick: 0,
     },
     {
         id: 'uncut_gems',
         name: 'Uncut Gems',
         imdb: 'https://www.imdb.com/title/tt5727208/',
-        img: '../img/posters/poster_uncut_gems.jpg'
+        img: '../img/posters/poster_uncut_gems.jpg',
+        secondPick: 0,
     },
     {
         id: 'total_recall',
         name: 'Total Recall',
         imdb: 'https://www.imdb.com/title/tt0100802/',
-        img: '../img/posters/poster_total_recall.jpg'
+        img: '../img/posters/poster_total_recall.jpg',
+        secondPick: 0,
     },
     {
         id: 'enemy',
         name: 'Enemy',
         imdb: 'https://www.imdb.com/title/tt2316411/',
         img: '../img/posters/poster_enemy.jpg',
+        secondPick: 0,
     },
     {
         id: 'one_i_love',
         name: 'The One I Love',
         imdb: 'https://www.imdb.com/title/tt2756032/',
         img: '../img/posters/poster_one_i_love.jpg',
+        secondPick: 0,
     },
     {
         id: 'magnolia',
         name: 'Magnolia',
         imdb: 'https://www.imdb.com/title/tt0175880/',
         img: '../img/posters/poster_magnolia.jpg',
+        secondPick: 0,
     },
     {   
         id: 'hard_eight',
         name: 'Hard Eight',
         imdb: 'https://www.imdb.com/title/tt0119256/',
         img: '../img/posters/poster_hard_eight.jpg',
+        secondPick: 0,
     },
     {
         id: 'guns_akimbo',
         name: 'Guns Akimbo',
         imdb: 'https://www.imdb.com/title/tt6902676/',
-        img: '../img/posters/poster_guns_akimbo.jpg'
+        img: '../img/posters/poster_guns_akimbo.jpg',
+        secondPick: 0,
     },
     {
         id: 'horns',
         name: 'Horns',
         imdb: 'https://www.imdb.com/title/tt1528071/',
-        img: '../img/posters/poster_horns.jpg'
+        img: '../img/posters/poster_horns.jpg',
+        secondPick: 0,
     },
     {
         id: 'fourteen',
         name: '1408',
         imdb: 'https://www.imdb.com/title/tt0450385/',
-        img: '../img/posters/poster_1408.jpg'
+        img: '../img/posters/poster_1408.jpg',
+        secondPick: 0,
     },
     {
         id: 'zatoichi',
         name: 'Zatoichi',
         imdb: 'https://www.imdb.com/title/tt0363226/',
-        img: '../img/posters/poster_zatoichi.jpg'
+        img: '../img/posters/poster_zatoichi.jpg',
+        secondPick: 0,
     },
     {
         id: 'hana_bi',
         name: 'Hana-bi',
         imdb: 'https://www.imdb.com/title/tt0119250/',
-        img: '../img/posters/poster_hana_bi.jpg'
+        img: '../img/posters/poster_hana_bi.jpg',
+        secondPick: 0,
     },
     {
         id: 'sonatine',
         name: 'Sonatine',
         imdb: 'https://www.imdb.com/title/tt0108188/',
-        img: '../img/posters/poster_sonatine.jpg'
+        img: '../img/posters/poster_sonatine.jpg',
+        secondPick: 0,
     },
     {
         id : "vertigo",
         name : "Vertigo",
         imdb : "https://www.imdb.com/title/tt0052357/",
-        img : "../img/posters/poster_vertigo.jpg"
+        img : "../img/posters/poster_vertigo.jpg",
+        secondPick: 0,
     },
     {
         id : "balada_triste",
         name : "Balada triste de trompeta",
         imdb :  "https://www.imdb.com/title/tt1572491/",
-        img : "../img/posters/poster_balada_triste.jpg"
+        img : "../img/posters/poster_balada_triste.jpg",
+        secondPick: 0,
     },
     {
         id : "bill_ted",
         name : "Bill & Ted",
         imdb : "https://www.imdb.com/title/tt0096928/",
-        img : "../img/posters/poster_bill_ted.jpg"
+        img : "../img/posters/poster_bill_ted.jpg",
+        secondPick: 0,
     },
     {
         id : "cashback",
         name : "Cashback",
         imdb :  "https://www.imdb.com/title/tt0460740/",
-        img : "../img/posters/poster_cashback.jpg"
+        img : "../img/posters/poster_cashback.jpg",
+        secondPick: 0,
     },
     {
         id : "cyborg_she",
         name : "Cyborg She",
         imdb :  "https://www.imdb.com/title/tt0929860/",
-        img : "../img/posters/poster_cyborg_she.png"
+        img : "../img/posters/poster_cyborg_she.png",
+        secondPick: 0,
     },
     {
         id : "dead_snow2",
         name : "Dead Snow 2",
         imdb : "https://www.imdb.com/title/tt2832470/",
-        img : "../img/posters/poster_dead_snow2.jpg"
+        img : "../img/posters/poster_dead_snow2.jpg",
+        secondPick: 0,
     },
     {
         id : "death_proof",
         name : "Death Proof",
         imdb :  "https://www.imdb.com/title/tt1028528/",
-        img : "../img/posters/poster_death_proof.jpg"
+        img : "../img/posters/poster_death_proof.jpg",
+        secondPick: 0,
     },
     {
         id : "worry_foot",
         name : "Don't Worry, He Won't Get Far on Foot",
         imdb :  "https://www.imdb.com/title/tt6288124/",
-        img : "../img/posters/poster_worry_foot.jpg"
+        img : "../img/posters/poster_worry_foot.jpg",
+        secondPick: 0,
     },
     {
         id : "escape_la",
         name : "Escape from Los Angeles",
         imdb :  "https://www.imdb.com/title/tt0116225/",
-        img : "../img/posters/poster_escape_la.jpg"
+        img : "../img/posters/poster_escape_la.jpg",
+        secondPick: 0,
     },
     {
         id : "escape_ny",
         name : "Escape from New York",
         imdb : "https://www.imdb.com/title/tt0082340/", 
-        img : "../img/posters/poster_escape_ny.jpg"
+        img : "../img/posters/poster_escape_ny.jpg",
+        secondPick: 0,
     },
     {
         id : "fear_loathing",
         name : "Fear and Loathing in Las Vegas",
         imdb : "https://www.imdb.com/title/tt0120669/", 
-        img : "../img/posters/poster_fear_loathing.jpg"
+        img : "../img/posters/poster_fear_loathing.jpg",
+        secondPick: 0,
     },
     {
         id : "four_rooms",
         name : "Four Rooms",
         imdb :  "https://www.imdb.com/title/tt0113101/",
-        img : "../img/posters/poster_four_rooms.jpg"
+        img : "../img/posters/poster_four_rooms.jpg",
+        secondPick: 0,
     },
     {
         id : "from_dusk",
         name : "From Dusk Till Dawn",
         imdb :  "https://www.imdb.com/title/tt0116367/",
-        img : "../img/posters/poster_from_dusk.jpg"
+        img : "../img/posters/poster_from_dusk.jpg",
+        secondPick: 0,
     },
     {
         id : "isle_dogs",
         name : "Isle of Dogs",
         imdb : "https://www.imdb.com/title/tt5104604/", 
-        img : "../img/posters/poster_isle_dogs.jpg"
+        img : "../img/posters/poster_isle_dogs.jpg",
+        secondPick: 0,
     },
     {
         id : "la_belle_verte",
         name : "La Belle Verte",
         imdb :  "https://www.imdb.com/title/tt0115650/", 
-        img : "../img/posters/poster_la_belle_verte.jpg"
+        img : "../img/posters/poster_la_belle_verte.jpg",
+        secondPick: 0,
     },
     {
         id : "melancholia",
         name : "Melancholia",
         imdb :  "https://www.imdb.com/title/tt1527186/",
-        img : "../img/posters/poster_melancholia.jpg"
+        img : "../img/posters/poster_melancholia.jpg",
+        secondPick: 0,
     },
     {
         id : "planet_terror",
         name : "Planet Terror",
         imdb :  "https://www.imdb.com/title/tt1077258/",
-        img : "../img/posters/poster_planet_terror.jpg"
+        img : "../img/posters/poster_planet_terror.jpg",
+        secondPick: 0,
     },
     {
         id : "primer",
         name : "Primer",
         imdb :  "https://www.imdb.com/title/tt0390384/",
-        img : "../img/posters/poster_primer.jpg"
+        img : "../img/posters/poster_primer.jpg",
+        secondPick: 0,
     },
     {
         id : "dead_dont_die",
         name : "The Dead Don't Die",
         imdb :  "https://www.imdb.com/title/tt8695030/",
-        img : "../img/posters/poster_dead_dont_die.jpg"
+        img : "../img/posters/poster_dead_dont_die.jpg",
+        secondPick: 0,
     },
     {
         id : "machinist",
         name : "The Machinist",
         imdb :  "https://www.imdb.com/title/tt0361862/",
-        img : "../img/posters/poster_machinist.jpg"
+        img : "../img/posters/poster_machinist.jpg",
+        secondPick: 0,
     },
     {
         id : "darkly_noon",
         name : "The Passion of Darkly Noon",
         imdb :  "https://www.imdb.com/title/tt0114099/",
-        img : "../img/posters/poster_darkly_noon.jpg"
+        img : "../img/posters/poster_darkly_noon.jpg",
+        secondPick: 0,
     },
     {
         id : "they_live",
         name : "They Live",
         imdb :  "https://www.imdb.com/title/tt0096256/",
-        img : "../img/posters/poster_they_live.jpg"
+        img : "../img/posters/poster_they_live.jpg",
+        secondPick: 0,
     },
     {
         id : "thrist",
         name : "Thrist",
         imdb :  "https://www.imdb.com/title/tt0762073/",
-        img : "../img/posters/poster_thirst.jpg"
+        img : "../img/posters/poster_thirst.jpg",
+        secondPick: 0,
     },
     {
         id : "videodrome",
         name : "Videodrome",
         imdb :  "https://www.imdb.com/title/tt0052357/",
-        img : "../img/posters/poster_videodrome.jpg"
+        img : "../img/posters/poster_videodrome.jpg",
+        secondPick: 0,
     },
     {
         id : "what_we_do_shadows",
         name : "What We Do in the Shadows",
         imdb :  "https://www.imdb.com/title/tt0086541/",
-        img : "../img/posters/poster_what_we_do_shadows.jpg"
+        img : "../img/posters/poster_what_we_do_shadows.jpg",
+        secondPick: 0,
     },
     {
         id : "field_england",
         name : "A Field in England",
         imdb : "https://www.imdb.com/title/tt2375574/",
-        img : "../img/posters/poster_field_england.jpg"
+        img : "../img/posters/poster_field_england.jpg",
+        secondPick: 0,
     },
     {
         id : "dia_bestia",
         name : "El día de la bestia",
         imdb : "https://www.imdb.com/title/tt0112922/",
-        img : "../img/posters/poster_dia_bestia.jpg"
+        img : "../img/posters/poster_dia_bestia.jpg",
+        secondPick: 0,
     },
     {
         id : "berberian",
         name : "Berberian Sound Studio",
         imdb : "https://www.imdb.com/title/tt1833844/",
-        img : "../img/posters/poster_berberian.jpg"
+        img : "../img/posters/poster_berberian.jpg",
+        secondPick: 0,
     }
 ]
 
