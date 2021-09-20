@@ -2943,10 +2943,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 5, 26),
         img_card: 'img/cards/card_climax.jpg',
         img_card_alt: 'Televisor antiguo con vhs al costado y una mujer hablando en la pantalla',
-        link_page: '#',
+        link_page: 'climax.html',
+        duration: '1h 37min',
+        director: 'Gaspar Noé',
         pick: 'Loco', 
         sinopsis: 'Uno grupo de bailarines franceses se reúne en una escuela abandonada y remota para ensayar en una noche invernal. Una fiesta que iba a durar toda la noche se transforma en una pesadilla plagada de alucinaciones cuando descubren que su sangría está envenenada con LSD.',
         tags: ['drogas', 'gaspar noé', 'musical'],
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i6b42ZMkUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kang-ho Song',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Ko Asung',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Byun Hee-Bong',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Bae Doona',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Park Hae-il',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Grupo de personas huyendo a las corridas en una playa',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer con expresión de ansiedad mirando a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Niña asustada parada en un parque, un monstruo se ve detrás de ella',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'trainspotting',
@@ -3009,10 +3051,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 5, 12),
         img_card: 'img/cards/card_host.jpg',
         img_card_alt: 'Padre e hija tomando un refresco y hablando',
-        link_page: '#',
+        link_page: 'host.html',
         pick: 'Pollo',
         sinopsis: 'Un monstruo emerge del río Han en Seúl y empieza a atacar a la gente. La familia de una de las víctimas hace lo que puede para rescatarla de sus garras.',
         tags: ['acción', 'clase b'],
+        director: 'Director: Bong Joon Ho',
+        duration: '2h',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i6b42ZMkUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kang-ho Song',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Ko Asung',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Byun Hee-Bong',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Bae Doona',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Park Hae-il',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Grupo de personas huyendo a las corridas en una playa',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer con expresión de ansiedad mirando a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Niña asustada parada en un parque, un monstruo se ve detrás de ella',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'buen_dia',
