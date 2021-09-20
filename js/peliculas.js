@@ -2782,9 +2782,40 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 24),
         img_card: 'img/cards/card_wayward_cloud.jpg',
         img_card_alt: 'Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer',
-        link_page: '#',
+        link_page: 'wayward_cloud.html',
         pick: 'Geor', 
+        director: 'Director: Ming-liang Tsai',
+        duration: '1h 54min',
         sinopsis: 'Hsiao-Kang, que trabaja como actor pornográfico, se encuentra con Shiang-chyi una vez más. Mientras tanto, la ciudad de Taipei se enfrenta a una escasez de agua que hace que las ventas de sandías se disparen.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qrCM91vDinc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['comedia'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kang-sheng Lee',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Shiang-chyi Chen',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Mujer en la cocina sirviendo jugo, hombre en el living arreglando una maleta',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Mujer con un sombrero bailando, detrás hay un grupo de bailarines sosteniendo paraguas de sandías',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer lamiendo una sandía que está dentro de una heladera',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'midsommar',

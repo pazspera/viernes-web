@@ -685,6 +685,10 @@ h2 {
   background-position: left;
 }
 
+#wayward_cloud {
+  background-image: url(../img/hero/hero_wayward_cloud.jpg);
+}
+
 .poster {
   margin-bottom: 2rem;
 }
