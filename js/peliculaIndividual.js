@@ -114,44 +114,62 @@ document.getElementById('current_movie_trailer').innerHTML = `
       ${currentMovie.trailer}
     </div>
   </div>
-</div>
-</div>
-`;
-
-/* Botones anterior/siguiente para navegar entre los viernes */
-/* 
-- Buscar index de la current peli
-- Si es index[0], imprimir solo siguiente
-- Si no es index[0], revisar que index[+1] e index[-1] tengan un valor != a # en link_page
-- Si es distinto, imprimir botones anterior y siguiente
-- Si es # en alguno de los dos, no imprimir botones
-*/
-
-// Busca index de currentMovie en array peliculasCards
-let currentMovieIndex = peliculasCards.indexOf(currentMovie);
-let nextMovieIndex = currentMovieIndex -1 ;
-let previousMovieIndex = currentMovieIndex + 1;
-
-let nextMovieLinkPage;
-if(nextMovieIndex === -1){
-  nextMovieLinkPage = '';
-} else {
-  nextMovieLinkPage = peliculasCards[nextMovieIndex].link_page;
-}
-
-let previousMovieLinkPage = peliculasCards[previousMovieIndex].link_page;
-
-// Si currentMovie es la última peli que vimos
-if(currentMovieIndex === 0 && nextMovieIndex === -1) {
-  document.getElementById('pelicula_btn_nav').innerHTML = `
-  <div class="col-6">
-    <a href="${previousMovieLinkPage}" class="btn btn__primary btn--previous">Viernes Anterior</a>          
   </div>
-  <div class="col-6">
-            
   </div>
   `;
-}
+  
+  /* Botones anterior/siguiente para navegar entre los viernes */
+  /* 
+  - Buscar index de la current peli
+  - Si es index[0], imprimir solo siguiente
+  - Si no es index[0], revisar que index[+1] e index[-1] tengan un valor != a # en link_page
+  - Si es distinto, imprimir botones anterior y siguiente
+  - Si es # en alguno de los dos, no imprimir botones
+  */
+ 
+ // Busca index de currentMovie en array peliculasCards
+ let currentMovieIndex = peliculasCards.indexOf(currentMovie);
+ let nextMovieIndex = currentMovieIndex -1 ;
+ let previousMovieIndex = currentMovieIndex + 1;
+ 
+ let nextMovieLinkPage;
+ if(nextMovieIndex === -1){
+   nextMovieLinkPage = '';
+  } else {
+    nextMovieLinkPage = peliculasCards[nextMovieIndex].link_page;
+  };
+  
+  let previousMovieLinkPage;
+  // Validación caso que sea la primer peli
+  if(previousMovieIndex > peliculasCards.length -1){
+    previousMovieLinkPage = '';
+  } else {
+    previousMovieLinkPage = peliculasCards[previousMovieIndex].link_page;
+  }
+ 
+  // Si currentMovie es la última peli que vimos
+  if(currentMovieIndex === 0 && nextMovieIndex === -1) {
+    document.getElementById('pelicula_btn_nav').innerHTML = `
+    <div class="col-6">
+    <a href="${previousMovieLinkPage}" class="btn btn__primary btn--previous">Viernes Anterior</a>          
+    </div>
+    <div class="col-6">
+    
+    </div>
+    `;
+  }
+  
+  // Si currentMovie es la primera peli que vimos
+  if(currentMovieIndex === (peliculasCards.length - 1) && previousMovieLinkPage === ''){
+    document.getElementById('pelicula_btn_nav').innerHTML = `
+    <div class="col-5">
+    </div>
+    <div class="col-5 d-flex flex-row-reverse">
+      <a href="${nextMovieLinkPage}" class="btn btn__primary btn--previous">Viernes Siguiente</a>          
+    </div>
+    `;
+  }
+
 
 // Si nextMovie y previousMovie no tiene rutas de enlace no se imprimen los btn
 // Pero si tiene otro valor, se imprimen ambos btn
@@ -165,7 +183,7 @@ if(nextMovieLinkPage === '#' || previousMovieLinkPage === '#'){
   <div class="col-5 d-none">
   </div>
   `;
-} else {
+} else if((currentMovieIndex !== (peliculasCards.length - 1) && previousMovieLinkPage !== '')) {
   document.getElementById('pelicula_btn_nav').innerHTML = `
   <div class="col-5">
     <a href="${previousMovieLinkPage}" class="btn btn__primary btn--previous">Viernes Anterior</a>          
