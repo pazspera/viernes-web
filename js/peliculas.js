@@ -3129,10 +3129,52 @@ const peliculasCards = [
         date_seen: new Date(2020, 4, 8),
         img_card: 'img/cards/card_true_romance.jpg',
         img_card_alt: 'Pareja en un auto mirándose amorosamente',
-        link_page: '#',
+        link_page: 'true_romance.html',
         pick: 'Pollo',
         sinopsis: 'En Detroit, un friki de la cultura pop se casa con una prostituta, le roba cocaína a su chulo, e intenta venderla en Hollywood. Los propietarios de la coca les siguen la pista para recuperarla.',
         tags: ['romance', 'drama'],
+        director: 'Director: Tony Scott',
+        duration: '1h 59min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_wNYNDzKpuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Christian Slater',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Patricia Arquette',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Gary Oldman',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Brad Pitt',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Dennis Hopper',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Pareja en el cine comiendo pochoclos y mirando una película',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre amenazador parado con una tele de fondo',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con anteojos de sol visto a través de la mirilla de una puerta',
+                class: 'hidden_first',
+            },
+        ],
     },
 ];
 
