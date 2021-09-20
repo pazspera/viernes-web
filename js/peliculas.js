@@ -3097,10 +3097,44 @@ const peliculasCards = [
         date_seen: new Date(2020, 4, 29),
         img_card: 'img/cards/card_buen_dia.jpg',
         img_card_alt: 'Hombre haciendo mimica de tocar una guitarra y una mujer riendo',
-        link_page: '#',
+        link_page: 'buen_dia.html',
+        director: 'Director: Nicolás Del Boca',
+        duration: '1h 35min',
         pick: 'Loco', 
         sinopsis: 'Una relación se desarrolla entre dos argentinos solitarios que se conocen por casualidad en un café en California.',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7e3xIE5QDlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Aníbal Silveyra',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Lucila Solá',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Andrea Del Boca',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre y mujer caminando por la playa',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre y mujer charlando en las escaleras de un crucero',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer y hombre disfrazados en una tienda',
+                class: 'hidden_first',
+            },
+        ],
     },
     {
         id: 'cyborg',
