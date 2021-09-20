@@ -2945,47 +2945,39 @@ const peliculasCards = [
         img_card_alt: 'Televisor antiguo con vhs al costado y una mujer hablando en la pantalla',
         link_page: 'climax.html',
         duration: '1h 37min',
-        director: 'Gaspar Noé',
+        director: 'Director: Gaspar Noé',
         pick: 'Loco', 
         sinopsis: 'Uno grupo de bailarines franceses se reúne en una escuela abandonada y remota para ensayar en una noche invernal. Una fiesta que iba a durar toda la noche se transforma en una pesadilla plagada de alucinaciones cuando descubren que su sangría está envenenada con LSD.',
         tags: ['drogas', 'gaspar noé', 'musical'],
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i6b42ZMkUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hi69nL_VrTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',
-                actor: 'Kang-ho Song',
+                actor: 'Sofia Boutella',
             },
             {
                 img: 'cast_2.jpg',
-                actor: 'Ko Asung',
+                actor: 'Romain Guillermic',
             },
             {
                 img: 'cast_3.jpg',
-                actor: 'Byun Hee-Bong',
-            },
-            {
-                img: 'cast_4.jpg',
-                actor: 'Bae Doona',
-            },
-            {
-                img: 'cast_5.jpg',
-                actor: 'Park Hae-il',
+                actor: 'Kiddy Smile',
             }
         ],
         img_row: [
             {
                 img: 'img_1.jpg',
-                alt: 'Grupo de personas huyendo a las corridas en una playa',
+                alt: 'Mujer en un baño oscuro lavándose las manos',
                 class: 'always_show',
             },
             {
                 img: 'img_2.jpg',
-                alt: 'Mujer con expresión de ansiedad mirando a cámara',
+                alt: 'Bowl de sangría',
                 class: 'always_show',
             },
             {
                 img: 'img_3.jpg',
-                alt: 'Niña asustada parada en un parque, un monstruo se ve detrás de ella',
+                alt: 'Mujer caminando por un pasillo, la imagen está invertida y parece estar caminando en el techo',
                 class: 'hidden_first',
             },
         ],
