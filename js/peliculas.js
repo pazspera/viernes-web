@@ -1,6 +1,60 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'cooties', 
+        name: 'Cooties',
+        date_seen: new Date(2021,08,24),
+        img_card: 'img/cards/card_cooties.jpg',
+        img_card_alt: 'Profesor de gimnasia huyendo de un grupo de niños en un patio de escuela',
+        pick: 'Paz',
+        year: 2014,
+        duration: '1h 28min',
+        link_page: 'cooties.html',
+        director: 'Directors: Jonathan Milott & Cary Murnion',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/G_he1HiLy0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Un misterioso brote de virus infecta los Nuggets de pollo de la cafetería de una escuela primaria afectando a los niños, quienes se convierten en unos pequeños despiadados y salvajes monstruos caníbales asesinos.',
+        weeklyPicks: ['Cooties', 'Mandy', 'Tucker and Dale Vs. Evil'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Elijah Wood',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Rainn Wilson',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Alison Pill',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Leigh Whannell',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Jorge Garcia',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Profesor en un aula enseñando',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Grupo de niños amontonándose frente a la puerta de una escuela',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Niño visitando la enfermera de una escuela',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'milagro_ptinto',
         name: 'El milagro de P.Tinto',
         date_seen: new Date(2021, 08, 17),

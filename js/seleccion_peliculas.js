@@ -1,6 +1,20 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'mandy',
+        name: 'Mandy',
+        imdb: 'https://www.imdb.com/title/tt6998518/',
+        img: '../img/posters/poster_mandy.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'tucker_dale',
+        name: 'Tucker and Dale Vs Evil',
+        imdb: 'https://www.imdb.com/title/tt1465522/',
+        img: '../img/posters/poster_tucker_dale.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'amanece_poco',
         name: 'Amanece, que no es poco',
         imdb: 'https://www.imdb.com/title/tt0094641/',
