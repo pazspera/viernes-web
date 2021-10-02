@@ -1,6 +1,20 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'train_busan',
+        name: 'Train to Busan',
+        imdb: 'https://www.imdb.com/title/tt5700672/',
+        img: '../img/posters/poster_train_busan.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'battle_royale',
+        name: 'Battle Royale',
+        imdb: 'https://www.imdb.com/title/tt0266308/',
+        img: '../img/posters/poster_battle_royale.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'mandy',
         name: 'Mandy',
         imdb: 'https://www.imdb.com/title/tt6998518/',

@@ -1,6 +1,52 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'as_gods_will',
+        name: 'As the Gods Will',
+        date_seen: new Date(2021,09,01),
+        img_card: 'img/cards/card_as_gods_will.jpg',
+        img_card_alt: 'Grupo de alumnos de secundaria aterrados mirando a un Daruma sentado en un escritorio',
+        pick: 'Loco',
+        year: 2014,
+        duration: '1h 57min',
+        link_page: 'as_gods_will.html',
+        director: 'Director: Takashi Miike',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OEh1fT1IH14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Shun Takahata es un estudiante normal de secundaria que lleva una vida aburrida, junto a su mejor amiga, Ichika Akimoto. Un día, la cabeza de su maestro explota en clase y Shun y sus compañeros se ven obligados a jugar un juego mortal sin saber el quién, el cómo o el por qué.',
+        weeklyPicks: ['As the Gods Will', 'Train to Busan', 'Battle Royale'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Sôta Fukushi',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Hirona Yamazaki',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Ryûnosuke Kamiki',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Alumno parado en un aula llena de cadáveres',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Muñecos japoneses sonrientes flotando',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Adolescente disfrazado de ratón y adolescente en uniforme de colegio parados en un gimnasio',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'cooties', 
         name: 'Cooties',
         date_seen: new Date(2021,08,24),

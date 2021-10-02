@@ -414,6 +414,10 @@ h2 {
   background-position: left;
 }
 
+#as_gods_will {
+  background-image: url(../img/hero/hero_as_gods_will.jpg);
+}
+
 #bad_taste {
   background-image: url(../img/hero/hero_bad_taste.jpg);
 }
