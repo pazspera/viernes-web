@@ -182,3 +182,23 @@ ${peliculasSeptiembre21.map(function(pelicula_card){
     </div>
     `;
 }).join('')}`;
+
+// OCTUBRE 2021
+// Crear un array con las películas de Septiembre 2021
+const peliculasOctubre21 = peliculasCards.filter(a => a.date_seen.getFullYear() == 2021 && a.date_seen.getMonth() == 9);
+
+// Ordenar películas, la más vieja primero
+peliculasOctubre21.sort((a,b) => a.date_seen - b.date_seen);
+
+// Printear las cards del subarray de Julio 2021
+document.getElementById('pelis_octubre_21').innerHTML = `
+${peliculasOctubre21.map(function(pelicula_card){
+    return `
+    <div class="card card-pelicula col-12 col-lg-6">
+        <img src="../${pelicula_card.img_card}" alt="${pelicula_card.img_card_alt}" class="card-img-top">
+        <div class="card-body card-pelicula__contenido">
+            <h2 class="card-pelicula__titulo"><a href="peliculas/${pelicula_card.link_page}" class=" stretched-link">${pelicula_card.name} (${pelicula_card.year})</a></h2>
+        </div>
+    </div>
+    `;
+}).join('')}`;
