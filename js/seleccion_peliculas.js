@@ -1,6 +1,20 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'shining',
+        name: 'The Shining',
+        imdb: 'https://www.imdb.com/title/tt0081505/',
+        img: '../img/posters/poster_shining.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'silence_lambs',
+        name: 'The Silence of the Lambs',
+        imdb: 'https://www.imdb.com/title/tt0102926/',
+        img: '../img/posters/poster_silence_lambs.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'train_busan',
         name: 'Train to Busan',
         imdb: 'https://www.imdb.com/title/tt5700672/',
@@ -19,13 +33,6 @@ const arregloPosters = [
         name: 'Mandy',
         imdb: 'https://www.imdb.com/title/tt6998518/',
         img: '../img/posters/poster_mandy.jpg',
-        secondPick: 0,
-    },
-    {
-        id: 'tucker_dale',
-        name: 'Tucker and Dale Vs Evil',
-        imdb: 'https://www.imdb.com/title/tt1465522/',
-        img: '../img/posters/poster_tucker_dale.jpg',
         secondPick: 0,
     },
     {

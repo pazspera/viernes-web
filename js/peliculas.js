@@ -1,6 +1,56 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'man_moon',
+        name: 'Man on the Moon',
+        date_seen: new Date(2021,09,15),
+        img_card: 'img/cards/card_man_moon.jpg',
+        img_card_alt: 'Hombre con una cámara antigua mirando',
+        pick: 'Geor',
+        year: 1999,
+        duration: '1h 58min',
+        link_page: 'man_moon.html',
+        director: 'Director: Milos Forman',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pCcQB-iT7LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'La vida y carrera del legendario comediante Andy Kaufman.',
+        weeklyPicks: ['The Silence of Lambs', 'Man on the Moon', 'The Shining'],
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Jim Carrey',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Danny DeVito',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Courtney Love',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Paul Giamatti',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre haciendo un espectáculo en un teatro lleno',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Hombre parado delante de una cortina roja siendo filmado',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Hombre con anteojos de sol en un escenario',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'as_gods_will',
         name: 'As the Gods Will',
         date_seen: new Date(2021,09,01),
