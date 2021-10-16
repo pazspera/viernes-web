@@ -51,6 +51,51 @@ const peliculasCards = [
         ],
     },
     {
+        id: 'tucker_dale_evil',
+        name: 'Tucker and Dale vs Evil',
+        date_seen: new Date(2021,09,8),
+        img_card: 'img/cards/card_tucker_dale_evil.jpg',
+        img_card_alt: 'Hombres en una camioneta sonriéndole a un policía que los detuvo en la ruta.',
+        pick: 'Pollo',
+        year: 2010,
+        duration: '1h 29min',
+        link_page: 'tucker_dale_evil.html',
+        director: 'Director: Eli Craig',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/j0hJSCqqIs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Tucker & Dale son dos amigos de toda la vida que acaban de comprarse una vieja cabaña en lo más remoto del monte, donde pretenden pasar unas tranquilas vacaciones. Sin embargo, unos universitarios les confundirán con unos improbables asesinos en serie, lo que acabará derivando en una orgía de sangre y dolor.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Tyler Labine',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Alan Tudyk',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Katrina Bowden',
+            },
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre juntando leña en el bosque, detrás de él otro hombre cae dentro de una cortadora de madera.',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Dos hombres parados frente a una cabaña de madera, uno se cubre la cara con las manos',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Mujer y hombre con una escopeta en el bosque.',
+                class: 'hidden_first',
+            },
+        ],
+    },
+    {
         id: 'as_gods_will',
         name: 'As the Gods Will',
         date_seen: new Date(2021,09,01),
