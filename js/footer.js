@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                     <p>Sitio desarrollado con <i class="fas fa-heart footer__heart"></i> por <a href="https://github.com/pazspera" class="link-line" target="_blank">Paz Spera</a></p>
                 </div>
                 <div class="col-1 d-flex justify-content-end">
-                    <a href="https://discord.gg/WgMKmByC" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://discord.gg/sHEkMhF" target="_blank"><i class="fab fa-discord"></i></a>
                 </div>
                 </div>
             </div>
