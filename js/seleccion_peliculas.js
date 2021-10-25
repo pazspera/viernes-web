@@ -1,6 +1,20 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'green_knight',
+        name: 'The Green Knight',
+        imdb: 'https://www.imdb.com/title/tt9243804/',
+        img: '../img/posters/poster_green_knight.jpg',
+        secondPick: 1,
+    },
+    {
+        id: 'high_life',
+        name: 'High Life',
+        imdb: 'https://www.imdb.com/title/tt4827558/',
+        img: '../img/posters/poster_high_life.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'shining',
         name: 'The Shining',
         imdb: 'https://www.imdb.com/title/tt0081505/',

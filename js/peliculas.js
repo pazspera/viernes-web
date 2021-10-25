@@ -1,6 +1,53 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'nuit_noire',
+        name: 'Nuit Noire',
+        date_seen: new Date(2021,09,22),
+        img_card: 'img/cards/card_nuit_noire.jpg',
+        img_card_alt: 'Hombre mirando un capullo de insecto gigante que está acostado en su cama',
+        pick: 'Paz',
+        year: 2005,
+        duration: '1h 30min',
+        link_page: 'nuit_noire.html',
+        director: 'Director: Olivier Smolders',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H1FdP-6GdeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Fábula construida sobre la boda del negro y del blanco, de la nieve y de la noche, de la sangre y de la leche, de una vieja Europa y de una África que ella ha inventado, de la vida subterránea de los escarabajos y de la vida aérea de las mariposas. Prisionero entre el deseo y la repulsión que transmite el paraíso perdido de sus amores de crianza, Oscar abandona poco a poco la vida inquietante de los fantasmas.',
+        weeklyPicks: ['Nuit Noire', 'High Life', 'The Green Knight'],
+        secondPick: 'The Green Knight',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Fabrice Rodriguez',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Yves-Marie Gnahoua',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Marie Lecomte',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos hombres mayores, canosos y de traje mirando a cámara',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Un insecto parado sobre una rama',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Una niña y un niño con una lámpara de mano mirando con asombro',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
         id: 'man_moon',
         name: 'Man on the Moon',
         date_seen: new Date(2021,09,15),
