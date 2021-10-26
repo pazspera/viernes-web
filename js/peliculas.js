@@ -18,15 +18,15 @@ const peliculasCards = [
         cast: [
             {
                 img: 'cast_1.jpg',
-                actor: 'Fabrice Rodriguez',
-            },
-            {
-                img: 'cast_2.jpg',
                 actor: 'Yves-Marie Gnahoua',
             },
             {
-                img: 'cast_3.jpg',
+                img: 'cast_2.jpg',
                 actor: 'Marie Lecomte',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Fabrice Rodriguez',
             }
         ],
         img_row: [
