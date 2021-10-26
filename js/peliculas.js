@@ -466,10 +466,14 @@ const peliculasCards = [
             },
             {
                 img: 'cast_2.jpg',
-                actor: 'Mia Wasikowska',
+                actor: 'Jesse Eisenberg',
             },
             {
                 img: 'cast_3.jpg',
+                actor: 'Mia Wasikowska',
+            },
+            {
+                img: 'cast_4.jpg',
                 actor: 'Wallace Shawn',
             }
         ],
