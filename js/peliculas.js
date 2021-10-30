@@ -1,6 +1,61 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'what_we_do_shadows',
+        name: 'What We Do in the Shadows',
+        date_seen: new Date(2021,09,29),
+        img_card: 'img/cards/card_what_we_do_shadows.jpg',
+        img_card_alt: 'Vampiro sosteniendo una taza frente a un espejo, el espejo refleja solo la taza flotando',
+        pick: 'Pollo',
+        year: 2014,
+        duration: '1h 26min',
+        link_page: 'what_we_do_shadows.html',
+        director: 'Directores: Jemaine Clement & Taika Waititi',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IAZEWtyhpes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Tres vampiros hacen lo posible por adaptarse a la sociedad moderna, una vida de lo más normal, salvo por el hecho de que son inmortales y tienen que alimentarse de sangre humana. Cuando uno de ellos convierte en vampiro a Nick, los tres deberán enseñarle cómo funciona vivir eternamente. A cambio, ellos aprenderán cosas sobre la vida moderna.',
+        weeklyPicks: ['From Dusk Till Dawn', 'Color Out of Space', 'Lamb', 'Pet Sematary', 'Hellraiser'],
+        secondPick: 'Pet Sematary',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Taika Waititi',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Jemaine Clement',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Jonny Brugh',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Ben Fransham',
+            },
+            {
+                img: 'cast_5.jpg',
+                actor: 'Cori Gonzalez-Macuer',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Dos vampiros sentados en una sala con decoración antigua',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Un humano enseñándole a un vampiro a usar una computadora',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Vampiro asustado flotando en la esquina del techo',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
         id: 'nuit_noire',
         name: 'Nuit Noire',
         date_seen: new Date(2021,09,22),

@@ -1,6 +1,34 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'color_space',
+        name: 'Color Out of Space',
+        imdb: 'https://www.imdb.com/title/tt5073642/',
+        img: '../img/posters/poster_color_space.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'hellraiser',
+        name: 'Hellraiser',
+        imdb: 'https://www.imdb.com/title/tt0093177/',
+        img: '../img/posters/poster_hellraiser.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'lamb',
+        name: 'Lamb',
+        imdb: 'https://www.imdb.com/title/tt9812474/',
+        img: '../img/posters/poster_lamb.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'pet_sematary',
+        name: 'Pet Sematary',
+        imdb: 'https://www.imdb.com/title/tt0837563/',
+        img: '../img/posters/poster_pet_sematary.jpg',
+        secondPick: 1,
+    },
+    {
         id: 'green_knight',
         name: 'The Green Knight',
         imdb: 'https://www.imdb.com/title/tt9243804/',
@@ -327,13 +355,6 @@ const arregloPosters = [
         name : "Videodrome",
         imdb :  "https://www.imdb.com/title/tt0052357/",
         img : "../img/posters/poster_videodrome.jpg",
-        secondPick: 0,
-    },
-    {
-        id : "what_we_do_shadows",
-        name : "What We Do in the Shadows",
-        imdb :  "https://www.imdb.com/title/tt0086541/",
-        img : "../img/posters/poster_what_we_do_shadows.jpg",
         secondPick: 0,
     },
     {

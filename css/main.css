@@ -707,6 +707,10 @@ h2 {
   background-position: left;
 }
 
+#what_we_do_shadows {
+  background-image: url(../img/hero/hero_what_we_do_shadows.jpg);
+}
+
 #wayward_cloud {
   background-image: url(../img/hero/hero_wayward_cloud.jpg);
 }
