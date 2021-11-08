@@ -1,6 +1,49 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'fear_loathing',
+        name: 'Fear and Loathing in Las Vegas',
+        date_seen: new Date(2021,10,05),
+        img_card: 'img/cards/card_fear_loathing.jpg',
+        img_card_alt: 'Hombre con sombrero y un cigarrillo en la boca asomándose en la puerta de una habitación de hotel',
+        pick: 'Loco',
+        year: 1998,
+        duration: '1h 26min',
+        link_page: 'fear_loathing.html',
+        director: 'Director: Terry Gilliam',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uOmtVFQ3WF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Un periodista y un misterioso abogado, ocupantes de un descapotable rojo, se encaminan a través del desierto hacia Las Vegas. El maletero del coche es una auténtica farmacia: dos bolsas de marihuana, 75 pastillas de mescalina, 5 hojas de ácidos y multitud de otras drogas.',
+        weeklyPicks: ['24 hours Party People', 'Woodstock', 'Fear and Loathing in Las Vegas' ],
+        secondPick: '24 Hours Party People',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Johnny Depp',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Benicio Del Toro',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: 'Hombre en el desierto apuntando una pistola',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: 'Cartel en una carretera desierta que indica pena de 20 años por consumo de marihuana en Nevada',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: 'Dos hombres asustados caminando por un espectáculo psicodélico',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
         id: 'what_we_do_shadows',
         name: 'What We Do in the Shadows',
         date_seen: new Date(2021,09,29),

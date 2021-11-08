@@ -1,6 +1,20 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'woodstock',
+        name: 'Woodstock',
+        imdb: 'https://www.imdb.com/title/tt0066580/',
+        img: '../img/posters/poster_woodstock.jpg',
+        secondPick: 0,
+    },
+    {
+        id: '24_hs_party',
+        name: '24 Hour Party People',
+        imdb: 'https://www.imdb.com/title/tt0274309/',
+        img: '../img/posters/poster_24_hs_party.jpg',
+        secondPick: 1,
+    },
+    {
         id: 'color_space',
         name: 'Color Out of Space',
         imdb: 'https://www.imdb.com/title/tt5073642/',
@@ -257,13 +271,6 @@ const arregloPosters = [
         name : "Escape from New York",
         imdb : "https://www.imdb.com/title/tt0082340/", 
         img : "../img/posters/poster_escape_ny.jpg",
-        secondPick: 0,
-    },
-    {
-        id : "fear_loathing",
-        name : "Fear and Loathing in Las Vegas",
-        imdb : "https://www.imdb.com/title/tt0120669/", 
-        img : "../img/posters/poster_fear_loathing.jpg",
         secondPick: 0,
     },
     {
