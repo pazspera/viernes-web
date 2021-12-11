@@ -605,6 +605,11 @@ h2 {
   background-image: url(../img/hero/hero_midsommar.webp);
 }
 
+#mind_game {
+  background-image: url(../img/hero/hero_mind_game.jpg);
+  background-position: left;
+}
+
 #mishima {
   background-image: url(../img/hero/hero_mishima.jpg);
 }

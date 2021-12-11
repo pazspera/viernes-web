@@ -1,6 +1,202 @@
 // Arreglo con todas las películas para las cards
 const peliculasCards = [
     {
+        id: 'mind_game',
+        name: 'Mind Game',
+        date_seen: new Date(2021,11,10),
+        img_card: 'img/cards/card_mind_game.jpg',
+        img_card_alt: '#',
+        pick: 'Loco',
+        year: 2004,
+        duration: '1h 43min',
+        link_page: '#',
+        director: 'Director: Masaaki Yuasa & Kôji Morimoto',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/o6SWofbYD90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kurt Russell',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Steve Buscemi',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Stacy Keach',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Pam Grier',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: '',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
+        id: 'battle_royale',
+        name: 'Battle Royale',
+        date_seen: new Date(2021,11,03),
+        img_card: 'img/cards/card_battle_royale.jpg',
+        img_card_alt: '#',
+        pick: 'Paz',
+        year: 2006,
+        duration: '1h 54min',
+        link_page: '#',
+        director: 'Director: Kinji Fukasaku',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/o6SWofbYD90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kurt Russell',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Steve Buscemi',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Stacy Keach',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Pam Grier',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: '',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
+        id: 'volver',
+        name: 'Volver',
+        date_seen: new Date(2021,10,26),
+        img_card: 'img/cards/card_volver.jpg',
+        img_card_alt: '#',
+        pick: 'Geor',
+        year: 2006,
+        duration: '2h 1min',
+        link_page: '#',
+        director: 'Director: Pedro Almodóvar',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/o6SWofbYD90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kurt Russell',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Steve Buscemi',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Stacy Keach',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Pam Grier',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: '',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
+        id: 'escape_la',
+        name: 'Escape from L.A.',
+        date_seen: new Date(2021,10,19),
+        img_card: 'img/cards/card_escape_la.jpg',
+        img_card_alt: '',
+        pick: 'Pollo',
+        year: 1996,
+        duration: '1h 41min',
+        link_page: 'escape_la.html',
+        director: 'Director: John Carpenter',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/o6SWofbYD90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        sinopsis: 'Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.',
+        cast: [
+            {
+                img: 'cast_1.jpg',
+                actor: 'Kurt Russell',
+            },
+            {
+                img: 'cast_2.jpg',
+                actor: 'Steve Buscemi',
+            },
+            {
+                img: 'cast_3.jpg',
+                actor: 'Stacy Keach',
+            },
+            {
+                img: 'cast_4.jpg',
+                actor: 'Pam Grier',
+            }
+        ],
+        img_row: [
+            {
+                img: 'img_1.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_2.jpg',
+                alt: '',
+                class: 'always_show',
+            },
+            {
+                img: 'img_3.jpg',
+                alt: '',
+                class: 'hidden_first',
+            },
+        ],        
+    },
+    {
         id: 'fear_loathing',
         name: 'Fear and Loathing in Las Vegas',
         date_seen: new Date(2021,10,05),
