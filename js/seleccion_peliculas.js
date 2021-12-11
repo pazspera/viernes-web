@@ -1,6 +1,34 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'todo_madre',
+        name: 'Todo sobre mi madre',
+        imdb: 'https://www.imdb.com/title/tt0185125/',
+        img: '../img/posters/poster_todo_madre.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'skin_live_in',
+        name: 'Genius Party',
+        imdb: 'https://www.imdb.com/title/tt1189073/',
+        img: '../img/posters/poster_skin_live_in.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'genius_party',
+        name: 'Genius Party',
+        imdb: 'https://www.imdb.com/title/tt0962762/',
+        img: '../img/posters/poster_genius_party.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'memories',
+        name: 'Memories',
+        imdb: 'https://www.imdb.com/title/tt0113799/',
+        img: '../img/posters/poster_memories.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'woodstock',
         name: 'Woodstock',
         imdb: 'https://www.imdb.com/title/tt0066580/',
@@ -75,13 +103,6 @@ const arregloPosters = [
         name: 'Train to Busan',
         imdb: 'https://www.imdb.com/title/tt5700672/',
         img: '../img/posters/poster_train_busan.jpg',
-        secondPick: 0,
-    },
-    {
-        id: 'battle_royale',
-        name: 'Battle Royale',
-        imdb: 'https://www.imdb.com/title/tt0266308/',
-        img: '../img/posters/poster_battle_royale.jpg',
         secondPick: 0,
     },
     {
@@ -257,13 +278,6 @@ const arregloPosters = [
         name : "Don't Worry, He Won't Get Far on Foot",
         imdb :  "https://www.imdb.com/title/tt6288124/",
         img : "../img/posters/poster_worry_foot.jpg",
-        secondPick: 0,
-    },
-    {
-        id : "escape_la",
-        name : "Escape from Los Angeles",
-        imdb :  "https://www.imdb.com/title/tt0116225/",
-        img : "../img/posters/poster_escape_la.jpg",
         secondPick: 0,
     },
     {

@@ -156,7 +156,7 @@ const peliculasCards = [
         pick: 'Pollo',
         year: 1996,
         duration: '1h 41min',
-        link_page: 'escape_la.html',
+        link_page: '#',
         director: 'Director: John Carpenter',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/o6SWofbYD90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.',
