@@ -22,10 +22,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- CSS Personalizado -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- Include HTML -->
+    <script src="/js/include-html.js"></script>
     <title>Viernes</title>
 </head>
 <body>
-    <header-component1></header-component1> 
+    <div data-include="/assets/header.html"></div> 
     
     <section id="hero_index">
 
@@ -51,14 +53,10 @@
       </div>
     </main>
 
-    <footer-component></footer-component>
+    <div data-include="/assets/footer.html"></div>
 
     <!-- JS Bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- Header -->
-    <script src="js/header.js"></script>
-    <!-- Footer -->
-    <script src="js/footer.js"></script>
     <!-- JS Info películas -->
     <script src="js/peliculas.js"></script>
     <script src="js/peliculasIndex.js"></script>
