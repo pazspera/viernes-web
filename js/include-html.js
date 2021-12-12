@@ -1,25 +1,25 @@
-document.addEventListener('DOMContentLoaded', (e) => {
-    const includeHTML = (el, url) => {
-        const xhr = new XMLHttpRequest();
+let $footer = document.getElementById('footer');
+let $header = document.getElementById('header');
 
-        xhr.addEventListener('readystatechange', (e) => {
-            if(xhr.readyState !== 4) return;
+const loadHTMLSection = (element, path) => {
+    let xhr = new XMLHttpRequest();
 
-            if(xhr.status >= 200 && xhr.status < 400) {
-                el.outerHTML = xhr.responseText;
-            } else {
-                let message = xhr.statusText || 'Error al cargar el archivo, verifica que estés haciendo la petición por http o https';
-                el.outerHTML(`<div><p>Error ${xhr.status}: ${message}</p></div>`);
-            }    
-        })
-
-        xhr.open('GET', url);
-        xhr.setRequestHeader('Content-Type', "text/html;charset=utf-8");
-        xhr.send();
-    }
+    xhr.addEventListener('readystatechange', (e) => {
+        // Solo ejecutar cuando readyState esté ready
+        if(xhr.readyState !== 4) return;
+        
+        // Si readyState es entre 200 y 300, ejecutar programación
+        if(xhr.status >= 200 && xhr.status < 300){
+            element.outerHTML = xhr.responseText;
+        } else {
+            console.log('Ocurrió un error con la respuesta del servidor');
+            element.outerHTML = `Error ${xhr.status} `
+        }
+    });
     
-    // La función includeHTML se va a ejecutar por cada elemento que tenga data-attribute data-include
-    document
-    .querySelectorAll("[data-include]")
-    .forEach(el => includeHTML(el, el.getAttribute('data-include')));
-})
+    xhr.open('GET', path);
+    xhr.send(); 
+}
+
+window.addEventListener('DOMContentLoaded', loadHTMLSection($header,'assets/header.html'));
+window.addEventListener('DOMContentLoaded', loadHTMLSection($footer,'assets/footer.html'));
