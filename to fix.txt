@@ -1,3 +1,0 @@
-- El cartel del hero se ve extraño en tamaños tablet, ver de moverlo más hacia la izquierda y que no quede tan sobre el borde del container de lado derecho
-- El tamaño max de las img de fila_img es 716, por lo que hasta 768 queda una franja en blanco al lado de cada img
-- Agregar los textos de historial de películas y selección de películas
