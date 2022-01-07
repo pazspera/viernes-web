@@ -60,6 +60,106 @@
                 "img_card": "img/cards/card_trainspotting.jpg",
                 "img_card_alt": "Tres hombres comiendo papas fritas y hablando",
                 "link_page": "trainspotting.html"
+            },
+            {
+                "id": "climax",
+                "name": "Climax",
+                "year": 2018,
+                "date_seen": "2020-06-26T03:00:00.000Z",
+                "img_card": "img/cards/card_climax.jpg",
+                "img_card_alt": "Televisor antiguo con vhs al costado y una mujer hablando en la pantalla",
+                "link_page": "climax.html"
+            }
+        ]
+    },
+    {
+        "title": "Julio 2020",
+        "movies": [
+            {
+                "id": "tokyo_godfathers",
+                "name": "Tokyo Godfathers",
+                "year": 2003,
+                "date_seen": "2020-07-03T03:00:00.000Z",
+                "img_card": "img/cards/card_tokyo_godfathers.jpg",
+                "img_card_alt": "Pareja con una niña y un bebé hablando",
+                "link_page": "tokyo_godfathers.html"
+            },
+            {
+                "id": "mood_indigo",
+                "name": "Mood Indigo",
+                "year": 2013,
+                "date_seen": "2020-07-10T03:00:00.000Z",
+                "img_card": "img/cards/card_mood_indigo.jpg",
+                "img_card_alt": "Pareja sentada en un banco mirándose con cariño",
+                "link_page": "mood_indigo.html"
+            },
+            {
+                "id": "midsommar",
+                "name": "Midsommar",
+                "year": 2019,
+                "date_seen": "2020-07-17T03:00:00.000Z",
+                "img_card": "img/cards/card_midsommar.jpg",
+                "img_card_alt": "Manos ensangrentadas sobre una piedra con símbolos tallados",
+                "link_page": "midsommar.html"
+            },
+            {
+                "id": "wayward_cloud",
+                "name": "The Wayward Cloud",
+                "year": 2005,
+                "date_seen": "2020-07-24T03:00:00.000Z",
+                "img_card": "img/cards/card_wayward_cloud.jpg",
+                "img_card_alt": "Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer",
+                "link_page": "wayward_cloud.html"
+            },
+            {
+                "id": "kill_bill",
+                "name": "Kill Bill: The Whole Bloody Affair",
+                "year": 2011,
+                "date_seen": "2020-07-24T03:00:00.000Z",
+                "img_card": "img/cards/card_kill_bill.jpg",
+                "img_card_alt": "Mujer preparada para atacar con un sable",
+                "link_page": "kill_bill.html"
+            }
+        ]
+    },
+    {
+        "title": "Agosto 2020",
+        "movies": [
+            {
+                "id": "mishima",
+                "name": "Mishima: A Life in Four Chapters",
+                "year": 1985,
+                "date_seen": "2020-08-07T03:00:00.000Z",
+                "img_card": "img/cards/card_mishima.jpg",
+                "img_card_alt": "Dos mujeres paradas en un muelle",
+                "link_page": "mishima.html"
+            },
+            {
+                "id": "brazil",
+                "name": "Brazil",
+                "year": 1985,
+                "date_seen": "2020-08-14T03:00:00.000Z",
+                "img_card": "img/cards/card_brazil.jpg",
+                "img_card_alt": "Oficinista confundido parado en un pasillo",
+                "link_page": "brazil.html"
+            },
+            {
+                "id": "coherence",
+                "name": "Coherence",
+                "year": 2013,
+                "date_seen": "2020-08-21T03:00:00.000Z",
+                "img_card": "img/cards/card_coherence.jpg",
+                "img_card_alt": "Grupo de personas cenando y divirtiéndose",
+                "link_page": "coherence.html"
+            },
+            {
+                "id": "time_bandits",
+                "name": "Time Bandits",
+                "year": 1981,
+                "date_seen": "2020-08-28T03:00:00.000Z",
+                "img_card": "img/cards/card_time_bandits.jpg",
+                "img_card_alt": "Hombre y mujer vestidos con ropa imperial antigua junto a un niño",
+                "link_page": "time_bandits.html"
             }
         ]
     }
