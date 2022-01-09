@@ -162,5 +162,151 @@
                 "link_page": "time_bandits.html"
             }
         ]
+    },
+    {
+        "title": "Septiembre 2020",
+        "movies": [
+            {
+                "id": "logans_run",
+                "name": "Logan's Run",
+                "year": 1976,
+                "date_seen": "2020-09-04T03:00:00.000Z",
+                "img_card": "img/cards/card_logans_run.jpg",
+                "img_card_alt": "Tres personas caminando por un pasillo futurista",
+                "link_page": "logans_run.html"
+            },
+            {
+                "id": "thinking_ending",
+                "name": "I'm Thinking of Ending Things",
+                "year": 2020,
+                "date_seen": "2020-09-11T03:00:00.000Z",
+                "img_card": "img/cards/card_thinking_ending.jpg",
+                "img_card_alt": "Dos parejas sentadas a una mesa cenando",
+                "link_page": "thinking_ending.html"
+            },
+            {
+                "id": "mouth_madness",
+                "name": "In the Mouth of Madness",
+                "year": 1994,
+                "date_seen": "2020-09-18T03:00:00.000Z",
+                "img_card": "img/cards/card_mouth_madness.jpg",
+                "img_card_alt": "Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa",
+                "link_page": "mouth_madness.html"
+            },
+            {
+                "id": "gattaca",
+                "name": "Gattaca",
+                "year": 1997,
+                "date_seen": "2020-09-26T03:00:00.000Z",
+                "img_card": "img/cards/card_gattaca.jpg",
+                "img_card_alt": "Hombre caminando por un pasillo circular",
+                "link_page": "gattaca.html"
+            }
+        ]
+    },
+    {
+        "title": "Octubre 2020",
+        "movies": [
+            {
+                "id": "dark_city",
+                "name": "Dark City",
+                "year": 1994,
+                "date_seen": "2020-10-09T03:00:00.000Z",
+                "img_card": "img/cards/card_dark_city.jpg",
+                "img_card_alt": "Hombre encadenado a una máquina y personas en el fondo mirando",
+                "link_page": "dark_city.html"
+            },
+            {
+                "id": "paprika",
+                "name": "Paprika",
+                "year": 2006,
+                "date_seen": "2020-10-16T03:00:00.000Z",
+                "img_card": "img/cards/card_paprika.jpg",
+                "img_card_alt": "Mujer frente a un grupo de caballos de madera mirándose al espejo",
+                "link_page": "paprika.html"
+            },
+            {
+                "id": "lighthouse",
+                "name": "The Lighthouse",
+                "year": 2019,
+                "date_seen": "2020-10-23T03:00:00.000Z",
+                "img_card": "img/cards/card_lighthouse.jpg",
+                "img_card_alt": "Dos marinos mirando al horizonte con un faro de fondo",
+                "link_page": "lighthouse.html"
+            },
+            {
+                "id": "reanimator",
+                "name": "Re-Animator",
+                "year": 1985,
+                "date_seen": "2020-10-30T03:00:00.000Z",
+                "img_card": "img/cards/card_reanimator.jpg",
+                "img_card_alt": "Científico cargando una jeringa con un líquido verde fluorescente",
+                "link_page": "reanimator.html"
+            }   
+        ]
+    },
+    {
+        "title": "Noviembre 2020",
+        "movies": [
+            {
+                "id": "slacker",
+                "name": "Slacker",
+                "year": 1990,
+                "date_seen": "2020-11-06T03:00:00.000Z",
+                "img_card": "img/cards/card_slacker.jpg",
+                "img_card_alt": "Tres personas conversando en la calle",
+                "link_page": "slacker.html"
+            },
+            {
+                "id": "rocky_horror",
+                "name": "The Rocky Horror Picture Show",
+                "year": 1975,
+                "date_seen": "2020-11-13T03:00:00.000Z",
+                "img_card": "img/cards/card_rocky_horror.jpg",
+                "img_card_alt": "Primer plano de hombre mirando con desafío a cámara",
+                "link_page": "rocky_horror.html"
+            },
+            {
+                "id": "waking_life",
+                "name": "Waking Life",
+                "year": 2001,
+                "date_seen": "2020-11-20T03:00:00.000Z",
+                "img_card": "img/cards/card_waking_life.jpg",
+                "img_card_alt": "Dos hombre conversando, uno es una silueta de nubes",
+                "link_page": "waking_life.html"
+            },
+            {
+                "id": "baron",
+                "name": "Waking Life",
+                "year": 1988,
+                "date_seen": "2020-11-28T03:00:00.000Z",
+                "img_card": "img/cards/card_baron.jpg",
+                "img_card_alt": "Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco",
+                "link_page": "baron.html"
+            }
+        ]
+    },
+    {
+        "title": "Diciembre 2020",
+        "movies": [
+            {
+                "id": "moon",
+                "name": "Moon",
+                "year": 2009,
+                "date_seen": "2020-12-04T03:00:00.000Z",
+                "img_card": "img/cards/card_moon.jpg",
+                "img_card_alt": "Astronauta mirando una máquina con un emoji de carita triste en su pantalla",
+                "link_page": "moon.html"
+            },
+            {
+                "id": "bad_taste",
+                "name": "Bad Taste",
+                "year": 1987,
+                "date_seen": "2020-12-04T03:00:00.000Z",
+                "img_card": "img/cards/card_bad_taste.jpg",
+                "img_card_alt": "Grupo de tres extraterrestres caminando por el bosque",
+                "link_page": "bad_taste.html"
+            }
+        ]
     }
 ]
