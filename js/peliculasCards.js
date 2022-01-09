@@ -6,7 +6,6 @@ let $mainContent = document.getElementById('main-content');
 let $fragment = document.createDocumentFragment();
 
 /* ------ FUNCIONES ------ */
-
 const getAll = async () => {
     try {
         let res = await fetch(URL_JSON);
@@ -75,4 +74,5 @@ const getAll = async () => {
     }
 }
 
+/* ------ CÓDIGO ------ */
 document.addEventListener('DOMContentLoaded', getAll);

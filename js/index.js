@@ -89,4 +89,5 @@ const getIndex = async () => {
     }
 }
 
+/* ------ CÓDIGO ------ */
 document.addEventListener('DOMContentLoaded', getIndex);
