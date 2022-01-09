@@ -9,7 +9,7 @@ const arregloPosters = [
     },
     {
         id: 'skin_live_in',
-        name: 'Genius Party',
+        name: 'La piel que habito',
         imdb: 'https://www.imdb.com/title/tt1189073/',
         img: '../img/posters/poster_skin_live_in.jpg',
         secondPick: 0,
