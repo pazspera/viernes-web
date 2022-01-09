@@ -33,7 +33,7 @@ const getAll = async () => {
 
             // Agrega título
             let $title = document.createElement('h2');
-            $title.innerHTML = month.title;
+            $title.textContent = month.title;
             $section.appendChild($title);
 
             // Agrega row
@@ -62,7 +62,7 @@ const getAll = async () => {
                 let $cardLink = document.createElement('a');
                 $cardLink.href = `peliculas/${movie.link_page}`;
                 $cardLink.classList.add('stretched-link');
-                $cardLink.innerHTML = `${movie.name} (${movie.year})`;
+                $cardLink.textContent = `${movie.name} (${movie.year})`;
                 $cardBody.appendChild($cardTitle);
                 $cardTitle.appendChild($cardLink);
                 $card.appendChild($cardBody);
