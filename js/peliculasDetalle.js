@@ -23,6 +23,7 @@ const getMovieInfo = async () => {
         let $main = document.getElementById('main-content');
         let $fragmentHero = document.createDocumentFragment();
         let $fragmentMain = document.createDocumentFragment();
+        let $fragmentCast = document.createDocumentFragment();
         
         if(!res.ok) throw {
             status: res.status,
@@ -78,8 +79,8 @@ const getMovieInfo = async () => {
         let $sinopsis = document.createElement('section');
         $sinopsis.classList.add('main-text');
         $sinopsis.id = 'current_movie_sinopsis';
-        let $container = document.createElement('div');
-        $container.classList.add('container');
+        let $containerSinopsis = document.createElement('div');
+        $containerSinopsis.classList.add('container');
         let $sinopsisCol = document.createElement('div');
         $sinopsisCol.classList.add('col-12', 'col-md-8', 'col-lg-6');
         let $sinopsisContent = document.createElement('div');
@@ -94,9 +95,50 @@ const getMovieInfo = async () => {
         $sinopsisContent.appendChild($sinopsisTitle);
         $sinopsisContent.appendChild($sinopsisText);
         $sinopsisCol.appendChild($sinopsisContent);
-        $container.appendChild($sinopsisCol);
-        $sinopsis.appendChild($container);
+        $containerSinopsis.appendChild($sinopsisCol);
+        $sinopsis.appendChild($containerSinopsis);
+
+        // Imprimir cast 
+        // Cast title
+        let $cast = document.createElement('section');
+        $cast.classList.add('main-text');
+        $cast.id = 'current_movie_cast';
+        let $containerCast = document.createElement('div');
+        $containerCast.classList.add('container');
+        let $rowCast1 = document.createElement('div');
+        $rowCast1.classList.add('row');
+        let $colCast = document.createElement('div');
+        $colCast.classList.add('col-12');
+        let $castTitle = document.createElement('h2');
+        $castTitle.classList.add('main__titulo');
+        $castTitle.textContent = 'Elenco';
+        let $rowCast2 = document.createElement('div');
+        $rowCast2.classList.add('row');
+        // Cast img
+        currentMovie.cast.forEach(actor => {
+            let $figure = document.createElement('figure');
+            $figure.classList.add('pelicula__actor', 'col-6', 'col-sm-4');
+            let $figureImg = document.createElement('img');
+            $figureImg.src = `../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${actor.img}`;
+            let $figcaption = document.createElement('figcaption');
+            $figcaption.classList.add('pelicula__actor__name', 'text-center');
+            $figcaption.textContent = `${actor.actor}`;
+
+            $figure.appendChild($figureImg);
+            $figure.appendChild($figcaption);
+            $fragmentCast.appendChild($figure);
+        })
+
+        $colCast.appendChild($castTitle);
+        $rowCast1.appendChild($colCast);
+        $containerCast.appendChild($rowCast1);
+        $rowCast2.appendChild($fragmentCast);
+        $containerCast.appendChild($rowCast2);
+        $cast.appendChild($containerCast);
+
+        // Append fragmentMain completo
         $fragmentMain.appendChild($sinopsis);
+        $fragmentMain.appendChild($cast);
         $main.appendChild($fragmentMain);
         
     } catch (err) {
