@@ -136,10 +136,38 @@ const getMovieInfo = async () => {
         $containerCast.appendChild($rowCast2);
         $cast.appendChild($containerCast);
 
-        // Append fragmentMain completo
+        // Imprimir trailer
+        let $trailer = document.createElement('section');
+        $trailer.classList.add('main-text');
+        $trailer.id = 'current_movie_trailer';
+        let $containerTrailer = document.createElement('div');
+        $containerTrailer.classList.add('container');
+        let $rowTrailer = document.createElement('div');
+        $rowTrailer.classList.add('row');
+        let $colTrailer1 = document.createElement('div');
+        $colTrailer1.classList.add('col-12');
+        let $trailerTitle = document.createElement('h2');
+        $trailerTitle.classList.add('main__titulo');
+        $trailerTitle.textContent = 'Trailer';
+        let $colTrailer2 = document.createElement('div');
+        $colTrailer2.classList.add('col', 'col-lg-9');
+        let $trailerVideo = document.createElement('div');
+        $trailerVideo.classList.add('ratio', 'ratio-16x9');
+        $trailerVideo.innerHTML = `${currentMovie.trailer}`;
+
+        $colTrailer1.appendChild($trailerTitle);
+        $colTrailer2.appendChild($trailerVideo);
+        $rowTrailer.appendChild($colTrailer1);
+        $rowTrailer.appendChild($colTrailer2);
+        $containerTrailer.appendChild($rowTrailer);
+        $trailer.appendChild($containerTrailer);
+
+        // Agregar a main todos los fragmentos
         $fragmentMain.appendChild($sinopsis);
         $fragmentMain.appendChild($cast);
+        $fragmentMain.appendChild($trailer);
         $main.appendChild($fragmentMain);
+
         
     } catch (err) {
         let message = err.statusText || "Ocurrió un error";
