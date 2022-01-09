@@ -20,7 +20,9 @@ const getMovieInfo = async () => {
         let res = await fetch(URL_MOVIES);
         let data = await res.json();
         let $hero = document.getElementById('current_movie_hero');
+        let $main = document.getElementById('main-content');
         let $fragmentHero = document.createDocumentFragment();
+        let $fragmentMain = document.createDocumentFragment();
         
         if(!res.ok) throw {
             status: res.status,
@@ -71,12 +73,31 @@ const getMovieInfo = async () => {
         $fragmentHero.appendChild($heroCartel);
         $hero.appendChild($fragmentHero);
 
-        console.log(data);
-        console.log(currentMovie);
-        console.log(namePick);
-        console.log(textPick);
-        console.log($hero);
-        
+        // MAIN CONTENT
+        // Imprimir sinopsis
+        let $sinopsis = document.createElement('section');
+        $sinopsis.classList.add('main-text');
+        $sinopsis.id = 'current_movie_sinopsis';
+        let $container = document.createElement('div');
+        $container.classList.add('container');
+        let $sinopsisCol = document.createElement('div');
+        $sinopsisCol.classList.add('col-12', 'col-md-8', 'col-lg-6');
+        let $sinopsisContent = document.createElement('div');
+        $sinopsisContent.classList.add('pelicula__sinopsis');
+        let $sinopsisTitle = document.createElement('h2');
+        $sinopsisTitle.classList.add('main__titulo');
+        $sinopsisTitle.textContent = "Sinopsis";
+        let $sinopsisText = document.createElement('p');
+        $sinopsisText.classList.add('pelicula__sinopsis__texto');
+        $sinopsisText.textContent = `${currentMovie.sinopsis}`;
+
+        $sinopsisContent.appendChild($sinopsisTitle);
+        $sinopsisContent.appendChild($sinopsisText);
+        $sinopsisCol.appendChild($sinopsisContent);
+        $container.appendChild($sinopsisCol);
+        $sinopsis.appendChild($container);
+        $fragmentMain.appendChild($sinopsis);
+        $main.appendChild($fragmentMain);
         
     } catch (err) {
         let message = err.statusText || "Ocurrió un error";
