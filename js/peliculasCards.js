@@ -1,11 +1,3 @@
-/* 
-    - Al cargar el documento, buscar en historial_pelis.json el año en el que estamos
-    - El año puede estar indicado en el id del hero, de la misma manera que uso el id para imprimir el contenido de las páginas individuales
-    - Después que itere por todos los meses que haya cargados en ese año
-    - Al entrar al mes, primero que imprima el mes.title en un h2
-    - Después itera por mes.movies e imprime todas las cards que encuentra
-*/
-
 /* ------ VARIABLES ------ */
 let currentYear = document.getElementById('current_year').getAttribute('class');
 let URL_JSON = `../data/movies_${currentYear}.json`;
@@ -84,4 +76,3 @@ const getAll = async () => {
 }
 
 document.addEventListener('DOMContentLoaded', getAll);
-

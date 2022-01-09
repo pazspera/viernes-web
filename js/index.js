@@ -1,11 +1,3 @@
-/* 
-    - Recuperar el json
-    - Convertirlo a objeto js
-    - Sort array
-    - Recortar array para que muestre solo las últimas 6 pelis
-
-*/
-
 /* ------ VARIABLES ------ */
 let URL_INDEX = 'data/info_movies.json';
 
