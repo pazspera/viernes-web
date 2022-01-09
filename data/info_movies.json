@@ -9,15 +9,6 @@
         "link_page": "buen_dia.html"
     },
     {
-        "id": "true_romance",
-        "name": "True Romance",
-        "year": 1993,
-        "date_seen": "2020-05-08T03:00:00.000Z",
-        "img_card": "img/cards/card_true_romance.jpg",
-        "img_card_alt": "Pareja en un auto mirándose amorosamente",
-        "link_page": "true_romance.html"
-    },
-    {
         "id": "cyborg",
         "name": "I'm a Cyborg and That's Ok",
         "year": 2006,
@@ -34,5 +25,58 @@
         "img_card": "img/cards/card_neon_demon.jpg",
         "img_card_alt": "Mujer y su reflejo iluminadas por luces de neón",
         "link_page": "neon_demon.html"
+    },
+    {
+        "id": "true_romance",
+        "name": "True Romance",
+        "year": 1993,
+        "date_seen": "2020-05-08T03:00:00.000Z",
+        "img_card": "img/cards/card_true_romance.jpg",
+        "img_card_alt": "Pareja en un auto mirándose amorosamente",
+        "link_page": "true_romance.html",
+        "pick": "Pollo",
+        "sinopsis": "En Detroit, un friki de la cultura pop se casa con una prostituta, le roba cocaína a su chulo, e intenta venderla en Hollywood. Los propietarios de la coca les siguen la pista para recuperarla.",
+        "director": "Director: Tony Scott",
+        "duration": "1h 59min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_wNYNDzKpuQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+                "img": "cast_1.jpg",
+                "actor": "Christian Slater"
+            },
+            {
+                "img": "cast_2.jpg",
+                "actor": "Patricia Arquette"
+            },
+            {
+                "img": "cast_3.jpg",
+                "actor": "Gary Oldman"
+            },
+            {
+                "img": "cast_4.jpg",
+                "actor": "Brad Pitt"
+            },
+            {
+                "img": "cast_5.jpg",
+                "actor": "Dennis Hopper"
+            }
+        ],
+        "img_row": [
+            {
+                "img": "img_1.jpg",
+                "alt": "Pareja en el cine comiendo pochoclos y mirando una película",
+                "class": "always_show"
+            },
+            {
+                "img": "img_2.jpg",
+                "alt": "Hombre amenazador parado con una tele de fondo",
+                "class": "always_show"
+            },
+            {
+                "img": "img_3.jpg",
+                "alt": "Hombre con anteojos de sol visto a través de la mirilla de una puerta",
+                "class": "hidden_first"
+            }
+        ]
     }
 ]

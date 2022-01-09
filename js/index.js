@@ -1,5 +1,5 @@
 /* ------ VARIABLES ------ */
-let URL_INDEX = 'data/info_movies.json';
+const URL_INDEX = 'data/info_movies.json';
 
 let $cardsContainer = document.getElementById('peliculas-cards-index');
 let $heroIndex = document.getElementById('hero_index');
