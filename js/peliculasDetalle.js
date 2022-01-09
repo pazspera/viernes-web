@@ -24,6 +24,7 @@ const getMovieInfo = async () => {
         let $fragmentHero = document.createDocumentFragment();
         let $fragmentMain = document.createDocumentFragment();
         let $fragmentCast = document.createDocumentFragment();
+        let $fragmentImgRow = document.createDocumentFragment();
         
         if(!res.ok) throw {
             status: res.status,
@@ -161,12 +162,58 @@ const getMovieInfo = async () => {
         $rowTrailer.appendChild($colTrailer2);
         $containerTrailer.appendChild($rowTrailer);
         $trailer.appendChild($containerTrailer);
+        
+        // Imprimir img_row
+        console.log(currentMovie.img_row);
+        let $imgRow = document.createElement('section');
+        $imgRow.classList.add('main-img');
+        $imgRow.id = 'current_movie_img';
+        let $rowImgRow = document.createElement('div');
+        $rowImgRow.classList.add('row', 'g-0');
+
+        currentMovie.img_row.forEach(img => {
+            if(img.class === 'always_show'){
+                let $imgDiv = document.createElement('div');
+                $imgDiv.classList.add('img-fluid', 'col-12', 'col-md-6', 'col-xxl-4', 'pelicula__img');
+                let $img = document.createElement('img');
+                $img.src = `../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${img.img}`;
+                $img.alt = `${img.alt}`;
+
+                $imgDiv.appendChild($img);
+                $fragmentImgRow.appendChild($imgDiv);
+            } else if(img.class === 'hidden_first') {
+                let $imgDiv = document.createElement('div');
+                $imgDiv.classList.add('img-fluid', 'd-none', 'd-xxl-block', 'col-xxl-4', 'pelicula__img');
+                let $img = document.createElement('img');
+                $img.src = `../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${img.img}`;
+                $img.alt = `${img.alt}`;
+
+                $imgDiv.appendChild($img);
+                $fragmentImgRow.appendChild($imgDiv);
+            }
+        });
+
+        $rowImgRow.appendChild($fragmentImgRow);
+        $imgRow.appendChild($rowImgRow);
 
         // Agregar a main todos los fragmentos
         $fragmentMain.appendChild($sinopsis);
         $fragmentMain.appendChild($cast);
         $fragmentMain.appendChild($trailer);
+        $fragmentMain.appendChild($imgRow);
         $main.appendChild($fragmentMain);
+
+        
+
+
+        // Btns navegación entre pelis
+       /* console.log(data);
+       let currentMovieIndex = data.findIndex(movie => movie.id === currentMovieId);
+       let nextMovieIndex = currentMovieIndex - 1;
+       let previousMovieIndex = currentMovieIndex + 1;
+       console.log(currentMovieIndex);
+       console.log(nextMovieIndex);
+       console.log(previousMovieIndex); */
 
         
     } catch (err) {
