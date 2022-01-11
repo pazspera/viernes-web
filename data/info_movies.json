@@ -1,5 +1,250 @@
 [
     {
+        "id": "kill_bill",
+        "name": "Kill Bill: The Whole Bloody Affair",
+        "year": 2011,
+        "date_seen": "2020-07-24T03:00:00.000Z",
+        "img_card": "img/cards/card_kill_bill.jpg",
+        "img_card_alt": "Mujer preparada para atacar con un sable",
+        "link_page": "kill_bill.html",
+        "pick": "Pollo",
+        "sinopsis": "La esposa debe matar a su ex jefe y amante Bill, quien la traicionó en su ceremonia de boda, le disparó en la cabeza y se llevó a su hija no nacida. Pero primero, debe hacer sufrir a los otros cuatro miembros del Escuadrón de Asesinato de Víboras Mortales.",
+        "director": "Director: Quentin Tarantino",
+        "duration": "4h 7min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/s_iExUQIH9c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Uma Thurman"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "David Carradine"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Lucy Liu"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Daryl Hannah"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Vivica A. Fox"
+            },
+            {
+              "img": "cast_6.jpg",
+              "actor": "Michael Madsen"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer en un traje amarillo parada delante de un sable",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Dos mujeres y dos hombres mirando a cámara",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Maestro de artes marciales sentado en una escalera de un templo",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
+        "id": "wayward_cloud",
+        "name": "The Wayward Cloud",
+        "year": 2005,
+        "date_seen": "2020-07-24T03:00:00.000Z",
+        "img_card": "img/cards/card_wayward_cloud.jpg",
+        "img_card_alt": "Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer",
+        "link_page": "wayward_cloud.html",
+        "pick": "Geor",
+        "sinopsis": "Hsiao-Kang, que trabaja como actor pornográfico, se encuentra con Shiang-chyi una vez más. Mientras tanto, la ciudad de Taipei se enfrenta a una escasez de agua que hace que las ventas de sandías se disparen.",
+        "director": "Director: Ming-liang Tsai",
+        "duration": "1h 54min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qrCM91vDinc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Kang-sheng Lee"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Shiang-chyi Chen"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer en la cocina sirviendo jugo, hombre en el living arreglando una maleta",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Mujer con un sombrero bailando, detrás hay un grupo de bailarines sosteniendo paraguas de sandías",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mujer lamiendo una sandía que está dentro de una heladera",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "midsommar",
+        "name": "Midsommar",
+        "year": 2019,
+        "date_seen": "2020-07-17T03:00:00.000Z",
+        "img_card": "img/cards/card_midsommar.jpg",
+        "img_card_alt": "Manos ensangrentadas sobre una piedra con símbolos tallados",
+        "link_page": "midsommar.html",
+        "pick": "Paz",
+        "sinopsis": "Un joven convence a su novia de que le acompañe a un festival de verano en Suecia que resulta no ser lo que parece.",
+        "director": "Director: Ari Aster",
+        "duration": "2h 28min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Vnghdsjmd0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Florence Pugh"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Jack Reynor"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Vilhelm Blomgren"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "William Jackson Harper"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Will Poulter"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Grupo de personas en una tarde soleada sentadas en el pasto",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Tapete con dibujos",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre en un prado parado delante de una pirámide amarilla",
+              "class": "hidden_first"
+            }
+        ]        
+    },
+    {
+        "id": "mood_indigo",
+        "name": "Mood Indigo",
+        "year": 2013,
+        "date_seen": "2020-07-10T03:00:00.000Z",
+        "img_card": "img/cards/card_mood_indigo.jpg",
+        "img_card_alt": "Pareja sentada en un banco mirándose con cariño",
+        "link_page": "mood_indigo.html",
+        "pick": "Pollo",
+        "sinopsis": "Colin se esfuerza por encontrar una cura para su amante Chloe después de que le diagnostican una enfermedad inusual causada por una flor que crece en sus pulmones.",
+        "director": "Director: Michel Gondry",
+        "duration": "2h 11min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/38ugyccL5zU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Romain Duris"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Audrey Tautou"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Omar Sy"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Gad Elmaleh"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Dos hombres y una mujer haciendo un picnic en un campo",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre vestido de ratón comiendo un trozo de queso",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Dos hombres bailando en un living",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "tokyo_godfathers",
+        "name": "Tokyo Godfathers",
+        "year": 2003,
+        "date_seen": "2020-07-03T03:00:00.000Z",
+        "img_card": "img/cards/card_tokyo_godfathers.jpg",
+        "img_card_alt": "Pareja con una niña y un bebé hablando",
+        "link_page": "tokyo_godfathers.html",
+        "pick": "Geor",
+        "sinopsis": "En Noche Buena, tres personas sin hogar en las calles de Tokyo encuentran a un recién nacido entre la basura e intentan encontrar a sus padres.",
+        "director": "Director: Satoshi Kon",
+        "duration": "1h 33min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZL_2E-HfIZY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Tôru Emori"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Yoshiaki Umegaki"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Aya Okamoto"
+            }
+          ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Tres personas cuidando un bebé",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Chica con un sombrero parada entre las góndolas de un supermercado",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre mayor tomando alcohol sobre bolsas de basura",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
         "id": "climax",
         "name": "Climax",
         "year": 2018,

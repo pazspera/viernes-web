@@ -3265,12 +3265,12 @@ const peliculasCards = [
         img_card: 'img/cards/card_kill_bill.jpg',
         img_card_alt: 'Mujer preparada para atacar con un sable',
         link_page: 'kill_bill.html',
-        duration: '4h 7min',
-        director: 'Director: Quentin Tarantino',
         pick: 'Pollo', 
         sinopsis: 'La esposa debe matar a su ex jefe y amante Bill, quien la traicionó en su ceremonia de boda, le disparó en la cabeza y se llevó a su hija no nacida. Pero primero, debe hacer sufrir a los otros cuatro miembros del Escuadrón de Asesinato de Víboras Mortales.',
-        tags: ['acción', 'quentin tarantino'],
+        director: 'Director: Quentin Tarantino',
+        duration: '4h 7min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/s_iExUQIH9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['acción', 'quentin tarantino'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -3324,10 +3324,10 @@ const peliculasCards = [
         img_card_alt: 'Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer',
         link_page: 'wayward_cloud.html',
         pick: 'Geor', 
+        sinopsis: 'Hsiao-Kang, que trabaja como actor pornográfico, se encuentra con Shiang-chyi una vez más. Mientras tanto, la ciudad de Taipei se enfrenta a una escasez de agua que hace que las ventas de sandías se disparen.',
         director: 'Director: Ming-liang Tsai',
         duration: '1h 54min',
-        sinopsis: 'Hsiao-Kang, que trabaja como actor pornográfico, se encuentra con Shiang-chyi una vez más. Mientras tanto, la ciudad de Taipei se enfrenta a una escasez de agua que hace que las ventas de sandías se disparen.',
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qrCM91vDinc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QSmWstWA8PM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia'],
         cast: [
             {
@@ -3366,11 +3366,11 @@ const peliculasCards = [
         img_card_alt: 'Manos ensangrentadas sobre una piedra con símbolos tallados',
         link_page: 'midsommar.html',
         pick: 'Paz', 
-        duration: '2h 28min',
-        director: 'Director: Ari Aster',
-        tags: ['terror', 'perturbadoras', 'drogas'],
         sinopsis: 'Un joven convence a su novia de que le acompañe a un festival de verano en Suecia que resulta no ser lo que parece.',
+        director: 'Director: Ari Aster',
+        duration: '2h 28min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Vnghdsjmd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['terror', 'perturbadoras', 'drogas'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -3418,12 +3418,12 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 10),
         img_card: 'img/cards/card_mood_indigo.jpg',
         img_card_alt: 'Pareja sentada en un banco mirándose con cariño',
+        tags: ['drama', 'realismo mágico', 'francesa'],
         link_page: 'mood_indigo.html',
         pick: 'Pollo',
+        sinopsis: 'Colin se esfuerza por encontrar una cura para su amante Chloe después de que le diagnostican una enfermedad inusual causada por una flor que crece en sus pulmones.',
         director: 'Director: Michel Gondry',
         duration: '2h 11min',
-        sinopsis: 'Colin se esfuerza por encontrar una cura para su amante Chloe después de que le diagnostican una enfermedad inusual causada por una flor que crece en sus pulmones.',
-        tags: ['drama', 'realismo mágico', 'francesa'],
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/38ugyccL5zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -3468,12 +3468,12 @@ const peliculasCards = [
         date_seen: new Date(2020, 6, 3),
         img_card: 'img/cards/card_tokyo_godfathers.jpg',
         img_card_alt: 'Pareja con una niña y un bebé hablando',
-        director: 'Director: Satoshi Kon',
-        duration: '1h 33min',
+        tags: ['animación', 'drama', 'oriental'],
         link_page: 'tokyo_godfathers.html',
         pick: 'Geor',
         sinopsis: 'En Noche Buena, tres personas sin hogar en las calles de Tokyo encuentran a un recién nacido entre la basura e intentan encontrar a sus padres.',
-        tags: ['animación', 'drama', 'oriental'],
+        director: 'Director: Satoshi Kon',
+        duration: '1h 33min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZL_2E-HfIZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
