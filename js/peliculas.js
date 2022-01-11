@@ -2364,12 +2364,12 @@ const peliculasCards = [
         img_card: 'img/cards/card_bad_taste.jpg',
         img_card_alt: 'Grupo de tres extraterrestres caminando por el bosque',
         link_page: 'bad_taste.html',
-        duration: '1h 31min',
-        director: 'Director: Peter Jackson',
         pick: 'Loco', 
         sinopsis: 'Una pequeña ciudad de la costa está más tranquila que nunca. Todos sus habitantes han desaparecido. Su destino ha sido decidido por un grupo de aliens en busca de carne humana para las hamburgesas de un fast-food intergaláctico. Un cuerpo especial se enfrentará a los extraterrestres.',
-        tags: ['acción', 'clase b'],
+        director: 'Director: Peter Jackson',
+        duration: '1h 31min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7IHwKJOZZ6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['acción', 'clase b'],
         cast: [
             {
                 img: 'cast_1.jpg',

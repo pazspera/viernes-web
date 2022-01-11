@@ -1,5 +1,95 @@
 [
     {
+        "id": "bad_taste",
+        "name": "Bad Taste",
+        "year": 1987,
+        "date_seen": "2020-12-04T03:00:00.000Z",
+        "img_card": "img/cards/card_bad_taste.jpg",
+        "img_card_alt": "Grupo de tres extraterrestres caminando por el bosque",
+        "link_page": "bad_taste.html",
+        "pick": "Loco",
+        "sinopsis": "Una pequeña ciudad de la costa está más tranquila que nunca. Todos sus habitantes han desaparecido. Su destino ha sido decidido por un grupo de aliens en busca de carne humana para las hamburgesas de un fast-food intergaláctico. Un cuerpo especial se enfrentará a los extraterrestres.",
+        "director": "Director: Peter Jackson",
+        "duration": "1h 31min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7IHwKJOZZ6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Peter Jackson"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Pete O'Herne"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Doug Wren"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Auto pequeño en un camino y dos personas haciendo autostop",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Extraterrestres en un auto tapándose las orejas",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre con un hacha en la mano caminando por una ruta",
+              "class": "hidden_first"
+            }
+          ]        
+    },
+    {
+        "id": "moon",
+        "name": "Moon",
+        "year": 2009,
+        "date_seen": "2020-12-04T03:00:00.000Z",
+        "img_card": "img/cards/card_moon.jpg",
+        "img_card_alt": "Astronauta mirando una máquina con un emoji de carita triste en su pantalla",
+        "link_page": "moon.html",
+        "pick": "Paz",
+        "sinopsis": "El astronauta Sam Bell tiene un encuentro personal por excelencia hacia el final de su estadía de 3 años en la Luna, donde, trabajando junto a su computadora, GERTY, envía a la Tierra paquetes de un recurso que ha ayudado a disminuir los problemas de energía de nuestro planeta.",
+        "director": "Director: Duncan Jones",
+        "duration": "1h 37min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WWoDBcSW4_c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Sam Rockwell"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Kevin Spacey"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Dominique McElligott"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre en un desierto sacando una foto con una cámara antigua",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre con la cara pegada a una pared, un grupo de personas lo miran",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
         "id": "baron",
         "name": "The Adventures of Baron Munchausen",
         "year": 1988,
