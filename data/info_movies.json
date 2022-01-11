@@ -1,5 +1,258 @@
 [
     {
+      "id": "fantastic_fox",
+      "name": "Fantastic Mr. Fox",
+      "year": 2009,
+      "date_seen": "2021-04-30T03:00:00.000Z",
+      "img_card": "img/cards/card_fantastic_fox.jpg",
+      "img_card_alt": "Dos zorritos ladrones asomándose de la tapa de una alcantarilla",
+      "link_page": "fantastic_fox.html",
+      "pick": "Geor",
+      "sinopsis": "El Sr. y la Sra. Fox viven una feliz vida hogareña con su excéntrico hijo Ash y su sobrino Kristofferson, quien está de visita, hasta que el Sr. Fox recae en sus taimados hábitos y planea el robo de gallinas más grande presenciado por el mundo animal.",
+      "director": "Wes Anderson",
+      "duration": "1h 27min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n2igjYFojUo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "George Clooney"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Meryl Streep"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Jason Schwartzman"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Eric Chase Anderson"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Willem Dafoe"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Zorro con máscara sobre la cara sonriendo con culpa",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Zorro y zorra mirando hacia arriba",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Cazadores con armas enojados",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "muertos_risa",
+      "name": "Muertos de Risa",
+      "year": 1999,
+      "date_seen": "2021-04-23T03:00:00.000Z",
+      "img_card": "img/cards/card_muertos_risa.jpg",
+      "img_card_alt": "Hombre a punto de darle una cachetada a otro hombre",
+      "link_page": "muertos_risa.html",
+      "pick": "Pollo",
+      "sinopsis": "Nino y Bruno son dos comediantes que alcanzan el éxito con su dúo, convirtiéndose en grandes celebridades de televisión. Sin embargo, el odio entre ellos crece tan rápido y tanto como su fama.",
+      "director": "Director: Alex de la Iglesia",
+      "duration": "1h 53min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MsOgZ-6WtCw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Santiago Segura"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "El Gran Wyoming"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres caminando en una ruta de noche",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Tres hombres vestidos formales delante de una calesita",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre vestido elegante y otro hombre sacudiendo su mano con un plumero",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "suspiria_1977",
+      "name": "Suspiria",
+      "year": 1977,
+      "date_seen": "2021-04-16T03:00:00.000Z",
+      "img_card": "img/cards/card_suspiria_1977.jpg",
+      "img_card_alt": "Mujer pasando por un pasillo iluminado de rojo y entrando a una habitación",
+      "link_page": "suspiria_1977.html",
+      "pick": "Loco",
+      "sinopsis": "Un estadounidense recién llegado a una prestigiosa academia alemana de ballet se da cuenta de que la escuela es una fachada para algo siniestro en medio de una serie de horripilantes asesinatos.",
+      "director": "Director: Dario Argento",
+      "duration": "1h 35min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/y31qSjZ2s-E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Jessica Harper"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Joan Bennett"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Alida Valli"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Stefania Casini"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Flavio Bucci"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Susie reflejada en un espejo",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer y niño mirando a cámara junto a una mesita llena de platos",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Sarah intentando despertar a Susie",
+          "class": "hidden_first"
+        }
+      ]
+    }, 
+    {
+      "id": "antiviral",
+      "name": "Antiviral",
+      "year": 2012,
+      "date_seen": "2021-04-09T03:00:00.000Z",
+      "img_card": "img/cards/card_antiviral.jpg",
+      "img_card_alt": "Hombre mirando con preocupación un tubo de ensayo con sangre",
+      "link_page": "antiviral.html",
+      "pick": "Paz",
+      "sinopsis": "En un futuro cercano obscuro, una próspera industria vende enfermedades de celebridades a sus obsesionados fans. Los intentos del empleado Syd March de explotar el sistema fracasan cuando lo involucran en un misterio potencialmente mortal.",
+      "director": "Director: Brandon Cronenberg",
+      "duration": "1h 48min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XIZb50HiBCo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Caleb Landry Jones"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Sarah Gadon"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Joe Pingue"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Malcolm McDowell"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Douglas Smith"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre preocupado mirándose al espejo",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Bandejas con carne sintética",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Dos hombres hablando frente a una máquina extraña",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "top_secret",
+      "name": "Top Secret",
+      "year": 1984,
+      "date_seen": "2021-04-02T03:00:00.000Z",
+      "img_card": "img/cards/card_top_secret.jpg",
+      "img_card_alt": "Hombre al lado de una ventana con los vidrios rotos",
+      "link_page": "top_secret.html",
+      "pick": "Fisura Castels",
+      "sinopsis": "Parodia de películas de espías de la Segunda Guerra Mundial en las que un cantante de rock and roll estadounidense se involucra en un complot de la Resistencia para rescatar a un científico encarcelado en Alemania Oriental.",
+      "director": "Directores: Jim Abrahams, David Zucker & Jerry Zucker",
+      "duration": "1h 30min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/J4hX23pyXxw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Val Kilmer"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Lucy Gutteridge"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Peter Cushing"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Christopher Villiers"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Jeremy Kemp"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Tres mercenarios con armas mirando amenazadoramente",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer y hombre caminando agarrados del brazo en una fiesta elegante",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre atrapado dentro de estructura metálica mirando a cámara con una sonrisa",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
         "id": "snatch",
         "name": "Snatch",
         "year": 2000,
