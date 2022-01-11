@@ -2269,10 +2269,10 @@ const peliculasCards = [
         img_card_alt: 'Reflejo de una mujer en un espejo roto',
         link_page: 'perfect_blue.html',
         pick: 'Geor', 
+        sinopsis: 'Una excantante de pop que ahora es actriz es acosada por un fan obsesionado y un fantasma de su pasado.',
         director: 'Director: Satoshi Kon',
         duration: '1h 21min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4uRakM7gpo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        sinopsis: 'Una excantante de pop que ahora es actriz es acosada por un fan obsesionado y un fantasma de su pasado.',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -2318,11 +2318,11 @@ const peliculasCards = [
         img_card: 'img/cards/card_heavy_metal.jpg',
         img_card_alt: 'Hombre con uniforme militar con un robot ovalado flotante a su lado',
         link_page: 'heavy_metal.html',
+        pick: 'Markus', 
         sinopsis: 'Un orbe verde, encarnación del mal supremo, aterroriza a una joven con una antología de historias extrañas sobre fantasías oscuras, erotismo y horror.',
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gIum5aIUVlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         director: 'Directores: Gerald Potterton, John Bruno & John Halas',
         duration: '1h 26min',
-        pick: 'Markus', 
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gIum5aIUVlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',

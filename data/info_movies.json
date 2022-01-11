@@ -1,5 +1,99 @@
 [
     {
+        "id": "perfect_blue",
+        "name": "Perfect Blue",
+        "year": 1997,
+        "date_seen": "2021-01-22T03:00:00.000Z",
+        "img_card": "img/cards/card_perfect_blue.jpg",
+        "img_card_alt": "Reflejo de una mujer en un espejo roto",
+        "link_page": "perfect_blue.html",
+        "pick": "Geor",
+        "sinopsis": "Una excantante de pop que ahora es actriz es acosada por un fan obsesionado y un fantasma de su pasado.",
+        "director": "Director: Satoshi Kon",
+        "duration": "1h 21min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4uRakM7gpo4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Junko Iwao"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Rica Matsumoto"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Shinpachi Tsuji"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Masaaki Ôkura"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer mirando por la ventana de un balcón, su reflejo se ve en el vidrio",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Tres personas mirando a través de una cámara de video",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Reflejo de una mujer en un monitor de computadora",
+              "class": "hidden_first"
+            }
+        ]        
+    },
+    {
+        "id": "heavy_metal",
+        "name": "Heavy Metal",
+        "year": 1981,
+        "date_seen": "2021-01-08T03:00:00.000Z",
+        "img_card": "img/cards/card_heavy_metal.jpg",
+        "img_card_alt": "Hombre con uniforme militar con un robot ovalado flotante a su lado",
+        "link_page": "heavy_metal.html",
+        "pick": "Markus",
+        "sinopsis": "Un orbe verde, encarnación del mal supremo, aterroriza a una joven con una antología de historias extrañas sobre fantasías oscuras, erotismo y horror.",
+        "director": "Directores: Gerald Potterton, John Bruno & John Halas",
+        "duration": "1h 26min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gIum5aIUVlk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Richard Romanus"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "John Candy"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Eugene Levy"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre con casco amenazando con una mano en alto",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Mujer sosteniendo una espada frente a una estatua gigante",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Grupo de alienígenas sentados en una tribuna",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
         "id": "bad_taste",
         "name": "Bad Taste",
         "year": 1987,
