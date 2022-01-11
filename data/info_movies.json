@@ -1,5 +1,197 @@
 [
     {
+        "id": "gattaca",
+        "name": "Gattaca",
+        "year": 1997,
+        "date_seen": "2020-09-26T03:00:00.000Z",
+        "img_card": "img/cards/card_gattaca.jpg",
+        "img_card_alt": "Hombre caminando por un pasillo circular",
+        "link_page": "gattaca.html",
+        "pick": "Pollo",
+        "sinopsis": "Un hombre genéticamente inferior asume la identidad de uno superior para cumplir su sueño de viajar al espacio.",
+        "director": "Director: Andrew Niccol",
+        "duration": "1h 46min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/W_KruQhfvW4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Ethan Hawke"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Uma Thurman"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Jude Law"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre parado en la cima de una escalera mirando a un hombre en silla de ruedas",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre limpiando el techo de un edificio y mirando el lanzamiento de un cohete que se ve a la distancia",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mujer y hombre viajando en un auto de noche",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
+        "id": "mouth_madness",
+        "name": "In the Mouth of Madness",
+        "year": 1994,
+        "date_seen": "2020-09-18T03:00:00.000Z",
+        "img_card": "img/cards/card_mouth_madness.jpg",
+        "img_card_alt": "Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa",
+        "link_page": "mouth_madness.html",
+        "pick": "Paz",
+        "sinopsis": "Un investigador de seguros sospecha del impacto que los libros de terror de cierto autor tienen en su audiencia.",
+        "director": "John Carpenter",
+        "duration": "1h 35min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qMjcDVEFQDs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Sam Neill"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Jürgen Prochnow"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Julie Carmen"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "David Warner"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre en un desierto sacando una foto con una cámara antigua",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre con la cara pegada a una pared, un grupo de personas lo miran",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "thinking_ending",
+        "name": "I'm Thinking of Ending Things",
+        "year": 2020,
+        "date_seen": "2020-09-11T03:00:00.000Z",
+        "img_card": "img/cards/card_thinking_ending.jpg",
+        "img_card_alt": "Dos parejas sentadas a una mesa cenando",
+        "link_page": "thinking_ending.html",
+        "pick": "Geor",
+        "sinopsis": "Pese a albergar dudas sobre la relación con su nueva pareja, una joven emprende un viaje por carretera con su novio Jake rumbo a la granja de los padres de este, donde empieza a cuestionarse todo lo que creía saber.",
+        "director": "Director: Charlie Kaufman",
+        "duration": "2h 14min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cDTg62vsV4U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Jesse Plemons"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Jessie Buckley"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Toni Collette"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "David Thewlis"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre y mujer mirando por la ventanilla de un auto",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Dos parejas sentadas a la mesa cenando",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mujer parada en un mostrador, otras dos mujeres la atienden",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "logans_run",
+        "name": "Logan's Run",
+        "year": 1976,
+        "date_seen": "2020-09-04T03:00:00.000Z",
+        "img_card": "img/cards/card_logans_run.jpg",
+        "img_card_alt": "Tres personas caminando por un pasillo futurista",
+        "link_page": "logans_run.html",
+        "pick": "Pollo",
+        "sinopsis": "Un idílico futuro de ciencia ficción tiene un fallo: la vida debe acabar a la edad de 30 años.",
+        "director": "Director: Michael Anderson",
+        "duration": "1h 59min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/USADM5Gk9Gs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Michael York"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Jenny Agutter"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Richard Jordan"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Farrah Fawcett"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Grupo de personas con túnicas blancas paradas en círculo mirando una luz roja",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Gente caminado por un pasillo futurista iluminado con luces fluor",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Dos hombres mirando un panel de control futurista",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
         "id": "time_bandits",
         "name": "Time Bandits",
         "year": 1981,

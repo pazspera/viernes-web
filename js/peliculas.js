@@ -2873,11 +2873,11 @@ const peliculasCards = [
         img_card: 'img/cards/card_gattaca.jpg',
         img_card_alt: 'Hombre caminando por un pasillo circular',
         link_page: 'gattaca.html',
-        director: 'Director: Andrew Niccol',
-        duration: '1h 46min',
+        tags: ['distopía', 'ciencia ficción', 'genética'],
         pick: 'Pollo',
         sinopsis: 'Un hombre genéticamente inferior asume la identidad de uno superior para cumplir su sueño de viajar al espacio.',
-        tags: ['distopía', 'ciencia ficción', 'genética'],
+        director: 'Director: Andrew Niccol',
+        duration: '1h 46min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/W_KruQhfvW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -2920,9 +2920,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa',
         link_page: 'mouth_madness.html',
         pick: 'Paz', 
-        duration: '1h 35min',
-        director: 'John Carpenter',
         sinopsis: 'Un investigador de seguros sospecha del impacto que los libros de terror de cierto autor tienen en su audiencia.',
+        director: 'John Carpenter',
+        duration: '1h 35min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qMjcDVEFQDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -2969,11 +2969,11 @@ const peliculasCards = [
         img_card: 'img/cards/card_thinking_ending.jpg',
         img_card_alt: 'Dos parejas sentadas a una mesa cenando',
         link_page: 'thinking_ending.html',
+        pick: 'Geor', 
+        sinopsis: 'Pese a albergar dudas sobre la relación con su nueva pareja, una joven emprende un viaje por carretera con su novio Jake rumbo a la granja de los padres de este, donde empieza a cuestionarse todo lo que creía saber.',
         director: 'Director: Charlie Kaufman',
         duration: '2h 14min',
-        pick: 'Geor', 
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cDTg62vsV4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        sinopsis: 'Pese a albergar dudas sobre la relación con su nueva pareja, una joven emprende un viaje por carretera con su novio Jake rumbo a la granja de los padres de este, donde empieza a cuestionarse todo lo que creía saber.',
         tags: ['charlie kaufman', 'realismo mágico', 'oníricas', 'perturbadoras'],
         cast: [
             {
@@ -3019,12 +3019,12 @@ const peliculasCards = [
         img_card: 'img/cards/card_logans_run.jpg',
         img_card_alt: 'Tres personas caminando por un pasillo futurista',
         link_page: 'logans_run.html',
-        duration: '1h 59min',
-        director: 'Director: Michael Anderson',
         pick: 'Pollo',
         sinopsis: 'Un idílico futuro de ciencia ficción tiene un fallo: la vida debe acabar a la edad de 30 años.',
-        tags: ['distopía', 'ciencia ficción'],
+        director: 'Director: Michael Anderson',
+        duration: '1h 59min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/USADM5Gk9Gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['distopía', 'ciencia ficción'],
         cast: [
             {
                 img: 'cast_1.jpg',
