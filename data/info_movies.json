@@ -1,5 +1,197 @@
 [
     {
+        "id": "time_bandits",
+        "name": "Time Bandits",
+        "year": 1981,
+        "date_seen": "2020-08-28T03:00:00.000Z",
+        "img_card": "img/cards/card_time_bandits.jpg",
+        "img_card_alt": "Hombre y mujer vestidos con ropa imperial antigua junto a un niño",
+        "link_page": "time_bandits.html",
+        "pick": "Geor",
+        "sinopsis": "Un joven accidentalmente se une a una banda de enanos que viajan a través del tiempo, mientras saltan de era en era en busca de un tesoro que robar.",
+        "director": "Director: Terry Gilliam",
+        "duration": "1h 56min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vioocIR0gHQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Sean Connery"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Shelley Duvall"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "John Cleese"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Michael Palin"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Katherine Helmond"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Pasillo iluminado con una luz brillante y una cara flotante en el medio",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Grupo de personas vestidas como Napoleon sentadas a una mesa",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Personas vestidas de carnaval mirando a cámara",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "coherence",
+        "name": "Coherence",
+        "year": 2013,
+        "date_seen": "2020-08-21T03:00:00.000Z",
+        "img_card": "img/cards/card_coherence.jpg",
+        "img_card_alt": "Grupo de personas cenando y divirtiéndose",
+        "link_page": "coherence.html",
+        "pick": "Paz",
+        "sinopsis": "Cosas estrañas empiezan a suceder cuando un grupo de amigos que se reúnen para una cena y un cometa pasa por encima.",
+        "director": "Director: James Ward Byrkit",
+        "duration": "1h 29min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eo3If7uZOo4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Emily Baldoni"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Maury Sterling"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Nicholas Brendon"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre hablando en una cena",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Serie de números anotados en un papel cuadriculado",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mujer sentada a la mesa mirando papeles con cara de preocupación",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
+        "id": "brazil",
+        "name": "Brazil",
+        "year": 1985,
+        "date_seen": "2020-08-14T03:00:00.000Z",
+        "img_card": "img/cards/card_brazil.jpg",
+        "img_card_alt": "Oficinista confundido parado en un pasillo",
+        "link_page": "brazil.html",
+        "pick": "Loco",
+        "sinopsis": "Un burócrata, en un mundo retro-futuro, trata de corregir un error administrativo y se convierte en enemigo del Estado.",
+        "director": "Director: Terry Gilliam",
+        "duration": "2h 12min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZKPFC8DA9_8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Jonathan Pryce"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Kim Greist"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Michael Palin"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Katherine Helmond"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Oficina retro futurista con un monitor donde se ve la cara de un hombre",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Dos hombres mirando fijamente a cámara",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Burócrata sentado en una oficina color gris",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "mishima",
+        "name": "Mishima: A Life in Four Chapters",
+        "year": 1985,
+        "date_seen": "2020-08-07T03:00:00.000Z",
+        "img_card": "img/cards/card_mishima.jpg",
+        "img_card_alt": "Dos mujeres paradas en un muelle",
+        "link_page": "mishima.html",
+        "pick": "Pollo",
+        "sinopsis": "Relata la vida del célebre escritor japonés Yukio Mishima.",
+        "director": "Director: Paul Schrader",
+        "duration": "2h",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LzaXtBr5210\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Ken Ogata"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Masayuki Shionoya"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Junkichi Orimoto"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre sentado en el piso apuntando a su estómago con un sable",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre frente a un templo barriendo pétalos de rosas",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Dos hombres hablando de una oficina pintada de blanco",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
         "id": "kill_bill",
         "name": "Kill Bill: The Whole Bloody Affair",
         "year": 2011,
