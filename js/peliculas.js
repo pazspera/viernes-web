@@ -2672,12 +2672,12 @@ const peliculasCards = [
         date_seen: new Date(2020, 9, 30),
         img_card: 'img/cards/card_reanimator.jpg',
         img_card_alt: 'Científico cargando una jeringa con un líquido verde fluorescente',
+        tags: ['acción', 'clase b', 'lovecraft'],
         link_page: 'reanimator.html',
-        director: 'Director: Stuart Gordon',
-        duration: '1h 44min',
         pick: 'Pollo', 
         sinopsis: 'Después de que un extraño estudiante de medicina llega al campus, un chico y su novia se ven involucrados en experimentos centrados en la re-animación de tejido muerto.',
-        tags: ['acción', 'clase b', 'lovecraft'],
+        director: 'Director: Stuart Gordon',
+        duration: '1h 44min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zf-5_Je_D80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -2724,9 +2724,9 @@ const peliculasCards = [
         img_card_alt: 'Dos marinos mirando al horizonte con un faro de fondo',
         link_page: 'lighthouse.html',
         pick: 'Paz', 
+        sinopsis: 'La historia de un guardián del faro llamado Old en la Maine de principios del siglo XX.',
         director: 'Director: Robert Eggers',
         duration: '1h 49min',
-        sinopsis: 'La historia de un guardián del faro llamado Old en la Maine de principios del siglo XX.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hyag7lR8CPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['época', 'realismo mágico'], 
         cast: [
@@ -2765,10 +2765,10 @@ const peliculasCards = [
         img_card: 'img/cards/card_paprika.jpg',
         img_card_alt: 'Hombre con traje corriendo por un pasillo de hotel que se derrite' ,
         link_page: 'paprika.html',
-        director: 'Director: Satoshi Kon',
-        duration: '1h 30min',
         pick: 'Geor', 
         sinopsis: 'Cuando una máquina que permite a los terapeutas entrar en los sueños de sus pacientes es robada, una gran catástrofe amenaza. Solo una joven terapeuta, Paprika, puede detenerlo.',
+        director: 'Director: Satoshi Kon',
+        duration: '1h 30min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/SBrUhQ0_qYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -2819,11 +2819,11 @@ const peliculasCards = [
         img_card: 'img/cards/card_dark_city.jpg',
         img_card_alt: 'Hombre encadenado a una máquina y personas en el fondo mirando',
         link_page: 'dark_city.html',
-        duration: '1h 40min',
-        director: 'Director: Alex Proyas',
+        tags: ['distopía', 'ciencia ficción'],
         pick: 'Loco',
         sinopsis: 'Un hombre con problemas de memoria lucha contra pequeñas imágenes, como la de una esposa a la que no recuerda, o la de un mundo sin sol.',
-        tags: ['distopía', 'ciencia ficción'],
+        director: 'Director: Alex Proyas',
+        duration: '1h 40min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gt9HkO-cGGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {

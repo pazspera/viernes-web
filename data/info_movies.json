@@ -1,5 +1,202 @@
 [
     {
+        "id": "reanimator",
+        "name": "Re-Animator",
+        "year": 1985,
+        "date_seen": "2020-10-30T03:00:00.000Z",
+        "img_card": "img/cards/card_reanimator.jpg",
+        "img_card_alt": "Científico cargando una jeringa con un líquido verde fluorescente",
+        "link_page": "reanimator.html",
+        "pick": "Pollo",
+        "sinopsis": "Después de que un extraño estudiante de medicina llega al campus, un chico y su novia se ven involucrados en experimentos centrados en la re-animación de tejido muerto.",
+        "director": "Director: Stuart Gordon",
+        "duration": "1h 44min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zf-5_Je_D80\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Jeffrey Combs"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Bruce Abbott"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Barbara Crampton"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "David Gale"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre en un cuarto de hospital mirando por un microscopio",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre empujando una camilla por un pasillo de hospital",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre con la cara ensangrentada agarrándose la cabeza",
+              "class": "hidden_first"
+            }
+          ]
+        
+    },
+    {
+        "id": "lighthouse",
+        "name": "The Lighthouse",
+        "year": 2019,
+        "date_seen": "2020-10-23T03:00:00.000Z",
+        "img_card": "img/cards/card_lighthouse.jpg",
+        "img_card_alt": "Dos marinos mirando al horizonte con un faro de fondo",
+        "link_page": "lighthouse.html",
+        "pick": "Paz",
+        "sinopsis": "La historia de un guardián del faro llamado Old en la Maine de principios del siglo XX.",
+        "director": "Director: Robert Eggers",
+        "duration": "1h 49min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hyag7lR8CPA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Willem Dafoe"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Robert Pattinson"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre parado delante de una casa con el océano de fondo",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Primer plano de hombre sufriendo",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Gaviota graznando",
+              "class": "hidden_first"
+            }
+        ]        
+    },
+    {
+        "id": "paprika",
+        "name": "Paprika",
+        "year": 2006,
+        "date_seen": "2020-10-16T03:00:00.000Z",
+        "img_card": "img/cards/card_paprika.jpg",
+        "img_card_alt": "Mujer frente a un grupo de caballos de madera mirándose al espejo",
+        "link_page": "paprika.html",
+        "pick": "Geor",
+        "sinopsis": "Cuando una máquina que permite a los terapeutas entrar en los sueños de sus pacientes es robada, una gran catástrofe amenaza. Solo una joven terapeuta, Paprika, puede detenerlo.",
+        "director": "Director: Satoshi Kon",
+        "duration": "1h 30min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SBrUhQ0_qYA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Megumi Hayashibara"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Akio Ôtsuka"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Tôru Furuya"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Katsunosuke Hori"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Tôru Emori"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer mirando su reflejo en la ventana de un rascacielos",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Desfile exuberante con gente disfrazada",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre sentado trabajando en un cuarto oscuro lleno de equipamiento",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
+        "id": "dark_city",
+        "name": "Dark City",
+        "year": 1994,
+        "date_seen": "2020-10-09T03:00:00.000Z",
+        "img_card": "img/cards/card_dark_city.jpg",
+        "img_card_alt": "Hombre encadenado a una máquina y personas en el fondo mirando",
+        "link_page": "dark_city.html",
+        "pick": "Loco",
+        "sinopsis": "Un hombre con problemas de memoria lucha contra pequeñas imágenes, como la de una esposa a la que no recuerda, o la de un mundo sin sol.",
+        "director": "Director: Alex Proyas",
+        "duration": "1h 40min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gt9HkO-cGGo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Rufus Sewell"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Kiefer Sutherland"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Jennifer Connelly"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "William Hurt"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Richard O'Brien"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre parado en la calle con cara de preocupación",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre pálido con sombrero señalando con la mano",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mano moviendo fichas en un tablero",
+              "class": "hidden_first"
+            }
+          ]        
+    },
+    {
         "id": "gattaca",
         "name": "Gattaca",
         "year": 1997,
