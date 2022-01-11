@@ -1,5 +1,205 @@
 [
     {
+        "id": "snatch",
+        "name": "Snatch",
+        "year": 2000,
+        "date_seen": "2021-03-26T03:00:00.000Z",
+        "img_card": "img/cards/card_snatch.jpg",
+        "img_card_alt": "Hombre alentando a un boxeador en un ring",
+        "link_page": "snatch.html",
+        "pick": "Geor",
+        "sinopsis": "Promotores de boxeo sin escrúpulos, editores violentos, un gánster ruso, ladrones amateur incompetentes, y joyeros supuestamente judíos se enfrentan para seguirle la pista a un preciado diamante robado.",
+        "director": "Director: Guy Ritchie",
+        "duration": "1h 44min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9Jar2XkBboo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Jason Statham"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Brad Pitt"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Stephen Graham"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Vinnie Jones"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Dennis Farina"
+            },
+            {
+              "img": "cast_6.jpg",
+              "actor": "Benicio del Toro"
+            },
+            {
+              "img": "cast_7.jpg",
+              "actor": "Alan Ford"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre sosteniendo tres cartas de poker en la mano",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Tres hombres sentados delante de una casa rodante",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre apuntándole con un arma en la cabeza a otro hombre",
+              "class": "hidden_first"
+            }
+          ]        
+    },
+    {
+        "id": "oldboy",
+        "name": "Oldboy",
+        "year": 2003,
+        "date_seen": "2021-03-19T03:00:00.000Z",
+        "img_card": "img/cards/card_oldboy.jpg",
+        "img_card_alt": "Hombre con pelo largo sonriendo extrañamente en una habitación",
+        "link_page": "oldboy.html",
+        "pick": "Pollo",
+        "sinopsis": "Tras ser secuestrado y aprisionado durante 15 años, Oh Dae-Su es liberado y tiene 5 días para encontrar a su captor.",
+        "director": "Director: Park Chan-Wook",
+        "duration": "2h",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w4UUGIIZxFU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Choi Min-sik"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Yoo Ji-Tae"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Kang Hye-jeong"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre apuntando a la cabeza de otro hombre con un martillo",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre y mujer hablando en un restaurant",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre con sangre en la cara cerrando un ojo",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
+        "id": "enter_void",
+        "name": "Enter the Void",
+        "year": 2009,
+        "date_seen": "2021-03-13T03:00:00.000Z",
+        "img_card": "img/cards/card_enter_void.jpg",
+        "img_card_alt": "Hombre y mujer caminando de espaldas en una tienda con muchas luces de colores",
+        "link_page": "enter_void.html",
+        "pick": "Loco",
+        "sinopsis": "Un traficante francés que vive en Tokio es traicionado por su mejor amigo y asesinado en un negocio de drogas. Su alma, observando las repercusiones de su muerte, busca la resurrección.",
+        "director": "Director: Gaspar Noé",
+        "duration": "2h 42min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/F0d82zVw8Q8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Nathaniel Brown"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Paz de la Huerta"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Cyril Roy"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Olly Alexander"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre mirando a un mujer a través de la puerta de una cocina",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre fumando dmt",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre escribiendo en una pared",
+              "class": "hidden_first"
+            }
+          ]        
+    },
+    {
+        "id": "thx_1138",
+        "name": "THX 1138",
+        "year": 1971,
+        "date_seen": "2021-03-05T03:00:00.000Z",
+        "img_card": "img/cards/card_thx_1138.jpg",
+        "img_card_alt": "Policías enmascarados golpeando a un hombre con palos en una habitación completamente blanca",
+        "link_page": "thx_1138.html",
+        "pick": "Loco",
+        "sinopsis": "En el siglo veinticinco, una época en la que la gente tiene designaciones en lugar de nombres, un hombre, THX 1138, y una mujer, LUH 3417, se rebelan contra su sociedad rígidamente controlada.",
+        "director": "Director: George Lucas",
+        "duration": "1h 26min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eHgqfVQWv7s\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Robert Duvall"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Maggie McOmie"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Donald Pleasence"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre en un confesionario futurista",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Operadora teléfonica trabajando en consolas",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre relajado bañado en luz roja",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
         "id": "synecdoche",
         "name": "Synecdoche, New York",
         "year": 2008,
