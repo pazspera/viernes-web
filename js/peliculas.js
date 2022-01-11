@@ -3515,12 +3515,12 @@ const peliculasCards = [
         img_card: 'img/cards/card_climax.jpg',
         img_card_alt: 'Televisor antiguo con vhs al costado y una mujer hablando en la pantalla',
         link_page: 'climax.html',
-        duration: '1h 37min',
-        director: 'Director: Gaspar Noé',
         pick: 'Loco', 
         sinopsis: 'Uno grupo de bailarines franceses se reúne en una escuela abandonada y remota para ensayar en una noche invernal. Una fiesta que iba a durar toda la noche se transforma en una pesadilla plagada de alucinaciones cuando descubren que su sangría está envenenada con LSD.',
-        tags: ['drogas', 'gaspar noé', 'musical'],
+        director: 'Director: Gaspar Noé',
+        duration: '1h 37min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hi69nL_VrTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['drogas', 'gaspar noé', 'musical'],
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -3560,12 +3560,12 @@ const peliculasCards = [
         date_seen: new Date(2020, 5, 19),
         img_card: 'img/cards/card_trainspotting.jpg',
         img_card_alt: 'Tres hombres comiendo papas fritas y hablando',
+        tags: ['drogas', 'drama'],
         link_page: 'trainspotting.html',
         pick: 'Loco', 
-        duration: '1h 33min',
-        director: 'Director: Danny Boyle',
         sinopsis: 'Renton, inmerso en el mundo de las drogas de Edimburgo, intenta desintoxicarse.',
-        tags: ['drogas', 'drama'],
+        director: 'Director: Danny Boyle',
+        duration: '1h 33min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8LuxOYIpu-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -3617,10 +3617,10 @@ const peliculasCards = [
         link_page: 'host.html',
         pick: 'Pollo',
         sinopsis: 'Un monstruo emerge del río Han en Seúl y empieza a atacar a la gente. La familia de una de las víctimas hace lo que puede para rescatarla de sus garras.',
-        tags: ['acción', 'clase b'],
         director: 'Director: Bong Joon Ho',
         duration: '2h',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i6b42ZMkUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        tags: ['acción', 'clase b'],
         cast: [
             {
                 img: 'cast_1.jpg',
