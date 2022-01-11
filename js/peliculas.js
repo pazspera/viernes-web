@@ -2411,10 +2411,10 @@ const peliculasCards = [
         img_card_alt: 'Astronauta mirando una máquina con un emoji de carita triste en su pantalla',
         link_page: 'moon.html',
         pick: 'Paz', 
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WWoDBcSW4_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        duration: '1h 37min',
-        director: 'Director: Duncan Jones',
         sinopsis: 'El astronauta Sam Bell tiene un encuentro personal por excelencia hacia el final de su estadía de 3 años en la Luna, donde, trabajando junto a su computadora, GERTY, envía a la Tierra paquetes de un recurso que ha ayudado a disminuir los problemas de energía de nuestro planeta.',
+        director: 'Director: Duncan Jones',
+        duration: '1h 37min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WWoDBcSW4_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['ciencia ficción'],
         cast: [
             {
@@ -2457,10 +2457,10 @@ const peliculasCards = [
         img_card_alt: 'Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco',
         link_page: 'baron.html',
         pick: 'Geor', 
-        duration: '2h 6min',
-        director: 'Director: Terry Gilliam',
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/C1M-vhN8lsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         sinopsis: 'El descarado Barón Munchausen cuenta sus numerosas aventuras, desde conocer a un hombre en la Luna hasta derrotar él solo a un ejército turco entero.',
+        director: 'Director: Terry Gilliam',
+        duration: '2h 6min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/C1M-vhN8lsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -2518,11 +2518,11 @@ const peliculasCards = [
         img_card: 'img/cards/card_waking_life.jpg',
         img_card_alt: 'Dos hombre conversando, uno es una silueta de nubes',
         link_page: 'waking_life.html',
+        pick: 'Pollo', 
+        sinopsis: 'Un hombre se mueve a través de un sueño conociendo a varias personas y discutiendo los significados y propósitos del universo.',
         director: 'Director: Richard Linklater',
         duration: '1h 41min',
-        pick: 'Pollo', 
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xX10vQEa56E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        sinopsis: 'Un hombre se mueve a través de un sueño conociendo a varias personas y discutiendo los significados y propósitos del universo.',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -2570,9 +2570,9 @@ const peliculasCards = [
         img_card_alt: 'Primer plano de hombre mirando con desafío a cámara',
         link_page: 'rocky_horror.html',
         pick: 'Loco',
+        sinopsis: 'Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.',
         director: 'Director: Jim Sharman',
         duration: '1h 40min',
-        sinopsis: 'Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4plqh6obZW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'musical'],
         cast: [
@@ -2627,10 +2627,10 @@ const peliculasCards = [
         img_card: 'img/cards/card_slacker.jpg',
         img_card_alt: 'Tres personas conversando en la calle',
         link_page: 'slacker.html',
-        director: 'Director: Richard Linklater',
-        duration: '1h 37min',
         pick: 'Loco',
         sinopsis: 'Un día en la vida de Austin, mientras la cámara se desplaza de un lugar a otro y ofrece una breve mirada a los excesos, los inadaptados sociales, los marginados y los bichos raros.',
+        director: 'Director: Richard Linklater',
+        duration: '1h 37min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KlmfRuXxuXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'linklater'], 
         cast: [

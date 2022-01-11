@@ -1,5 +1,217 @@
 [
     {
+        "id": "baron",
+        "name": "The Adventures of Baron Munchausen",
+        "year": 1988,
+        "date_seen": "2020-11-28T03:00:00.000Z",
+        "img_card": "img/cards/card_baron.jpg",
+        "img_card_alt": "Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco",
+        "link_page": "baron.html",
+        "pick": "Geor",
+        "sinopsis": "El descarado Barón Munchausen cuenta sus numerosas aventuras, desde conocer a un hombre en la Luna hasta derrotar él solo a un ejército turco entero.",
+        "director": "Director: Terry Gilliam",
+        "duration": "2h 6min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/C1M-vhN8lsg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "John Neville"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Eric Idle"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Jack Purvis"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Winston Dennis"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Sarah Polley"
+            },
+            {
+              "img": "cast_6.jpg",
+              "actor": "Uma Thurman"
+            },
+            {
+              "img": "cast_7.jpg",
+              "actor": "Robin Williams"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Escenario de teatro con un hombre parado con los brazos extendidos grandilocuentemente",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre y niña parados en una habitación, una cara gigante les habla desde la derecha",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Pareja bailando y flotando entre nubes",
+              "class": "hidden_first"
+            }
+          ]        
+    },
+    {
+        "id": "waking_life",
+        "name": "Waking Life",
+        "year": 2001,
+        "date_seen": "2020-11-20T03:00:00.000Z",
+        "img_card": "img/cards/card_waking_life.jpg",
+        "img_card_alt": "Dos hombre conversando, uno es una silueta de nubes",
+        "link_page": "waking_life.html",
+        "pick": "Pollo",
+        "sinopsis": "Un hombre se mueve a través de un sueño conociendo a varias personas y discutiendo los significados y propósitos del universo.",
+        "director": "Director: Richard Linklater",
+        "duration": "1h 41min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xX10vQEa56E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Wiley Wiggins"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Bill Wise"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Kim Krizan"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Charles Gunning"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mono sentado en una silla proyectando una película",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Pareja conversando en la cama",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Hombre mayor y hombre joven sentados a una mesa charlando",
+              "class": "hidden_first"
+            }
+          ]
+    },
+    {
+        "id": "rocky_horror",
+        "name": "The Rocky Horror Picture Show",
+        "year": 1975,
+        "date_seen": "2020-11-13T03:00:00.000Z",
+        "img_card": "img/cards/card_rocky_horror.jpg",
+        "img_card_alt": "Primer plano de hombre mirando con desafío a cámara",
+        "link_page": "rocky_horror.html",
+        "pick": "Loco",
+        "sinopsis": "Una pareja recién comprometida se queda varada en un camino desolado y deberá buscar refugio en la peculiar residencia del Dr. Frank-n-Furter.",
+        "director": "Director: Jim Sharman",
+        "duration": "1h 40min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4plqh6obZW4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Tim Curry"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Susan Sarandon"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Barry Bostwick"
+            },
+            {
+              "img": "cast_4.jpg",
+              "actor": "Richard O'Brien"
+            },
+            {
+              "img": "cast_5.jpg",
+              "actor": "Patricia Quinn"
+            },
+            {
+              "img": "cast_6.jpg",
+              "actor": "Nell Campbell"
+            }
+          ],
+          "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Brad y Janet mirando asombradosCaden asomándose en un pasillo",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Frank charlando con Brad y Janet",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Magenta y Columbia riéndose en su cuarto",
+              "class": "hidden_first"
+            }
+          ]        
+    },
+    {
+        "id": "slacker",
+        "name": "Slacker",
+        "year": 1990,
+        "date_seen": "2020-11-06T03:00:00.000Z",
+        "img_card": "img/cards/card_slacker.jpg",
+        "img_card_alt": "Tres personas conversando en la calle",
+        "link_page": "slacker.html",
+        "pick": "Loco",
+        "sinopsis": "Un día en la vida de Austin, mientras la cámara se desplaza de un lugar a otro y ofrece una breve mirada a los excesos, los inadaptados sociales, los marginados y los bichos raros.",
+        "director": "Director: Richard Linklater",
+        "duration": "1h 37min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KlmfRuXxuXo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Richard Linklater"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Jerry Delony"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Teresa Taylor"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Tres hombres paseando en un auto",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Dos personas charlando en una mesa llena de botellas de cerveza vacías",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Tres personas charlando en un jardín",
+              "class": "hidden_first"
+            }
+        ]
+    },
+    {
         "id": "reanimator",
         "name": "Re-Animator",
         "year": 1985,
