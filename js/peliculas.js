@@ -2061,9 +2061,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre y mujer rodeados de mesas mirando hacia arriba',
         link_page: 'synecdoche.html',
         pick: 'Geor',
+        sinopsis: 'Un director de teatro, en el proceso de crear una réplica de Nueva York en un almacén para su próxima obra, tiene dificultades en el trabajo y con las mujeres en su vida.',
         director: 'Director: Charlie Kaufman',
         duration: '2h 4min',
-        sinopsis: 'Un director de teatro, en el proceso de crear una réplica de Nueva York en un almacén para su próxima obra, tiene dificultades en el trabajo y con las mujeres en su vida.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/i2q8F0yRmrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['realismo mágico', 'perturbadoras', 'oníricas', 'charlie kaufman'],
         cast: [
@@ -2114,11 +2114,11 @@ const peliculasCards = [
         img_card: 'img/cards/card_labyrinth.jpg',
         img_card_alt: 'Hombre y mujer bailando en un baile de máscaras',
         link_page: 'labyrinth.html',
-        duration: '1h 41min',
-        director: 'Director: Jim Henson',
-        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/O2yd4em1I6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        sinopsis: 'Una chica de 16 años tiene 13 horas para llegar al centro del laberinto y rescatar a su hermano pequeño del rey Goblin.',
         pick: 'Pauleta', 
+        sinopsis: 'Una chica de 16 años tiene 13 horas para llegar al centro del laberinto y rescatar a su hermano pequeño del rey Goblin.',
+        director: 'Director: Jim Henson',
+        duration: '1h 41min',
+        trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/O2yd4em1I6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -2153,14 +2153,14 @@ const peliculasCards = [
         name: 'Tale of Tales',
         year: 2015,
         date_seen: new Date(2021, 1, 12),
-        director: 'Director: Matteo Garrone',
-        duration: '2h 14min',  
         img_card: 'img/cards/card_tale_tales.jpg',
         img_card_alt: 'Hombre mirando con una lupa una caja de madera',
+        pick: 'Paz', 
         sinopsis: 'Sigue la historia de la amarga búsqueda de la Reina de Longtrellis, dos misteriosas hermanas que provocan la pasión de un rey y el Rey de Highhills obsesionado con una pulga gigante.',
+        director: 'Director: Matteo Garrone',
+        duration: '2h 14min',  
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Afup26-_3iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         link_page: 'tale_tales.html',
-        pick: 'Paz', 
         cast: [
             {
                 img: 'cast_1.jpg',
@@ -2214,10 +2214,10 @@ const peliculasCards = [
         img_card: 'img/cards/card_mulholland_drive.jpg',
         img_card_alt: 'Dos mujeres escuchando por teléfono con atención',
         link_page: 'mulholland_drive.html',
-        director: 'Director: David Lynch',
-        duration: '2h 27min',
         pick: 'Pollo', 
         sinopsis: 'Tras un accidente en Mulholland Drive, una mujer amnésica y una aspirante a actriz recorrerán Los Ángeles buscando respuestas en un viaje más allá de los sueños y la realidad.',
+        director: 'Director: David Lynch',
+        duration: '2h 27min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jbZJ487oJlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
