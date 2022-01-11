@@ -6,7 +6,43 @@
         "date_seen": "2020-05-29T03:00:00.000Z",
         "img_card": "img/cards/card_buen_dia.jpg",
         "img_card_alt": "Hombre haciendo mimica de tocar una guitarra y una mujer riendo",
-        "link_page": "buen_dia.html"
+        "link_page": "buen_dia.html",
+        "pick": "Loco",
+        "sinopsis": "Una relación se desarrolla entre dos argentinos solitarios que se conocen por casualidad en un café en California.",
+        "director": "Director: Nicolás Del Boca",
+        "duration": "1h 35min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7e3xIE5QDlw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Aníbal Silveyra"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Lucila Solá"
+            },
+            {
+              "img": "cast_3.jpg",
+              "actor": "Andrea Del Boca"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Hombre y mujer caminando por la playa",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre y mujer charlando en las escaleras de un crucero",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mujer y hombre disfrazados en una tienda",
+              "class": "hidden_first"
+            }
+          ]
     },
     {
         "id": "cyborg",
@@ -15,7 +51,39 @@
         "date_seen": "2020-05-22T03:00:00.000Z",
         "img_card": "img/cards/card_cyborg.jpg",
         "img_card_alt": "Hombre y mujer en un campo",
-        "link_page": "cyborg.html"
+        "link_page": "cyborg.html",
+        "pick": "Geor",
+        "sinopsis": "Una chica que cree ser un cíborg de combate ingresa en un hospital psiquiátrico, donde conoce a otros psicóticos. Al final, se enamora de un hombre que cree que puede robar las almas de las personas.",
+        "director": "Director: Park Chan-Wook",
+        "duration": "1h 47min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/E1Wn7GfJnnA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+              "img": "cast_1.jpg",
+              "actor": "Lim Soo-jung"
+            },
+            {
+              "img": "cast_2.jpg",
+              "actor": "Rain"
+            }
+        ],
+        "img_row": [
+            {
+              "img": "img_1.jpg",
+              "alt": "Mujer con pintura verde en la cara estirando las manos hacia la cámara",
+              "class": "always_show"
+            },
+            {
+              "img": "img_2.jpg",
+              "alt": "Hombre con una máscara de conejo de cartón parado delante de una reja",
+              "class": "always_show"
+            },
+            {
+              "img": "img_3.jpg",
+              "alt": "Mujer y hombre caminando en un cuarto de apariencia industrial",
+              "class": "hidden_first"
+            }
+        ]
     },
     {
         "id": "neon_demon",
@@ -24,7 +92,51 @@
         "date_seen": "2020-05-15T03:00:00.000Z",
         "img_card": "img/cards/card_neon_demon.jpg",
         "img_card_alt": "Mujer y su reflejo iluminadas por luces de neón",
-        "link_page": "neon_demon.html"
+        "link_page": "neon_demon.html",
+        "pick": "Loco",
+        "sinopsis": "Una aspirante a modelo, Jesse, es nueva en Los Ángeles. Sin embargo, su belleza y juventud, que genera gran fascinación y envidia en la industria de la moda, les resultará siniestra.",
+        "director": "Director: Nicolas Winding Refn",
+        "duration": "1h 57min",
+        "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cipOTUO0CmU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+        "cast": [
+            {
+                "img": "cast_1.jpg",
+                "actor": "Elle Fanning"
+            },
+            {
+                "img": "cast_2.jpg",
+                "actor": "Christina Hendricks"
+            },
+            {
+                "img": "cast_3.jpg",
+                "actor": "Jena Malone"
+            },
+            {
+                "img": "cast_4.jpg",
+                "actor": "Abbey Lee"
+            },
+            {
+                "img": "cast_5.jpg",
+                "actor": "Keanu Reeves"
+            }
+        ],
+        "img_row": [
+            {
+                "img": "img_1.jpg",
+                "alt": "Mujer observando a otra mujer que está mirándose al espejo",
+                "class": "always_show"
+            },
+            {
+                "img": "img_2.jpg",
+                "alt": "Mujer tirada en el piso con la boca ensangrentada y fotos de revista rotas esparcidas a su alrededor",
+                "class": "always_show"
+            },
+            {
+                "img": "img_3.jpg",
+                "alt": "Mujer asomándose desde detrás de una pared de ladrillos grises",
+                "class": "hidden_first"
+            }
+        ]
     },
     {
         "id": "true_romance",

@@ -261,7 +261,7 @@ const getMovieInfo = async () => {
        }
 
        // Se imprimen ambos btn
-       if((currentMovieIndex !== (peliculasCards.length - 1) && previousMovieLinkPage !== '')) {
+       if((currentMovieIndex !== (peliculasCards.length - 1) && currentMovieIndex !== 0 && previousMovieLinkPage !== '')) {
            let $previousBtn = document.createElement('div');
            $previousBtn.classList.add('col-6');
            let $previousBtnLink = document.createElement('a');
@@ -280,11 +280,6 @@ const getMovieInfo = async () => {
            $nextBtn.appendChild($nextBtnLink);
            $fragmentBtnNav.appendChild($nextBtn);
        }
-
-       console.log('currentMovieIndex', currentMovieIndex);
-       console.log('nextMovieIndex', nextMovieIndex);
-       console.log(nextMovieLinkPage);
-       console.log(previousMovieLinkPage);
 
        $rowBtnNav.appendChild($fragmentBtnNav);
        $containerBtnNav.appendChild($rowBtnNav);
