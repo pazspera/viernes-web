@@ -1,6 +1,20 @@
 // Array con info de posters (todas las opciones de las películas)
 const arregloPosters = [
     {
+        id: 'moonrise_kingdom',
+        name: 'Moonrise Kingdom',
+        imdb: 'https://www.imdb.com/title/tt1748122/',
+        img: '../img/posters/poster_moonrise_kingdom.jpg',
+        secondPick: 0,
+    },
+    {
+        id: 'life_aquatic',
+        name: 'The Life Aquatic with Steve Zissou',
+        imdb: 'https://www.imdb.com/title/tt0362270/',
+        img: '../img/posters/poster_life_aquatic.jpg',
+        secondPick: 0,
+    },
+    {
         id: 'todo_madre',
         name: 'Todo sobre mi madre',
         imdb: 'https://www.imdb.com/title/tt0185125/',
