@@ -1,5 +1,254 @@
 [
     {
+      "id": "pontypool",
+      "name": "Pontypool",
+      "year": 20008,
+      "date_seen": "2021-07-30T03:00:00.000Z",
+      "img_card": "img/cards/card_pontypool.jpg",
+      "img_card_alt": "Locutor en una cabina de radio hablando",
+      "link_page": "pontypool.html",
+      "pick": "Loco",
+      "sinopsis": "Un locutor de radio reporta un posible epidemia de un virus mortal que infecta la ciudad de Ontario.",
+      "director": "Director: Bruce McDonald",
+      "duration": "1h 33min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H4EoVxwJecM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Stephen McHattie"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Lisa Houle"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Georgina Reilly"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Hrant Alianak"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres con auriculares en una cabina de radio",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Personas detrás de un vidrio golpeándolo con las manos",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Figura de Joey Ramone al lado de una pecera",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "john_dies_end",
+      "name": "John Dies at the End",
+      "year": 2012,
+      "date_seen": "2021-07-23T03:00:00.000Z",
+      "img_card": "img/cards/card_john_dies_end.jpg",
+      "img_card_alt": "Hombre hablando por un pancho como si fuera un teléfono",
+      "link_page": "john_dies_end.html",
+      "pick": "Paz",
+      "sinopsis": "Una nueva droga callejera que envía a sus consumidores a través del tiempo y las dimensiones tiene un inconveniente: algunas personas ya no regresan como seres humanos.",
+      "director": "Director: Don Coscarelli",
+      "duration": "1h 39min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IfJp417dyig\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Chase Williamson"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Rob Mayes"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Paul Giamatti"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres mirando a una silueta de persona hecha de cortes de carne",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Dos hombres mirando a cámara",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre con máscara parado frente a una iglesia llena de personas",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "outrage",
+      "name": "Outrage",
+      "year": 2010,
+      "date_seen": "2021-07-16T03:00:00.000Z",
+      "img_card": "img/cards/card_outrage.jpg",
+      "img_card_alt": "Dos miembros de a Yakuza mirando a cámara y apuntando con un arma",
+      "link_page": "outrage.html",
+      "pick": "Geor",
+      "sinopsis": "El jefe de un importante sindicato del crimen ordena a su lugarteniente que ponga orden en una banda de traficantes de drogas, un trabajo que pasa a su sufrido subordinado.",
+      "director": "Director: Takeshi Kitano",
+      "duration": "1h 49min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3Fj3htxRRHM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Takeshi Kitano"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Kippei Shîna"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Fumiyo Kohinata"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Soichiro Kitamura"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Jun Kunimura"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres parados en un estacionamiento, uno con una ametralladora en la mano y el otro, con una pistola",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Hombre rastrillando un jardín zen",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Dos hombres parados frente a un escritorio, uno tiene la cara vendada",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "brick",
+      "name": "Brick",
+      "year": 2005,
+      "date_seen": "2021-07-09T03:00:00.000Z",
+      "img_card": "img/cards/card_brick.jpg",
+      "img_card_alt": "Adolescente hablando en una cabina telefónica de noche",
+      "link_page": "brick.html",
+      "pick": "Pollo",
+      "sinopsis": "Un adolescente solitario se adentra en las profundidades de una red criminal de la escuela secundaria para investigar la desaparición de su ex-novia.",
+      "director": "Director: Rian Johnson",
+      "duration": "1h 50min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4Zfw8__A7ps\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Joseph Gordon-Levitt"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Emilie de Ravin"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Lukas Haas"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Nora Zehetner"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Noah Fleiss"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Adolescente apoyado sobre la parte de atrás de un auto convertible",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Dos adolescente sentados a una mesa con una jarra con forma de gallina",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Pareja de adolescentes sentados en el piso hablando",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "holy_motors",
+      "name": "Holy Motors",
+      "year": 2012,
+      "date_seen": "2021-07-02T03:00:00.000Z",
+      "img_card": "img/cards/card_holy_motors.jpg",
+      "img_card_alt": "Hombre ciego de un ojo parado frente a un grupo de gente",
+      "link_page": "holy_motors.html",
+      "pick": "la democracia",
+      "sinopsis": "Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.",
+      "director": "Director: Leos Carax",
+      "duration": "1h 55min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NWu9WjEcdbk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Denis Lavant"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Edith Scob"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Kylie Minogue"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Eva Mendes"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre parado frente a una pared con un empapelado de árboles",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Hombre saliendo de una alcantarilla",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Mujer con una máscara turquesa caminando en un estacionamiento lleno de limusinas",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
       "id": "black_rainbow",
       "name": "Beyond the Black Rainbow",
       "year": 2010,

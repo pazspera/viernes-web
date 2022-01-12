@@ -884,9 +884,9 @@ const peliculasCards = [
         img_card_alt: 'Locutor en una cabina de radio hablando',
         link_page: 'pontypool.html',
         pick: 'Loco',
+        sinopsis: 'Un locutor de radio reporta un posible epidemia de un virus mortal que infecta la ciudad de Ontario.',
         director: 'Director: Bruce McDonald',
         duration: '1h 33min',
-        sinopsis: 'Un locutor de radio reporta un posible epidemia de un virus mortal que infecta la ciudad de Ontario.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H4EoVxwJecM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -933,9 +933,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre hablando por un pancho como si fuera un teléfono',
         link_page: 'john_dies_end.html',
         pick: 'Paz',
+        sinopsis: 'Una nueva droga callejera que envía a sus consumidores a través del tiempo y las dimensiones tiene un inconveniente: algunas personas ya no regresan como seres humanos.',
         director: 'Director: Don Coscarelli',
         duration: '1h 39min',
-        sinopsis: 'Una nueva droga callejera que envía a sus consumidores a través del tiempo y las dimensiones tiene un inconveniente: algunas personas ya no regresan como seres humanos.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IfJp417dyig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['drogas', 'ciencia ficción', 'comedia', 'multiverso', 'onírica'],
         cast: [
@@ -979,9 +979,9 @@ const peliculasCards = [
         img_card_alt: 'Dos miembros de a Yakuza mirando a cámara y apuntando con un arma',
         link_page: 'outrage.html',
         pick: 'Geor',
+        sinopsis: 'El jefe de un importante sindicato del crimen ordena a su lugarteniente que ponga orden en una banda de traficantes de drogas, un trabajo que pasa a su sufrido subordinado.',
         director: 'Director: Takeshi Kitano',
         duration: '1h 49min',
-        sinopsis: 'El jefe de un importante sindicato del crimen ordena a su lugarteniente que ponga orden en una banda de traficantes de drogas, un trabajo que pasa a su sufrido subordinado.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3Fj3htxRRHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['crimen', 'acción', 'oriental', 'policial'],
         cast: [
@@ -1033,9 +1033,9 @@ const peliculasCards = [
         img_card_alt: 'Adolescente hablando en una cabina telefónica de noche',
         link_page: 'brick.html',
         pick: 'Pollo',
+        sinopsis: 'Un adolescente solitario se adentra en las profundidades de una red criminal de la escuela secundaria para investigar la desaparición de su ex-novia.',
         director: 'Director: Rian Johnson',
         duration: '1h 50min',
-        sinopsis: 'Un adolescente solitario se adentra en las profundidades de una red criminal de la escuela secundaria para investigar la desaparición de su ex-novia.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4Zfw8__A7ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['crimen', 'acción', 'policial'],
         cast: [
@@ -1087,9 +1087,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre ciego de un ojo parado frente a un grupo de gente',
         link_page: 'holy_motors.html',
         pick: 'la democracia',
+        sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
         director: 'Director: Leos Carax',
         duration: '1h 55min',
-        sinopsis: 'Desde el amanecer hasta el anochecer, unas horas en la misteriosa vida del místico hombre conocido como Monsieur Oscar.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/NWu9WjEcdbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['onírica', 'multiverso', 'francesa'],
         cast: [
