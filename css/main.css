@@ -794,6 +794,10 @@ h2 {
   background-image: url(../img/hero/hero_buen_dia.jpg);
 }
 
+#volver {
+  background-image: url(../img/hero/hero_volver.jpg);
+}
+
 #waking_life {
   background-image: url(../img/hero/hero_waking_life.jpg);
   background-position: left;

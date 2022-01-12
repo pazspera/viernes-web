@@ -162,35 +162,35 @@
       "cast": [
         {
           "img": "cast_1.jpg",
-          "actor": ""
+          "actor": "Penélope Cruz"
         },
         {
           "img": "cast_2.jpg",
-          "actor": ""
+          "actor": "Carmen Maura"
         },
         {
           "img": "cast_3.jpg",
-          "actor": ""
+          "actor": "Lola Dueñas"
         },
         {
           "img": "cast_4.jpg",
-          "actor": ""
+          "actor": "Blanca Portillo"
         }
       ],
       "img_row": [
         {
           "img": "img_1.jpg",
-          "alt": "",
+          "alt": "Mujer mirando por un balcón",
           "class": "always_show"
         },
         {
           "img": "img_2.jpg",
-          "alt": "",
+          "alt": "Mujer cortándole el pelo a otra mujer, ambas reflejadas en un espejo",
           "class": "always_show"
         },
         {
           "img": "img_3.jpg",
-          "alt": "",
+          "alt": "Tres mujeres sentadas en un patio conversando",
           "class": "hidden_first"
         }
       ]
