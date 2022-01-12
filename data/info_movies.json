@@ -1,5 +1,14 @@
 [
     {
+      "id": "french_dispatch",
+      "name": "The French Dispatch",
+      "year": 2021,
+      "date_seen": "2021-12-17T03:00:00.000Z",
+      "img_card": "img/cards/card_french_dispatch.jpg",
+      "img_card_alt": "Dos hombres parados en una redacción de un periódico mirando hacia arriba",
+      "link_page": "french_dispatch.html"
+    },
+    {
       "id": "mind_game",
       "name": "Mind Game",
       "year": 2004,
