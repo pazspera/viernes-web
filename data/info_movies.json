@@ -1,5 +1,209 @@
 [
     {
+      "id": "cooties",
+      "name": "Cooties",
+      "year": 2014,
+      "date_seen": "2021-09-24T03:00:00.000Z",
+      "img_card": "img/cards/card_cooties.jpg",
+      "img_card_alt": "Profesor de gimnasia huyendo de un grupo de niños en un patio de escuela",
+      "link_page": "cooties.html",
+      "pick": "Paz",
+      "sinopsis": "Un misterioso brote de virus infecta los Nuggets de pollo de la cafetería de una escuela primaria afectando a los niños, quienes se convierten en unos pequeños despiadados y salvajes monstruos caníbales asesinos.",
+      "director": "Directores: Jonathan Milott & Cary Murnion",
+      "duration": "1h 28min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/G_he1HiLy0A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Elijah Wood"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Rainn Wilson"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Alison Pill"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Leigh Whannell"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Jorge Garcia"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Profesor en un aula enseñando",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Grupo de niños amontonándose frente a la puerta de una escuela",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Niño visitando la enfermera de una escuela",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "milagro_ptinto",
+      "name": "El milagro de P.Tinto",
+      "year": 1998,
+      "date_seen": "2021-09-17T03:00:00.000Z",
+      "img_card": "img/cards/card_milagro_ptinto.jpg",
+      "img_card_alt": "Dos hombres arreglando el motor de un auto pequeño pintado de rosa",
+      "link_page": "milagro_ptinto.html",
+      "pick": "Geor",
+      "sinopsis": "En su más tierna infancia, el niño P. Tinto tiene una revelación: su propósito en la vida es la de ser padre de familia numerosa. A partir de entonces sueña con un montón de hijos que crezcan a su alrededor sanos y fuertes. Casado con Olivia vive en una casa perdida en un valle. Cincuenta años después, ya de ancianos, ven cómo lo que habían esperado toda su vida se hace realidad, quizás por un milagro.",
+      "director": "Director: Javier Fesser",
+      "duration": "1h 46min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/s0fT8i9IhKc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Luis Ciges"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Silvia Casanova"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Pablo Pinedo"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Javier Aller"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Emilio Gavira"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres toomando gaseosa en un campo",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Auto pequeño visto desde una ventana",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Sacerdote en un aula, detrás de su cabeza se ve un triángulo representando la Santísima Trinidad",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "holy_mountain",
+      "name": "The Holy Mountain",
+      "year": 1973,
+      "date_seen": "2021-09-10T03:00:00.000Z",
+      "img_card": "img/cards/card_holy_mountain.jpg",
+      "img_card_alt": "Hombre con un sombrero grande sentado con una cabra a cada lado",
+      "link_page": "holy_mountain.html",
+      "pick": "Pollo",
+      "sinopsis": "En un mundo corrupto impulsado por la avaricia, un poderoso alquimista guía a un joven mesiánico y siete figuras materialistas a la Montaña Sagrada, donde esperan alcanzar la iluminación.",
+      "director": "Director: Alejandro Jodorowsky",
+      "duration": "1h 54min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qmR0vi0ifzE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Alejandro Jodorowsky"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Horacio Salinas"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Richard Rutowski"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Adriana Page"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Luis Lomelí"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Tres personas junto a un buey en un cuarto con cuadros de cartas de tarot",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mesa vista desde arriba que parece un ojo",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Dos hombres vestidos con túnicas y sombrero en un cuarto de espejos",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "human_nature",
+      "name": "Human Nature",
+      "year": 2001,
+      "date_seen": "2021-09-03T03:00:00.000Z",
+      "img_card": "img/cards/card_human_nature.jpg",
+      "img_card_alt": "Hombre en una habitación de vidrio sentado en un sillón y fumando una pipa",
+      "link_page": "human_nature.html",
+      "pick": "Loco",
+      "sinopsis": "Un científico obsesivo y una naturalista descubren a un hombre que ha nacido y se ha criado en estado salvaje. Mientras el científico intenta educarlo, su amante lucha por preservar los instintos simiescos del hombre, porque según ella, representan la libertad. En medio de esta lucha por el poder, surge un insólito triángulo amoroso.",
+      "director": "Director: Michel Gondry",
+      "duration": "1h 36min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1gjUtwtxv0M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Tim Robbins"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Patricia Arquette"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Rhys Ifans"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre encerrado dentro de un cuarto de vidrio sosteniendo un tenedor",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer y hombre caminando cautelosamente por el bosque",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre encerrado dentro de un cuadro de vidrio mirando a mujer apoyada sobre el vidrio",
+          "class": "hidden_first"
+        }
+      ]        
+    },
+    {
       "id": "mother",
       "name": "Mother!",
       "year": 2017,
