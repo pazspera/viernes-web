@@ -1,5 +1,82 @@
 [
     {
+      "id": "mind_game",
+      "name": "Mind Game",
+      "year": 2004,
+      "date_seen": "2021-12-10T03:00:00.000Z",
+      "img_card": "img/cards/card_mind_game.jpg",
+      "img_card_alt": "Tres personas flotando en una pileta de agua verde fluorescente",
+      "link_page": "mind_game.html"
+    },
+    {
+      "id": "battle_royale",
+      "name": "Battle Royale",
+      "year": 2000,
+      "date_seen": "2021-12-03T03:00:00.000Z",
+      "img_card": "img/cards/card_battle_royale.jpg",
+      "img_card_alt": "Foto grupal de un grupo de estudiantes",
+      "link_page": "battle_royale.html"
+    },
+    {
+      "id": "volver",
+      "name": "Volver",
+      "year": 2006,
+      "date_seen": "2021-11-26T03:00:00.000Z",
+      "img_card": "img/cards/card_volver.jpg",
+      "img_card_alt": "Mujer hablando por teléfono y comiéndose las uñas",
+      "link_page": "volver.html"
+    },
+    {
+      "id": "escape_la",
+      "name": "Escape from L.A.",
+      "year": 1996,
+      "date_seen": "2021-11-19T03:00:00.000Z",
+      "img_card": "img/cards/card_escape_la.jpg",
+      "img_card_alt": "Dos hombres andando en moto, uno golpea al otro con una cadena",
+      "link_page": "escape_la.html"
+    },
+    {
+      "id": "fear_loathing",
+      "name": "Fear and Loathing in Las Vegas",
+      "year": 1998,
+      "date_seen": "2021-11-05T03:00:00.000Z",
+      "img_card": "img/cards/card_fear_loathing.jpg",
+      "img_card_alt": "Hombre con sombrero y un cigarrillo en la boca asomándose en la puerta de una habitación de hotel",
+      "link_page": "fear_loathing.html",
+      "pick": "Loco",
+      "sinopsis": "Un periodista y un misterioso abogado, ocupantes de un descapotable rojo, se encaminan a través del desierto hacia Las Vegas. El maletero del coche es una auténtica farmacia: dos bolsas de marihuana, 75 pastillas de mescalina, 5 hojas de ácidos y multitud de otras drogas.",
+      "director": "Director: Terry Gilliam",
+      "duration": "1h 26min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uOmtVFQ3WF8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Johnny Depp"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Benicio Del Toro"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre en el desierto apuntando una pistola",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Cartel en una carretera desierta que indica pena de 20 años por consumo de marihuana en Nevada",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Dos hombres asustados caminando por un espectáculo psicodélico",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
       "id": "what_we_do_shadows",
       "name": "What We Do in the Shadows",
       "year": 2014,
