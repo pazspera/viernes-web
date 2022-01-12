@@ -1,5 +1,242 @@
 [
     {
+      "id": "what_we_do_shadows",
+      "name": "What We Do in the Shadows",
+      "year": 2014,
+      "date_seen": "2021-10-29T03:00:00.000Z",
+      "img_card": "img/cards/card_what_we_do_shadows.jpg",
+      "img_card_alt": "Vampiro sosteniendo una taza frente a un espejo, el espejo refleja solo la taza flotando",
+      "link_page": "what_we_do_shadows.html",
+      "pick": "Pollo",
+      "sinopsis": "Tres vampiros hacen lo posible por adaptarse a la sociedad moderna, una vida de lo más normal, salvo por el hecho de que son inmortales y tienen que alimentarse de sangre humana. Cuando uno de ellos convierte en vampiro a Nick, los tres deberán enseñarle cómo funciona vivir eternamente. A cambio, ellos aprenderán cosas sobre la vida moderna.",
+      "director": "Directores: Jemaine Clement & Taika Waititi",
+      "duration": "1h 26min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IAZEWtyhpes\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Taika Waititi"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Jemaine Clement"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Jonny Brugh"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Ben Fransham"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Cori Gonzalez-Macuer"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos vampiros sentados en una sala con decoración antigua",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Un humano enseñándole a un vampiro a usar una computadora",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Vampiro asustado flotando en la esquina del techo",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "nuit_noire",
+      "name": "Nuit Noire",
+      "year": 2005,
+      "date_seen": "2021-10-22T03:00:00.000Z",
+      "img_card": "img/cards/card_nuit_noire.jpg",
+      "img_card_alt": "Hombre mirando un capullo de insecto gigante que está acostado en su cama",
+      "link_page": "nuit_noire.html",
+      "pick": "Paz",
+      "sinopsis": "Fábula construida sobre la boda del negro y del blanco, de la nieve y de la noche, de la sangre y de la leche, de una vieja Europa y de una África que ella ha inventado, de la vida subterránea de los escarabajos y de la vida aérea de las mariposas. Prisionero entre el deseo y la repulsión que transmite el paraíso perdido de sus amores de crianza, Oscar abandona poco a poco la vida inquietante de los fantasmas.",
+      "director": "Director: Olivier Smolders",
+      "duration": "1h 30min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H1FdP-6GdeA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Yves-Marie Gnahoua"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Marie Lecomte"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Fabrice Rodriguez"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres mayores, canosos y de traje mirando a cámara",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Un insecto parado sobre una rama",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Una niña y un niño con una lámpara de mano mirando con asombro",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "man_moon",
+      "name": "Man on the Moon",
+      "year": 1999,
+      "date_seen": "2021-10-15T03:00:00.000Z",
+      "img_card": "img/cards/card_man_moon.jpg",
+      "img_card_alt": "Hombre con una cámara antigua mirando",
+      "link_page": "man_moon.html",
+      "pick": "Geor",
+      "sinopsis": "La vida y carrera del legendario comediante Andy Kaufman.",
+      "director": "Director: Milos Forman",
+      "duration": "1h 58min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pCcQB-iT7LY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Jim Carrey"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Danny DeVito"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Courtney Love"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Paul Giamatti"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre haciendo un espectáculo en un teatro lleno",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Hombre parado delante de una cortina roja siendo filmado",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre con anteojos de sol en un escenario",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "tucker_dale_evil",
+      "name": "Tucker and Dale vs Evil",
+      "year": 2010,
+      "date_seen": "2021-10-08T03:00:00.000Z",
+      "img_card": "img/cards/card_tucker_dale_evil.jpg",
+      "img_card_alt": "Hombres en una camioneta sonriéndole a un policía que los detuvo en la ruta.",
+      "link_page": "tucker_dale_evil.html",
+      "pick": "Pollo",
+      "sinopsis": "Tucker & Dale son dos amigos de toda la vida que acaban de comprarse una vieja cabaña en lo más remoto del monte, donde pretenden pasar unas tranquilas vacaciones. Sin embargo, unos universitarios les confundirán con unos improbables asesinos en serie, lo que acabará derivando en una orgía de sangre y dolor.",
+      "director": "Director: Eli Craig",
+      "duration": "1h 29min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/j0hJSCqqIs4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Tyler Labine"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Alan Tudyk"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Katrina Bowden"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre juntando leña en el bosque, detrás de él otro hombre cae dentro de una cortadora de madera.",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Dos hombres parados frente a una cabaña de madera, uno se cubre la cara con las manos",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Mujer y hombre con una escopeta en el bosque.",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "as_gods_will",
+      "name": "As the Gods Will",
+      "year": 2014,
+      "date_seen": "2021-10-01T03:00:00.000Z",
+      "img_card": "img/cards/card_as_gods_will.jpg",
+      "img_card_alt": "Grupo de alumnos de secundaria aterrados mirando a un Daruma sentado en un escritorio",
+      "link_page": "as_gods_will.html",
+      "pick": "Loco",
+      "sinopsis": "Shun Takahata es un estudiante normal de secundaria que lleva una vida aburrida, junto a su mejor amiga, Ichika Akimoto. Un día, la cabeza de su maestro explota en clase y Shun y sus compañeros se ven obligados a jugar un juego mortal sin saber el quién, el cómo o el por qué.",
+      "director": "Director: Takashi Miike",
+      "duration": "1h 57min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OEh1fT1IH14\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Sôta Fukushi"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Hirona Yamazaki"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Ryûnosuke Kamiki"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Alumno parado en un aula llena de cadáveres",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Muñecos japoneses sonrientes flotando",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Adolescente disfrazado de ratón y adolescente en uniforme de colegio parados en un gimnasio",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
       "id": "cooties",
       "name": "Cooties",
       "year": 2014,
