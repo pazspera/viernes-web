@@ -105,7 +105,7 @@
       "img_card": "img/cards/card_battle_royale.jpg",
       "img_card_alt": "Foto grupal de un grupo de estudiantes",
       "link_page": "battle_royale.html",
-      "pick": "Loco",
+      "pick": "Pollo",
       "sinopsis": "Cuarenta y dos estudiantes de noveno grado son enviados a una isla desértica. Ellos reciben un mapa, comida, y varias armas. Un collar explosivo le es colocado alrededor de su cuello. Si ellos rompen una regla, el collar explota. Su misión es matarse entre ellos y ser el último en sobrevivir. Esa persona puede dejar la isla. Si hay más de uno vivo, los collares explotan y los matan a todos.",
       "director": "Director: Kinji Fukasaku",
       "duration": "1h 54min",
@@ -203,7 +203,7 @@
       "img_card": "img/cards/card_escape_la.jpg",
       "img_card_alt": "Dos hombres andando en moto, uno golpea al otro con una cadena",
       "link_page": "escape_la.html",
-      "pick": "Geor",
+      "pick": "Pollo",
       "director": "Director: John Carpenter",
       "duration": "1h 41min",
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/o6SWofbYD90\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
@@ -229,17 +229,17 @@
       "img_row": [
         {
           "img": "img_1.jpg",
-          "alt": "",
+          "alt": "Hombre con un parche en el ojo mirando intensamente",
           "class": "always_show"
         },
         {
           "img": "img_2.jpg",
-          "alt": "",
+          "alt": "Explosión de un auto, una moto observa cerca",
           "class": "always_show"
         },
         {
           "img": "img_3.jpg",
-          "alt": "",
+          "alt": "Hombre con un parche en el ojo apuntando a otro con una pistola",
           "class": "hidden_first"
         }
       ]

@@ -543,6 +543,10 @@ h2 {
   background-image: url(../img/hero/hero_milagro_ptinto.jpg);
 }
 
+#escape_la {
+  background-image: url(../img/hero/hero_escape_la.jpg);
+}
+
 #fantastic_fox {
   background-image: url(../img/hero/hero_fantastic_fox.jpg);
   padding-top: 50px;
@@ -721,6 +725,7 @@ h2 {
 
 #french_dispatch {
   background-image: url(../img/hero/hero_french_dispatch.jpg);
+  background-position: left;
 }
 
 #holy_mountain {
