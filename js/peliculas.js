@@ -1137,9 +1137,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre caminando en un pasillo con una luz roja de fondo',
         link_page: 'black_rainbow.html',
         pick: 'Loco',
+        sinopsis: 'Una mujer muy sedada con ESP intenta escapar de la comuna aislada donde la han mantenido cautiva.',
         director: 'Director: Panos Cosmatos',
         duration: '1h 50min',
-        sinopsis: 'Una mujer muy sedada con ESP intenta escapar de la comuna aislada donde la han mantenido cautiva.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/bi7aQ-bKziY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['distopía', 'onírica', 'ciencia ficción'],
         cast: [
@@ -1183,9 +1183,9 @@ const peliculasCards = [
         img_card_alt: 'Mujer y hombre bailando en un patio de escuela',
         link_page: 'rumba.html',
         pick: 'Tutte',
+        sinopsis: 'Fiona y Dom son maestros de una escuela de campo. Comparten su pasión por el baile latino y están muy enamorados. Una noche, de vuelta de un concurso de baile, intentan evitar a un torpe suicida, plantado en medio de la carretera. Su coche se aplasta contra una pared. Y su vida vuelca.',
         director: 'Directores: Dominique Abel, Fiona Gordon & Bruno Romy',
         duration: '1h 17min',
-        sinopsis: 'Fiona y Dom son maestros de una escuela de campo. Comparten su pasión por el baile latino y están muy enamorados. Una noche, de vuelta de un concurso de baile, intentan evitar a un torpe suicida, plantado en medio de la carretera. Su coche se aplasta contra una pared. Y su vida vuelca.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1hIK4xRI3bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['comedia', 'musical'],
         cast: [
@@ -1225,9 +1225,9 @@ const peliculasCards = [
         img_card_alt: 'Hombre con ropa manchada de sangre sonriendo en un bosque',
         link_page: 'ravenous.html',
         pick: 'Paz',
+        sinopsis: 'En un remoto puesto militar del siglo XIX, el capitán John Boyd y su regimiento se embarcan en una misión de rescate que da un giro oscuro cuando son emboscados por un caníbal sádico.',
         director: 'Directora: Antonia Bird',
         duration: '1h 41min',
-        sinopsis: 'En un remoto puesto militar del siglo XIX, el capitán John Boyd y su regimiento se embarcan en una misión de rescate que da un giro oscuro cuando son emboscados por un caníbal sádico.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/l7BDiNktrLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['época', 'acción'],
         cast: [
@@ -1283,9 +1283,9 @@ const peliculasCards = [
         img_card_alt: 'Mujer y hombre mirando a cámara con un mosaico de patrones circulares de fondo',
         link_page: 'only_lovers.html',
         pick: 'Geor',
+        sinopsis: 'Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.',
         director: 'Director: Jim Jarmusch',
         duration: '2h 3min',
-        sinopsis: 'Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/pkeWhokaPPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         tags: ['vampiros', 'romance'],
         cast: [

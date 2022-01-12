@@ -1,5 +1,201 @@
 [
     {
+      "id": "black_rainbow",
+      "name": "Beyond the Black Rainbow",
+      "year": 2010,
+      "date_seen": "2021-06-25T03:00:00.000Z",
+      "img_card": "img/cards/card_black_rainbow.jpg",
+      "img_card_alt": "Hombre caminando en un pasillo con una luz roja de fondo",
+      "link_page": "black_rainbow.html",
+      "pick": "Loco",
+      "sinopsis": "Una mujer muy sedada con ESP intenta escapar de la comuna aislada donde la han mantenido cautiva.",
+      "director": "Director: Panos Cosmatos",
+      "duration": "1h 50min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bi7aQ-bKziY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Michael J Rogers"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Eva Bourne"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Rondel Reynoldson"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre parado en la puerta de un cuarto futurista iluminado con luz roja",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer escalando por pozo de ascensor",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre de mirada perturbadora manejando",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "rumba",
+      "name": "Rumba",
+      "year": 2008,
+      "date_seen": "2021-06-18T03:00:00.000Z",
+      "img_card": "img/cards/card_rumba.jpg",
+      "img_card_alt": "Mujer y hombre bailando en un patio de escuela",
+      "link_page": "rumba.html",
+      "pick": "Tutte",
+      "sinopsis": "Fiona y Dom son maestros de una escuela de campo. Comparten su pasión por el baile latino y están muy enamorados. Una noche, de vuelta de un concurso de baile, intentan evitar a un torpe suicida, plantado en medio de la carretera. Su coche se aplasta contra una pared. Y su vida vuelca.",
+      "director": "Directores: Dominique Abel, Fiona Gordon & Bruno Romy",
+      "duration": "1h 17min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1hIK4xRI3bg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Dominique Abel"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Fiona Gordon"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Mujer frente a un pizarrón que tiene un dibujo de un perro",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Pareja bailando a la orilla del mar",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Profesor pretendiendo pelear con sus alumnes",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "ravenous",
+      "name": "Ravenous",
+      "year": 1999,
+      "date_seen": "2021-06-11T03:00:00.000Z",
+      "img_card": "img/cards/card_ravenous.jpg",
+      "img_card_alt": "Hombre con ropa manchada de sangre sonriendo en un bosque",
+      "link_page": "ravenous.html",
+      "pick": "Paz",
+      "sinopsis": "En un remoto puesto militar del siglo XIX, el capitán John Boyd y su regimiento se embarcan en una misión de rescate que da un giro oscuro cuando son emboscados por un caníbal sádico.",
+      "director": "Directora: Antonia Bird",
+      "duration": "1h 41min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/l7BDiNktrLU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Guy Pearce"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Robert Carlyle"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "David Arquette"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Jeremy Davies"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Jeffrey Jones"
+        },
+        {
+          "img": "cast_6.jpg",
+          "actor": "Neal McDonough"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre arreglando la manga de camisa de otro hombre",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Dos hombres charlando intensamente",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre descubre varios esqueletos en una cueva",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "only_lovers",
+      "name": "Only Lovers Left Alive",
+      "year": 2013,
+      "date_seen": "2021-06-04T03:00:00.000Z",
+      "img_card": "img/cards/card_only_lovers.jpg",
+      "img_card_alt": "Mujer y hombre mirando a cámara con un mosaico de patrones circulares de fondo",
+      "link_page": "only_lovers.html",
+      "pick": "Geor",
+      "sinopsis": "Un músico deprimido se reencuentra con su amante. Su romance, que sobrevivió por varios siglos, se verá interrumpido por la llegada de la incontrolable hermana menor de su pareja.",
+      "director": "Director: Jim Jarmusch",
+      "duration": "2h 3min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pkeWhokaPPs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Tilda Swinton"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Tom Hiddleston"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Mia Wasikowska"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "John Hurt"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Anton Yelchin"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Ava pidiéndole un favor a Adam",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Adam y Eve durmiendo en un avión",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Eve y Adam hablando por videollamada",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
       "id": "juan_muertos",
       "name": "Juan de los muertos",
       "year": 2011,
