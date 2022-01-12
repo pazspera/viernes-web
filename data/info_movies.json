@@ -6,7 +6,47 @@
       "date_seen": "2021-12-17T03:00:00.000Z",
       "img_card": "img/cards/card_french_dispatch.jpg",
       "img_card_alt": "Dos hombres parados en una redacción de un periódico mirando hacia arriba",
-      "link_page": "french_dispatch.html"
+      "link_page": "french_dispatch.html",
+      "pick": "Pollo",
+      "sinopsis": "Una carta de amor al mundo del periodismo, ambientada en la redacción de un periódico estadounidense en una ciudad francesa ficticia del siglo XX, con tres historias interconectadas entre sí.",
+      "director": "Director: Wes Anderson",
+      "duration": "1h 47min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TcPk2p0Zaw4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": ""
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "",
+          "class": "hidden_first"
+        }
+      ]
     },
     {
       "id": "mind_game",
@@ -15,7 +55,47 @@
       "date_seen": "2021-12-10T03:00:00.000Z",
       "img_card": "img/cards/card_mind_game.jpg",
       "img_card_alt": "Tres personas flotando en una pileta de agua verde fluorescente",
-      "link_page": "mind_game.html"
+      "link_page": "mind_game.html",
+      "pick": "Loco",
+      "sinopsis": "Después de un encuentro mortal con la yakuka, un perdedor enamorado de su amiga de la infancia va al cielo y regresa en un viaje psicodélico de auto-descubrimiento junto a ella y sus amigos.",
+      "director": "Director: Masaaki Yuasa & Kôji Morimoto",
+      "duration": "1h 43min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2fmmCsyK1dY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": ""
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "",
+          "class": "hidden_first"
+        }
+      ]
     },
     {
       "id": "battle_royale",
@@ -24,7 +104,47 @@
       "date_seen": "2021-12-03T03:00:00.000Z",
       "img_card": "img/cards/card_battle_royale.jpg",
       "img_card_alt": "Foto grupal de un grupo de estudiantes",
-      "link_page": "battle_royale.html"
+      "link_page": "battle_royale.html",
+      "pick": "Loco",
+      "sinopsis": "Cuarenta y dos estudiantes de noveno grado son enviados a una isla desértica. Ellos reciben un mapa, comida, y varias armas. Un collar explosivo le es colocado alrededor de su cuello. Si ellos rompen una regla, el collar explota. Su misión es matarse entre ellos y ser el último en sobrevivir. Esa persona puede dejar la isla. Si hay más de uno vivo, los collares explotan y los matan a todos.",
+      "director": "Director: Kinji Fukasaku",
+      "duration": "1h 54min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/N0p1t-dC7Ko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": ""
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "",
+          "class": "hidden_first"
+        }
+      ]
     },
     {
       "id": "volver",
@@ -33,7 +153,47 @@
       "date_seen": "2021-11-26T03:00:00.000Z",
       "img_card": "img/cards/card_volver.jpg",
       "img_card_alt": "Mujer hablando por teléfono y comiéndose las uñas",
-      "link_page": "volver.html"
+      "link_page": "volver.html", 
+      "pick": "Geor",
+      "sinopsis": "Dos hermanas echan mucho de menos a su madre, muerta en un incendio. Raimunda es manchega pero vive en Madrid. Está casada con un obrero en paro y tiene una hija adolescente. Su hermana, Sole, se gana la vida como peluquera. Un día, la madre se presenta en casa de Sole y después en la de Raimunda.",
+      "director": "Director: Pedro Almodóvar",
+      "duration": "2h 1min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ABSvppyQGdE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": ""
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": ""
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "",
+          "class": "hidden_first"
+        }
+      ]
     },
     {
       "id": "escape_la",
@@ -42,7 +202,47 @@
       "date_seen": "2021-11-19T03:00:00.000Z",
       "img_card": "img/cards/card_escape_la.jpg",
       "img_card_alt": "Dos hombres andando en moto, uno golpea al otro con una cadena",
-      "link_page": "escape_la.html"
+      "link_page": "escape_la.html",
+      "pick": "Geor",
+      "director": "Director: John Carpenter",
+      "duration": "1h 41min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/o6SWofbYD90\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "sinopsis": "Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Kurt Russell"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Steve Buscemi"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Stacy Keach"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Pam Grier"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "",
+          "class": "hidden_first"
+        }
+      ]
     },
     {
       "id": "fear_loathing",
@@ -713,7 +913,7 @@
     {
       "id": "pontypool",
       "name": "Pontypool",
-      "year": 20008,
+      "year": 2008,
       "date_seen": "2021-07-30T03:00:00.000Z",
       "img_card": "img/cards/card_pontypool.jpg",
       "img_card_alt": "Locutor en una cabina de radio hablando",
