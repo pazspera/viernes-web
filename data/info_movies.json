@@ -1,5 +1,189 @@
 [
     {
+      "id": "mother",
+      "name": "Mother!",
+      "year": 2017,
+      "date_seen": "2021-08-27T03:00:00.000Z",
+      "img_card": "img/cards/card_mother.jpg",
+      "img_card_alt": "Mujer mirando una pared con atención",
+      "link_page": "mother.html",
+      "pick": "Fisura Castels",
+      "sinopsis": "La relación de una pareja es puesta a prueba cuando llegan a casa visitas sin invitación, interrumpiendo su tranquila existencia.",
+      "director": "Director: Darren Aronofsky",
+      "duration": "2h 1min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XpICoc65uh0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Jennifer Lawrence"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Javier Bardem"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Ed Harris"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Michelle Pfeiffer"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre parado en una escalera mirando hacia abajo",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer mirando hacia arriba",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Casa victoriana en un prado",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "double",
+      "name": "The Double",
+      "year": 2013,
+      "date_seen": "2021-08-20T03:00:00.000Z",
+      "img_card": "img/cards/card_double.jpg",
+      "img_card_alt": "Hombre parado al lado de una televisión",
+      "link_page": "double.html",
+      "pick": "Paz",
+      "sinopsis": "Un empleado de una agencia gubernamental descubre que su vida poco envidiable da un giro con la llegada de un nuevo compañero de trabajo que es tanto su doble físico como su opuesto: seguro, carismático y seductor con las mujeres.",
+      "director": "Director: Richard Ayoade",
+      "duration": "1h 33min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xWhikLYeSQ0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Jesse Eisenberg"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Jesse Eisenberg"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Mia Wasikowska"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Wallace Shawn"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres iguales sentados a una mesa hablando",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer y hombre hablando en un mostrador",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre con un trapo en la cara mirando hacia arriba",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "master",
+      "name": "The Master",
+      "year": 2012,
+      "date_seen": "2021-08-13T03:00:00.000Z",
+      "img_card": "img/cards/card_master.jpg",
+      "img_card_alt": "Hombre posando y mirando a cámara",
+      "link_page": "master.html",
+      "pick": "Geor",
+      "sinopsis": "Un veterano de la marina vuelve a casa después de la guerra perturbado y inseguro sobre su futuro hasta que es tentado por La Causa y su carismático líder.",
+      "director": "Director: Paul Thomas Anderson",
+      "duration": "2h 18min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uBn5dURHsUg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Philip Seymour Hoffman"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Joaquin Phoenix"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Amy Adams"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Mujer acostada en un sillón hablando con un hombre, un grupo de personas los miran",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Hombre en un desierto sacando una foto con una cámara antigua",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre con la cara pegada a una pared, un grupo de personas lo miran",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "swiss_army_man",
+      "name": "Swiss Army Man",
+      "year": 2016,
+      "date_seen": "2021-08-08T03:00:00.000Z",
+      "img_card": "img/cards/card_swiss_army_man.jpg",
+      "img_card_alt": "Dos hombres acostados a la luz de una fogata",
+      "link_page": "swiss_army_man.html",
+      "pick": "Pollo",
+      "sinopsis": "Un hombre desesperado varado en una isla desierta se hace amigo de un cadáver. Juntos se embarcarán en un viaje surrealista para volver a casa.",
+      "director": "Directores: Dan Kwan & Daniel Scheinert",
+      "duration": "1h 37min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4v92gXetGqA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Paul Dano"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Daniel Radcliff"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Dos hombres hablando en un bosque",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Dos manos sobre césped haciendo pulgar hacia arriba",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre andando en una moto acuática en el mar",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
       "id": "pontypool",
       "name": "Pontypool",
       "year": 20008,

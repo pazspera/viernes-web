@@ -700,9 +700,9 @@ const peliculasCards = [
         link_page: 'mother.html',
         year: 2017,
         pick: 'Fisura Castels',
-        duration: '2h 1min',
-        director: 'Director: Darren Aronofsky',
         sinopsis: 'La relación de una pareja es puesta a prueba cuando llegan a casa visitas sin invitación, interrumpiendo su tranquila existencia.',
+        director: 'Director: Darren Aronofsky',
+        duration: '2h 1min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XpICoc65uh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -749,9 +749,9 @@ const peliculasCards = [
         link_page: 'double.html',
         year: 2013,
         pick: 'Paz',
-        duration: '1h 33min',
-        director: 'Director: Richard Ayoade',
         sinopsis: 'Un empleado de una agencia gubernamental descubre que su vida poco envidiable da un giro con la llegada de un nuevo compañero de trabajo que es tanto su doble físico como su opuesto: seguro, carismático y seductor con las mujeres.',
+        director: 'Director: Richard Ayoade',
+        duration: '1h 33min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xWhikLYeSQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -798,9 +798,9 @@ const peliculasCards = [
         link_page: 'master.html',
         year: 2012,
         pick: 'Geor',
-        duration: '2h 18min',
-        director: 'Director: Paul Thomas Anderson',
         sinopsis: 'Un veterano de la marina vuelve a casa después de la guerra perturbado y inseguro sobre su futuro hasta que es tentado por La Causa y su carismático líder.',
+        director: 'Director: Paul Thomas Anderson',
+        duration: '2h 18min',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uBn5dURHsUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
@@ -843,9 +843,9 @@ const peliculasCards = [
         link_page: 'swiss_army_man.html',
         year: 2016,
         pick: 'Pollo',
+        sinopsis: 'Un hombre desesperado varado en una isla desierta se hace amigo de un cadáver. Juntos se embarcarán en un viaje surrealista para volver a casa.',
         director: 'Directores: Dan Kwan & Daniel Scheinert',
         duration: '1h 37min',
-        sinopsis: 'Un hombre desesperado varado en una isla desierta se hace amigo de un cadáver. Juntos se embarcarán en un viaje surrealista para volver a casa.',
         trailer: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4v92gXetGqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         cast: [
             {
