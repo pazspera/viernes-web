@@ -1,5 +1,263 @@
 [
     {
+      "id": "juan_muertos",
+      "name": "Juan de los muertos",
+      "year": 2011,
+      "date_seen": "2021-05-28T03:00:00.000Z",
+      "img_card": "img/cards/card_juan_muertos.jpg",
+      "img_card_alt": "Hombre agarrado de la cornisa de un balcón y una mujer ayudándolo",
+      "link_page": "juan_muertos.html",
+      "pick": "Pollo",
+      "sinopsis": "Un grupo de holgazanes se enfrenta a un ejercito de zombies. El gobierno cubano y los medios aseguran que los muertos vivientes son disidentes protestando contra el gobierno.",
+      "director": "Director: Alejandro Brugués",
+      "duration": "1h 32min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gYuxT5nQJ8I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Alexis Díaz de Villegas"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Jorge Molina"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Andrea Duro"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Andros Perugorría"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Jazz Vilá"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Grupo de personas levantando una bandera de Estados Unidos en el aire",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Mujer apuntando con una honda",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Grupo de personas sonriendo intensamente",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+      "id": "time_gypsies",
+      "name": "Time of the Gypsies",
+      "year": 1988,
+      "date_seen": "2021-05-21T03:00:00.000Z",
+      "img_card": "img/cards/card_time_gypsies.jpg",
+      "img_card_alt": "Grupo de personas mirando un ritual funerio en un río",
+      "link_page": "time_gypsies.html",
+      "pick": "Loco",
+      "sinopsis": "En esta brillante historia que se desarrolla en Sarajevo y en Italia, Perhan, un encantador joven rumano (de etnia gitana) con poderes telequinéticos, se deja seducir por el mundo del dinero rápido de la delincuencia, que amenaza con destruirlo a él y a las personas que ama.",
+      "director": "Director: Emir Kusturica",
+      "duration": "2h 22min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/J9K1iQ57LbQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Davor Dujmovic"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Sinolicka Trpkova"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Ljubica Adzovic"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Husnija Hasimovic"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Familia parada frente a su casa con un grupo de niños tocando instrumentos",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Grupo de personas celebrando en un río",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Una chica y un chico con un acordión",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "troll_hunter",
+      "name": "Troll Hunter",
+      "year": 2010,
+      "date_seen": "2021-05-15T03:00:00.000Z",
+      "img_card": "img/cards/card_troll_hunter.jpg",
+      "img_card_alt": "Hombre en una camioneta iluminando a un troll que sale del bosque",
+      "link_page": "troll_hunter.html",
+      "pick": "Paz",
+      "sinopsis": "Un grupo de estudiantes investiga lo que parece ser una matanza por parte de un oso y descubre que el responsable es algo mucho más peligroso.",
+      "director": "Director: André Øvredal",
+      "duration": "1h 43min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uvwEyHeRSvE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Otto Jespersen"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Glenn Erland Tosterud"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Johanna Mørck"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Tomas Alf Larsen"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Cazador de trolls parado delante de una camioneta",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Documentarista posando con una aguja gigante",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Cazador de trolls y equipo de filmación en el bosque de noche",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
+                  
+      "id": "black_sheep",
+      "name": "Black Sheep",
+      "year": 2006,
+      "date_seen": "2021-05-14T03:00:00.000Z",
+      "img_card": "img/cards/card_black_sheep.jpg",
+      "img_card_alt": "Taxi rodeado de ovejas, varado en una ruta",
+      "link_page": "black_sheep.html",
+      "pick": "Paz",
+      "sinopsis": "Un experimento de ingeniería genética convierte ovejas inofensivas en asesinos sedientos de sangre que aterrorizan a una granja de Nueva Zelanda.",
+      "director": "Director: Jonathan King",
+      "duration": "1h 27min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hhck0SLcA6I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Nathan Meister"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Peter Feeney"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Danielle Mason"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Tammy Davis"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre acostado en el piso con una oveja bebé encima",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Hombre siendo atacado por una oveja",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Mujer y señora con una escopeta sorprendidas",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
+      "id": "suspiria_2018",
+      "name": "Suspiria",
+      "year": 2018,
+      "date_seen": "2021-05-08T03:00:00.000Z",
+      "img_card": "img/cards/card_suspiria_2018.jpg",
+      "img_card_alt": "Una mujer mirando a otra desde el umbral de una puerta",
+      "link_page": "suspiria_2018.html",
+      "pick": "Paz",
+      "sinopsis": "Una oscuridad envuelve una compañía de danza de fama internacional. Una oscuridad que consumirá a la directora artística, a una joven y ambiciosa bailarina y a un terapeuta en duelo. Algunos sucumbirán a la pesadilla. Otros finalmente despertarán.",
+      "director": "Director: Luca Guadagnino",
+      "duration": "2h 32min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BY6QKRl56Ok\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Dakota Johnson"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Tilda Swinton"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Mia Goth"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Lutz Ebersdorf"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Chloë Grace Moretz"
+        },
+        {
+          "img": "cast_6.jpg",
+          "actor": "Elena Fokina"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Personal de la academia de baile mirando a cámara",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Sarah golpeando ligeramente un espejo",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Susie y Madame Blanc en una pose ritualística",
+          "class": "hidden_first"
+        }
+      ]    
+    },
+    {
       "id": "fantastic_fox",
       "name": "Fantastic Mr. Fox",
       "year": 2009,
