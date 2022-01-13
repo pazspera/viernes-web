@@ -15,35 +15,39 @@
       "cast": [
         {
           "img": "cast_1.jpg",
-          "actor": ""
+          "actor": "Bill Murray"
         },
         {
           "img": "cast_2.jpg",
-          "actor": ""
+          "actor": "Tilda Swinton"
         },
         {
           "img": "cast_3.jpg",
-          "actor": ""
+          "actor": "Timothée Chalamet"
         },
         {
           "img": "cast_4.jpg",
-          "actor": ""
+          "actor": "Frances McDormand"
+        },
+        {
+          "img": "cast_5.jpg",
+          "actor": "Owen Wilson"
         }
       ],
       "img_row": [
         {
           "img": "img_1.jpg",
-          "alt": "",
+          "alt": "Grupo de personas sentadas en una oficina mirándose con preocupación",
           "class": "always_show"
         },
         {
           "img": "img_2.jpg",
-          "alt": "",
+          "alt": "Pareja parada de espaldas en una calle",
           "class": "always_show"
         },
         {
           "img": "img_3.jpg",
-          "alt": "",
+          "alt": "Hombre mirando diarios en un kiosco de diarios",
           "class": "hidden_first"
         }
       ]
