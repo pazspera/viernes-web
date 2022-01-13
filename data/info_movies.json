@@ -64,35 +64,35 @@
       "cast": [
         {
           "img": "cast_1.jpg",
-          "actor": ""
+          "actor": "Kôji Imada"
         },
         {
           "img": "cast_2.jpg",
-          "actor": ""
+          "actor": "Sayaka Maeda"
         },
         {
           "img": "cast_3.jpg",
-          "actor": ""
+          "actor": "Seiko Takuma"
         },
         {
           "img": "cast_4.jpg",
-          "actor": ""
+          "actor": "Takashi Fujii"
         }
       ],
       "img_row": [
         {
           "img": "img_1.jpg",
-          "alt": "",
+          "alt": "Dos personas en una montaña rusa yendo muy rápido y gritando",
           "class": "always_show"
         },
         {
           "img": "img_2.jpg",
-          "alt": "",
+          "alt": "Hombre mirando intensamente a cámara",
           "class": "always_show"
         },
         {
           "img": "img_3.jpg",
-          "alt": "",
+          "alt": "Cuatro personas bailando en un campo de colores fluorescentes",
           "class": "hidden_first"
         }
       ]
