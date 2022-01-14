@@ -10,7 +10,7 @@
 */
 
 /* ------ VARIABLES ------ */
-const URL_MOVIES = '/data/info_movies.json';
+const URL_MOVIES = '../../data/info_movies.json';
 let currentMovieId = document.getElementById('current_movie').getAttribute('class');
 
 
