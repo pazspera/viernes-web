@@ -100,6 +100,9 @@ const getMovieInfo = async () => {
         $containerSinopsis.appendChild($sinopsisCol);
         $sinopsis.appendChild($containerSinopsis);
 
+        $fragmentMain.appendChild($sinopsis);
+        $main.appendChild($fragmentMain);
+
         // Imprimir cast 
         // Cast title
         let $cast = document.createElement('section');
@@ -138,6 +141,9 @@ const getMovieInfo = async () => {
         $containerCast.appendChild($rowCast2);
         $cast.appendChild($containerCast);
 
+        $fragmentMain.appendChild($cast);
+        $main.appendChild($fragmentMain);
+
         // Imprimir trailer
         let $trailer = document.createElement('section');
         $trailer.classList.add('main-text');
@@ -163,6 +169,9 @@ const getMovieInfo = async () => {
         $rowTrailer.appendChild($colTrailer2);
         $containerTrailer.appendChild($rowTrailer);
         $trailer.appendChild($containerTrailer);
+
+        $fragmentMain.appendChild($trailer);
+        $main.appendChild($fragmentMain);
         
         // Imprimir img_row
         let $imgRow = document.createElement('section');
@@ -196,6 +205,9 @@ const getMovieInfo = async () => {
         $rowImgRow.appendChild($fragmentImgRow);
         $imgRow.appendChild($rowImgRow);
 
+        $fragmentMain.appendChild($imgRow);
+        $main.appendChild($fragmentMain);
+
         // Btns navegación entre pelis
         // En base al index de la peli actual, busca los index de la peli anterior y siguiente. Usa el valor de link_page de esas pelis para imprimir los btn para navegar entre pelis
        let currentMovieIndex = data.findIndex(movie => movie.id === currentMovieId);
@@ -212,6 +224,12 @@ const getMovieInfo = async () => {
        $containerBtnNav.classList.add('container');
        let $rowBtnNav = document.createElement('div');
        $rowBtnNav.classList.add('row');
+
+       $containerBtnNav.appendChild($rowBtnNav);
+       $btnNav.appendChild($containerBtnNav);
+
+       $fragmentBtnNav.appendChild($btnNav);
+       $main.appendChild($fragmentBtnNav);
 
        // Recupera el link de la peli siguiente a la actual
        if(nextMovieIndex === -1) {
@@ -240,8 +258,8 @@ const getMovieInfo = async () => {
            $nextBtnLink.textContent = 'Viernes Siguiente';
 
            $nextBtn.appendChild($nextBtnLink);
-           $fragmentBtnNav.appendChild($emptyPreviousBtn);
-           $fragmentBtnNav.appendChild($nextBtn);
+           $rowBtnNav.appendChild($emptyPreviousBtn);
+           $rowBtnNav.appendChild($nextBtn);
        }
 
        // Si currentMovie es la última peli que vimos
@@ -256,18 +274,22 @@ const getMovieInfo = async () => {
            $emptyNextBtn.classList.add('col-6');
 
            $previousBtn.appendChild($previousBtnLink);
-           $fragmentBtnNav.appendChild($previousBtn);
-           $fragmentBtnNav.appendChild($emptyNextBtn);
+           $rowBtnNav.appendChild($previousBtn);
+           $rowBtnNav.appendChild($emptyNextBtn);
        }
 
        // Se imprimen ambos btn
-       if((currentMovieIndex !== (peliculasCards.length - 1) && currentMovieIndex !== 0 && previousMovieLinkPage !== '')) {
+       if((currentMovieIndex !== (data.length - 1) && currentMovieIndex !== 0 && previousMovieLinkPage !== '')) {
            let $previousBtn = document.createElement('div');
            $previousBtn.classList.add('col-6');
            let $previousBtnLink = document.createElement('a');
            $previousBtnLink.href = previousMovieLinkPage;
            $previousBtnLink.classList.add('btn', 'btn--previous', 'btn__primary');
            $previousBtnLink.textContent = 'Viernes Anterior';
+
+           $previousBtn.appendChild($previousBtnLink);
+           $rowBtnNav.appendChild($previousBtn);
+
            let $nextBtn = document.createElement('div');
            $nextBtn.classList.add('col-6', 'd-flex', 'flex-row-reverse');
            let $nextBtnLink = document.createElement('a');
@@ -275,23 +297,10 @@ const getMovieInfo = async () => {
            $nextBtnLink.classList.add('btn', 'btn__primary', 'btn--previous');
            $nextBtnLink.textContent = 'Viernes Siguiente';
 
-           $previousBtn.appendChild($previousBtnLink);
-           $fragmentBtnNav.appendChild($previousBtn);
            $nextBtn.appendChild($nextBtnLink);
-           $fragmentBtnNav.appendChild($nextBtn);
+           $rowBtnNav.appendChild($nextBtn); 
        }
-
-       $rowBtnNav.appendChild($fragmentBtnNav);
-       $containerBtnNav.appendChild($rowBtnNav);
-       $btnNav.appendChild($containerBtnNav);
-
-        // Agregar a main todos los fragmentos
-        $fragmentMain.appendChild($sinopsis);
-        $fragmentMain.appendChild($cast);
-        $fragmentMain.appendChild($trailer);
-        $fragmentMain.appendChild($imgRow);
-        $fragmentMain.appendChild($btnNav);
-        $main.appendChild($fragmentMain);
+       
     } catch (err) {
         let message = err.statusText || "Ocurrió un error";
         console.log(message);
