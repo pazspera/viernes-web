@@ -1,0 +1,495 @@
+[
+    {
+        "title": "Enero 2021",
+        "movies": [
+            {
+                "id": "heavy_metal",
+                "name": "Heavy Metal",
+                "year": 1981,
+                "date_seen": "2021-01-08T03:00:00.000Z",
+                "img_card": "img/cards/card_heavy_metal.jpg",
+                "img_card_alt": "Hombre con uniforme militar con un robot ovalado flotante a su lado",
+                "link_page": "heavy_metal.html"
+            },
+            {
+                "id": "perfect_blue",
+                "name": "Perfect Blue",
+                "year": 1997,
+                "date_seen": "2021-01-22T03:00:00.000Z",
+                "img_card": "img/cards/card_perfect_blue.jpg",
+                "img_card_alt": "Reflejo de una mujer en un espejo roto",
+                "link_page": "perfect_blue.html"
+            }
+        ]
+    },
+    {
+        "title": "Febrero 2021",
+        "movies": [
+            {
+                "id": "mulholland_drive",
+                "name": "Mulholland Drive",
+                "year": 2001,
+                "date_seen": "2021-02-05T03:00:00.000Z",
+                "img_card": "img/cards/card_mulholland_drive.jpg",
+                "img_card_alt": "Dos mujeres escuchando por teléfono con atención",
+                "link_page": "mulholland_drive.html"
+            },
+            {
+                "id": "tale_tales",
+                "name": "Tale of Tales",
+                "year": 2015,
+                "date_seen": "2021-02-12T03:00:00.000Z",
+                "img_card": "img/cards/card_tale_tales.jpg",
+                "img_card_alt": "Hombre mirando con una lupa una caja de madera",
+                "link_page": "tale_tales.html"
+            },
+            {
+                "id": "labyrinth",
+                "name": "Labyrinth",
+                "year": 1986,
+                "date_seen": "2021-02-19T03:00:00.000Z",
+                "img_card": "img/cards/card_labyrinth.jpg",
+                "img_card_alt": "Hombre y mujer bailando en un baile de máscaras",
+                "link_page": "labyrinth.html"
+            },
+            {
+                "id": "synecdoche",
+                "name": "Synecdoche, New York",
+                "year": 2008,
+                "date_seen": "2021-02-27T03:00:00.000Z",
+                "img_card": "img/cards/card_synecdoche.jpg",
+                "img_card_alt": "Hombre y mujer rodeados de mesas mirando hacia arriba",
+                "link_page": "synecdoche.html"
+            }
+        ]
+    },
+    {
+        "title": "Marzo 2021",
+        "movies": [
+            {
+                "id": "thx_1138",
+                "name": "THX 1138",
+                "year": 1971,
+                "date_seen": "2021-03-05T03:00:00.000Z",
+                "img_card": "img/cards/card_thx_1138.jpg",
+                "img_card_alt": "Policías enmascarados golpeando a un hombre con palos en una habitación completamente blanca",
+                "link_page": "thx_1138.html"
+            },
+            {
+                "id": "enter_void",
+                "name": "Enter the Void",
+                "year": 2009,
+                "date_seen": "2021-03-13T03:00:00.000Z",
+                "img_card": "img/cards/card_enter_void.jpg",
+                "img_card_alt": "Hombre y mujer caminando de espaldas en una tienda con muchas luces de colores",
+                "link_page": "enter_void.html"
+            },
+            {
+                "id": "oldboy",
+                "name": "Oldboy",
+                "year": 2003,
+                "date_seen": "2021-03-19T03:00:00.000Z",
+                "img_card": "img/cards/card_oldboy.jpg",
+                "img_card_alt": "Hombre con pelo largo sonriendo extrañamente en una habitación",
+                "link_page": "oldboy.html"
+            },
+            {
+                "id": "snatch",
+                "name": "Snatch",
+                "year": 2000,
+                "date_seen": "2021-03-26T03:00:00.000Z",
+                "img_card": "img/cards/card_snatch.jpg",
+                "img_card_alt": "Hombre alentando a un boxeador en un ring",
+                "link_page": "snatch.html"
+            }
+        ]
+    },
+    {
+        "title": "Abril 2021",
+        "movies": [
+            {
+                "id": "top_secret",
+                "name": "Top Secret",
+                "year": 1984,
+                "date_seen": "2021-04-02T03:00:00.000Z",
+                "img_card": "img/cards/card_top_secret.jpg",
+                "img_card_alt": "Hombre al lado de una ventana con los vidrios rotos",
+                "link_page": "top_secret.html"
+            },
+            {
+                "id": "antiviral",
+                "name": "Antiviral",
+                "year": 2012,
+                "date_seen": "2021-04-09T03:00:00.000Z",
+                "img_card": "img/cards/card_antiviral.jpg",
+                "img_card_alt": "Hombre mirando con preocupación un tubo de ensayo con sangre",
+                "link_page": "antiviral.html"
+            },
+            {
+                "id": "suspiria_1977",
+                "name": "Suspiria",
+                "year": 1977,
+                "date_seen": "2021-04-16T03:00:00.000Z",
+                "img_card": "img/cards/card_suspiria_1977.jpg",
+                "img_card_alt": "Mujer pasando por un pasillo iluminado de rojo y entrando a una habitación",
+                "link_page": "suspiria_1977.html"
+            },
+            {
+                "id": "muertos_risa",
+                "name": "Muertos de Risa",
+                "year": 1999,
+                "date_seen": "2021-04-23T03:00:00.000Z",
+                "img_card": "img/cards/card_muertos_risa.jpg",
+                "img_card_alt": "Hombre a punto de darle una cachetada a otro hombre",
+                "link_page": "muertos_risa.html"
+            },
+            {
+                "id": "fantastic_fox",
+                "name": "Fantastic Mr. Fox",
+                "year": 2009,
+                "date_seen": "2021-04-30T03:00:00.000Z",
+                "img_card": "img/cards/card_fantastic_fox.jpg",
+                "img_card_alt": "Dos zorritos ladrones asomándose de la tapa de una alcantarilla",
+                "link_page": "fantastic_fox.html"
+            }
+        ]
+    },
+    {
+        "title": "Mayo 2021",
+        "movies": [
+            {
+                "id": "suspiria_2018",
+                "name": "Suspiria",
+                "year": 2018,
+                "date_seen": "2021-05-08T03:00:00.000Z",
+                "img_card": "img/cards/card_suspiria_2018.jpg",
+                "img_card_alt": "Una mujer mirando a otra desde el umbral de una puerta",
+                "link_page": "suspiria_2018.html"
+            },
+            {
+                
+                "id": "black_sheep",
+                "name": "Black Sheep",
+                "year": 2006,
+                "date_seen": "2021-05-14T03:00:00.000Z",
+                "img_card": "img/cards/card_black_sheep.jpg",
+                "img_card_alt": "Taxi rodeado de ovejas, varado en una ruta",
+                "link_page": "black_sheep.html"
+            },
+            {
+                "id": "troll_hunter",
+                "name": "Troll Hunter",
+                "year": 2010,
+                "date_seen": "2021-05-15T03:00:00.000Z",
+                "img_card": "img/cards/card_troll_hunter.jpg",
+                "img_card_alt": "Hombre en una camioneta iluminando a un troll que sale del bosque",
+                "link_page": "troll_hunter.html"
+            },
+            {
+                "id": "time_gypsies",
+                "name": "Time of the Gypsies",
+                "year": 1988,
+                "date_seen": "2021-05-21T03:00:00.000Z",
+                "img_card": "img/cards/card_time_gypsies.jpg",
+                "img_card_alt": "Grupo de personas mirando un ritual funerio en un río",
+                "link_page": "time_gypsies.html"
+            },
+            {
+                "id": "juan_muertos",
+                "name": "Juan de los muertos",
+                "year": 2011,
+                "date_seen": "2021-05-28T03:00:00.000Z",
+                "img_card": "img/cards/card_juan_muertos.jpg",
+                "img_card_alt": "Hombre agarrado de la cornisa de un balcón y una mujer ayudándolo",
+                "link_page": "juan_muertos.html"
+            }
+        ]
+    },
+    {
+        "title": "Junio 2021",
+        "movies": [
+            {
+                "id": "only_lovers",
+                "name": "Only Lovers Left Alive",
+                "year": 2013,
+                "date_seen": "2021-06-04T03:00:00.000Z",
+                "img_card": "img/cards/card_only_lovers.jpg",
+                "img_card_alt": "Mujer y hombre mirando a cámara con un mosaico de patrones circulares de fondo",
+                "link_page": "only_lovers.html"
+            },
+            {
+                "id": "ravenous",
+                "name": "Ravenous",
+                "year": 1999,
+                "date_seen": "2021-06-11T03:00:00.000Z",
+                "img_card": "img/cards/card_ravenous.jpg",
+                "img_card_alt": "Hombre con ropa manchada de sangre sonriendo en un bosque",
+                "link_page": "ravenous.html"
+            },
+            {
+                "id": "rumba",
+                "name": "Rumba",
+                "year": 2008,
+                "date_seen": "2021-06-18T03:00:00.000Z",
+                "img_card": "img/cards/card_rumba.jpg",
+                "img_card_alt": "Mujer y hombre bailando en un patio de escuela",
+                "link_page": "rumba.html"
+            },
+            {
+                "id": "black_rainbow",
+                "name": "Beyond the Black Rainbow",
+                "year": 2010,
+                "date_seen": "2021-06-25T03:00:00.000Z",
+                "img_card": "img/cards/card_black_rainbow.jpg",
+                "img_card_alt": "Hombre caminando en un pasillo con una luz roja de fondo",
+                "link_page": "black_rainbow.html"
+            }
+        ]
+    },
+    {
+        "title": "Julio 2021",
+        "movies": [
+            {
+                "id": "holy_motors",
+                "name": "Holy Motors",
+                "year": 2012,
+                "date_seen": "2021-07-02T03:00:00.000Z",
+                "img_card": "img/cards/card_holy_motors.jpg",
+                "img_card_alt": "Hombre ciego de un ojo parado frente a un grupo de gente",
+                "link_page": "holy_motors.html"
+            },
+            {
+                "id": "brick",
+                "name": "Brick",
+                "year": 2005,
+                "date_seen": "2021-07-09T03:00:00.000Z",
+                "img_card": "img/cards/card_brick.jpg",
+                "img_card_alt": "Adolescente hablando en una cabina telefónica de noche",
+                "link_page": "brick.html"
+            },
+            {
+                "id": "outrage",
+                "name": "Outrage",
+                "year": 2010,
+                "date_seen": "2021-07-16T03:00:00.000Z",
+                "img_card": "img/cards/card_outrage.jpg",
+                "img_card_alt": "Dos miembros de a Yakuza mirando a cámara y apuntando con un arma",
+                "link_page": "outrage.html"
+            },
+            {
+                "id": "john_dies_end",
+                "name": "John Dies at the End",
+                "year": 2012,
+                "date_seen": "2021-07-23T03:00:00.000Z",
+                "img_card": "img/cards/card_john_dies_end.jpg",
+                "img_card_alt": "Hombre hablando por un pancho como si fuera un teléfono",
+                "link_page": "john_dies_end.html"
+            },
+            {
+                "id": "pontypool",
+                "name": "Pontypool",
+                "year": 2008,
+                "date_seen": "2021-07-30T03:00:00.000Z",
+                "img_card": "img/cards/card_pontypool.jpg",
+                "img_card_alt": "Locutor en una cabina de radio hablando",
+                "link_page": "pontypool.html"
+            }
+        ]
+    },
+    {
+        "title": "Agosto 2021",
+        "movies": [
+            {
+                "id": "swiss_army_man",
+                "name": "Swiss Army Man",
+                "year": 2016,
+                "date_seen": "2021-08-08T03:00:00.000Z",
+                "img_card": "img/cards/card_swiss_army_man.jpg",
+                "img_card_alt": "Dos hombres acostados a la luz de una fogata",
+                "link_page": "swiss_army_man.html"
+            },
+            {
+                "id": "master",
+                "name": "The Master",
+                "year": 2012,
+                "date_seen": "2021-08-13T03:00:00.000Z",
+                "img_card": "img/cards/card_master.jpg",
+                "img_card_alt": "Hombre posando y mirando a cámara",
+                "link_page": "master.html"
+            },
+            {
+                "id": "double",
+                "name": "The Double",
+                "year": 2013,
+                "date_seen": "2021-08-20T03:00:00.000Z",
+                "img_card": "img/cards/card_double.jpg",
+                "img_card_alt": "Hombre parado al lado de una televisión",
+                "link_page": "double.html"
+            },
+            {
+                "id": "mother",
+                "name": "Mother!",
+                "year": 2017,
+                "date_seen": "2021-08-27T03:00:00.000Z",
+                "img_card": "img/cards/card_mother.jpg",
+                "img_card_alt": "Mujer mirando una pared con atención",
+                "link_page": "mother.html"
+            }
+        ]
+    },
+    {
+        "title": "Septiembre 2021",
+        "movies": [
+            {
+                "id": "human_nature",
+                "name": "Human Nature",
+                "year": 2001,
+                "date_seen": "2021-09-03T03:00:00.000Z",
+                "img_card": "img/cards/card_human_nature.jpg",
+                "img_card_alt": "Hombre en una habitación de vidrio sentado en un sillón y fumando una pipa",
+                "link_page": "human_nature.html"
+            },
+            {
+                "id": "holy_mountain",
+                "name": "The Holy Mountain",
+                "year": 1973,
+                "date_seen": "2021-09-10T03:00:00.000Z",
+                "img_card": "img/cards/card_holy_mountain.jpg",
+                "img_card_alt": "Hombre con un sombrero grande sentado con una cabra a cada lado",
+                "link_page": "holy_mountain.html"
+            },
+            {
+                "id": "milagro_ptinto",
+                "name": "El milagro de P.Tinto",
+                "year": 1998,
+                "date_seen": "2021-09-17T03:00:00.000Z",
+                "img_card": "img/cards/card_milagro_ptinto.jpg",
+                "img_card_alt": "Dos hombres arreglando el motor de un auto pequeño pintado de rosa",
+                "link_page": "milagro_ptinto.html"
+            },
+            {
+                "id": "cooties",
+                "name": "Cooties",
+                "year": 2014,
+                "date_seen": "2021-09-24T03:00:00.000Z",
+                "img_card": "img/cards/card_cooties.jpg",
+                "img_card_alt": "Profesor de gimnasia huyendo de un grupo de niños en un patio de escuela",
+                "link_page": "cooties.html"
+            }
+        ]
+    },
+    {
+        "title": "Octubre 2021",
+        "movies": [
+            {
+                "id": "as_gods_will",
+                "name": "As the Gods Will",
+                "year": 2014,
+                "date_seen": "2021-10-01T03:00:00.000Z",
+                "img_card": "img/cards/card_as_gods_will.jpg",
+                "img_card_alt": "Grupo de alumnos de secundaria aterrados mirando a un Daruma sentado en un escritorio",
+                "link_page": "as_gods_will.html"
+            },
+            {
+                "id": "tucker_dale_evil",
+                "name": "Tucker and Dale vs Evil",
+                "year": 2010,
+                "date_seen": "2021-10-08T03:00:00.000Z",
+                "img_card": "img/cards/card_tucker_dale_evil.jpg",
+                "img_card_alt": "Hombres en una camioneta sonriéndole a un policía que los detuvo en la ruta.",
+                "link_page": "tucker_dale_evil.html"
+            },
+            {
+                "id": "man_moon",
+                "name": "Man on the Moon",
+                "year": 1999,
+                "date_seen": "2021-10-15T03:00:00.000Z",
+                "img_card": "img/cards/card_man_moon.jpg",
+                "img_card_alt": "Hombre con una cámara antigua mirando",
+                "link_page": "man_moon.html"
+            },
+            {
+                "id": "nuit_noire",
+                "name": "Nuit Noire",
+                "year": 2005,
+                "date_seen": "2021-10-22T03:00:00.000Z",
+                "img_card": "img/cards/card_nuit_noire.jpg",
+                "img_card_alt": "Hombre mirando un capullo de insecto gigante que está acostado en su cama",
+                "link_page": "nuit_noire.html"
+            },
+            {
+                "id": "what_we_do_shadows",
+                "name": "What We Do in the Shadows",
+                "year": 2014,
+                "date_seen": "2021-10-29T03:00:00.000Z",
+                "img_card": "img/cards/card_what_we_do_shadows.jpg",
+                "img_card_alt": "Vampiro sosteniendo una taza frente a un espejo, el espejo refleja solo la taza flotando",
+                "link_page": "what_we_do_shadows.html"
+            }
+        ]
+    },
+    {
+        "title": "Noviembre 2021",
+        "movies": [
+            {
+                "id": "fear_loathing",
+                "name": "Fear and Loathing in Las Vegas",
+                "year": 1998,
+                "date_seen": "2021-11-05T03:00:00.000Z",
+                "img_card": "img/cards/card_fear_loathing.jpg",
+                "img_card_alt": "Hombre con sombrero y un cigarrillo en la boca asomándose en la puerta de una habitación de hotel",
+                "link_page": "fear_loathing.html"
+            },
+            {
+                "id": "escape_la",
+                "name": "Escape from L.A.",
+                "year": 1996,
+                "date_seen": "2021-11-19T03:00:00.000Z",
+                "img_card": "img/cards/card_escape_la.jpg",
+                "img_card_alt": "Dos hombres andando en moto, uno golpea al otro con una cadena",
+                "link_page": "escape_la.html"
+            },
+            {
+                "id": "volver",
+                "name": "Volver",
+                "year": 2006,
+                "date_seen": "2021-11-26T03:00:00.000Z",
+                "img_card": "img/cards/card_volver.jpg",
+                "img_card_alt": "Mujer hablando por teléfono y comiéndose las uñas",
+                "link_page": "volver.html"
+            }
+        ]
+    },
+    {
+        "title": "Diciembre 2021",
+        "movies": [
+            {
+                "id": "battle_royale",
+                "name": "Battle Royale",
+                "year": 2000,
+                "date_seen": "2021-12-03T03:00:00.000Z",
+                "img_card": "img/cards/card_battle_royale.jpg",
+                "img_card_alt": "Foto grupal de un grupo de estudiantes",
+                "link_page": "battle_royale.html"
+            },
+            {
+                "id": "mind_game",
+                "name": "Mind Game",
+                "year": 2004,
+                "date_seen": "2021-12-10T03:00:00.000Z",
+                "img_card": "img/cards/card_mind_game.jpg",
+                "img_card_alt": "Tres personas flotando en una pileta de agua verde fluorescente",
+                "link_page": "mind_game.html"
+            },
+            {
+                "id": "french_dispatch",
+                "name": "The French Dispatch",
+                "year": 2021,
+                "date_seen": "2021-12-17T03:00:00.000Z",
+                "img_card": "img/cards/card_french_dispatch.jpg",
+                "img_card_alt": "Dos hombres parados en una redacción de un periódico mirando hacia arriba",
+                "link_page": "french_dispatch.html"
+            }
+        ]
+    }
+]
