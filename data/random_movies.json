@@ -196,13 +196,6 @@
       "secondPick": 0
     },
     {
-      "id": "guns_akimbo",
-      "name": "Guns Akimbo",
-      "imdb": "https://www.imdb.com/title/tt6902676/",
-      "img": "../img/posters/poster_guns_akimbo.jpg",
-      "secondPick": 0
-    },
-    {
       "id": "horns",
       "name": "Horns",
       "imdb": "https://www.imdb.com/title/tt1528071/",

@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Enero 2022",
+        "movies": [
+            {
+                "id": "guns_akimbo",
+                "name": "Guns Akimbo",
+                "year": 2019,
+                "date_seen": "2022-01-14T03:00:00.000Z",
+                "img_card": "img/cards/card_guns_akimbo.jpg",
+                "img_card_alt": "Hombre desaliñado en ropa interior con una bata y pantuflas de oso caminando por la calle",
+                "link_page": "guns_akimbo.html"
+            }
+        ]
+    }
+]

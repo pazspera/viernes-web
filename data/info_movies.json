@@ -1,5 +1,54 @@
 [
     {
+      "id": "guns_akimbo",
+      "name": "Guns Akimbo",
+      "year": 2019,
+      "date_seen": "2022-01-14T03:00:00.000Z",
+      "img_card": "img/cards/card_guns_akimbo.jpg",
+      "img_card_alt": "Hombre sentado en un inodoro mirando su teléfono",
+      "link_page": "guns_akimbo.html",
+      "pick": "Geor",
+      "sinopsis": "Miles, un joven frustrado al que todo le va mal, se convierte en protagonista forzado de un duelo a muerte retransmitido por Internet.",
+      "director": "Director: Jason Howden",
+      "duration": "1h 38min",
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Sakc54uEtbU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "cast": [
+        {
+          "img": "cast_1.jpg",
+          "actor": "Daniel Radcliffe"
+        },
+        {
+          "img": "cast_2.jpg",
+          "actor": "Samara Weaving"
+        },
+        {
+          "img": "cast_3.jpg",
+          "actor": "Ned Dennehy"
+        },
+        {
+          "img": "cast_4.jpg",
+          "actor": "Natasha Liu Bordizzo"
+        }
+      ],
+      "img_row": [
+        {
+          "img": "img_1.jpg",
+          "alt": "Hombre y mujer disparando y gritando",
+          "class": "always_show"
+        },
+        {
+          "img": "img_2.jpg",
+          "alt": "Grupo de policías apuntando con miras automáticas",
+          "class": "always_show"
+        },
+        {
+          "img": "img_3.jpg",
+          "alt": "Hombre desaliñado en ropa interior con una bata y pantuflas de oso caminando por la calle",
+          "class": "hidden_first"
+        }
+      ]
+    },
+    {
       "id": "french_dispatch",
       "name": "The French Dispatch",
       "year": 2021,
