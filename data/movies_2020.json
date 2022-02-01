@@ -1,312 +1,312 @@
 [
-    {
-        "title": "Mayo 2020",
-        "movies": [
-            {
-                "id": "true_romance",
-                "name": "True Romance",
-                "year": 1993,
-                "date_seen": "2020-05-08T03:00:00.000Z",
-                "img_card": "img/cards/card_true_romance.jpg",
-                "img_card_alt": "Pareja en un auto mirándose amorosamente",
-                "link_page": "true_romance.html"
-            },
-            {
-                "id": "neon_demon",
-                "name": "The Neon Demon",
-                "year": 2016,
-                "date_seen": "2020-05-15T03:00:00.000Z",
-                "img_card": "img/cards/card_neon_demon.jpg",
-                "img_card_alt": "Mujer y su reflejo iluminadas por luces de neón",
-                "link_page": "neon_demon.html"
-            },
-            {
-                "id": "cyborg",
-                "name": "I'm a Cyborg and That's Ok",
-                "year": 2006,
-                "date_seen": "2020-05-22T03:00:00.000Z",
-                "img_card": "img/cards/card_cyborg.jpg",
-                "img_card_alt": "Hombre y mujer en un campo",
-                "link_page": "cyborg.html"
-            },
-            {
-                "id": "buen_dia",
-                "name": "Un buen día",
-                "year": 2010,
-                "date_seen": "2020-05-29T03:00:00.000Z",
-                "img_card": "img/cards/card_buen_dia.jpg",
-                "img_card_alt": "Hombre haciendo mimica de tocar una guitarra y una mujer riendo",
-                "link_page": "buen_dia.html"
-            }
-        ]
-    },
-    {
-        "title": "Junio 2020",
-        "movies": [
-            {
-                "id": "host",
-                "name": "The Host",
-                "year": 2006,
-                "date_seen": "2020-06-12T03:00:00.000Z",
-                "img_card": "img/cards/card_host.jpg",
-                "img_card_alt": "Padre e hija tomando un refresco y hablando",
-                "link_page": "host.html"
-            },
-            {
-                "id": "trainspotting",
-                "name": "Trainspotting",
-                "year": 1996,
-                "date_seen": "2020-06-19T03:00:00.000Z",
-                "img_card": "img/cards/card_trainspotting.jpg",
-                "img_card_alt": "Tres hombres comiendo papas fritas y hablando",
-                "link_page": "trainspotting.html"
-            },
-            {
-                "id": "climax",
-                "name": "Climax",
-                "year": 2018,
-                "date_seen": "2020-06-26T03:00:00.000Z",
-                "img_card": "img/cards/card_climax.jpg",
-                "img_card_alt": "Televisor antiguo con vhs al costado y una mujer hablando en la pantalla",
-                "link_page": "climax.html"
-            }
-        ]
-    },
-    {
-        "title": "Julio 2020",
-        "movies": [
-            {
-                "id": "tokyo_godfathers",
-                "name": "Tokyo Godfathers",
-                "year": 2003,
-                "date_seen": "2020-07-03T03:00:00.000Z",
-                "img_card": "img/cards/card_tokyo_godfathers.jpg",
-                "img_card_alt": "Pareja con una niña y un bebé hablando",
-                "link_page": "tokyo_godfathers.html"
-            },
-            {
-                "id": "mood_indigo",
-                "name": "Mood Indigo",
-                "year": 2013,
-                "date_seen": "2020-07-10T03:00:00.000Z",
-                "img_card": "img/cards/card_mood_indigo.jpg",
-                "img_card_alt": "Pareja sentada en un banco mirándose con cariño",
-                "link_page": "mood_indigo.html"
-            },
-            {
-                "id": "midsommar",
-                "name": "Midsommar",
-                "year": 2019,
-                "date_seen": "2020-07-17T03:00:00.000Z",
-                "img_card": "img/cards/card_midsommar.jpg",
-                "img_card_alt": "Manos ensangrentadas sobre una piedra con símbolos tallados",
-                "link_page": "midsommar.html"
-            },
-            {
-                "id": "wayward_cloud",
-                "name": "The Wayward Cloud",
-                "year": 2005,
-                "date_seen": "2020-07-24T03:00:00.000Z",
-                "img_card": "img/cards/card_wayward_cloud.jpg",
-                "img_card_alt": "Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer",
-                "link_page": "wayward_cloud.html"
-            },
-            {
-                "id": "kill_bill",
-                "name": "Kill Bill: The Whole Bloody Affair",
-                "year": 2011,
-                "date_seen": "2020-07-24T03:00:00.000Z",
-                "img_card": "img/cards/card_kill_bill.jpg",
-                "img_card_alt": "Mujer preparada para atacar con un sable",
-                "link_page": "kill_bill.html"
-            }
-        ]
-    },
-    {
-        "title": "Agosto 2020",
-        "movies": [
-            {
-                "id": "mishima",
-                "name": "Mishima: A Life in Four Chapters",
-                "year": 1985,
-                "date_seen": "2020-08-07T03:00:00.000Z",
-                "img_card": "img/cards/card_mishima.jpg",
-                "img_card_alt": "Dos mujeres paradas en un muelle",
-                "link_page": "mishima.html"
-            },
-            {
-                "id": "brazil",
-                "name": "Brazil",
-                "year": 1985,
-                "date_seen": "2020-08-14T03:00:00.000Z",
-                "img_card": "img/cards/card_brazil.jpg",
-                "img_card_alt": "Oficinista confundido parado en un pasillo",
-                "link_page": "brazil.html"
-            },
-            {
-                "id": "coherence",
-                "name": "Coherence",
-                "year": 2013,
-                "date_seen": "2020-08-21T03:00:00.000Z",
-                "img_card": "img/cards/card_coherence.jpg",
-                "img_card_alt": "Grupo de personas cenando y divirtiéndose",
-                "link_page": "coherence.html"
-            },
-            {
-                "id": "time_bandits",
-                "name": "Time Bandits",
-                "year": 1981,
-                "date_seen": "2020-08-28T03:00:00.000Z",
-                "img_card": "img/cards/card_time_bandits.jpg",
-                "img_card_alt": "Hombre y mujer vestidos con ropa imperial antigua junto a un niño",
-                "link_page": "time_bandits.html"
-            }
-        ]
-    },
-    {
-        "title": "Septiembre 2020",
-        "movies": [
-            {
-                "id": "logans_run",
-                "name": "Logan's Run",
-                "year": 1976,
-                "date_seen": "2020-09-04T03:00:00.000Z",
-                "img_card": "img/cards/card_logans_run.jpg",
-                "img_card_alt": "Tres personas caminando por un pasillo futurista",
-                "link_page": "logans_run.html"
-            },
-            {
-                "id": "thinking_ending",
-                "name": "I'm Thinking of Ending Things",
-                "year": 2020,
-                "date_seen": "2020-09-11T03:00:00.000Z",
-                "img_card": "img/cards/card_thinking_ending.jpg",
-                "img_card_alt": "Dos parejas sentadas a una mesa cenando",
-                "link_page": "thinking_ending.html"
-            },
-            {
-                "id": "mouth_madness",
-                "name": "In the Mouth of Madness",
-                "year": 1994,
-                "date_seen": "2020-09-18T03:00:00.000Z",
-                "img_card": "img/cards/card_mouth_madness.jpg",
-                "img_card_alt": "Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa",
-                "link_page": "mouth_madness.html"
-            },
-            {
-                "id": "gattaca",
-                "name": "Gattaca",
-                "year": 1997,
-                "date_seen": "2020-09-26T03:00:00.000Z",
-                "img_card": "img/cards/card_gattaca.jpg",
-                "img_card_alt": "Hombre caminando por un pasillo circular",
-                "link_page": "gattaca.html"
-            }
-        ]
-    },
-    {
-        "title": "Octubre 2020",
-        "movies": [
-            {
-                "id": "dark_city",
-                "name": "Dark City",
-                "year": 1994,
-                "date_seen": "2020-10-09T03:00:00.000Z",
-                "img_card": "img/cards/card_dark_city.jpg",
-                "img_card_alt": "Hombre encadenado a una máquina y personas en el fondo mirando",
-                "link_page": "dark_city.html"
-            },
-            {
-                "id": "paprika",
-                "name": "Paprika",
-                "year": 2006,
-                "date_seen": "2020-10-16T03:00:00.000Z",
-                "img_card": "img/cards/card_paprika.jpg",
-                "img_card_alt": "Mujer frente a un grupo de caballos de madera mirándose al espejo",
-                "link_page": "paprika.html"
-            },
-            {
-                "id": "lighthouse",
-                "name": "The Lighthouse",
-                "year": 2019,
-                "date_seen": "2020-10-23T03:00:00.000Z",
-                "img_card": "img/cards/card_lighthouse.jpg",
-                "img_card_alt": "Dos marinos mirando al horizonte con un faro de fondo",
-                "link_page": "lighthouse.html"
-            },
-            {
-                "id": "reanimator",
-                "name": "Re-Animator",
-                "year": 1985,
-                "date_seen": "2020-10-30T03:00:00.000Z",
-                "img_card": "img/cards/card_reanimator.jpg",
-                "img_card_alt": "Científico cargando una jeringa con un líquido verde fluorescente",
-                "link_page": "reanimator.html"
-            }   
-        ]
-    },
-    {
-        "title": "Noviembre 2020",
-        "movies": [
-            {
-                "id": "slacker",
-                "name": "Slacker",
-                "year": 1990,
-                "date_seen": "2020-11-06T03:00:00.000Z",
-                "img_card": "img/cards/card_slacker.jpg",
-                "img_card_alt": "Tres personas conversando en la calle",
-                "link_page": "slacker.html"
-            },
-            {
-                "id": "rocky_horror",
-                "name": "The Rocky Horror Picture Show",
-                "year": 1975,
-                "date_seen": "2020-11-13T03:00:00.000Z",
-                "img_card": "img/cards/card_rocky_horror.jpg",
-                "img_card_alt": "Primer plano de hombre mirando con desafío a cámara",
-                "link_page": "rocky_horror.html"
-            },
-            {
-                "id": "waking_life",
-                "name": "Waking Life",
-                "year": 2001,
-                "date_seen": "2020-11-20T03:00:00.000Z",
-                "img_card": "img/cards/card_waking_life.jpg",
-                "img_card_alt": "Dos hombre conversando, uno es una silueta de nubes",
-                "link_page": "waking_life.html"
-            },
-            {
-                "id": "baron",
-                "name": "The Adventures of Baron Munchausen",
-                "year": 1988,
-                "date_seen": "2020-11-28T03:00:00.000Z",
-                "img_card": "img/cards/card_baron.jpg",
-                "img_card_alt": "Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco",
-                "link_page": "baron.html"
-            }
-        ]
-    },
-    {
-        "title": "Diciembre 2020",
-        "movies": [
-            {
-                "id": "moon",
-                "name": "Moon",
-                "year": 2009,
-                "date_seen": "2020-12-04T03:00:00.000Z",
-                "img_card": "img/cards/card_moon.jpg",
-                "img_card_alt": "Astronauta mirando una máquina con un emoji de carita triste en su pantalla",
-                "link_page": "moon.html"
-            },
-            {
-                "id": "bad_taste",
-                "name": "Bad Taste",
-                "year": 1987,
-                "date_seen": "2020-12-04T03:00:00.000Z",
-                "img_card": "img/cards/card_bad_taste.jpg",
-                "img_card_alt": "Grupo de tres extraterrestres caminando por el bosque",
-                "link_page": "bad_taste.html"
-            }
-        ]
-    }
+	{
+		"title": "Mayo 2020",
+		"movies": [
+			{
+				"id": "true_romance",
+				"name": "True Romance",
+				"year": 1993,
+				"date_seen": "2020-05-08T03:00:00.000Z",
+				"img_card": "img/cards/card_true_romance.jpg",
+				"img_card_alt": "Pareja en un auto mirándose amorosamente",
+				"link_page": "true_romance.html"
+			},
+			{
+				"id": "neon_demon",
+				"name": "The Neon Demon",
+				"year": 2016,
+				"date_seen": "2020-05-15T03:00:00.000Z",
+				"img_card": "img/cards/card_neon_demon.jpg",
+				"img_card_alt": "Mujer y su reflejo iluminadas por luces de neón",
+				"link_page": "neon_demon.html"
+			},
+			{
+				"id": "cyborg",
+				"name": "I'm a Cyborg and That's Ok",
+				"year": 2006,
+				"date_seen": "2020-05-22T03:00:00.000Z",
+				"img_card": "img/cards/card_cyborg.jpg",
+				"img_card_alt": "Hombre y mujer en un campo",
+				"link_page": "cyborg.html"
+			},
+			{
+				"id": "buen_dia",
+				"name": "Un buen día",
+				"year": 2010,
+				"date_seen": "2020-05-29T03:00:00.000Z",
+				"img_card": "img/cards/card_buen_dia.jpg",
+				"img_card_alt": "Hombre haciendo mimica de tocar una guitarra y una mujer riendo",
+				"link_page": "buen_dia.html"
+			}
+		]
+	},
+	{
+		"title": "Junio 2020",
+		"movies": [
+			{
+				"id": "host",
+				"name": "The Host",
+				"year": 2006,
+				"date_seen": "2020-06-12T03:00:00.000Z",
+				"img_card": "img/cards/card_host.jpg",
+				"img_card_alt": "Padre e hija tomando un refresco y hablando",
+				"link_page": "host.html"
+			},
+			{
+				"id": "trainspotting",
+				"name": "Trainspotting",
+				"year": 1996,
+				"date_seen": "2020-06-19T03:00:00.000Z",
+				"img_card": "img/cards/card_trainspotting.jpg",
+				"img_card_alt": "Tres hombres comiendo papas fritas y hablando",
+				"link_page": "trainspotting.html"
+			},
+			{
+				"id": "climax",
+				"name": "Climax",
+				"year": 2018,
+				"date_seen": "2020-06-26T03:00:00.000Z",
+				"img_card": "img/cards/card_climax.jpg",
+				"img_card_alt": "Televisor antiguo con vhs al costado y una mujer hablando en la pantalla",
+				"link_page": "climax.html"
+			}
+		]
+	},
+	{
+		"title": "Julio 2020",
+		"movies": [
+			{
+				"id": "tokyo_godfathers",
+				"name": "Tokyo Godfathers",
+				"year": 2003,
+				"date_seen": "2020-07-03T03:00:00.000Z",
+				"img_card": "img/cards/card_tokyo_godfathers.jpg",
+				"img_card_alt": "Pareja con una niña y un bebé hablando",
+				"link_page": "tokyo_godfathers.html"
+			},
+			{
+				"id": "mood_indigo",
+				"name": "Mood Indigo",
+				"year": 2013,
+				"date_seen": "2020-07-10T03:00:00.000Z",
+				"img_card": "img/cards/card_mood_indigo.jpg",
+				"img_card_alt": "Pareja sentada en un banco mirándose con cariño",
+				"link_page": "mood_indigo.html"
+			},
+			{
+				"id": "midsommar",
+				"name": "Midsommar",
+				"year": 2019,
+				"date_seen": "2020-07-17T03:00:00.000Z",
+				"img_card": "img/cards/card_midsommar.jpg",
+				"img_card_alt": "Manos ensangrentadas sobre una piedra con símbolos tallados",
+				"link_page": "midsommar.html"
+			},
+			{
+				"id": "wayward_cloud",
+				"name": "The Wayward Cloud",
+				"year": 2005,
+				"date_seen": "2020-07-24T03:00:00.000Z",
+				"img_card": "img/cards/card_wayward_cloud.jpg",
+				"img_card_alt": "Hombre debajo de una mesa fumando de un cigarrillo sostenido por el pie de una mujer",
+				"link_page": "wayward_cloud.html"
+			},
+			{
+				"id": "kill_bill",
+				"name": "Kill Bill: The Whole Bloody Affair",
+				"year": 2011,
+				"date_seen": "2020-07-24T03:00:00.000Z",
+				"img_card": "img/cards/card_kill_bill.jpg",
+				"img_card_alt": "Mujer preparada para atacar con un sable",
+				"link_page": "kill_bill.html"
+			}
+		]
+	},
+	{
+		"title": "Agosto 2020",
+		"movies": [
+			{
+				"id": "mishima",
+				"name": "Mishima: A Life in Four Chapters",
+				"year": 1985,
+				"date_seen": "2020-08-07T03:00:00.000Z",
+				"img_card": "img/cards/card_mishima.jpg",
+				"img_card_alt": "Dos mujeres paradas en un muelle",
+				"link_page": "mishima.html"
+			},
+			{
+				"id": "brazil",
+				"name": "Brazil",
+				"year": 1985,
+				"date_seen": "2020-08-14T03:00:00.000Z",
+				"img_card": "img/cards/card_brazil.jpg",
+				"img_card_alt": "Oficinista confundido parado en un pasillo",
+				"link_page": "brazil.html"
+			},
+			{
+				"id": "coherence",
+				"name": "Coherence",
+				"year": 2013,
+				"date_seen": "2020-08-21T03:00:00.000Z",
+				"img_card": "img/cards/card_coherence.jpg",
+				"img_card_alt": "Grupo de personas cenando y divirtiéndose",
+				"link_page": "coherence.html"
+			},
+			{
+				"id": "time_bandits",
+				"name": "Time Bandits",
+				"year": 1981,
+				"date_seen": "2020-08-28T03:00:00.000Z",
+				"img_card": "img/cards/card_time_bandits.jpg",
+				"img_card_alt": "Hombre y mujer vestidos con ropa imperial antigua junto a un niño",
+				"link_page": "time_bandits.html"
+			}
+		]
+	},
+	{
+		"title": "Septiembre 2020",
+		"movies": [
+			{
+				"id": "logans_run",
+				"name": "Logan's Run",
+				"year": 1976,
+				"date_seen": "2020-09-04T03:00:00.000Z",
+				"img_card": "img/cards/card_logans_run.jpg",
+				"img_card_alt": "Tres personas caminando por un pasillo futurista",
+				"link_page": "logans_run.html"
+			},
+			{
+				"id": "thinking_ending",
+				"name": "I'm Thinking of Ending Things",
+				"year": 2020,
+				"date_seen": "2020-09-11T03:00:00.000Z",
+				"img_card": "img/cards/card_thinking_ending.jpg",
+				"img_card_alt": "Dos parejas sentadas a una mesa cenando",
+				"link_page": "thinking_ending.html"
+			},
+			{
+				"id": "mouth_madness",
+				"name": "In the Mouth of Madness",
+				"year": 1994,
+				"date_seen": "2020-09-18T03:00:00.000Z",
+				"img_card": "img/cards/card_mouth_madness.jpg",
+				"img_card_alt": "Hombre en un manicomio con cruces dibujadas por su cuerpo y ropa",
+				"link_page": "mouth_madness.html"
+			},
+			{
+				"id": "gattaca",
+				"name": "Gattaca",
+				"year": 1997,
+				"date_seen": "2020-09-26T03:00:00.000Z",
+				"img_card": "img/cards/card_gattaca.jpg",
+				"img_card_alt": "Hombre caminando por un pasillo circular",
+				"link_page": "gattaca.html"
+			}
+		]
+	},
+	{
+		"title": "Octubre 2020",
+		"movies": [
+			{
+				"id": "dark_city",
+				"name": "Dark City",
+				"year": 1994,
+				"date_seen": "2020-10-09T03:00:00.000Z",
+				"img_card": "img/cards/card_dark_city.jpg",
+				"img_card_alt": "Hombre encadenado a una máquina y personas en el fondo mirando",
+				"link_page": "dark_city.html"
+			},
+			{
+				"id": "paprika",
+				"name": "Paprika",
+				"year": 2006,
+				"date_seen": "2020-10-16T03:00:00.000Z",
+				"img_card": "img/cards/card_paprika.jpg",
+				"img_card_alt": "Mujer frente a un grupo de caballos de madera mirándose al espejo",
+				"link_page": "paprika.html"
+			},
+			{
+				"id": "lighthouse",
+				"name": "The Lighthouse",
+				"year": 2019,
+				"date_seen": "2020-10-23T03:00:00.000Z",
+				"img_card": "img/cards/card_lighthouse.jpg",
+				"img_card_alt": "Dos marinos mirando al horizonte con un faro de fondo",
+				"link_page": "lighthouse.html"
+			},
+			{
+				"id": "reanimator",
+				"name": "Re-Animator",
+				"year": 1985,
+				"date_seen": "2020-10-30T03:00:00.000Z",
+				"img_card": "img/cards/card_reanimator.jpg",
+				"img_card_alt": "Científico cargando una jeringa con un líquido verde fluorescente",
+				"link_page": "reanimator.html"
+			}
+		]
+	},
+	{
+		"title": "Noviembre 2020",
+		"movies": [
+			{
+				"id": "slacker",
+				"name": "Slacker",
+				"year": 1990,
+				"date_seen": "2020-11-06T03:00:00.000Z",
+				"img_card": "img/cards/card_slacker.jpg",
+				"img_card_alt": "Tres personas conversando en la calle",
+				"link_page": "slacker.html"
+			},
+			{
+				"id": "rocky_horror",
+				"name": "The Rocky Horror Picture Show",
+				"year": 1975,
+				"date_seen": "2020-11-13T03:00:00.000Z",
+				"img_card": "img/cards/card_rocky_horror.jpg",
+				"img_card_alt": "Primer plano de hombre mirando con desafío a cámara",
+				"link_page": "rocky_horror.html"
+			},
+			{
+				"id": "waking_life",
+				"name": "Waking Life",
+				"year": 2001,
+				"date_seen": "2020-11-20T03:00:00.000Z",
+				"img_card": "img/cards/card_waking_life.jpg",
+				"img_card_alt": "Dos hombre conversando, uno es una silueta de nubes",
+				"link_page": "waking_life.html"
+			},
+			{
+				"id": "baron",
+				"name": "The Adventures of Baron Munchausen",
+				"year": 1988,
+				"date_seen": "2020-11-28T03:00:00.000Z",
+				"img_card": "img/cards/card_baron.jpg",
+				"img_card_alt": "Hombre vestido con uniforme militar antiguo y una niña mirando por la borda de un barco",
+				"link_page": "baron.html"
+			}
+		]
+	},
+	{
+		"title": "Diciembre 2020",
+		"movies": [
+			{
+				"id": "moon",
+				"name": "Moon",
+				"year": 2009,
+				"date_seen": "2020-12-04T03:00:00.000Z",
+				"img_card": "img/cards/card_moon.jpg",
+				"img_card_alt": "Astronauta mirando una máquina con un emoji de carita triste en su pantalla",
+				"link_page": "moon.html"
+			},
+			{
+				"id": "bad_taste",
+				"name": "Bad Taste",
+				"year": 1987,
+				"date_seen": "2020-12-04T03:00:00.000Z",
+				"img_card": "img/cards/card_bad_taste.jpg",
+				"img_card_alt": "Grupo de tres extraterrestres caminando por el bosque",
+				"link_page": "bad_taste.html"
+			}
+		]
+	}
 ]

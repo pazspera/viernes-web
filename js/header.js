@@ -1,11 +1,11 @@
 /* Header para index */
 class Header1 extends HTMLElement {
-    constructor(){
-        super();
-    }
+	constructor() {
+		super();
+	}
 
-    connectedCallback(){
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <header class="sticky-top"> 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
@@ -27,19 +27,19 @@ class Header1 extends HTMLElement {
             </nav>
         </header>
         `;
-    }
+	}
 }
 
-customElements.define('header-component1', Header1);
+customElements.define("header-component1", Header1);
 
 /* Header para html dentro de carpeta pages */
 class Header2 extends HTMLElement {
-    constructor(){
-        super();
-    }
+	constructor() {
+		super();
+	}
 
-    connectedCallback(){
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <header class="sticky-top"> 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
@@ -61,19 +61,19 @@ class Header2 extends HTMLElement {
             </nav>
         </header>
         `;
-    }
+	}
 }
 
-customElements.define('header-component2', Header2);
+customElements.define("header-component2", Header2);
 
 /* Header para html dentro de carpeta peliculas */
 class Header3 extends HTMLElement {
-    constructor(){
-        super();
-    }
+	constructor() {
+		super();
+	}
 
-    connectedCallback(){
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <header class="sticky-top"> 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
@@ -95,7 +95,7 @@ class Header3 extends HTMLElement {
             </nav>
         </header>
         `;
-    }
+	}
 }
 
-customElements.define('header-component3', Header3);
+customElements.define("header-component3", Header3);
