@@ -3,3 +3,5 @@ posters: 350 x 520
 
 pelicula_img: 768 x 418
 pelicula_cast: 200 x 200
+
+https://imagecompressor.com/
