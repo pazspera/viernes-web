@@ -1,8 +1,6 @@
 /* ------ VARIABLES ------ */
 const URL_MOVIES = "../../data/info_movies.json";
-let currentMovieId = document
-	.getElementById("current_movie")
-	.getAttribute("class");
+let currentMovieId = document.getElementById("current_movie").getAttribute("class");
 
 /* ------ FUNCIONES ------ */
 const getMovieInfo = async () => {
@@ -159,6 +157,19 @@ const getMovieInfo = async () => {
 		$rowTrailer.appendChild($colTrailer1);
 		$rowTrailer.appendChild($colTrailer2);
 		$containerTrailer.appendChild($rowTrailer);
+
+		/* Agrega disclaimer age restriction para wayward_cloud */
+		if (currentMovieId === "wayward_cloud") {
+			let $colTrailer3 = document.createElement("div");
+			$colTrailer3.classList.add("col", "col-lg-9");
+			let $disclaimer = document.createElement("p");
+			$disclaimer.classList.add("disclaimer-text");
+			$disclaimer.textContent =
+				"Este trailer está restringido por edad en Youtube. Googlearlo es una opción que dejamos a tu criterio.";
+			$colTrailer3.appendChild($disclaimer);
+			$containerTrailer.appendChild($colTrailer3);
+		}
+
 		$trailer.appendChild($containerTrailer);
 
 		$fragmentMain.appendChild($trailer);
@@ -174,13 +185,7 @@ const getMovieInfo = async () => {
 		currentMovie.img_row.forEach((img) => {
 			if (img.class === "always_show") {
 				let $imgDiv = document.createElement("div");
-				$imgDiv.classList.add(
-					"img-fluid",
-					"col-12",
-					"col-md-6",
-					"col-xxl-4",
-					"pelicula__img"
-				);
+				$imgDiv.classList.add("img-fluid", "col-12", "col-md-6", "col-xxl-4", "pelicula__img");
 				let $img = document.createElement("img");
 				$img.src = `../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${img.img}`;
 				$img.alt = `${img.alt}`;
@@ -189,13 +194,7 @@ const getMovieInfo = async () => {
 				$fragmentImgRow.appendChild($imgDiv);
 			} else if (img.class === "hidden_first") {
 				let $imgDiv = document.createElement("div");
-				$imgDiv.classList.add(
-					"img-fluid",
-					"d-none",
-					"d-xxl-block",
-					"col-xxl-4",
-					"pelicula__img"
-				);
+				$imgDiv.classList.add("img-fluid", "d-none", "d-xxl-block", "col-xxl-4", "pelicula__img");
 				let $img = document.createElement("img");
 				$img.src = `../../img/pelicula/${currentMovie.id}/${currentMovie.id}_${img.img}`;
 				$img.alt = `${img.alt}`;
@@ -213,9 +212,7 @@ const getMovieInfo = async () => {
 
 		// Btns navegación entre pelis
 		// En base al index de la peli actual, busca los index de la peli anterior y siguiente. Usa el valor de link_page de esas pelis para imprimir los btn para navegar entre pelis
-		let currentMovieIndex = data.findIndex(
-			(movie) => movie.id === currentMovieId
-		);
+		let currentMovieIndex = data.findIndex((movie) => movie.id === currentMovieId);
 		let nextMovieIndex = currentMovieIndex - 1;
 		let previousMovieIndex = currentMovieIndex + 1;
 		let nextMovieLinkPage;
@@ -252,10 +249,7 @@ const getMovieInfo = async () => {
 		}
 
 		// Si currentMovie es la primera peli que vimos
-		if (
-			currentMovieIndex === data.length - 1 &&
-			previousMovieLinkPage === ""
-		) {
+		if (currentMovieIndex === data.length - 1 && previousMovieLinkPage === "") {
 			let $emptyPreviousBtn = document.createElement("div");
 			$emptyPreviousBtn.classList.add("col-6");
 			let $nextBtn = document.createElement("div");
@@ -276,11 +270,7 @@ const getMovieInfo = async () => {
 			$previousBtn.classList.add("col-6");
 			let $previousBtnLink = document.createElement("a");
 			$previousBtnLink.href = previousMovieLinkPage;
-			$previousBtnLink.classList.add(
-				"btn",
-				"btn--previous",
-				"btn__primary"
-			);
+			$previousBtnLink.classList.add("btn", "btn--previous", "btn__primary");
 			$previousBtnLink.textContent = "Viernes Anterior";
 			let $emptyNextBtn = document.createElement("div");
 			$emptyNextBtn.classList.add("col-6");
@@ -300,11 +290,7 @@ const getMovieInfo = async () => {
 			$previousBtn.classList.add("col-6");
 			let $previousBtnLink = document.createElement("a");
 			$previousBtnLink.href = previousMovieLinkPage;
-			$previousBtnLink.classList.add(
-				"btn",
-				"btn--previous",
-				"btn__primary"
-			);
+			$previousBtnLink.classList.add("btn", "btn--previous", "btn__primary");
 			$previousBtnLink.textContent = "Viernes Anterior";
 
 			$previousBtn.appendChild($previousBtnLink);
