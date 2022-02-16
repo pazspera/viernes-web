@@ -50,9 +50,9 @@ const getMovieInfo = async () => {
 		let textPick = "";
 		const checkPickName = (namePick) => {
 			if (namePick === "Pollo" || namePick === "Loco") {
-				return (textPick = `Elección del ${namePick}`);
+				return (textPick = `Elección del `);
 			} else {
-				return (textPick = `Elección de ${namePick}`);
+				return (textPick = `Elección de `);
 			}
 		};
 		checkPickName(namePick);
@@ -73,8 +73,13 @@ const getMovieInfo = async () => {
 		$heroDuration.classList.add("hero-grid__texto");
 		$heroDuration.textContent = `${currentMovie.duration}`;
 		let $heroPick = document.createElement("p");
+		console.log($heroPick);
 		$heroPick.classList.add("hero-grid__texto-final");
 		$heroPick.textContent = `${textPick}`;
+		let $heroPickLink = document.createElement("a");
+		$heroPickLink.href = `../picks_${namePick}.html`;
+		$heroPickLink.textContent = namePick;
+		$heroPick.appendChild($heroPickLink);
 
 		$fragmentHero.appendChild($heroImg);
 		$heroCartel.appendChild($heroTitle);
