@@ -47,6 +47,9 @@ const getMovieInfo = async () => {
 
 		// Revisa si el pick es del Loco o del Pollo para agregar el "el"
 		let namePick = currentMovie.pick;
+		// Convierte current pick a minúsculas sino no funcionan
+		// los links
+		let pickLink = currentMovie.pick.toLowerCase();
 		let textPick = "";
 		const checkPickName = (namePick) => {
 			if (namePick === "Pollo" || namePick === "Loco") {
@@ -77,7 +80,7 @@ const getMovieInfo = async () => {
 		$heroPick.classList.add("hero-grid__texto-final");
 		$heroPick.textContent = `${textPick}`;
 		let $heroPickLink = document.createElement("a");
-		$heroPickLink.href = `../picks_${namePick}.html`;
+		$heroPickLink.href = `../picks_${pickLink}.html`;
 		$heroPickLink.classList.add("hero__pick-link");
 		$heroPickLink.textContent = namePick;
 		$heroPick.appendChild($heroPickLink);
