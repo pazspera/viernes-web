@@ -76,13 +76,13 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .link-line:hover, .link-line:focus {
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   padding-bottom: 0.15rem;
 }
 
@@ -215,15 +215,11 @@ h2 {
 .hero__pick-link {
   text-decoration: none;
   color: #E3170A;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 
 .hero__pick-link:hover {
-  font-weight: 900;
   color: #E3170A;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  font-weight: 900;
 }
 
 @media (min-width: 1000px) {

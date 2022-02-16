@@ -81,7 +81,7 @@ const getMovieInfo = async () => {
 		$heroPick.textContent = `${textPick}`;
 		let $heroPickLink = document.createElement("a");
 		$heroPickLink.href = `../picks_${pickLink}.html`;
-		$heroPickLink.classList.add("hero__pick-link");
+		$heroPickLink.classList.add("hero__pick-link", "link-line");
 		$heroPickLink.textContent = namePick;
 		$heroPick.appendChild($heroPickLink);
 

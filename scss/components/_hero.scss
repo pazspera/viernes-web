@@ -27,12 +27,10 @@
     &__pick-link {
         text-decoration: none;
         color: $primary;
-        transition: all 0.2s ease-in-out;
 
         &:hover {
-            font-weight: 900;
             color: $primary;
-            transition: all 0.2s ease-in-out;
+            font-weight: 900;
         }
     }
 }
