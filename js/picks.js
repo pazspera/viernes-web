@@ -1,13 +1,13 @@
 /* ------ VARIABLES ------ */
 const d = document;
-const URL_MOVIES = "../../data/info_movies.json";
+const URL_MOVIES_PICKS = "../../data/info_movies.json";
 const currentPicker = d.getElementById("current_pick").getAttribute("class");
 let $pickedRow = d.getElementById("pickedRow");
 
 /* ------ FUNCIONES ------ */
 const getPickedMovies = async () => {
 	try {
-		let res = await fetch(URL_MOVIES);
+		let res = await fetch(URL_MOVIES_PICKS);
 		let data = await res.json();
 		console.log(data);
 		// Regular Expression para buscar en data todos los picks de currentPicker
