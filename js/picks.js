@@ -1,4 +1,3 @@
-console.log("Hola Picks!");
 /* ------ VARIABLES ------ */
 const d = document;
 const URL_MOVIES = "../../data/info_movies.json";
@@ -17,7 +16,6 @@ const getPickedMovies = async () => {
 		let pickedMovies = data.filter((movie) => {
 			return movie.pick.match(regex);
 		});
-		console.log(pickedMovies);
 
 		if (!res.ok) {
 			throw {
@@ -62,5 +60,4 @@ const getPickedMovies = async () => {
 };
 
 /* ------ CÓDIGO ------ */
-console.log(currentPicker);
 d.addEventListener("DOMContentLoaded", getPickedMovies);
