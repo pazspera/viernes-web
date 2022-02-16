@@ -1,6 +1,6 @@
 /* ------ VARIABLES ------ */
 const d = document;
-const URL_MOVIES_PICKS = "../../data/info_movies.json";
+const URL_MOVIES_PICKS = "./data/info_movies.json";
 const currentPicker = d.getElementById("current_pick").getAttribute("class");
 let $pickedRow = d.getElementById("pickedRow");
 
