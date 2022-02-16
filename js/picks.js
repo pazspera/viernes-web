@@ -53,7 +53,7 @@ const getPickedMovies = async () => {
 			// Agrega card a row
 			$pickedRow.appendChild($card);
 		});
-	} catch (error) {
+	} catch (err) {
 		let message = err.statusText || "Ocurrió un error";
 		console.log(message);
 	}
