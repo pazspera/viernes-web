@@ -37,12 +37,7 @@ const getAll = async () => {
 			month.movies.forEach((movie) => {
 				// Crea card y sus clases
 				let $card = document.createElement("div");
-				$card.classList.add(
-					"card",
-					"card-pelicula",
-					"col-12",
-					"col-lg-6"
-				);
+				$card.classList.add("card", "card-pelicula", "col-12", "col-lg-6");
 
 				// Img
 				let $img = document.createElement("img");
@@ -53,10 +48,7 @@ const getAll = async () => {
 
 				// Card body
 				let $cardBody = document.createElement("div");
-				$cardBody.classList.add(
-					"card-body",
-					"card-pelicula__contenido"
-				);
+				$cardBody.classList.add("card-body", "card-pelicula__contenido");
 				let $cardTitle = document.createElement("h3");
 				$cardTitle.classList.add("card-pelicula__titulo");
 				let $cardLink = document.createElement("a");

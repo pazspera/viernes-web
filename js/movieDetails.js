@@ -1,3 +1,22 @@
+/* 
+	En el pick de la peli, tener un link que lleve a una pagina que tenga 
+	las cards de todas las pelis que eligió esa persona ordenadas cronológicamente
+
+	Va a ser para Geor, Pollo, Loco y yo (que somos los que tenemos + de 2 pelis)
+
+	checkPick le agrega el "el" a los picks del Pollo y del Loco
+	Sería agregar un link a la página, habría que reformularlo esto
+
+	Pero antes vamos a hacer las páginas en sí, para tener a qué linkear
+
+	Las páginas de picks van a ser iguales para los 4, mismo header, solamente va
+	a cambiar el nombre basado en class como estoy recuperando el id acá
+
+	Después que haga una búsqueda en info_movies con el pick y que ordene
+	cronológicamente el resultado
+
+*/
+
 /* ------ VARIABLES ------ */
 const URL_MOVIES = "../../data/info_movies.json";
 let currentMovieId = document.getElementById("current_movie").getAttribute("class");
@@ -31,9 +50,9 @@ const getMovieInfo = async () => {
 		let textPick = "";
 		const checkPickName = (namePick) => {
 			if (namePick === "Pollo" || namePick === "Loco") {
-				return (textPick = "Elección del " + namePick);
+				return (textPick = `Elección del ${namePick}`);
 			} else {
-				return (textPick = "Elección de " + namePick);
+				return (textPick = `Elección de ${namePick}`);
 			}
 		};
 		checkPickName(namePick);

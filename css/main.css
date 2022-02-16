@@ -492,6 +492,10 @@ h2 {
   background-image: url(../img/hero/hero_seleccion_peliculas.jpg);
 }
 
+#picks {
+  background-image: url(../img/hero/hero_picks.jpg);
+}
+
 #antiviral {
   background-image: url(../img/hero/hero_antiviral.jpg);
   background-position: left;
