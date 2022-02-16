@@ -212,6 +212,20 @@ h2 {
   font-size: 1.563rem;
 }
 
+.hero__pick-link {
+  text-decoration: none;
+  color: #E3170A;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero__pick-link:hover {
+  font-weight: 900;
+  color: #E3170A;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 @media (min-width: 1000px) {
   .hero {
     height: 90vh;
