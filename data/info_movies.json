@@ -12,6 +12,7 @@
 		"director": "Director: Robert Bierman",
 		"duration": "1h 43min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KekyCKC0ezo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=KekyCKC0ezo",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -61,6 +62,7 @@
 		"director": "Director: Jason Howden",
 		"duration": "1h 38min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Sakc54uEtbU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=Sakc54uEtbU",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -110,6 +112,7 @@
 		"director": "Director: Wes Anderson",
 		"duration": "1h 47min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TcPk2p0Zaw4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=TcPk2p0Zaw4",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -163,6 +166,7 @@
 		"director": "Director: Masaaki Yuasa & Kôji Morimoto",
 		"duration": "1h 43min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2fmmCsyK1dY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=2fmmCsyK1dY",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -212,6 +216,7 @@
 		"director": "Director: Kinji Fukasaku",
 		"duration": "1h 54min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/N0p1t-dC7Ko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=N0p1t-dC7Ko",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -265,6 +270,7 @@
 		"director": "Director: Pedro Almodóvar",
 		"duration": "2h 1min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ABSvppyQGdE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=ABSvppyQGdE",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -314,6 +320,7 @@
 		"duration": "1h 41min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/o6SWofbYD90\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 		"sinopsis": "Dieciséis años después, Snake vuelve a ser capturado y obligado, contra su voluntad, a llevar a cabo una misión suicida para salvar al mundo.",
+		"trailerLink": "https://www.youtube.com/watch?v=o6SWofbYD90",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -363,6 +370,7 @@
 		"director": "Director: Terry Gilliam",
 		"duration": "1h 26min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uOmtVFQ3WF8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=uOmtVFQ3WF8",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -404,6 +412,7 @@
 		"director": "Directores: Jemaine Clement & Taika Waititi",
 		"duration": "1h 26min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IAZEWtyhpes\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=IAZEWtyhpes",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -457,6 +466,7 @@
 		"director": "Director: Olivier Smolders",
 		"duration": "1h 30min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H1FdP-6GdeA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=H1FdP-6GdeA",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -502,6 +512,7 @@
 		"director": "Director: Milos Forman",
 		"duration": "1h 58min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pCcQB-iT7LY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=pCcQB-iT7LY",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -551,6 +562,7 @@
 		"director": "Director: Eli Craig",
 		"duration": "1h 29min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/j0hJSCqqIs4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=j0hJSCqqIs4",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -596,6 +608,7 @@
 		"director": "Director: Takashi Miike",
 		"duration": "1h 57min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OEh1fT1IH14\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=OEh1fT1IH14",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -641,6 +654,7 @@
 		"director": "Directores: Jonathan Milott & Cary Murnion",
 		"duration": "1h 28min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/G_he1HiLy0A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=G_he1HiLy0A",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -694,6 +708,7 @@
 		"director": "Director: Javier Fesser",
 		"duration": "1h 46min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/s0fT8i9IhKc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=s0fT8i9IhKc",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -747,6 +762,7 @@
 		"director": "Director: Alejandro Jodorowsky",
 		"duration": "1h 54min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qmR0vi0ifzE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=qmR0vi0ifzE",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -800,6 +816,7 @@
 		"director": "Director: Michel Gondry",
 		"duration": "1h 36min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1gjUtwtxv0M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=1gjUtwtxv0M",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -845,6 +862,7 @@
 		"director": "Director: Darren Aronofsky",
 		"duration": "2h 1min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XpICoc65uh0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=XpICoc65uh0",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -894,6 +912,7 @@
 		"director": "Director: Richard Ayoade",
 		"duration": "1h 33min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xWhikLYeSQ0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=xWhikLYeSQ0",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -943,6 +962,7 @@
 		"director": "Director: Paul Thomas Anderson",
 		"duration": "2h 18min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uBn5dURHsUg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=uBn5dURHsUg",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -988,6 +1008,7 @@
 		"director": "Directores: Dan Kwan & Daniel Scheinert",
 		"duration": "1h 37min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4v92gXetGqA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=4v92gXetGqA",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1029,6 +1050,7 @@
 		"director": "Director: Bruce McDonald",
 		"duration": "1h 33min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H4EoVxwJecM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=H4EoVxwJecM",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1078,6 +1100,7 @@
 		"director": "Director: Don Coscarelli",
 		"duration": "1h 39min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IfJp417dyig\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=IfJp417dyig",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1123,6 +1146,7 @@
 		"director": "Director: Takeshi Kitano",
 		"duration": "1h 49min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3Fj3htxRRHM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=3Fj3htxRRHM",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1176,6 +1200,7 @@
 		"director": "Director: Rian Johnson",
 		"duration": "1h 50min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4Zfw8__A7ps\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=4Zfw8__A7ps",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1229,6 +1254,7 @@
 		"director": "Director: Leos Carax",
 		"duration": "1h 55min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NWu9WjEcdbk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=NWu9WjEcdbk",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1278,6 +1304,7 @@
 		"director": "Director: Panos Cosmatos",
 		"duration": "1h 50min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bi7aQ-bKziY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=bi7aQ-bKziY",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1323,6 +1350,7 @@
 		"director": "Directores: Dominique Abel, Fiona Gordon & Bruno Romy",
 		"duration": "1h 17min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1hIK4xRI3bg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=1hIK4xRI3bg",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1364,6 +1392,7 @@
 		"director": "Directora: Antonia Bird",
 		"duration": "1h 41min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/l7BDiNktrLU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=l7BDiNktrLU",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1421,6 +1450,7 @@
 		"director": "Director: Jim Jarmusch",
 		"duration": "2h 3min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pkeWhokaPPs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=pkeWhokaPPs",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1474,6 +1504,7 @@
 		"director": "Director: Alejandro Brugués",
 		"duration": "1h 32min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gYuxT5nQJ8I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=gYuxT5nQJ8I",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1527,6 +1558,7 @@
 		"director": "Director: Emir Kusturica",
 		"duration": "2h 22min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/J9K1iQ57LbQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=J9K1iQ57LbQ",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1576,6 +1608,7 @@
 		"director": "Director: André Øvredal",
 		"duration": "1h 43min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uvwEyHeRSvE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=uvwEyHeRSvE",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
@@ -1625,6 +1658,7 @@
 		"director": "Director: Jonathan King",
 		"duration": "1h 27min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hhck0SLcA6I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=Hhck0SLcA6I",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
