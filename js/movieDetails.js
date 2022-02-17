@@ -32,11 +32,9 @@ const responsiveContent = (domElement, breakpointSize, mobileContent, desktopCon
 	const responsive = (e) => {
 		if (e.matches) {
 			// Al menos 1024px
-			console.log("más de 1024px");
 			domElement.innerHTML = desktopContent;
 		} else {
 			// Menos de 1024px
-			console.log("menos de 1024px");
 			domElement.innerHTML = mobileContent;
 		}
 	};
@@ -99,7 +97,6 @@ const getMovieInfo = async () => {
 		$heroDuration.classList.add("hero-grid__texto");
 		$heroDuration.textContent = `${currentMovie.duration}`;
 		let $heroPick = document.createElement("p");
-		console.log($heroPick);
 		$heroPick.classList.add("hero-grid__texto-final");
 		$heroPick.textContent = `${textPick}`;
 		let $heroPickLink = document.createElement("a");

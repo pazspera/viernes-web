@@ -9,7 +9,6 @@ const getPickedMovies = async () => {
 	try {
 		let res = await fetch(URL_MOVIES_PICKS);
 		let data = await res.json();
-		console.log(data);
 		// Regular Expression para buscar en data todos los picks de currentPicker
 		// independientemente de mayúsculas y minúsculas
 		let regex = new RegExp(currentPicker, "i");
