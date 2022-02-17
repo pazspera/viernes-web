@@ -1878,6 +1878,7 @@
 		"director": "Director: Brandon Cronenberg",
 		"duration": "1h 48min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XIZb50HiBCo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=XIZb50HiBCo",
 		"cast": [
 			{
 				"img": "cast_1.jpg",
