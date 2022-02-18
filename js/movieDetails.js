@@ -79,11 +79,16 @@ const getMovieInfo = async () => {
 		let $heroPick = document.createElement("p");
 		$heroPick.classList.add("hero-grid__texto-final");
 		$heroPick.textContent = `${textPick}`;
-		let $heroPickLink = document.createElement("a");
-		$heroPickLink.href = `../picks_${pickLink}.html`;
-		$heroPickLink.classList.add("hero__pick-link", "link-line");
-		$heroPickLink.textContent = namePick;
-		$heroPick.appendChild($heroPickLink);
+
+		if(currentMovie.pick === "Geor" || currentMovie.pick === "Loco" || currentMovie.pick === "Pollo" || currentMovie.pick === "Paz") {
+			let $heroPickLink = document.createElement("a");
+			$heroPickLink.href = `../picks_${pickLink}.html`;
+			$heroPickLink.classList.add("hero__pick-link", "link-line");
+			$heroPickLink.textContent = namePick;
+			$heroPick.appendChild($heroPickLink);
+		} else {
+			$heroPick.textContent = `${textPick} ${currentMovie.pick}`;
+		}
 
 		$fragmentHero.appendChild($heroImg);
 		$heroCartel.appendChild($heroTitle);
