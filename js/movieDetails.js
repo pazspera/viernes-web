@@ -1,17 +1,3 @@
-/* 
-	Que cuando el vw sea menor a 1024px, tener un btn con el link al trailer en vez
-	del video embebido
-
-	- Hace falta el link a youtube, habría que agregarle a cada objeto el enlace
-	además de tener el el iframe
-	- No voy a hacer una función reutilizable, quiero crear los elementos en vez
-	de usar innerhtml, después voy a hacer otra función para manejar las img
-
-	La función debería estar dentro de getMovieInfo, no puede acceder al data fuera de la función
-	El objeto currentMovie va a tener toda la info
-
-*/
-
 /* ------ VARIABLES ------ */
 const URL_MOVIES = "../../data/info_movies.json";
 let currentMovieId = document.getElementById("current_movie").getAttribute("class");
@@ -19,13 +5,7 @@ let currentMovieId = document.getElementById("current_movie").getAttribute("clas
 let breakpointSize = "(min-width: 1024px)";
 
 /* ------ FUNCIONES ------ */
-// Función para borrar todos los hijos de un div
-const deleteAllChilds = (parent) => {
-	while (parent.firstChild) {
-		parent.removeChild(parent.firstChild);
-	}
-};
-
+// Función para adaptar contenido para mobile y desktop
 const responsiveContent = (domElement, breakpointSize, mobileContent, desktopContent) => {
 	let breakpoint = window.matchMedia(breakpointSize);
 
@@ -222,85 +202,28 @@ const getMovieInfo = async () => {
 				</div>
 			</div>`;
 
+		// Agrega disclaimer para wayward_cloud
+		if (currentMovieId === "wayward_cloud") {
+			contentTrailerMobile = `
+			<div class="col">
+        		<a href="${currentMovie.trailerLink}" class="btn btn__primary">Ver Trailer</a>
+				<p class="disclaimer-text mt-2">Este trailer está restringido por edad en Youtube. Googlearlo es una opción que dejamos a tu criterio.</p>
+    		</div>`;
+			contentTrailerDesktop = `
+			<div class="col col-lg-9">
+				<div class="ratio ratio-16x9">
+					${currentMovie.trailer}
+				</div>
+				<p class="disclaimer-text">Este trailer está restringido por edad en Youtube. Googlearlo es una opción que dejamos a tu criterio.</p>
+			</div>`;
+		}
+
 		responsiveContent(
 			$rowTrailerChangingContent,
 			breakpointSize,
 			contentTrailerMobile,
 			contentTrailerDesktop
 		);
-
-		/* const responsiveVideo = (e) => {
-			if (e.matches) {
-				// Al menos 1024px
-				console.log("más de 1024px");
-				deleteAllChilds($rowTrailerChangingContent);
-				$colTrailerDesktop.classList.add("col", "col-lg-9");
-				let $trailerVideo = document.createElement("div");
-				$trailerVideo.classList.add("ratio", "ratio-16x9");
-				$trailerVideo.innerHTML = `${currentMovie.trailer}`;
-
-				$colTrailerDesktop.appendChild($trailerVideo);
-				$rowTrailerChangingContent.appendChild($colTrailerDesktop);
-				$containerTrailer.appendChild($rowTrailerChangingContent);
-
-				// Agrega disclaimer age restriction para wayward_cloud
-				if (currentMovieId === "wayward_cloud") {
-					let $colTrailer3 = document.createElement("div");
-					$colTrailer3.classList.add("col", "col-lg-9");
-					let $disclaimer = document.createElement("p");
-					$disclaimer.classList.add("disclaimer-text");
-					$disclaimer.textContent =
-						"Este trailer está restringido por edad en Youtube. Googlearlo es una opción que dejamos a tu criterio.";
-					$colTrailer3.appendChild($disclaimer);
-					$containerTrailer.appendChild($colTrailer3);
-				}
-			} else {
-				// Menos de 1024px
-				console.log("menos de 1024px");
-				deleteAllChilds($rowTrailerChangingContent);
-				$colTrailerMobile.classList.add("col");
-				let $btnTrailer = document.createElement("a");
-				$btnTrailer.classList.add("btn", "btn__primary");
-				$btnTrailer.href = currentMovie.trailerLink;
-				$btnTrailer.textContent = "Ver trailer";
-
-				$colTrailerMobile.appendChild($btnTrailer);
-				$rowTrailerChangingContent.appendChild($colTrailerMobile);
-				$containerTrailer.appendChild($rowTrailerChangingContent);
-			}
-		};
-
-		// Listener que revisa mediaquery en breakpointSize
-		breakpoint.addListener(responsiveVideo);
-		// Para que se ejecute a la carga del DOM
-		// y no solo al cambiar tamaño viewport
-		responsiveVideo(breakpoint);
-
-		$containerTrailer.appendChild($rowTrailerChangingContent); */
-
-		/* let $colTrailer2 = document.createElement("div");
-		$colTrailer2.classList.add("col", "col-lg-9");
-		let $trailerVideo = document.createElement("div");
-		$trailerVideo.classList.add("ratio", "ratio-16x9");
-		$trailerVideo.innerHTML = `${currentMovie.trailer}`;
-
-		$colTrailer1.appendChild($trailerTitle);
-		$colTrailer2.appendChild($trailerVideo);
-		$rowTrailer.appendChild($colTrailer1);
-		$rowTrailer.appendChild($colTrailer2);
-		$containerTrailer.appendChild($rowTrailer);
-
-		/* Agrega disclaimer age restriction para wayward_cloud 
-		if (currentMovieId === "wayward_cloud") {
-			let $colTrailer3 = document.createElement("div");
-			$colTrailer3.classList.add("col", "col-lg-9");
-			let $disclaimer = document.createElement("p");
-			$disclaimer.classList.add("disclaimer-text");
-			$disclaimer.textContent =
-				"Este trailer está restringido por edad en Youtube. Googlearlo es una opción que dejamos a tu criterio.";
-			$colTrailer3.appendChild($disclaimer);
-			$containerTrailer.appendChild($colTrailer3);
-		} */
 
 		$containerTrailer.appendChild($rowTrailerChangingContent);
 		$trailer.appendChild($containerTrailer);
