@@ -1,58 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta -->
-    <meta name="description" content="Viernes es un ciclo de cine del servidor de Discord La Casa del Craizy">
-	  <meta property="og:type" content="website">
-	  <meta property="og:title" content="Viernes">
-	  <meta property="og:url" content="index.html">
-	  <meta property="og:description" content="Viernes es un ciclo de cine del servidor de Discord La Casa del Craizy">
-    <meta property="og:image" content="https://pazspera.github.io/viernes-web/img/thumb.jpg">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- CSS Personalizado -->
-    <link rel="stylesheet" href="css/main.css">
-    <title>Viernes</title>
-</head>
-<body>
-    <header-component1></header-component1> 
-    
-    <section id="hero_index"></section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Meta -->
+		<meta
+			name="description"
+			content="Viernes es un ciclo de cine del servidor de Discord La Casa del Craizy"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Viernes" />
+		<meta property="og:url" content="index.html" />
+		<meta
+			property="og:description"
+			content="Viernes es un ciclo de cine del servidor de Discord La Casa del Craizy"
+		/>
+		<meta property="og:image" content="https://pazspera.github.io/viernes-web/img/thumb.jpg" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- CSS Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!-- CSS Personalizado -->
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Viernes</title>
+	</head>
+	<body>
+		<header-component1></header-component1>
 
-    <main class="main-content">
-      <div class="container">
-        <div class="main-text">
-          <p><strong>Es viernes y hay película en La casa del Craizy</strong>. Abrimos Discord y entramos a la salita de cine. Allí nos esperan tres opciones, tres potenciales viernes y una votación. Si bien esto no es y nunca fue una democracia, el consenso popular decidirá cuál va a ser la comedia de esta semana.</p>
-          <p>Lo que comenzó como juntadas virtuales de pandemia ahora ya tiene una existencia propia. Películas que se sumergen en el inconsciente, un laberinto de espejos en plano secuencia. Historias que sacuden el cerebro y sí, tal vez ocasionalmente lo dañen un poco pero ese es el encanto de las comedias de los viernes.</p>
-          <p>Bienvenides a los Viernes, <strong>nuestra pequeña distopía cinematográfica de pandemia</strong>. Les esperamos en la salita, en cualquier momento el Craizy pasa el primer trailer y ya podemos empezar. </p>
-        </div>
+		<section id="hero_index"></section>
 
-        <section class="ultimas-peliculas">
-          <h1 class="main__titulo">Los últimos viernes</h1>
-          <div class="row grid-peliculas" id="peliculas-cards-index"></div>
-          <div class="d-flex justify-content-center">
-            <a href="pages/historial_peliculas.html" class="btn btn__primary">Historial de películas</a>
-          </div>
-        </section>
-      </div>
-    </main>
+		<main class="main-content">
+			<div class="container">
+				<div class="row">
+					<div class="main-text">
+						<p>
+							<strong>Es viernes y hay película en La casa del Craizy</strong>. Abrimos Discord y
+							entramos a la salita de cine. Allí nos esperan tres opciones, tres potenciales viernes
+							y una votación. Si bien esto no es y nunca fue una democracia, el consenso popular
+							decidirá cuál va a ser la comedia de esta semana.
+						</p>
+						<p>
+							Lo que comenzó como juntadas virtuales de pandemia ahora ya tiene una existencia
+							propia. Películas que se sumergen en el inconsciente, un laberinto de espejos en plano
+							secuencia. Historias que sacuden el cerebro y sí, tal vez ocasionalmente lo dañen un
+							poco pero ese es el encanto de las comedias de los viernes.
+						</p>
+						<p>
+							Bienvenides a los Viernes,
+							<strong>nuestra pequeña distopía cinematográfica de pandemia</strong>. Les esperamos
+							en la salita, en cualquier momento el Craizy pasa el primer trailer y ya podemos
+							empezar.
+						</p>
+					</div>
+				</div>
 
-    <footer-component></footer-component>
+				<div class="row">
+					<section class="ultimas-peliculas">
+						<h1 class="main__titulo">Los últimos viernes</h1>
+						<div class="row grid-peliculas" id="peliculas-cards-index"></div>
+						<div class="d-flex justify-content-center">
+							<a href="pages/historial_peliculas.html" class="btn btn__primary"
+								>Historial de películas</a
+							>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
 
-    <!-- JS Bootstrap -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- Header -->
-    <script src="js/header.js"></script>
-    <!-- Footer -->
-    <script src="js/footer.js"></script>
-    <!-- JS Info películas -->
-    <script src="js/movieIndex.js"></script>
-</body>
+		<footer-component></footer-component>
+
+		<!-- JS Bootstrap -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<!-- Header -->
+		<script src="js/header.js"></script>
+		<!-- Footer -->
+		<script src="js/footer.js"></script>
+		<!-- JS Info películas -->
+		<script src="js/movieIndex.js"></script>
+	</body>
 </html>
