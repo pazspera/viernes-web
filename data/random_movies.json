@@ -1,5 +1,26 @@
 [
 	{
+		"id": "titane",
+		"name": "Titane",
+		"imdb": "https://www.imdb.com/title/tt10944760/",
+		"img": "../img/posters/poster_titane.jpg",
+		"secondPick": 0
+	},
+	{
+		"id": "ex_drummer",
+		"name": "Ex Drummer",
+		"imdb": "https://www.imdb.com/title/tt0812243/",
+		"img": "../img/posters/poster_ex_drummer.jpg",
+		"secondPick": 0
+	},
+	{
+		"id": "licorice_pizza",
+		"name": "Licorice Pizza",
+		"imdb": "https://www.imdb.com/title/tt11271038/",
+		"img": "../img/posters/poster_licorice_pizza.jpg",
+		"secondPick": 0
+	},
+	{
 		"id": "wild_heart",
 		"name": "Wild at Heart",
 		"imdb": "https://www.imdb.com/title/tt0100935/",
