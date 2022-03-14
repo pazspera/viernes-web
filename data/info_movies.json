@@ -1,5 +1,55 @@
 [
 	{
+		"id": "heart_deceit",
+		"name": "The Heart Is Deceitful Above All Things",
+		"year": 2004,
+		"date_seen": "2022-02-25T03:00:00.000Z",
+		"img_card": "img/cards/card_heart_deceit.jpg",
+		"img_card_alt": "Mujer y un niño en un auto, la mujer está manejando y tomando una cerveza",
+		"link_page": "heart_deceit.html",
+		"pick": "Ramiro",
+		"sinopsis": "Jeremiah, un niño de 7 años, es forzado a dejar su hogar adoptivo y arrojado a una vida problemática en las calles con su madre adolescente, Sarah.",
+		"director": "Directora: Asia Argento",
+		"duration": "1h 38min",
+		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/43kuhYTqdT4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=KekyCKC0ezo",
+		"cast": [
+			{
+				"img": "cast_1.jpg",
+				"actor": "Asia Argento"
+			},
+			{
+				"img": "cast_2.jpg",
+				"actor": "Dylan Sprouse"
+			},
+			{
+				"img": "cast_3.jpg",
+				"actor": "Cole Sprouse"
+			},
+			{
+				"img": "cast_4.jpg",
+				"actor": "Jeremy Renner"
+			}
+		],
+		"img_row": [
+			{
+				"img": "img_1.jpg",
+				"alt": "Mujer, hombre y niño sentados en la cabina de un camión",
+				"class": "always_show"
+			},
+			{
+				"img": "img_2.jpg",
+				"alt": "Niño sentado en un sillón mirando una pared con dibujos infantiles",
+				"class": "always_show"
+			},
+			{
+				"img": "img_3.jpg",
+				"alt": "Mujer y niño corriendo por un supermercado con un carrito lleno de cosas",
+				"class": "hidden_first"
+			}
+		]
+	},
+	{
 		"id": "vampire_kiss",
 		"name": "Vampire's Kiss",
 		"year": 1988,
