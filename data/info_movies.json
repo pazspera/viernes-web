@@ -1,5 +1,51 @@
 [
 	{
+		"id": "possession",
+		"name": "Possession",
+		"year": 1981,
+		"date_seen": "2022-03-04T03:00:00.000Z",
+		"img_card": "img/cards/card_possession.jpg",
+		"img_card_alt": "Hombre hablando por teléfono",
+		"link_page": "possession.html",
+		"pick": "Paz",
+		"sinopsis": "Una mujer se comporta de forma extraña tras pedirle el divorcio a su marido. Lo que empieza como sospechas de infidelidad pronto se convierte en algo más siniestro.",
+		"director": "Director: Andrzej Zulawski",
+		"duration": "2h 04min",
+		"trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uDpFpzbwfiw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+		"trailerLink": "https://www.youtube.com/watch?v=uDpFpzbwfiw",
+		"cast": [
+			{
+				"img": "cast_1.jpg",
+				"actor": "Isabelle Adjani"
+			},
+			{
+				"img": "cast_2.jpg",
+				"actor": "Sam Neill"
+			},
+			{
+				"img": "cast_3.jpg",
+				"actor": "Heinz Bennent"
+			}
+		],
+		"img_row": [
+			{
+				"img": "img_1.jpg",
+				"alt": "Mujer parada en la puerta de un baño mirando intensamente",
+				"class": "always_show"
+			},
+			{
+				"img": "img_2.jpg",
+				"alt": "Dos hombres conversando en una escalera",
+				"class": "always_show"
+			},
+			{
+				"img": "img_3.jpg",
+				"alt": "Mujer y hombre mirando con curiosidad",
+				"class": "hidden_first"
+			}
+		]
+	},
+	{
 		"id": "heart_deceit",
 		"name": "The Heart Is Deceitful Above All Things",
 		"year": 2004,
@@ -12,7 +58,7 @@
 		"director": "Directora: Asia Argento",
 		"duration": "1h 38min",
 		"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/43kuhYTqdT4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"trailerLink": "https://www.youtube.com/watch?v=KekyCKC0ezo",
+		"trailerLink": "https://www.youtube.com/watch?v=43kuhYTqdT4",
 		"cast": [
 			{
 				"img": "cast_1.jpg",

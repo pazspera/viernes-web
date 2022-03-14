@@ -713,6 +713,10 @@ h2 {
   background-position: left;
 }
 
+#possession {
+  background-image: url(../img/hero/hero_possession.jpg);
+}
+
 #ravenous {
   background-image: url(../img/hero/hero_ravenous.jpg);
 }
