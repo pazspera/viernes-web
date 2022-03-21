@@ -1,53 +1,62 @@
 [
-	{
-		"title": "Enero 2022",
-		"movies": [
-			{
-				"id": "guns_akimbo",
-				"name": "Guns Akimbo",
-				"year": 2019,
-				"date_seen": "2022-01-14T03:00:00.000Z",
-				"img_card": "img/cards/card_guns_akimbo.jpg",
-				"img_card_alt": "Hombre desaliñado en ropa interior con una bata y pantuflas de oso caminando por la calle",
-				"link_page": "guns_akimbo.html"
-			},
-			{
-				"id": "vampire_kiss",
-				"name": "Vampire's Kiss",
-				"year": 1988,
-				"date_seen": "2022-01-28T03:00:00.000Z",
-				"img_card": "img/cards/card_vampire_kiss.jpg",
-				"img_card_alt": "Meme de Nicolas Cage",
-				"link_page": "vampire_kiss.html"
-			}
-		]
-	}, 
-	{
-		"title": "Febrero 2022",
-		"movies": [
-			{
-				"id": "heart_deceit",
-				"name": "The Heart Is Deceitful Above All Things",
-				"year": 2004,
-				"date_seen": "2022-02-25T03:00:00.000Z",
-				"img_card": "img/cards/card_heart_deceit.jpg",
-				"img_card_alt": "Mujer y un niño en un auto, la mujer está manejando y tomando una cerveza",
-				"link_page": "heart_deceit.html"
-			}
-		]
-	}, 
-	{
-		"title": "Marzo 2022",
-		"movies": [
-			{
-				"id": "possession",
-				"name": "Possession",
-				"year": 1981,
-				"date_seen": "2022-03-04T03:00:00.000Z",
-				"img_card": "img/cards/card_possession.jpg",
-				"img_card_alt": "Hombre hablando por teléfono",
-				"link_page": "possession.html"
-			}
-		]
-	}
+  {
+    "title": "Enero 2022",
+    "movies": [
+      {
+        "id": "guns_akimbo",
+        "name": "Guns Akimbo",
+        "year": 2019,
+        "date_seen": "2022-01-14T03:00:00.000Z",
+        "img_card": "img/cards/card_guns_akimbo.jpg",
+        "img_card_alt": "Hombre desaliñado en ropa interior con una bata y pantuflas de oso caminando por la calle",
+        "link_page": "guns_akimbo.html"
+      },
+      {
+        "id": "vampire_kiss",
+        "name": "Vampire's Kiss",
+        "year": 1988,
+        "date_seen": "2022-01-28T03:00:00.000Z",
+        "img_card": "img/cards/card_vampire_kiss.jpg",
+        "img_card_alt": "Meme de Nicolas Cage",
+        "link_page": "vampire_kiss.html"
+      }
+    ]
+  },
+  {
+    "title": "Febrero 2022",
+    "movies": [
+      {
+        "id": "heart_deceit",
+        "name": "The Heart Is Deceitful Above All Things",
+        "year": 2004,
+        "date_seen": "2022-02-25T03:00:00.000Z",
+        "img_card": "img/cards/card_heart_deceit.jpg",
+        "img_card_alt": "Mujer y un niño en un auto, la mujer está manejando y tomando una cerveza",
+        "link_page": "heart_deceit.html"
+      }
+    ]
+  },
+  {
+    "title": "Marzo 2022",
+    "movies": [
+      {
+        "id": "possession",
+        "name": "Possession",
+        "year": 1981,
+        "date_seen": "2022-03-04T03:00:00.000Z",
+        "img_card": "img/cards/card_possession.jpg",
+        "img_card_alt": "Hombre hablando por teléfono",
+        "link_page": "possession.html"
+      },
+      {
+        "id": "but_cheerleader",
+        "name": "But I'm a Cheerleader",
+        "year": 1999,
+        "date_seen": "2022-03-18T03:00:00.000Z",
+        "img_card": "img/cards/card_but_cheerleader.jpg",
+        "img_card_alt": "Adolescente hablando por teléfono en primer plano, una mujer acostada tocando una guitarra en el fondo",
+        "link_page": "but_cheerleader.html"
+      }
+    ]
+  }
 ]
