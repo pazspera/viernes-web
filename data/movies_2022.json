@@ -56,6 +56,15 @@
         "img_card": "img/cards/card_but_cheerleader.jpg",
         "img_card_alt": "Adolescente hablando por teléfono en primer plano, una mujer acostada tocando una guitarra en el fondo",
         "link_page": "but_cheerleader.html"
+      },
+      {
+        "id": "belle_verte",
+        "name": "La Belle Verte",
+        "year": 1996,
+        "date_seen": "2022-03-25T03:00:00.000Z",
+        "img_card": "img/cards/card_belle_verte.jpg",
+        "img_card_alt": "Mujer y dos adolescentes hablando en un balcón",
+        "link_page": "belle_verte.html"
       }
     ]
   }

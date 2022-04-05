@@ -1,5 +1,51 @@
 [
   {
+    "id": "belle_verte",
+    "name": "La Belle Verte",
+    "year": 1996,
+    "date_seen": "2022-03-25T03:00:00.000Z",
+    "img_card": "img/cards/card_belle_verte.jpg",
+    "img_card_alt": "Mujer y dos adolescentes hablando en un balcón",
+    "link_page": "belle_verte.html",
+    "pick": "Tutte & Power Pepper",
+    "sinopsis": "En un planeta distante, los veganos rurales dominan la telepatía y el poder mental para hacer viajes interestelares.",
+    "director": "Directora: Coline Serreau",
+    "duration": "1h 39min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1WN9bv5NVPQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=xB1HHt-gfa8",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Coline Serreau"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Vincent Lindon"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Marion Cotillard"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Tres mujeres alimentando un bebé",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer mirando intensamente una hoja de lechuga",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer y hombre mirando sorprendidos",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "but_cheerleader",
     "name": "But I'm a Cheerleader",
     "year": 1999,
