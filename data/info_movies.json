@@ -1,5 +1,63 @@
 [
   {
+    "id": "from_dusk",
+    "name": "From Dusk Till Dawn",
+    "year": 1996,
+    "date_seen": "2022-04-01T03:00:00.000Z",
+    "img_card": "img/cards/card_from_dusk.jpg",
+    "img_card_alt": "Dos hombres mirando amenazadoramente dentro del baúl de un auto",
+    "link_page": "from_dusk.html",
+    "pick": "la democracia",
+    "sinopsis": "Dos criminales y sus rehenes entran sin saberlo en un un bar de carretera para motociclistas y camioneros poblado de vampiros, con caóticos resultados.",
+    "director": "Director: Robert Rodriguez",
+    "duration": "1h 48min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/D3fFK6F0SUU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=D3fFK6F0SUU",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "George Clooney"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Quentin Tarantino"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Harvey Keitel"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Juliette Lewis"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Salma Hayek"
+      },
+      {
+        "img": "cast_6.jpg",
+        "actor": "Danny Trejo"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Dos hombres caminando y alejándose de una estación de servicio",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Foto policial de hombre con anteojos de mirada intimidante",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Cartel del club nocturno de luces fluorescente",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "belle_verte",
     "name": "La Belle Verte",
     "year": 1996,

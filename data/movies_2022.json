@@ -67,5 +67,19 @@
         "link_page": "belle_verte.html"
       }
     ]
+  },
+  {
+    "title": "Abril 2022",
+    "movies": [
+      {
+        "id": "from_dusk",
+        "name": "Possession",
+        "year": 1996,
+        "date_seen": "2022-04-01T03:00:00.000Z",
+        "img_card": "img/cards/card_from_dusk.jpg",
+        "img_card_alt": "Dos hombres mirando amenazadoramente dentro del baúl de un auto",
+        "link_page": "from_dusk.html"
+      }
+    ]
   }
 ]
