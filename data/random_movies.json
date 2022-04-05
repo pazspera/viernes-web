@@ -350,24 +350,10 @@
     "secondPick": 0
   },
   {
-    "id": "from_dusk",
-    "name": "From Dusk Till Dawn",
-    "imdb": "https://www.imdb.com/title/tt0116367/",
-    "img": "../img/posters/poster_from_dusk.jpg",
-    "secondPick": 0
-  },
-  {
     "id": "isle_dogs",
     "name": "Isle of Dogs",
     "imdb": "https://www.imdb.com/title/tt5104604/",
     "img": "../img/posters/poster_isle_dogs.jpg",
-    "secondPick": 0
-  },
-  {
-    "id": "la_belle_verte",
-    "name": "La Belle Verte",
-    "imdb": "https://www.imdb.com/title/tt0115650/",
-    "img": "../img/posters/poster_la_belle_verte.jpg",
     "secondPick": 0
   },
   {
