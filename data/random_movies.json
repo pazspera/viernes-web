@@ -1,5 +1,19 @@
 [
   {
+    "id": "raw",
+    "name": "Raw",
+    "imdb": "https://www.imdb.com/title/tt4954522/",
+    "img": "../img/posters/poster_raw.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "interstate_60",
+    "name": "Interstate 60: Episodes of the Road",
+    "imdb": "https://www.imdb.com/title/tt0165832/",
+    "img": "../img/posters/poster_interstate_60.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "sonambulos",
     "name": "Los sonámbulos",
     "imdb": "https://www.imdb.com/title/tt10899680/",
