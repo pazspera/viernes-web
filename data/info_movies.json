@@ -1,5 +1,51 @@
 [
   {
+    "id": "nines",
+    "name": "The Nines",
+    "year": 2007,
+    "date_seen": "2022-08-01T03:00:00.000Z",
+    "img_card": "img/cards/card_nines.jpg",
+    "img_card_alt": "Hombre dentro de un auto dado vuelta con un policía mirándolo",
+    "link_page": "nines.html",
+    "pick": "Loco",
+    "sinopsis": "Un actor con problemas, un productor de programas de televisión y un aclamado diseñador de videojuegos descubren que sus vidas se entrelazan de maneras misteriosas e inquietantes.",
+    "director": "Director: John August",
+    "duration": "1h 40min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1d3C-qnIA_w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=1d3C-qnIA_w",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Ryan Reynolds"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Melissa McCarthy"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Hope Davis"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Hombre aburrido acostado en un sillón",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer y hombre conversando animadamente durante una entrevista",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer y hombre charlando seriamente en una ruta",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "from_dusk",
     "name": "From Dusk Till Dawn",
     "year": 1996,

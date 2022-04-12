@@ -79,6 +79,15 @@
         "img_card": "img/cards/card_from_dusk.jpg",
         "img_card_alt": "Dos hombres mirando amenazadoramente dentro del baúl de un auto",
         "link_page": "from_dusk.html"
+      },
+      {
+        "id": "nines",
+        "name": "The Nines",
+        "year": 2007,
+        "date_seen": "2022-08-01T03:00:00.000Z",
+        "img_card": "img/cards/card_nines.jpg",
+        "img_card_alt": "Hombre dentro de un auto dado vuelta con un policía mirándolo",
+        "link_page": "nines.html"
       }
     ]
   }
