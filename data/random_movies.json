@@ -1,5 +1,26 @@
 [
   {
+    "id": "young_spivet",
+    "name": "The Young and Prodigious T.S. Spivet",
+    "imdb": "https://m.imdb.com/title/tt1981107/",
+    "img": "../img/posters/poster_young_spivet.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "city_lost_children",
+    "name": "La cité des enfants perdus",
+    "imdb": "https://m.imdb.com/title/tt0112682/",
+    "img": "../img/posters/poster_city_lost_children.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "big_bug",
+    "name": "Big Bug",
+    "imdb": "https://m.imdb.com/title/tt11541872/",
+    "img": "../img/posters/poster_big_bug.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "raw",
     "name": "Raw",
     "imdb": "https://www.imdb.com/title/tt4954522/",
