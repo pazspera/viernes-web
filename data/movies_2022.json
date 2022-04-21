@@ -84,10 +84,19 @@
         "id": "nines",
         "name": "The Nines",
         "year": 2007,
-        "date_seen": "2022-08-01T03:00:00.000Z",
+        "date_seen": "2022-04-08T03:00:00.000Z",
         "img_card": "img/cards/card_nines.jpg",
         "img_card_alt": "Hombre dentro de un auto dado vuelta con un policía mirándolo",
         "link_page": "nines.html"
+      },
+      {
+        "id": "city_lost_children",
+        "name": "The City of Lost Children",
+        "year": 1995,
+        "date_seen": "2022-04-15T03:00:00.000Z",
+        "img_card": "img/cards/card_city_lost_children.jpg",
+        "img_card_alt": "Cuatro clones del mismo hombre ofreciéndote una torta de cumpleaños",
+        "link_page": "city_lost_children.html"
       }
     ]
   }

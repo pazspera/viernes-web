@@ -7,13 +7,6 @@
     "secondPick": 0
   },
   {
-    "id": "city_lost_children",
-    "name": "La cité des enfants perdus",
-    "imdb": "https://m.imdb.com/title/tt0112682/",
-    "img": "../img/posters/poster_city_lost_children.jpg",
-    "secondPick": 0
-  },
-  {
     "id": "big_bug",
     "name": "Big Bug",
     "imdb": "https://m.imdb.com/title/tt11541872/",

@@ -1,9 +1,60 @@
 [
   {
+    "id": "city_lost_children",
+    "name": "The City of Lost Children",
+    "year": 1995,
+    "date_seen": "2022-04-15T03:00:00.000Z",
+    "img_card": "img/cards/card_city_lost_children.jpg",
+    "img_card_alt": "Cuatro clones del mismo hombre ofreciéndote una torta de cumpleaños",
+    "link_page": "city_lost_children.html",
+    "pick": "Geor",
+    "pick_category": "Geor",
+    "sinopsis": "Un científico en una sociedad surrealista secuestra niños para robarles sus sueños, esperando que esto retrase su envejecimiento.",
+    "director": "Directores: Marc Caro & Jean-Pierre Jeunet",
+    "duration": "1h 52min",
+    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/U0HWDOzi2h0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=U0HWDOzi2h0",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Ron Perlman"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Daniel Emilfork"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Judith Vittet"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Dominique Pinon"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Científico trabajando en un cuarto pequeño que parece un submarino",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Gemelas de pelo negro y corto fumando y mirando a cámara",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Máquina con parlantes anticuados y un cerebro flotando en líquido verde",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "nines",
     "name": "The Nines",
     "year": 2007,
-    "date_seen": "2022-08-01T03:00:00.000Z",
+    "date_seen": "2022-04-08T03:00:00.000Z",
     "img_card": "img/cards/card_nines.jpg",
     "img_card_alt": "Hombre dentro de un auto dado vuelta con un policía mirándolo",
     "link_page": "nines.html",
