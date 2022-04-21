@@ -14,7 +14,6 @@ const getPickedMovies = async () => {
     let regex = new RegExp(currentPicker, "i");
     // Pelis elegidas por currentPicker
     let pickedMovies = data.filter((movie) => {
-		console.log(movie.pick_category);
       return movie.pick_category.match(regex);
     });
 
