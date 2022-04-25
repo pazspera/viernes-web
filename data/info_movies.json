@@ -1,5 +1,52 @@
 [
   {
+    "id": "black_bear",
+    "name": "Black Bear",
+    "year": 2020,
+    "date_seen": "2022-04-22T03:00:00.000Z",
+    "img_card": "img/cards/card_black_bear.jpg",
+    "img_card_alt": "",
+    "link_page": "black_bear.html",
+    "pick": "Paz",
+    "pick_category": "Paz",
+    "sinopsis": "Una cineasta en un callejón sin salida creativo busca consuelo de su tumultuoso pasado en un retiro rural solo para descubrir que el bosque invoca sus demonios internos de formas intensas y sorprendentes.",
+    "director": "Dirección: Lawrence Michael Levine",
+    "duration": "1h 44min",
+    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/D7XVArQc7z8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=D7XVArQc7z8",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Aubrey Plaza"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Christopher Abbott"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Sarah Gadon"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "city_lost_children",
     "name": "The City of Lost Children",
     "year": 1995,
@@ -12,7 +59,7 @@
     "sinopsis": "Un científico en una sociedad surrealista secuestra niños para robarles sus sueños, esperando que esto retrase su envejecimiento.",
     "director": "Directores: Marc Caro & Jean-Pierre Jeunet",
     "duration": "1h 52min",
-    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/U0HWDOzi2h0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/U0HWDOzi2h0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=U0HWDOzi2h0",
     "cast": [
       {

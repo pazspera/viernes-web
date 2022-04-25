@@ -97,6 +97,15 @@
         "img_card": "img/cards/card_city_lost_children.jpg",
         "img_card_alt": "Cuatro clones del mismo hombre ofreciéndote una torta de cumpleaños",
         "link_page": "city_lost_children.html"
+      },
+      {
+        "id": "black_bear",
+        "name": "Black Bear",
+        "year": 2020,
+        "date_seen": "2022-04-22T03:00:00.000Z",
+        "img_card": "img/cards/card_black_bear.jpg",
+        "img_card_alt": "",
+        "link_page": "black_bear.html"
       }
     ]
   }
