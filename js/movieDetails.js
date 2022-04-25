@@ -72,7 +72,7 @@ const getMovieInfo = async () => {
     $heroTitle.textContent = `${currentMovie.name} (${currentMovie.year})`;
     let $heroDirector = document.createElement("p");
     $heroDirector.classList.add("hero-grid__texto");
-    $heroDirector.textContent = `${currentMovie.director}`;
+    $heroDirector.textContent = `Dirección: ${currentMovie.director}`;
     let $heroDuration = document.createElement("p");
     $heroDuration.classList.add("hero-grid__texto");
     $heroDuration.textContent = `${currentMovie.duration}`;
