@@ -1,5 +1,19 @@
 [
   {
+    "id": "memoria",
+    "name": "Memoria",
+    "imdb": "https://www.imdb.com/title/tt8399288/",
+    "img": "../img/posters/poster_memoria.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "annihilation",
+    "name": "Annihilation",
+    "imdb": "https://www.imdb.com/title/tt2798920/",
+    "img": "../img/posters/poster_annihilation.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "young_spivet",
     "name": "The Young and Prodigious T.S. Spivet",
     "imdb": "https://m.imdb.com/title/tt1981107/",
