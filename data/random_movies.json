@@ -1,5 +1,19 @@
 [
   {
+    "id": "mom_dad",
+    "name": "Mom and Dad",
+    "imdb": "https://www.imdb.com/title/tt5462326/",
+    "img": "../img/posters/poster_mom_dad.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "brigsby_bear",
+    "name": "Brigsby Bear",
+    "imdb": "https://www.imdb.com/title/tt5805752/",
+    "img": "../img/posters/poster_brigsby_bear.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "memoria",
     "name": "Memoria",
     "imdb": "https://www.imdb.com/title/tt8399288/",
