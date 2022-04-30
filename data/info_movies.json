@@ -1,18 +1,85 @@
 [
   {
+    "id": "knives_out",
+    "name": "Knives Out",
+    "year": 2019,
+    "date_seen": "2022-04-29T03:00:00.000Z",
+    "img_card": "img/cards/card_knives_out.jpg",
+    "img_card_alt": "Mujer dando un beso en el cachete a su padre en una fiesta de cumpleaños",
+    "link_page": "knives_out.html",
+    "pick": "Loco",
+    "pick_category": "Loco",
+    "sinopsis": "Un detective investiga la muerte del patriarca de una familia excéntrica y conflictiva.",
+    "director": "Rian Johnson",
+    "duration": "2h 10min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xi-1NchUqMA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=xi-1NchUqMA",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Daniel Craig"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Chris Evans"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Ana de Armas"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Jamie Lee Curtis"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Michael Shannon"
+      },
+      {
+        "img": "cast_6.jpg",
+        "actor": "Toni Collette"
+      },
+      {
+        "img": "cast_7.jpg",
+        "actor": "Don Johnson"
+      },
+      {
+        "img": "cast_8.jpg",
+        "actor": "Christopher Plummer"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Hombre jugando con las piezas de un tablero de ajedrez",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer en el bosque mirando a cámara con cara de preocupación",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Hombre con auriculares sentado dentro de un auto disfrutando música",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "black_bear",
     "name": "Black Bear",
     "year": 2020,
     "date_seen": "2022-04-22T03:00:00.000Z",
     "img_card": "img/cards/card_black_bear.jpg",
-    "img_card_alt": "",
+    "img_card_alt": "Mujer en una cabaña mirando a cámara",
     "link_page": "black_bear.html",
     "pick": "Paz",
     "pick_category": "Paz",
     "sinopsis": "Una cineasta en un callejón sin salida creativo busca consuelo de su tumultuoso pasado en un retiro rural solo para descubrir que el bosque invoca sus demonios internos de formas intensas y sorprendentes.",
     "director": "Lawrence Michael Levine",
     "duration": "1h 44min",
-    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/D7XVArQc7z8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/D7XVArQc7z8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=D7XVArQc7z8",
     "cast": [
       {

@@ -104,8 +104,17 @@
         "year": 2020,
         "date_seen": "2022-04-22T03:00:00.000Z",
         "img_card": "img/cards/card_black_bear.jpg",
-        "img_card_alt": "",
+        "img_card_alt": "Mujer en una cabaña mirando a cámara",
         "link_page": "black_bear.html"
+      },
+      {
+        "id": "knives_out",
+        "name": "Kinives Out",
+        "year": 2019,
+        "date_seen": "2022-04-29T03:00:00.000Z",
+        "img_card": "img/cards/card_knives_out.jpg",
+        "img_card_alt": "Mujer dando un beso en el cachete a su padre en una fiesta de cumpleaños",
+        "link_page": "knives_out.html"
       }
     ]
   }
