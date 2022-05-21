@@ -109,12 +109,26 @@
       },
       {
         "id": "knives_out",
-        "name": "Kinives Out",
+        "name": "Knives Out",
         "year": 2019,
         "date_seen": "2022-04-29T03:00:00.000Z",
         "img_card": "img/cards/card_knives_out.jpg",
         "img_card_alt": "Mujer dando un beso en el cachete a su padre en una fiesta de cumpleaños",
         "link_page": "knives_out.html"
+      }
+    ]
+  },
+  {
+    "title": "Mayo 2022",
+    "movies": [
+      {
+        "id": "four_rooms",
+        "name": "Four Rooms",
+        "year": 1995,
+        "date_seen": "2022-05-13T03:00:00.000Z",
+        "img_card": "img/cards/card_four_rooms.jpg",
+        "img_card_alt": "",
+        "link_page": "four_rooms.html"
       }
     ]
   }

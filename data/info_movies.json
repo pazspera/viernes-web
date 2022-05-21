@@ -1,5 +1,56 @@
 [
   {
+    "id": "four_rooms",
+    "name": "Four Rooms",
+    "year": 1995,
+    "date_seen": "2022-05-13T03:00:00.000Z",
+    "img_card": "img/cards/card_four_rooms.jpg",
+    "img_card_alt": "",
+    "link_page": "four_rooms.html",
+    "pick": "Loco",
+    "pick_category": "Loco",
+    "sinopsis": "Cuatro cuentos entrelazados que tienen lugar en un hotel durante la Nochevieja.",
+    "director": "Allison Anders, Alexandre Rockwell, Robert Rodriguez",
+    "duration": "1h 38min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0hu12MP7b1U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=0hu12MP7b1U",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Tim Roth"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Antonio Banderas"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Madonna"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Quentin Tarantino"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Conserje de hotel hablando por teléfono",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Conserje de hotel rodeado de gente mirándolo intensamente",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Conserje de hotel parado en una habitación prendida fuego",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "knives_out",
     "name": "Knives Out",
     "year": 2019,
