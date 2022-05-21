@@ -1,5 +1,40 @@
 [
   {
+    "id": "poster_acid_house",
+    "name": "The Acid House",
+    "imdb": "https://m.imdb.com/title/tt0122515/",
+    "img": "../img/posters/poster_acid_house.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "poster_planet_apes",
+    "name": "Planet of the Apes",
+    "imdb": "https://m.imdb.com/title/tt0063442/",
+    "img": "../img/posters/poster_planet_apes.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "being_john_malkovich",
+    "name": "Being John Malkovich",
+    "imdb": "https://www.imdb.com/title/tt0120601/",
+    "img": "../img/posters/poster_being_john_malkovich.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "taxi_express",
+    "name": "Taxi Express",
+    "imdb": "https://www.imdb.com/title/tt0152930/",
+    "img": "../img/posters/poster_taxi_express.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "requiem_dream",
+    "name": "Requiem for a Dream",
+    "imdb": "https://www.imdb.com/title/tt0180093/",
+    "img": "../img/posters/poster_requiem_dream.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "mom_dad",
     "name": "Mom and Dad",
     "imdb": "https://www.imdb.com/title/tt5462326/",
@@ -396,13 +431,6 @@
     "name": "Escape from New York",
     "imdb": "https://www.imdb.com/title/tt0082340/",
     "img": "../img/posters/poster_escape_ny.jpg",
-    "secondPick": 0
-  },
-  {
-    "id": "four_rooms",
-    "name": "Four Rooms",
-    "imdb": "https://www.imdb.com/title/tt0113101/",
-    "img": "../img/posters/poster_four_rooms.jpg",
     "secondPick": 0
   },
   {
