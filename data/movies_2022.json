@@ -127,8 +127,17 @@
         "year": 1995,
         "date_seen": "2022-05-13T03:00:00.000Z",
         "img_card": "img/cards/card_four_rooms.jpg",
-        "img_card_alt": "",
+        "img_card_alt": "Hombre hablándole al oído a otro hombre",
         "link_page": "four_rooms.html"
+      },
+      {
+        "id": "barbarella",
+        "name": "Barbarella",
+        "year": 1968,
+        "date_seen": "2022-05-13T03:00:00.000Z",
+        "img_card": "img/cards/card_barbarella.jpg",
+        "img_card_alt": "Mujer sentada en una silla futurista",
+        "link_page": "barbarella.html"
       }
     ]
   }

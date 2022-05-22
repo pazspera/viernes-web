@@ -1,11 +1,62 @@
 [
   {
+    "id": "barbarella",
+    "name": "Barbarella",
+    "year": 1968,
+    "date_seen": "2022-05-13T03:00:00.000Z",
+    "img_card": "img/cards/card_barbarella.jpg",
+    "img_card_alt": "Mujer sentada en una silla futurista",
+    "link_page": "barbarella.html",
+    "pick": "Geor",
+    "pick_category": "Geor",
+    "sinopsis": "Barbarella, una astronauta del siglo XLI, se propone encontrar y detener al malvado científico Durand Durand, cuyo rayo positrónico amenaza con devolver el mal a la galaxia.",
+    "director": "Roger Vadim",
+    "duration": "1h 38min",
+    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohnblmkufJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=ohnblmkufJA",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Jane Fonda"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "John Phillip Law"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Milo O'Shea"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Marcel Marceau"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Mujer caminando hacia un fondo futurista",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer y hombre manteniendo una conversación",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer y niñas caminando frente a un cohete destrozado",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "four_rooms",
     "name": "Four Rooms",
     "year": 1995,
     "date_seen": "2022-05-13T03:00:00.000Z",
     "img_card": "img/cards/card_four_rooms.jpg",
-    "img_card_alt": "",
+    "img_card_alt": "Hombre hablándole al oído a otro hombre",
     "link_page": "four_rooms.html",
     "pick": "Loco",
     "pick_category": "Loco",
