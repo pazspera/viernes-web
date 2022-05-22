@@ -1,5 +1,64 @@
 [
   {
+    "id": "dead_snow2",
+    "name": "Dead Snow 2",
+    "year": 2014,
+    "date_seen": "2022-05-20T03:00:00.000Z",
+    "img_card": "img/cards/card_dead_snow2.jpg",
+    "img_card_alt": "Hombre señalando emocionado a un zombie con un hacha en su cabeza",
+    "link_page": "dead_snow2.html",
+    "pick": "Pollo",
+    "pick_category": "Pollo",
+    "sinopsis": "Todavía huyendo de un grupo de zombis nazis, un hombre busca la ayuda de un grupo de entusiastas de los zombis estadounidenses y descubre nuevas técnicas para luchar contra ellos.",
+    "director": "Tommy Wirkola",
+    "duration": "1h 40min",
+     "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/npcIxjIKFuQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=npcIxjIKFuQ",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Geir Vegar Hoel"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Ørjan Gamst"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Martin Starr"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Jocelyn DeBoer"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Ingrid Haas"
+      },
+      {
+        "img": "cast_6.jpg",
+        "actor": "Stig Frode Henriksen"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Zombie nazi mirando con insistencia a un hombre haciéndose pasar por maniquín",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Dos hombres caminando junto a un zombie",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Zombies nazis parados delante de una bandera nazi",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "barbarella",
     "name": "Barbarella",
     "year": 1968,
@@ -12,7 +71,7 @@
     "sinopsis": "Barbarella, una astronauta del siglo XLI, se propone encontrar y detener al malvado científico Durand Durand, cuyo rayo positrónico amenaza con devolver el mal a la galaxia.",
     "director": "Roger Vadim",
     "duration": "1h 38min",
-    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohnblmkufJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ohnblmkufJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=ohnblmkufJA",
     "cast": [
       {

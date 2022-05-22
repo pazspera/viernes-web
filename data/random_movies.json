@@ -406,13 +406,6 @@
     "secondPick": 0
   },
   {
-    "id": "dead_snow2",
-    "name": "Dead Snow 2",
-    "imdb": "https://www.imdb.com/title/tt2832470/",
-    "img": "../img/posters/poster_dead_snow2.jpg",
-    "secondPick": 0
-  },
-  {
     "id": "death_proof",
     "name": "Death Proof",
     "imdb": "https://www.imdb.com/title/tt1028528/",
