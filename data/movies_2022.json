@@ -147,6 +147,15 @@
         "img_card": "img/cards/card_dead_snow2.jpg",
         "img_card_alt": "Hombre señalando emocionado a un zombie con un hacha en su cabeza",
         "link_page": "dead_snow2.html"
+      },
+      {
+        "id": "they_live",
+        "name": "They Live",
+        "year": 1988,
+        "date_seen": "2022-05-27T03:00:00.000Z",
+        "img_card": "img/cards/card_they_live.jpg",
+        "img_card_alt": "",
+        "link_page": "they_live.html"
       }
     ]
   }

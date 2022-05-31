@@ -1,5 +1,52 @@
 [
   {
+    "id": "they_live",
+    "name": "They Live",
+    "year": 1988,
+    "date_seen": "2022-05-27T03:00:00.000Z",
+    "img_card": "img/cards/card_they_live.jpg",
+    "img_card_alt": "",
+    "link_page": "they_live.html",
+    "pick": "Paz",
+    "pick_category": "Paz",
+    "sinopsis": "Un vagabundo encuentra unas gafas de sol y descubre que unos alienígenas han tomado la Tierra.",
+    "director": "John Carpenter",
+    "duration": "1h 34min",
+    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLQ2d89vCiw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=zLQ2d89vCiw",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Roddy Piper"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Keith David"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Meg Foster"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Foto de una ciudad, los carteles de publicidad dicen 'obedece'",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Dos hombres ensangrentados mirando sorprendidos en un callejón",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Hombre con anteojos de sol y una escopeta en un banco",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "dead_snow2",
     "name": "Dead Snow 2",
     "year": 2014,
@@ -12,7 +59,7 @@
     "sinopsis": "Todavía huyendo de un grupo de zombis nazis, un hombre busca la ayuda de un grupo de entusiastas de los zombis estadounidenses y descubre nuevas técnicas para luchar contra ellos.",
     "director": "Tommy Wirkola",
     "duration": "1h 40min",
-     "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/npcIxjIKFuQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/npcIxjIKFuQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=npcIxjIKFuQ",
     "cast": [
       {
