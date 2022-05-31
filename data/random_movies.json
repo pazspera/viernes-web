@@ -1,15 +1,22 @@
 [
   {
+    "id": "poster_prince_darkness",
+    "name": "Prince of Darkness",
+    "imdb": "https://www.imdb.com/title/tt0093777/",
+    "img": "../img/posters/poster_prince_darkness.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_acid_house",
     "name": "The Acid House",
-    "imdb": "https://m.imdb.com/title/tt0122515/",
+    "imdb": "https://www.imdb.com/title/tt0122515/",
     "img": "../img/posters/poster_acid_house.jpg",
     "secondPick": 0
   },
   {
     "id": "poster_planet_apes",
     "name": "Planet of the Apes",
-    "imdb": "https://m.imdb.com/title/tt0063442/",
+    "imdb": "https://www.imdb.com/title/tt0063442/",
     "img": "../img/posters/poster_planet_apes.jpg",
     "secondPick": 0
   },
@@ -473,13 +480,6 @@
     "name": "The Passion of Darkly Noon",
     "imdb": "https://www.imdb.com/title/tt0114099/",
     "img": "../img/posters/poster_darkly_noon.jpg",
-    "secondPick": 0
-  },
-  {
-    "id": "they_live",
-    "name": "They Live",
-    "imdb": "https://www.imdb.com/title/tt0096256/",
-    "img": "../img/posters/poster_they_live.jpg",
     "secondPick": 0
   },
   {
