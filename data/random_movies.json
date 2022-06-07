@@ -1,5 +1,19 @@
 [
   {
+    "id": "poster_millennium_actress",
+    "name": "Millennium Actress",
+    "imdb": "https://www.imdb.com/title/tt0291350/",
+    "img": "../img/posters/poster_millennium_actress.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "poster_scanner_darkly",
+    "name": "A Scanner Darkly",
+    "imdb": "https://www.imdb.com/title/tt0405296/",
+    "img": "../img/posters/poster_scanner_darkly.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_prince_darkness",
     "name": "Prince of Darkness",
     "imdb": "https://www.imdb.com/title/tt0093777/",
