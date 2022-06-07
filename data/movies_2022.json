@@ -158,5 +158,19 @@
         "link_page": "they_live.html"
       }
     ]
+  },
+  {
+    "title": "Junio 2022",
+    "movies": [
+      {
+        "id": "mardock_scramble",
+        "name": "Mardock Scramble: The First Compression",
+        "year": 2010,
+        "date_seen": "2022-06-03T03:00:00.000Z",
+        "img_card": "img/cards/card_mardock_scramble.jpg",
+        "img_card_alt": "Primer plano de la cara de una mujer iluminada con luces futuristas",
+        "link_page": "mardock_scramble.html"
+      }
+    ]
   }
 ]

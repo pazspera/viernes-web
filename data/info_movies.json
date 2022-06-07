@@ -1,5 +1,48 @@
 [
   {
+    "id": "mardock_scramble",
+    "name": "Mardock Scramble: The First Compression",
+    "year": 2010,
+    "date_seen": "2022-06-03T03:00:00.000Z",
+    "img_card": "img/cards/card_mardock_scramble.jpg",
+    "img_card_alt": "Primer plano de la cara de una mujer iluminada con luces futuristas",
+    "link_page": "mardock_scramble.html",
+    "pick": "Geor",
+    "pick_category": "Geor",
+    "sinopsis": "La trama transcurre en una ciudad futurista llamada Mardock City. Allí, la joven Rune Balot muere a causa de la explosión de un coche bomba. A pesar de ello, el Doctor Easter encuentra su cadáver y la resucita como un cyborg. A partir de ese momento, Rune Balot aprovechará su nueva vida para vengarse de aquellos que la mataron.",
+    "director": "Susumu Kudo",
+    "duration": "1h 9min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XRcIn4nBPjg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=XRcIn4nBPjg",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Megumi Hayashibara"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Norito Yashima"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Mujer sentada desnuda en una camilla, un doctor a su lado",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer caminando y disparando un arma con cada mano",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer y hombre besándose en un sillón",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "they_live",
     "name": "They Live",
     "year": 1988,
@@ -12,7 +55,7 @@
     "sinopsis": "Un vagabundo encuentra unas gafas de sol y descubre que unos alienígenas han tomado la Tierra.",
     "director": "John Carpenter",
     "duration": "1h 34min",
-    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLQ2d89vCiw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zLQ2d89vCiw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=zLQ2d89vCiw",
     "cast": [
       {
