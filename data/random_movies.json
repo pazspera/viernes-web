@@ -1,5 +1,19 @@
 [
   {
+    "id": "poster_bringing_out_dead",
+    "name": "Bringing out the Dead",
+    "imdb": "https://www.imdb.com/title/tt0163988/",
+    "img": "../img/posters/poster_bringing_out_dead.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "poster_after_hours",
+    "name": "After Hours",
+    "imdb": "https://www.imdb.com/title/tt0088680/",
+    "img": "../img/posters/poster_after_hours.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_millennium_actress",
     "name": "Millennium Actress",
     "imdb": "https://www.imdb.com/title/tt0291350/",
