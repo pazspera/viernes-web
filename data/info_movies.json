@@ -1,5 +1,52 @@
 [
   {
+    "id": "king_comedy",
+    "name": "The King of Comedy",
+    "year": 1982,
+    "date_seen": "2022-06-17T03:00:00.000Z",
+    "img_card": "img/cards/card_king_comedy.jpg",
+    "img_card_alt": "Dos hombres almorzando en un restaurant, un caricaturista los dibuja",
+    "link_page": "king_comedy.html",
+    "pick": "Loco",
+    "pick_category": "Loco",
+    "sinopsis": "Rupert Pupkin es un cómico apasionado pero sin éxito. Dispuesto a todo por alcanzar el estrellato, secuestra a su ídolo en un intento de reemplazarle.",
+    "director": "Martin Scorsese",
+    "duration": "1h 49min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0wVhCCo02P4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=0wVhCCo02P4",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Robert De Niro"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Jerry Lewis"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Sandra Bernhard"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Hombre parado frente a un poste de una audiencia enloquecida",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer y hombre, ambos con anteojos de sol puestos, hablando en un auto",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Vista desde dentro de un auto rodeado de paparazzi",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "mardock_scramble",
     "name": "Mardock Scramble",
     "year": 2010,
