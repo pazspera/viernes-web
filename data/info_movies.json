@@ -1,5 +1,56 @@
 [
   {
+    "id": "scanner_darkly",
+    "name": "A Scanner Darkly",
+    "year": 2006,
+    "date_seen": "2022-06-24T03:00:00.000Z",
+    "img_card": "img/cards/card_scanner_darkly.jpg",
+    "img_card_alt": "Tres hombres viajando en un auto y charlando",
+    "link_page": "scanner_darkly.html",
+    "pick": "Geor",
+    "pick_category": "Geor",
+    "sinopsis": "En un futuro no muy lejano, un policía encubierto comienza a perder su propia identidad a consecuencia de una peligrosa nueva droga.",
+    "director": "Richard Linklater",
+    "duration": "1h 40min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hkjDUERgCQw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=hkjDUERgCQw",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Keanu Reeves"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Winona Ryder"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Robert Downey Jr."
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Woody Harrelson"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Primer plano de hombre con un martillo amanezando a otro hombre",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Hombre recostado en un sillón en una habitación de colores psicodélicos",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer vigilando varias pantallas de tipo futurista",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "king_comedy",
     "name": "The King of Comedy",
     "year": 1982,
@@ -31,7 +82,7 @@
     "img_row": [
       {
         "img": "img_1.jpg",
-        "alt": "Hombre parado frente a un poste de una audiencia enloquecida",
+        "alt": "Hombre parado frente a un poster de una audiencia enloquecida",
         "class": "always_show"
       },
       {

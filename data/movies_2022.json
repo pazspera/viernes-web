@@ -179,6 +179,15 @@
         "img_card": "img/cards/card_king_comedy.jpg",
         "img_card_alt": "Dos hombres almorzando en un restaurant, un caricaturista los dibuja",
         "link_page": "king_comedy.html"
+      },
+      {
+        "id": "scanner_darkly",
+        "name": "A Scanner Darkly",
+        "year": 2006,
+        "date_seen": "2022-06-24T03:00:00.000Z",
+        "img_card": "img/cards/card_scanner_darkly.jpg",
+        "img_card_alt": "Tres hombres viajando en un auto y charlando",
+        "link_page": "scanner_darkly.html"
       }
     ]
   }
