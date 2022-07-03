@@ -1,5 +1,12 @@
 [
   {
+    "id": "poster_empty_man",
+    "name": "The Empty Man",
+    "imdb": "https://www.imdb.com/title/tt5867314/",
+    "img": "../img/posters/poster_empty_man.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_bringing_out_dead",
     "name": "Bringing out the Dead",
     "imdb": "https://www.imdb.com/title/tt0163988/",
