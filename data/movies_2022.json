@@ -190,5 +190,19 @@
         "link_page": "scanner_darkly.html"
       }
     ]
+  },
+  {
+    "title": "Julio 2022",
+    "movies": [
+      {
+        "id": "the_void",
+        "name": "The Void",
+        "year": 2016,
+        "date_seen": "2022-07-01T03:00:00.000Z",
+        "img_card": "img/cards/card_the_void.jpg",
+        "img_card_alt": "Grupo de personas con túnicas blancas y cuchillos en las manos parados delante de un bosque durante la noche",
+        "link_page": "the_void.html"
+      }
+    ]
   }
 ]
