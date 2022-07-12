@@ -1,9 +1,16 @@
 [
   {
-    "id": "poster_empty_man",
-    "name": "The Empty Man",
-    "imdb": "https://www.imdb.com/title/tt5867314/",
-    "img": "../img/posters/poster_empty_man.jpg",
+    "id": "poster_pit_pendulum",
+    "name": "The Pit and the Pendulum",
+    "imdb": "https://www.imdb.com/title/tt0055304/",
+    "img": "../img/posters/poster_pit_pendulum.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "poster_conqueror_worm",
+    "name": "The Conqueror Worm",
+    "imdb": "https://www.imdb.com/title/tt0063285/",
+    "img": "../img/posters/poster_conqueror_worm.jpg",
     "secondPick": 0
   },
   {
