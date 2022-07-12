@@ -1,5 +1,52 @@
 [
   {
+    "id": "masque_red_death",
+    "name": "The Masque of the Red Death",
+    "year": 1964,
+    "date_seen": "2022-07-08T03:00:00.000Z",
+    "img_card": "img/cards/card_masque_red_death.jpg",
+    "img_card_alt": "Persona con una túnica roja parada en un cuarto negro con una figura roja de fondo",
+    "link_page": "masque_red_death.html",
+    "pick": "Paz",
+    "pick_category": "Paz",
+    "sinopsis": "Un príncipe europeo aterroriza al campesinado local mientras utiliza su castillo como refugio contra la plaga de la 'muerte roja' que acecha la tierra.",
+    "director": "Roger Corman",
+    "duration": "1h 29min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vCUtm7mCF4I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=vCUtm7mCF4I&t=16s",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Vincent Price"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Hazel Court"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Jane Asher"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Hombre y mujer parados hablando en un cuarto de castillo pintado de violeta",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Baile de mascarada en un castillo visto desde arriba",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer con una capa caminando por una catacumba",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "the_void",
     "name": "The Void",
     "year": 2016,
@@ -12,7 +59,7 @@
     "sinopsis": "Un agente de policía vive sucesos extraños y violentos aparentemente vinculados a un grupo de misteriosas figuras encapuchadas tras llevar a un hombre al hospital.",
     "director": "Jeremy Gillespie & Steven Kostanski",
     "duration": "1h 30min",
-     "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IkmSNt4moNg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IkmSNt4moNg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=IkmSNt4moNg",
     "cast": [
       {

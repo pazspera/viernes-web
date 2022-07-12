@@ -202,6 +202,15 @@
         "img_card": "img/cards/card_the_void.jpg",
         "img_card_alt": "Grupo de personas con túnicas blancas y cuchillos en las manos parados delante de un bosque durante la noche",
         "link_page": "the_void.html"
+      },
+      {
+        "id": "masque_red_death",
+        "name": "The Masque of the Red Death",
+        "year": 1964,
+        "date_seen": "2022-07-08T03:00:00.000Z",
+        "img_card": "img/cards/card_masque_red_death.jpg",
+        "img_card_alt": "Persona con una túnica roja parada en un cuarto negro con una figura roja de fondo",
+        "link_page": "masque_red_death.html"
       }
     ]
   }
