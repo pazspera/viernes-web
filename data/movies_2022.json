@@ -211,6 +211,15 @@
         "img_card": "img/cards/card_masque_red_death.jpg",
         "img_card_alt": "Persona con una túnica roja parada en un cuarto negro con una figura roja de fondo",
         "link_page": "masque_red_death.html"
+      },
+      {
+        "id": "rrr",
+        "name": "RRR",
+        "year": 2022,
+        "date_seen": "2022-07-15T03:00:00.000Z",
+        "img_card": "img/cards/card_rrr.jpg",
+        "img_card_alt": "Hombre disparando una flecha a través de una cortina de fuego",
+        "link_page": "rrr.html"
       }
     ]
   }

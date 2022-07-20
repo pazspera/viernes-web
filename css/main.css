@@ -306,7 +306,6 @@ h2 {
     grid-column: 7/12;
     grid-row: 4/6;
   }
-
   .hero-grid__cartel--titulo-largo {
     grid-column: 5/12;
   }
@@ -335,7 +334,6 @@ h2 {
   .hero-grid__cartel {
     grid-column: 8/13;
   }
-
   .hero-grid__cartel--titulo-largo {
     grid-column: 8/13;
   }
@@ -350,7 +348,6 @@ h2 {
   .hero-grid__cartel {
     grid-column: 10/17;
   }
-
   .hero-grid__cartel--titulo-largo {
     grid-column: 10/17;
   }
@@ -359,7 +356,6 @@ h2 {
   .hero-grid__cartel {
     grid-column: 10/15;
   }
-
   .hero-grid__cartel--titulo-largo {
     grid-column: 10/15;
   }
@@ -677,6 +673,10 @@ h2 {
 
 #reanimator {
   background-image: url(../img/hero/hero_reanimator.jpg);
+}
+
+#rrr {
+  background-image: url(../img/hero/hero_rrr.jpg);
 }
 
 #rumba {
@@ -997,12 +997,10 @@ h2 {
   .pelicula__hero .hero {
     height: 80vh;
   }
-
   .pelicula-info {
     top: 89%;
     max-width: 490px;
   }
-
   .pelicula-info--titulo-largo {
     top: 76%;
   }
@@ -1011,7 +1009,6 @@ h2 {
   .pelicula-info__titulo {
     font-size: 1.953rem;
   }
-
   .pelicula-info__texto {
     font-size: 1.25rem;
   }
