@@ -1,5 +1,60 @@
 [
   {
+    "id": "wild_heart",
+    "name": "Wild at Heart",
+    "year": 1990,
+    "date_seen": "2022-07-22T03:00:00.000Z",
+    "img_card": "img/cards/card_wild_heart.jpg",
+    "img_card_alt": "Hombre con las manos ensangrentadas y un cigarrillo en la boca señalando a cámara",
+    "link_page": "wild_heart.html",
+    "pick": "Loco",
+    "pick_category": "Loco",
+    "sinopsis": "Dos jóvenes amantes, Sailor y Lula, huyen de varios personajes que la madre de Lula contrató para matar a Sailor.",
+    "director": "David Lynch",
+    "duration": "2h 5min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dQIdBfrF0Ik\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=dQIdBfrF0Ik",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Nicolas Cage"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Laura Dern"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Diane Ladd"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Willem Dafoe"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Harry Dean Stanton"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Hombre y mujer acostados en una cama fumando después de tener sexo",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer perturbada con toda la cara pintada de rojo hablando por teléfono",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Personas bailando en un concierto de heavy metal",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "rrr",
     "name": "RRR",
     "year": 2022,
@@ -12,7 +67,7 @@
     "sinopsis": "Dos revolucionarios legendarios y su viaje lejos de casa antes de comenzar a luchar por su país en la década de 1920.",
     "director": "S.S. Rajamouli",
     "duration": "3h 7min",
-    "trailer":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EJqK_V6RQCw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EJqK_V6RQCw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "trailerLink": "https://www.youtube.com/watch?v=EJqK_V6RQCw",
     "cast": [
       {

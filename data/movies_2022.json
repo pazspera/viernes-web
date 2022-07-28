@@ -220,6 +220,15 @@
         "img_card": "img/cards/card_rrr.jpg",
         "img_card_alt": "Hombre disparando una flecha a través de una cortina de fuego",
         "link_page": "rrr.html"
+      },
+      {
+        "id": "wild_heart",
+        "name": "Wild at Heart",
+        "year": 1990,
+        "date_seen": "2022-07-22T03:00:00.000Z",
+        "img_card": "img/cards/card_wild_heart.jpg",
+        "img_card_alt": "Hombre con las manos ensangrentadas y un cigarrillo en la boca señalando a cámara",
+        "link_page": "wild_heart.html"
       }
     ]
   }
