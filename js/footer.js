@@ -13,7 +13,7 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-1 d-flex justify-content-end">
                     <a href="https://discord.gg/sHEkMhF" target="_blank" rel="noreferrer"><i class="fab fa-discord"></i></a>
-                </div>
+                </div> 
                 </div>
             </div>
         </footer>

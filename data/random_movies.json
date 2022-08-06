@@ -1,5 +1,12 @@
 [
   {
+    "id": "poster_girl_leapt_through_time",
+    "name": "The Girl Who Leapt Through Time",
+    "imdb": "https://www.imdb.com/title/tt0808506/",
+    "img": "../img/posters/poster_girl_leapt_through_time.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_pit_pendulum",
     "name": "The Pit and the Pendulum",
     "imdb": "https://www.imdb.com/title/tt0055304/",
