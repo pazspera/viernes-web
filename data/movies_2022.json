@@ -231,5 +231,19 @@
         "link_page": "wild_heart.html"
       }
     ]
+  },
+  {
+    "title": "Agosto 2022",
+    "movies": [
+      {
+        "id": "akira",
+        "name": "Akira",
+        "year": 1988,
+        "date_seen": "2022-08-06T03:00:00.000Z",
+        "img_card": "img/cards/card_akira.jpg",
+        "img_card_alt": "",
+        "link_page": "akira.html"
+      }
+    ]
   }
 ]
