@@ -1,11 +1,58 @@
 [
   {
+    "id": "twelve_monkeys",
+    "name": "Twelve Monkeys",
+    "year": 1995,
+    "date_seen": "2022-08-12T03:00:00.000Z",
+    "img_card": "img/cards/card_twelve_monkeys.jpg",
+    "img_card_alt": "z",
+    "link_page": "twelve_monkeys.html",
+    "pick": "Geor",
+    "pick_category": "Geor",
+    "sinopsis": "En un mundo futuro devastado por la enfermedad, un convicto es enviado al pasado para reunir información sobre un virus creado por el hombre que acabó con la mayor parte de la población humana del planeta.",
+    "director": "Terry Gilliam",
+    "duration": "2h 4min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/15s4Y9ffW_o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=15s4Y9ffW_o",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Bruce Willis"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Madeleine Stowe"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Brad Pitt"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Dos hombres conversando en un manicomio",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Mujer de pelo rubio corriendo por un aeropuerto y gritando",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Grupo de científicos sentados frente a una mesa, equipos futuristas los rodean",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "akira",
     "name": "Akira",
     "year": 1988,
-    "date_seen": "2022-08-06T03:00:00.000Z",
+    "date_seen": "2022-08-05T03:00:00.000Z",
     "img_card": "img/cards/card_akira.jpg",
-    "img_card_alt": "",
+    "img_card_alt": "Joven mirando un cerebro flotando dentro de un tubo con líquido amarillo",
     "link_page": "akira.html",
     "pick": "Pollo",
     "pick_category": "Pollo",

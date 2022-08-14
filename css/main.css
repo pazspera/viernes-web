@@ -814,6 +814,11 @@ h2 {
   background-image: url(../img/hero/hero_tucker_dale_evil.jpg);
 }
 
+#twelve_monkeys {
+  background-image: url(../img/hero/hero_twelve_monkeys.jpg);
+  background-position: left;
+}
+
 #buen_dia {
   background-image: url(../img/hero/hero_buen_dia.jpg);
 }

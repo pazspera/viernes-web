@@ -239,10 +239,19 @@
         "id": "akira",
         "name": "Akira",
         "year": 1988,
-        "date_seen": "2022-08-06T03:00:00.000Z",
+        "date_seen": "2022-08-05T03:00:00.000Z",
         "img_card": "img/cards/card_akira.jpg",
-        "img_card_alt": "",
+        "img_card_alt": "Joven mirando un cerebro flotando dentro de un tubo con líquido amarillo",
         "link_page": "akira.html"
+      },
+      {
+        "id": "twelve_monkeys",
+        "name": "Twelve Monkeys",
+        "year": 1995,
+        "date_seen": "2022-08-12T03:00:00.000Z",
+        "img_card": "img/cards/card_twelve_monkeys.jpg",
+        "img_card_alt": "Oso caminando en una ciudad desierta. A su lado hay una pared con el logo de los 12 monos y 'lo logramos' escrito en graffiti",
+        "link_page": "twelve_monkeys.html"
       }
     ]
   }
