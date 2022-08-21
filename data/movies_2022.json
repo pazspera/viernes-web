@@ -252,6 +252,15 @@
         "img_card": "img/cards/card_twelve_monkeys.jpg",
         "img_card_alt": "Oso caminando en una ciudad desierta. A su lado hay una pared con el logo de los 12 monos y 'lo logramos' escrito en graffiti",
         "link_page": "twelve_monkeys.html"
+      },
+      {
+        "id": "birdman",
+        "name": "Birdman",
+        "year": 2014,
+        "date_seen": "2022-08-19T03:00:00.000Z",
+        "img_card": "img/cards/card_birdman.jpg",
+        "img_card_alt": "Hombre en ropa interior levitando en un camarín",
+        "link_page": "birdman.html"
       }
     ]
   }

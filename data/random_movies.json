@@ -1,5 +1,19 @@
 [
   {
+    "id": "poster_whiplash",
+    "name": "Whiplash",
+    "imdb": "https://www.imdb.com/title/tt2582802/",
+    "img": "../img/posters/poster_whiplash.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "poster_black_swan",
+    "name": "Black Swan",
+    "imdb": "https://www.imdb.com/title/tt0947798/",
+    "img": "../img/posters/poster_black_swan.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_girl_leapt_through_time",
     "name": "The Girl Who Leapt Through Time",
     "imdb": "https://www.imdb.com/title/tt0808506/",

@@ -1,11 +1,69 @@
 [
   {
+    "id": "birdman",
+    "name": "Birdman",
+    "year": 2014,
+    "date_seen": "2022-08-19T03:00:00.000Z",
+    "img_card": "img/cards/card_birdman.jpg",
+    "img_card_alt": "Hombre en ropa interior levitando en un camarín",
+    "link_page": "birdman.html",
+    "pick": "Paz",
+    "pick_category": "Paz",
+    "sinopsis": "Un actor fracasado intenta revivir su carrera con una producción de Broadway que escribe, dirige y protagoniza.",
+    "director": "Alejandro G. Iñárritu",
+    "duration": "1h 59min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uJfLoE6hanc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Michael Keaton"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Edward Norton"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Emma Stone"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Zach Galifianakis"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Andrea Riseborough"
+      },
+      {
+        "img": "cast_6.jpg",
+        "actor": "Naomi Watts"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Hombre sentado en un camarín mirándose al espejo",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Dos hombres hablando frente a una puerta, una mujer se asoma a través de la puerta",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Hombre y mujer charlando en el techo de un teatro",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "twelve_monkeys",
     "name": "Twelve Monkeys",
     "year": 1995,
     "date_seen": "2022-08-12T03:00:00.000Z",
     "img_card": "img/cards/card_twelve_monkeys.jpg",
-    "img_card_alt": "z",
+    "img_card_alt": "Oso caminando en una ciudad desierta. A su lado hay una pared con el logo de los 12 monos y 'lo logramos' escrito en graffiti",
     "link_page": "twelve_monkeys.html",
     "pick": "Geor",
     "pick_category": "Geor",
