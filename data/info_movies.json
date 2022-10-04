@@ -1,5 +1,63 @@
 [
   {
+    "id": "us",
+    "name": "Us",
+    "year": 2019,
+    "date_seen": "2022-09-23T03:00:00.000Z",
+    "img_card": "img/cards/card_us.jpg",
+    "img_card_alt": "Familia con dos hijes caminando por la playa vista desde arriba, sus sombras se reflejan en la arena",
+    "link_page": "us.html",
+    "pick": "Loco",
+    "pick_category": "Loco",
+    "sinopsis": "Una familia va a pasar unos días a su casa de la playa pero la tranquilidad se vuelve tensión cuando reciben a unos visitantes que no son bienvenidos.",
+    "director": "Jordan Peele",
+    "duration": "1h 56min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hNCmb-4oXJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Lupita Nyong'o"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Winston Duke"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Shahadi Wright Joseph"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Evan Alex"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Elisabeth Moss"
+      },
+      {
+        "img": "cast_6.jpg",
+        "actor": "Tim Heidecker"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Niña con trenzas mirando a cámara con cara de susto",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Carpa en un parque de diversiones con un cartel que dice 'Encuéntrate a ti mismo'",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Mujer viajando en un auto y mirando aburrida por la ventanilla",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "birdman",
     "name": "Birdman",
     "year": 2014,
