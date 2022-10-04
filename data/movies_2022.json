@@ -275,6 +275,15 @@
         "img_card": "img/cards/card_us.jpg",
         "img_card_alt": "Familia con dos hijes caminando por la playa vista desde arriba, sus sombras se reflejan en la arena",
         "link_page": "us.html"
+      },
+      {
+        "id": "girl_leapt_through_time",
+        "name": "The Girl Who Leapt Through Time",
+        "year": 2006,
+        "date_seen": "2022-09-29T03:00:00.000Z",
+        "img_card": "img/cards/card_girl_leapt_through_time.jpg",
+        "img_card_alt": "Barrera de cruce de tren con un conjunto de peatones boca abajo",
+        "link_page": "girl_leapt_through_time.html"
       }
     ]
   }

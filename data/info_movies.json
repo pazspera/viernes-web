@@ -1,5 +1,51 @@
 [
   {
+    "id": "girl_leapt_through_time",
+    "name": "The Girl Who Leapt Through Time",
+    "year": 2006,
+    "date_seen": "2022-09-29T03:00:00.000Z",
+    "img_card": "img/cards/card_girl_leapt_through_time.jpg",
+    "img_card_alt": "Barrera de cruce de tren con un conjunto de peatones boca abajo",
+    "link_page": "girl_leapt_through_time.html",
+    "pick": "Pollo",
+    "pick_category": "Pollo",
+    "sinopsis": "Una niña de secundaria llamada Makoto adquiere el poder de viajar en el tiempo y decide usarlo para su beneficio personal. Poco sabe ella que está afectando las vidas de los demás tanto como la suya propia.",
+    "director": "Mamoru Hosoda",
+    "duration": "1h 38min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eWnTeKEsDlU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Riisa Naka"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Takuya Ishida"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Mitsutaka Itakura"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Adolescente en su cuarto despertándose tarde y gritando al despertador",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Primer plano de adolescente gritando a cámara en un espacio psicodélico",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Muchacha y muchacho caminando por la calle con bicicletas",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "us",
     "name": "Us",
     "year": 2019,
