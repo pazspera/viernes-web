@@ -1,5 +1,12 @@
 [
   {
+    "id": "poster_misery",
+    "name": "Misery",
+    "imdb": "https://www.imdb.com/title/tt0100157",
+    "img": "../img/posters/poster_misery.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_get_out",
     "name": "Get Out",
     "imdb": "https://www.imdb.com/title/tt5052448/",
@@ -275,7 +282,7 @@
   {
     "id": "pet_sematary",
     "name": "Pet Sematary",
-    "imdb": "https://www.imdb.com/title/tt0837563/",
+    "imdb": "https://www.imdb.com/title/tt0098084",
     "img": "../img/posters/poster_pet_sematary.jpg",
     "secondPick": 1
   },
