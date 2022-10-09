@@ -286,5 +286,19 @@
         "link_page": "girl_leapt_through_time.html"
       }
     ]
+  },
+  {
+    "title": "Octubre 2022",
+    "movies": [
+      {
+        "id": "carrie",
+        "name": "Carrie",
+        "year": 1976,
+        "date_seen": "2022-10-07T03:00:00.000Z",
+        "img_card": "img/cards/card_carrie.jpg",
+        "img_card_alt": "Mujer y adolescente mirándose en el espejo, la mujer sostiene la cara de la adolescente para darle ánimos",
+        "link_page": "carrie.html"
+      }
+    ]
   }
 ]

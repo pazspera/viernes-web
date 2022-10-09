@@ -478,6 +478,11 @@ h2 {
   background-image: url(../img/hero/hero_but_cheerleader.jpg);
 }
 
+#carrie {
+  background-image: url(../img/hero/hero_carrie.jpg);
+  background-position: left;
+}
+
 #city_lost_children {
   background-image: url(../img/hero/hero_city_lost_children.jpg);
 }
