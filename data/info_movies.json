@@ -13,6 +13,7 @@
     "director": "Brian De Palma",
     "duration": "1h 38min",
     "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/j9Mg-GRS46Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=j9Mg-GRS46Y",
     "cast": [
       {
         "img": "cast_1.jpg",
@@ -71,6 +72,7 @@
     "director": "Mamoru Hosoda",
     "duration": "1h 38min",
     "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eWnTeKEsDlU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=eWnTeKEsDlU",
     "cast": [
       {
         "img": "cast_1.jpg",
@@ -117,6 +119,7 @@
     "director": "Jordan Peele",
     "duration": "1h 56min",
     "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hNCmb-4oXJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=hNCmb-4oXJA",
     "cast": [
       {
         "img": "cast_1.jpg",
@@ -175,6 +178,7 @@
     "director": "Alejandro G. Iñárritu",
     "duration": "1h 59min",
     "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uJfLoE6hanc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "trailerLink": "https://www.youtube.com/watch?v=uJfLoE6hanc&t=16s",
     "cast": [
       {
         "img": "cast_1.jpg",

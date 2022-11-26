@@ -1,27 +1,27 @@
-.footer{
-    background-color: $black;
-    padding: 1.2rem 0;
-    color: $white;
-    
+.footer {
+  background-color: $black;
+  padding: 1.2rem 0;
+  color: $white;
+  font-family: $font-text;
 }
 
-.footer p, 
+.footer p,
 .footer i {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.footer__heart{
-    color: $primary;
+.footer__heart {
+  color: $primary;
 }
 
 .footer a {
-    color: $white !important;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
+  color: $white !important;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
 
-    &:hover,
-    &:focus {
-        color: $primary !important;
-        transition: all 0.5s ease-in-out;
-    }
+  &:hover,
+  &:focus {
+    color: $primary !important;
+    transition: all 0.5s ease-in-out;
+  }
 }

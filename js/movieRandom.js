@@ -56,6 +56,7 @@ const getAllPosters = async () => {
 		let res = await fetch(URL_POSTERS);
 		// Data guarda objeto de todos los posters
 		let data = await res.json();
+		console.log(typeof(data))
 
 		if (!res.ok)
 			throw {
