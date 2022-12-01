@@ -300,5 +300,19 @@
         "link_page": "carrie.html"
       }
     ]
+  },
+  {
+    "title": "Noviembre 2022",
+    "movies": [
+      {
+        "id": "everything_everywhere",
+        "name": "Everything Everywhere All At Once",
+        "year": 2022,
+        "date_seen": "2022-11-18T03:00:00.000Z",
+        "img_card": "img/cards/card_everything_everywhere.jpg",
+        "img_card_alt": "Mujer oriental haciendo flexiones de brazos con sus dedos meñiques",
+        "link_page": "everything_everywhere.html"
+      }
+    ]
   }
 ]

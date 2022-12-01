@@ -525,6 +525,10 @@ h2 {
   background-image: url(../img/hero/hero_escape_la.jpg);
 }
 
+#everything_everywhere {
+  background-image: url(../img/hero/hero_everything_everywhere.jpg);
+}
+
 #fantastic_fox {
   background-image: url(../img/hero/hero_fantastic_fox.jpg);
   padding-top: 50px;
@@ -873,6 +877,7 @@ h2 {
   background-color: #131316;
   padding: 1.2rem 0;
   color: #FFFFFC;
+  font-family: "Karla", sans-serif;
 }
 
 .footer p,

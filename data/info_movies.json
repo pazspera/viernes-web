@@ -1,5 +1,59 @@
 [
   {
+    "id": "everything_everywhere",
+    "name": "Everything Everywhere All At Once",
+    "year": 2022,
+    "date_seen": "2022-11-18T03:00:00.000Z",
+    "img_card": "img/cards/card_everything_everywhere.jpg",
+    "img_card_alt": "Mujer oriental haciendo flexiones de brazos con sus dedos meñiques",
+    "link_page": "everything_everywhere.html",
+    "pick": "Paz",
+    "pick_category": "Paz",
+    "sinopsis": "Una anciana inmigrante china se ve envuelta en una loca aventura, donde ella sola puede salvar el mundo explorando otros universos que se conectan con sus vidas pasadas.",
+    "director": "Dan Kwan & Daniel Scheinert",
+    "duration": "2h 19min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wxN1T1uxQ2g\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "Michelle Yeoh"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Stephanie Hsu"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Ke Huy Quan"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Jamie Lee Curtis"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "James Hong"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Cantante de ópera vestida con una corona de flores y con los ojos cerrados a punto de cantar",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Dos hombres sentados delante de un escritorio, una mujer sentada detrás del escritorio los mira con impaciencia",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Una roca con ojos de juguete se asoma sobre un acantilado",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "carrie",
     "name": "Carrie",
     "year": 1976,
