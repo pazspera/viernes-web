@@ -1,5 +1,19 @@
 [
   {
+    "id": "poster_northman",
+    "name": "The Northman",
+    "imdb": "https://www.imdb.com/title/tt11138512",
+    "img": "../img/posters/poster_northman.jpg",
+    "secondPick": 0
+  },
+  {
+    "id": "poster_men",
+    "name": "Men",
+    "imdb": "https://www.imdb.com/title/tt13841850/",
+    "img": "../img/posters/poster_men.jpg",
+    "secondPick": 0
+  },
+  {
     "id": "poster_misery",
     "name": "Misery",
     "imdb": "https://www.imdb.com/title/tt0100157",
