@@ -1,5 +1,59 @@
 [
   {
+    "id": "walk_hard",
+    "name": "Walk Hard: The Dewey Cox Story",
+    "year": 2007,
+    "date_seen": "2022-12-16T03:00:00.000Z",
+    "img_card": "img/cards/card_walk_hard.jpg",
+    "img_card_alt": "",
+    "link_page": "walk_hard.html",
+    "pick": "Pollo",
+    "pick_category": "Pollo",
+    "sinopsis": "El cantante Dewey Cox supera la adversidad para convertirse en una leyenda musical.",
+    "director": "Jake Kasdan",
+    "duration": "1h 36min",
+    "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4W3zQkGpzC0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "cast": [
+      {
+        "img": "cast_1.jpg",
+        "actor": "John C. Reilly"
+      },
+      {
+        "img": "cast_2.jpg",
+        "actor": "Jenna Fischer"
+      },
+      {
+        "img": "cast_3.jpg",
+        "actor": "Tim Meadows"
+      },
+      {
+        "img": "cast_4.jpg",
+        "actor": "Chris Parnell"
+      },
+      {
+        "img": "cast_5.jpg",
+        "actor": "Kristen Wiig"
+      }
+    ],
+    "img_row": [
+      {
+        "img": "img_1.jpg",
+        "alt": "Dewey Cox y Elvis Presley parados en pose de pelea mirándose",
+        "class": "always_show"
+      },
+      {
+        "img": "img_2.jpg",
+        "alt": "Hombre sosteniendo un micrófono delante de una cabra esperando que hable",
+        "class": "always_show"
+      },
+      {
+        "img": "img_3.jpg",
+        "alt": "Miembros de una banda sentados en ropa interior en una habitación de hotel",
+        "class": "hidden_first"
+      }
+    ]
+  },
+  {
     "id": "hard_eight",
     "name": "Hard Eight",
     "year": 1996,

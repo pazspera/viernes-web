@@ -326,6 +326,15 @@
         "img_card": "img/cards/card_hard_eight.jpg",
         "img_card_alt": "Hombre entrando a un casino",
         "link_page": "hard_eight.html"
+      },
+      {
+        "id": "walk_hard",
+        "name": "Walk Hard: The Dewey Cox Story",
+        "year": 2007,
+        "date_seen": "2022-12-16T03:00:00.000Z",
+        "img_card": "img/cards/card_walk_hard.jpg",
+        "img_card_alt": "",
+        "link_page": "walk_hard.html"
       }
     ]
   }
