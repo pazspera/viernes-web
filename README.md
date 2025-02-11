@@ -1,5 +1,75 @@
-# Viernes de cine en La Casa del Craizy
+# Nuxt Minimal Starter
 
-Desde el comienzo de la pandemia, con un grupo de amigues nos juntamos los viernes a ver películas por Discord. Esta web es un registro de las películas compartidas.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-El sitio está desarrollado con Bootstrap 5 y para la organización del scss utilicé el patrón 7-1 de [Sass Guidelines](https://sass-guidelin.es/). La implmentación de JavaScript en el sitio incluye un random de películas aleatorias y la generación de código HTML usando vanilla JavaScript.
+## Setup
+
+Make sure to install dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
