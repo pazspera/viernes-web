@@ -1,56 +1,56 @@
-# Branching Guide (English branch names)
+# Guía de Branching (nombres de branches en inglés)
 
-Preferred workflow: GitHub Flow with Epic integration branches.
+Flujo preferido: GitHub Flow con ramas de integración por épico.
 
-## Branch Types
+## Tipos de ramas
 - main
-  - Production branch. Protected. CI required (lint, typecheck, test, build). Auto-deploy.
+  - Rama de producción. Protegida. CI requerido (lint, typecheck, test, build). Deploy automático.
 - epic/*
-  - Integration branches per epic. Example: `epic/foundations-cicd`, `epic/routing-layouts`.
-  - Used to integrate feature tasks for that epic and validate in a shared preview.
+  - Ramas de integración por épico. Ejemplos: `epic/foundations-cicd`, `epic/routing-layouts`.
+  - Se usan para integrar las subtareas del épico y validar en una vista previa compartida (preview).
 - feat/*
-  - Feature branches per subtask. Example: `feat/foundations-cicd/vitest-setup`.
+  - Ramas de feature por subtarea. Ejemplo: `feat/foundations-cicd/vitest-setup`.
 - chore/*
-  - Tooling/config tasks. Example: `chore/foundations-cicd/eslint`.
+  - Ramas para tareas de herramientas/config. Ejemplo: `chore/foundations-cicd/eslint`.
 - fix/*
-  - Bugfix tasks. Example: `fix/routing-layouts/navbar-focus`.
+  - Ramas para corrección de bugs. Ejemplo: `fix/routing-layouts/navbar-focus`.
 - hotfix/*
-  - Critical fix from production (branched from main). Example: `hotfix/ci-cache-bug`.
-- legacy/* (optional)
-  - For hosting previous static site if needed. Example: `legacy/static-site`.
+  - Correcciones críticas desde producción (ramificadas desde main). Ejemplo: `hotfix/ci-cache-bug`.
+- legacy/* (opcional)
+  - Para alojar el sitio estático anterior si es necesario. Ejemplo: `legacy/static-site`.
 
-Notes
-- Branch names must be in English (lowercase, hyphen-separated). Avoid spaces and special characters.
-- Prefer squash merge for a clean main history.
-- Keep subtasks small (0.5–2 days) to expedite reviews.
+Notas
+- Los nombres de las ramas deben ser en inglés (lowercase, kebab-case). Evitar espacios y caracteres especiales.
+- Preferir "squash merge" para mantener un historial limpio en `main`.
+- Mantener subtareas pequeñas (0.5–2 días) para acelerar revisiones.
 
 ## Pull Requests
-- Feature → Epic: Open PRs from `feat/*|chore/*|fix/*` into the corresponding `epic/*` branch.
-- Epic → Main: Once the epic is complete and validated, open a final PR `epic/*` into `main`.
-- Require CI green and at least one review. Use PR template (goals, acceptance criteria, tests, screenshots).
+- Subtarea → Épico: abrir PR desde `feat/* | chore/* | fix/*` hacia la rama `epic/*` correspondiente.
+- Épico → Main: al completar y validar el épico, abrir PR desde `epic/*` hacia `main`.
+- Requisitos: CI en verde y al menos una revisión. Usar la plantilla de PR (objetivo, AC, pruebas, screenshots).
 
-## Sync Strategy
-- Rebase feature branches on their `epic/*` regularly (or merge if you prefer simplicity).
-- If `main` advances (other epics merged), periodically merge or rebase `main` into `epic/*` to avoid drift.
+## Estrategia de sincronización
+- Rebase de las ramas de subtarea sobre su `epic/*` periódicamente (o merge si se prefiere simplicidad).
+- Si `main` avanza (otros épicos se fusionan), hacer merge o rebase de `main` → `epic/*` para evitar desfases.
 
 ## Releases
-- On merging an epic to `main`, create a tag (e.g., `v0.1.0`) and write release notes.
-- For production hotfixes:
-  - Branch `hotfix/*` from `main` → PR to `main` → tag a patch version → merge back into active `epic/*` if relevant.
+- Al fusionar un épico en `main`, crear un tag (por ejemplo, `v0.1.0`) y redactar notas de release.
+- Hotfix en producción:
+  - Crear `hotfix/*` desde `main` → PR a `main` → tag patch → integrar a `epic/*` activos si corresponde.
 
-## Legacy Hosting (GitHub Pages)
-- If you need the old static site online while rebuilding:
-  1) Create a branch `legacy/static-site` and copy the current production content there.
-  2) In repository Settings → Pages, set the source to `legacy/static-site` (root) or a `/docs` folder if used.
-  3) Tag the current `main` as a legacy release (e.g., `legacy-2024-12`). Tags are immutable references; deleting or changing `main` does not remove the tag.
-  4) Proceed to rebuild `main` for the new Nuxt app. Pages will keep serving from `legacy/static-site` until you switch it back.
-- Alternative: Use a separate `gh-pages` branch instead of `legacy/static-site`.
+## Hosting legado (GitHub Pages)
+- Si necesitás mantener online el sitio anterior mientras reconstruís:
+  1) Crear una rama `legacy/static-site` y copiar allí el contenido actual de producción.
+  2) En Settings → Pages, configurar la fuente a `legacy/static-site` (root) o `/docs` si corresponde.
+  3) Etiquetar el estado actual con un tag (por ejemplo, `legacy-2024-12`). Los tags son referencias inmutables; reemplazar el contenido de `main` no elimina el tag ni el release asociado.
+  4) Proceder a reconstruir `main` para la nueva app en Nuxt. GitHub Pages seguirá sirviendo desde `legacy/static-site` hasta que decidas cambiarlo.
+- Alternativa: usar una rama `gh-pages` en lugar de `legacy/static-site`.
 
-## Example Branch Map for Epic "Foundations CI/CD"
-- epic/foundations-cicd
-  - feat/foundations-cicd/nuxt-init
-  - chore/foundations-cicd/eslint-prettier
-  - feat/foundations-cicd/vitest-setup
-  - chore/foundations-cicd/ci-workflow
-  - feat/foundations-cicd/tailwind-setup
-  - chore/foundations-cicd/pr-template
+## Ejemplo de mapa de ramas para el épico "Foundations CI/CD"
+- `epic/foundations-cicd`
+  - `feat/foundations-cicd/nuxt-init`
+  - `chore/foundations-cicd/eslint-prettier`
+  - `feat/foundations-cicd/vitest-setup`
+  - `chore/foundations-cicd/ci-workflow`
+  - `feat/foundations-cicd/tailwind-setup`
+  - `chore/foundations-cicd/pr-template`
