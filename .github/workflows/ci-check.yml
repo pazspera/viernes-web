@@ -29,6 +29,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      # generates types before validating TS
+      - name: Generate Nuxt Types
+        run: pnpm nuxi prepare
+
       - name: Lint check
         run: pnpm lint
 
