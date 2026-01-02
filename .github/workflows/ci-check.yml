@@ -2,9 +2,9 @@ name: CI-Check
 
 on:
   push:
-    branches: [ main, epic/foundations-cicd ]
+    branches: [ main, feat/foundations-cicd ]
   pull_request:
-    branches: [ main, epic/foundations-cicd ]
+    branches: [ main, feat/foundations-cicd ]
 
 jobs:
   verificaciones:
