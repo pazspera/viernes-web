@@ -1,3 +1,8 @@
+<script lang="ts">
+
+
+</script>
+
 <template>
   <div>
     <NuxtRouteAnnouncer />
