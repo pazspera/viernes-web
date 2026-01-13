@@ -1,22 +1,22 @@
-import { themeColors } from "./app/constants/colors";
+import { themeColors } from './app/constants/colors'
 
 // creates a string with all personalized classes to add to safelist
-const colorNames = Object.keys(themeColors).join("|");
+const colorNames = Object.keys(themeColors).join('|')
 
 export default {
   content: [
-    "./app/**/*.{js,vue,ts}",
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./app.vue",
-    "./error.vue",
+    './app/**/*.{js,vue,ts}',
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './app.vue',
+    './error.vue',
   ],
   safelist: [
     {
       pattern: new RegExp(`bg-(${colorNames})`),
       variants: ['hover', 'focus', 'active'],
-    }
+    },
   ],
   theme: {
     extend: {
@@ -26,11 +26,11 @@ export default {
         serif: ['Cardo', 'serif'],
         mono: ['"Major Mono Display"', 'monospace'],
         // personalized fonts
-        'text': ['Karla', 'sans-serif'],
-        'title': ['Cardo', 'serif'],
-        'logo': ['"Major Mono Display"', 'monospace']
+        text: ['Karla', 'sans-serif'],
+        title: ['Cardo', 'serif'],
+        logo: ['"Major Mono Display"', 'monospace'],
       },
-      colors: themeColors
+      colors: themeColors,
     },
   },
   plugins: [],
