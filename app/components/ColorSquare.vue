@@ -1,8 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps<{
+  name: string,
+  color: string
+}>()
+</script>
 
 <template>
-  <div class="h-16 w-16 border-stone-500 border-solid border-[1px]">
-
+  <div class="flex flex-col items-center">
+    <div
+      class="h-24 w-24 border-stone-500 border-solid border-[1px]"
+      :style="{ backgroundColor: color }"
+    >
+    </div>
+    <span class="text-sm">{{ name }}</span>
   </div>
 </template>
 

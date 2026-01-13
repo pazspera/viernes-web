@@ -1,3 +1,5 @@
+import { themeColors } from "./app/constants/colors";
+
 export default {
   content: [
     "./app/**/*.{js,vue,ts}",
@@ -19,17 +21,7 @@ export default {
         'title': ['Cardo', 'serif'],
         'logo': ['"Major Mono Display"', 'monospace']
       },
-      colors: {
-        primary: {
-          DEFAULT: '#E3170A',
-          dark: '#890E06',
-          light: '#F7483B'
-        },
-        secondary: '#131316',
-        accent: '',
-        background: '#FEF1D7',
-        surface: '#B4C0D0'
-      }
+      colors: themeColors
     },
   },
   plugins: [],
