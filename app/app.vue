@@ -8,5 +8,6 @@
     <h1 class="text-pink-700">Inicio Viernes Nuxt</h1>
     <p class="">Soy un párrafo</p>
     <p class="font-mono">Y yo un logo</p>
+    <ColorSquare/>
   </div>
 </template>
