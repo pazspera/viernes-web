@@ -1,7 +1,7 @@
 import { themeColors } from "./app/constants/colors";
 
 // creates a string with all personalized classes to add to safelist
-const colorName = Object.keys(themeColors).join("|");
+const colorNames = Object.keys(themeColors).join("|");
 
 export default {
   content: [
