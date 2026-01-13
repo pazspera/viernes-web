@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div>
+  <div class="container mx-auto px-4">
     <NuxtRouteAnnouncer />
-    <h1>Inicio Viernes Nuxt</h1>
+    <h1 class="stroke-pink-700">Inicio Viernes Nuxt</h1>
   </div>
 </template>
