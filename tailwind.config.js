@@ -9,7 +9,13 @@ export default {
     "./app/**/*.{js,vue,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'text': ['Karla', 'sans-serif'],
+        'title': ['Cardo', 'serif'],
+        'logo': ['"Major Mono Display"', 'monospace']
+      }
+    },
   },
   plugins: [],
 }
