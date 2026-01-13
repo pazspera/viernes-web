@@ -1,5 +1,8 @@
 import { themeColors } from "./app/constants/colors";
 
+// creates a string with all personalized classes to add to safelist
+const colorName = Object.keys(themeColors).join("|");
+
 export default {
   content: [
     "./app/**/*.{js,vue,ts}",
@@ -8,6 +11,12 @@ export default {
     "./pages/**/*.vue",
     "./app.vue",
     "./error.vue",
+  ],
+  safelist: [
+    {
+      pattern: new RegExp(`bg-(${colorNames})`),
+      variants: ['hover', 'focus', 'active'],
+    }
   ],
   theme: {
     extend: {
