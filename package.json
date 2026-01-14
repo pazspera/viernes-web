@@ -12,9 +12,13 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest",
+    "test:run": "vitest run",
     "test:watch": "vitest --watch",
     "test:nuxt": "vitest --project nuxt",
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix"
   },
   "dependencies": {
     "@nuxt/fonts": "^0.12.1",
