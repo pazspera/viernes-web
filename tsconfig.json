@@ -1,0 +1,17 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "composite": false,
+    "emitDeclarationOnly": false,
+    "noEmit": true
+  },
+  "include": [
+    ".nuxt/nuxt.d.ts",
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".output",
+    "dist"
+  ]
+}
