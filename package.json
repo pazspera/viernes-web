@@ -10,7 +10,10 @@
     "postinstall": "nuxt prepare",
     "typecheck": "npx nuxi typecheck",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:nuxt": "vitest --project nuxt"
   },
   "dependencies": {
     "@nuxt/fonts": "^0.12.1",
