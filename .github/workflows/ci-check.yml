@@ -41,3 +41,6 @@ jobs:
 
       - name: Build Project
         run: pnpm build
+
+      - name: Run Unit and Integration Tests
+        run: pnpm test
