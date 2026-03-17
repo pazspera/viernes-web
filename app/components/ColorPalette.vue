@@ -10,22 +10,17 @@ const colorPalette = [
   {
     name: 'Secondary',
     class: 'bg-secondary',
-    color: themeColors.secondary,
+    color: themeColors.secondary[500],
   },
   {
     name: 'Accent',
     class: 'bg-accent',
-    color: themeColors.accent,
+    color: themeColors.accent[400],
   },
   {
     name: 'Surface',
     class: 'bg-surface',
-    color: themeColors.surface,
-  },
-  {
-    name: 'Surface',
-    class: 'bg-surface',
-    color: themeColors.surface,
+    color: themeColors.surface[500],
   },
 ]
 </script>
