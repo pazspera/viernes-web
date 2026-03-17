@@ -32,8 +32,4 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
-  tailwindcss: {
-    exposeConfig: true,
-    viewer: true,
-  },
 })
