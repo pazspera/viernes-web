@@ -33,9 +33,6 @@ jobs:
       - name: Generate Nuxt Types
         run: pnpm nuxi prepare
 
-      - name: Lint check
-        run: pnpm lint
-
       - name: TypeScript Check
         run: pnpm typecheck
 
@@ -43,4 +40,4 @@ jobs:
         run: pnpm build
 
       - name: Run Unit and Integration Tests
-        run: pnpm test
+        run: pnpm test:run

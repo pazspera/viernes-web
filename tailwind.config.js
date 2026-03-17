@@ -1,7 +1,5 @@
 import { themeColors } from "./app/constants/colors";
 
-console.log("✅ tailwind config cargado");
-
 // creates a string with all personalized classes to add to safelist
 const colorNames = Object.keys(themeColors).join("|");
 

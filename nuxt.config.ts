@@ -3,7 +3,6 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/fonts',
     '@nuxt/test-utils/module',
   ],
   // @ts-expect-error: El módulo @nuxt/fonts existe pero TypeScript no reconoce la propiedad
