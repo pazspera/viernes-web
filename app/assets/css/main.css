@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  --font-sans: Karla;
+  --font-serif: Cardo;
+}
+
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif font-bold;
   }
+}
 
-  body {
-    @apply font-sans font-normal;
+@layer utilities {
+  .font-logo {
+    font-family: 'Major Mono Display', sans-serif;
   }
 }

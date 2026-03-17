@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Contenido de la página principal</p>
+    <p class="font-logo">Contenido de la página principal</p>
   </div>
 </template>

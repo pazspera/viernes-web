@@ -2,18 +2,18 @@ import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
     '@nuxt/fonts',
     '@nuxt/test-utils/module',
   ],
-  /* fonts: {
+  // @ts-expect-error: El módulo @nuxt/fonts existe pero TypeScript no reconoce la propiedad
+  fonts: {
     families: [
-      { name: 'Karla', weights: [ 300, 400, 700 ] },
-      { name: 'Cardo', weights: [ 700 ] },
-      { name: 'Major Mono Display', weights: [ 400, 700 ] },
+      { name: 'Karla', weights: [300, 400, 700] },
+      { name: 'Cardo', weights: [700] },
+      { name: 'Major Mono Display', weights: [400, 700] },
     ]
-  }, */
+  },
   devtools: { enabled: true },
   app: {
     head: {
@@ -33,14 +33,4 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
-  // @ts-expect-error: Genera errores durante CI proque los tipos no se generan todavía cuando verifica el lint
-  eslint: {
-    config: {
-      stylistic: true,
-    },
-  },
-  tailwindcss: {
-    exposeConfig: true,
-    viewer: true,
-  },
 })
