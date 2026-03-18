@@ -3,16 +3,16 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/fonts',
     '@nuxt/test-utils/module',
   ],
-  /* fonts: {
+  // @ts-expect-error: El módulo @nuxt/fonts existe pero TypeScript no reconoce la propiedad
+  fonts: {
     families: [
-      { name: 'Karla', weights: [ 300, 400, 700 ] },
-      { name: 'Cardo', weights: [ 700 ] },
-      { name: 'Major Mono Display', weights: [ 400, 700 ] },
+      { name: 'Karla', weights: [300, 400, 700] },
+      { name: 'Cardo', weights: [700] },
+      { name: 'Major Mono Display', weights: [400, 700] },
     ]
-  }, */
+  },
   devtools: { enabled: true },
   app: {
     head: {
