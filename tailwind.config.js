@@ -6,7 +6,7 @@ const colorNames = Object.keys(themeColors).join("|");
 export default {
   content: [
     "./app/**/*.{js,vue,ts}",
-    "./components/**/*.{js,vue,ts}",
+    "./app/components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./app.vue",
@@ -39,7 +39,7 @@ export default {
           500: "#E3170A", // main
           600: "#C41508",
           700: "#9D1107",
-          800: "880F06",
+          800: "#880F06",
           900: "#760C05",
         },
         white: "#FFFAFF",
