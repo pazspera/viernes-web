@@ -19,11 +19,6 @@ const toggleDrawer = () => {
         VieRnes
       </Logo>
 
-      <button class="hamburger hamburger--squeeze" type="button" :class="{ 'is-active': isOpen }" @click="toggleDrawer">
-        <div class="hamburger-box">
-          <div class="hamburger-inner"></div>
-        </div>
-      </button>
 
       <!-- desktop links -->
       <div class="hidden md:flex">

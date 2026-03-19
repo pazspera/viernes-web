@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/tailwindcss',
+    '@nuxt/ui',
     '@nuxt/test-utils/module',
   ],
   // @ts-expect-error: El módulo @nuxt/fonts existe pero TypeScript no reconoce la propiedad
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ['hamburgers/dist/hamburgers.css', '@/assets/css/main.css'],
+  css: ['@/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
   components: [
     {
