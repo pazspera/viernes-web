@@ -4,20 +4,7 @@ import { themeColors } from "./app/constants/colors";
 const colorNames = Object.keys(themeColors).join("|");
 
 export default {
-  content: [
-    "./app/**/*.{js,vue,ts}",
-    "./app/components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./app.vue",
-    "./error.vue",
-  ],
-  safelist: [
-    {
-      pattern: new RegExp(`bg-(${colorNames})`),
-      variants: ["hover", "focus", "active"],
-    },
-  ],
+  content: ["./app/**/*.{js,vue,ts}"],
   theme: {
     extend: {
       fontFamily: {
