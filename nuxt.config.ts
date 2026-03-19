@@ -30,7 +30,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ['@/assets/css/main.css', 'hamburgers/dist/hamburgers.css'],
+  css: ['hamburgers/dist/hamburgers.css', '@/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
   components: [
     {

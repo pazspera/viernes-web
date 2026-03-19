@@ -36,8 +36,8 @@ const toggleDrawer = () => {
   </header>
 
   <!-- drawer mobile -->
-  <div v-show="isOpen" class="flex w-full bg-black">
-    <div class="flex flex-col p-4">
+  <div v-show="isOpen" class="flex w-full bg-black p-3">
+    <div class="flex flex-col ">
       <NavLink to="/historial">
         Historial
       </NavLink>

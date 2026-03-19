@@ -12,3 +12,31 @@
     @apply font-serif font-bold;
   }
 }
+
+/* override hamburger library */
+.hamburger,
+.hamburger-box {
+  color: #fffaff !important;
+  border-top-color: #fffaff !important;
+  border-right-color: #fffaff !important;
+  border-bottom-color: #fffaff !important;
+  border-left-color: #fffaff !important;
+}
+
+.hamburger.is-active .hambuger-inner,
+.hamburger.is-active .hambuger-inner::before,
+.hamburger.is-active .hambuger-inner::after {
+  background-color: #fffaff;
+  color: #fffaff;
+  width: 24px;
+  height: 2px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  background-color: #fffaff;
+  color: #fffaff;
+  width: 24px;
+  height: 2px;
+}
