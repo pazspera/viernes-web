@@ -36,6 +36,7 @@ export default defineNuxtConfig({
     {
       path: '~/components/typography',
       pathPrefix: false,
+
     },
     {
       path: '~/components',

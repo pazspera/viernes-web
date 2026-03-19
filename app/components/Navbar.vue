@@ -3,13 +3,13 @@
     <nav class="container mx-auto py-3 flex justify-between">
       <NuxtLink to="/"
         class="font-logo text-white hover:text-primary-500 transition-all hover:transition-all ease-in-out duration-100">
-        viernes
+        VieRnes
       </NuxtLink>
       <div>
         <NavLink to="/historial">
           Historial
         </NavLink>
-        <NuxtLink to="/random" class="ps-3">Random</NuxtLink>
+        <NavLink to="/random" class="ps-3">Random</NavLink>
       </div>
     </nav>
   </header>
