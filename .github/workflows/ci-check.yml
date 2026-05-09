@@ -2,12 +2,26 @@ name: CI-Check
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, epic/** ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, epic/** ]
 
 jobs:
+  validate_source_branch:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && github.base_ref == 'main'
+    steps:
+      - name: Validate the PR is coming from an epic/ branch
+        run: |
+          if [[ ! "${{ github.head_ref }}" =~ ^epic/ ]]; then
+            echo "❌ Only epic/* branches can make a PR to main."
+            echo "   This PR is coming from: ${{ github.head_ref }}"
+            exit 1
+          fi
+          echo "✅ Valid PR: ${{ github.head_ref }} → main"
+
   build_and_test:
+    needs: validate_source_branch
     runs-on: ubuntu-latest
     steps:
       # clones repo
