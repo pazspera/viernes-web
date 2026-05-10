@@ -17,13 +17,17 @@ export default defineContentConfig({
       })
     }),
     random: defineCollection({
-      type: 'page',
+      type: 'data',
       source: 'random.json',
       schema: z.object({
-        id: z.string(),
-        name: z.string(),
-        imdb: z.string(),
-        img: z.string(),
+        movies: z.array(
+          z.object({
+            id: z.string(),
+            name: z.string(),
+            imdb: z.string(),
+            img: z.string(),
+          })
+        )
       })
     })
   }
