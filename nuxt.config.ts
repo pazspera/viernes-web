@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       { name: 'Major Mono Display', weights: [400, 700] },
     ]
   },
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   app: {
     head: {
       link: [
