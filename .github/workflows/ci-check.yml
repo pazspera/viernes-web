@@ -21,7 +21,6 @@ jobs:
           echo "✅ Valid PR: ${{ github.head_ref }} → main"
 
   build_and_test:
-    needs: validate_source_branch
     runs-on: ubuntu-latest
     steps:
       # clones repo
