@@ -1,14 +1,13 @@
 <script setup lang="ts">
 
-const { data: testMovies } = await useAsyncData("test",
-  () => queryCollection("test").all()
+const { data: test } = await useAsyncData("test",
+  () => queryCollection("test").first()
 )
 </script>
 
 <template>
   <h1>Página prueba</h1>
-  <pre>{{ testMovies }}</pre>
-  <!-- <p v-for="movie in test" :key="movie.id">
+  <p v-for="movie in test?.movies ?? []" :key="movie.id">
     {{ movie.name }} ({{ movie.year }})
-  </p> -->
+  </p>
 </template>
