@@ -54,6 +54,47 @@ content/
 
 ---
 
+## Testing con Vitest
+
+### Stack
+
+| Herramienta | Propósito |
+|---|---|
+| Vitest v3 | Test runner |
+| `@vue/test-utils` | `mount()` / `shallowMount()` para componentes |
+| `@nuxt/test-utils` | Environment Nuxt para tests que necesiten `useAsyncData`, `useRoute`, etc. |
+| jsdom | DOM simulado en Node |
+
+### Filosofía
+
+- **Solo se testea lógica pura**: funciones que reciben datos y devuelven datos. Sin mocks, sin setup complejo.
+- **Los datos de prueba son los JSON reales** (`info_movies.json`, `random_movies.json`). Se importan directamente en los tests.
+- **Los tests de componentes son optativos y mínimos**: un `mount()` que verifique que el componente renderiza (smoke test). No se testea interacción de UI.
+- **No se testean páginas enteras** ni integración con `queryContent()`.
+- **TDD es recomendado** para las funciones de lógica: escribir el test antes que la implementación. Como las funciones son chicas y puras, el ciclo es rápido y da satisfacción.
+
+### Estructura de archivos
+
+```
+utils/
+  movies.ts          # Lógica pura extraída de los componentes
+  random.ts          # Lógica del selector aleatorio
+test/
+  movies.spec.ts     # Tests de toda la lógica de películas
+  random.spec.ts     # Tests del selector aleatorio
+  components/        # Smoke tests de componentes (optativo)
+```
+
+### Comandos
+
+| Comando | Qué hace |
+|---|---|
+| `npm run test` | Vitest en modo watch (para desarrollo) |
+| `npm run test:run` | Vitest una sola vez (para CI) |
+| `npm run test:nuxt` | Solo tests con environment Nuxt (si se necesitan) |
+
+---
+
 ## Etapas
 
 ### Etapa 0 — Setup
@@ -95,6 +136,7 @@ const last6Movies = computed(() => sortedByDate.value.slice(0, 6))
 
 - **Hero section**: mostrar la última película vista con fondo `hero_{id}.jpg` y cartel con "El viernes pasado vimos: {nombre} ({año})"
 - **Grilla de cards**: las últimas 6 películas con imagen (`img_card`), nombre, año. Cada card linkea a `/peliculas/{link_page sin .html}`
+- **Tests**: extraer a `utils/movies.ts` las funciones `sortByDate(movies)`, `getLastMovie(movies)`, `getLastN(movies, n)`. Testear orden descendente por `date_seen`, que el primer elemento sea el más reciente, y que `getLastN` devuelva exactamente 6.
 
 ### Etapa 3 — Detalle de película (`pages/peliculas/[slug].vue`)
 
@@ -110,6 +152,7 @@ const last6Movies = computed(() => sortedByDate.value.slice(0, 6))
   - `array[idx+1]` = anterior, `array[idx-1]` = siguiente
   - Manejar bordes (primera/última película sin botón correspondiente)
 - Disclaimer especial para `wayward_cloud`
+- **Tests**: extraer a `utils/movies.ts` las funciones `findMovieBySlug(movies, slug)` y `getPrevNext(movies, currentIdx)`. Testear lookup por `link_page` (con y sin `.html`), y navegación prev/next con `null` en los bordes (primera y última).
 
 ### Etapa 4 — Historial (`pages/historial.vue`) + páginas por año (`pages/[year].vue`)
 
@@ -122,6 +165,7 @@ const last6Movies = computed(() => sortedByDate.value.slice(0, 6))
 - Filtra: `movies.filter(m => m.year === Number(route.params.year))`
 - Agrupa por mes usando `Intl.DateTimeFormat('es-AR', { month: 'long' })` para generar los nombres en español (enero, febrero, etc.)
 - Renderiza sección por mes con cards de películas
+- **Tests**: extraer a `utils/movies.ts` las funciones `extractYears(movies)` y `groupByMonth(movies, year)`. Testear años únicos ordenados, meses en español (`enero`, `febrero`, etc.), y que una película de otro año no aparezca en el grupo.
 
 ### Etapa 5 — Selector aleatorio (`pages/random.vue`)
 
@@ -137,6 +181,7 @@ const last6Movies = computed(() => sortedByDate.value.slice(0, 6))
   ```
 - Botón "Ver todas las opciones": toggle entre vista aleatoria y vista completa
 - Cada poster linkea a IMDB (target blank, rel noreferrer)
+- **Tests**: extraer a `utils/random.ts` las funciones `pickRandomN(items, n)` y `sortAlphabetically(items)`. Testear que devuelva exactamente N elementos, que no mute el array original, y orden alfabético.
 
 ### Etapa 6 — Picks por persona (`pages/picks/[person].vue`)
 
@@ -144,6 +189,7 @@ const last6Movies = computed(() => sortedByDate.value.slice(0, 6))
 - Hero con imagen de fondo específica por persona
 - Filtrar `info_movies.json` por `pick_category` (case-insensitive, como el regex original)
 - Grilla de cards con las películas elegidas por esa persona
+- **Tests**: extraer a `utils/movies.ts` la función `filterByCategory(movies, category)`. Testear que sea case-insensitive, y que una categoría inexistente devuelva `[]`.
 
 ### Etapa 7 — Pulido y build
 
