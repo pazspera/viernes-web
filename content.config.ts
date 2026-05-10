@@ -4,13 +4,14 @@ import { z } from "zod";
 export default defineContentConfig({
   collections: {
     test: defineCollection({
-      type: 'data',
+      type: 'page',
       source: 'test.json',
-      schema: z.object({
-        name: z.string(),
-        id: z.string(),
-        year: z.number(),
-      })
+      schema: z.array(
+        z.object({
+          name: z.string(),
+          id: z.string(),
+          year: z.number(),
+        }))
     })
   }
 })
