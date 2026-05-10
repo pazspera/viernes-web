@@ -8,6 +8,10 @@ const { data: random } = await useAsyncData("random",
   () => queryCollection("random").first()
 );
 
+const { data: movies } = await useAsyncData("movies",
+  () => queryCollection("movies").first()
+)
+
 </script>
 
 <template>
@@ -18,5 +22,9 @@ const { data: random } = await useAsyncData("random",
   <h2>Test random</h2>
   <p v-for="movie in random?.movies ?? []" :key="movie.id">
     {{ movie.name }}
+  </p>
+  <h2>Pelis de viernes</h2>
+  <p v-for="movie in movies?.movies ?? []" :key="movie.id">
+    {{ movie.name }} ({{ movie.year }}) - Dirección: {{ movie.director }}
   </p>
 </template>

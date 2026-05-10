@@ -29,6 +29,43 @@ export default defineContentConfig({
           })
         )
       })
+    }),
+    movies: defineCollection({
+      type: 'data',
+      source: 'movies.json',
+      schema: z.object({
+        movies: z.array(
+          z.object({
+            id: z.string(),
+            name: z.string(),
+            year: z.number(),
+            date_seen: z.string(),
+            img_card: z.string(),
+            img_card_alt: z.string(),
+            link_page: z.string(),
+            pick: z.string(),
+            pick_category: z.string(),
+            sinopsis: z.string(),
+            director: z.string(),
+            duration: z.string(),
+            trailer: z.string(),
+            trailer_link: z.string(),
+            cast: z.array(
+              z.object({
+                img: z.string(),
+                actor: z.string(),
+              })
+            ),
+            img_row: z.array(
+              z.object({
+                img: z.string(),
+                alt: z.string(),
+                class: z.string(),
+              })
+            )
+          })
+        )
+      })
     })
   }
 })
