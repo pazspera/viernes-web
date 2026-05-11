@@ -42,5 +42,6 @@ export default defineNuxtConfig({
     experimental: {
       nativeSqlite: true,
     }
-  }
+  },
+  plugins: ['@/plugins/fontawesome.ts']
 })
