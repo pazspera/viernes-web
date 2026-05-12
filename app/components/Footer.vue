@@ -1,13 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer class="py-4 text-white bg-black">
+  <footer class="py-4 md:py-6 text-white bg-black">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-9 flex items-center">
           <p>Sitio desarrollado con
             <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por <a
-              href="https://github.com/pazspera" target="_blank" rel="noreferrer">Paz Spera</a>
+              href="https://github.com/pazspera" class="link-line hover:text-primary-500" target="_blank"
+              rel="noreferrer">Paz Spera</a>
           </p>
         </div>
         <div class="col-span-3 flex justify-end items-center">
@@ -20,3 +21,19 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+.link-line {
+  padding-bottom: 0.35rem;
+  border-bottom-style: solid;
+  border-bottom-width: 2.5px;
+  width: fit-content;
+  transition: all 0.25s ease-in-out;
+}
+
+.link-line:hover,
+.link-line:focus {
+  transition: all 0.25s ease-in-out;
+  padding-bottom: 0.15rem;
+}
+</style>
