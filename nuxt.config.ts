@@ -35,7 +35,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   vite: {
     optimizeDeps: {
-      include: ['@vue/devtools-core', '@vue/devtools-kit']
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        '@fortawesome/fontawesome-svg-core',
+        '@fortawesome/vue-fontawesome',
+        '@fortawesome/free-brands-svg-icons',
+      ]
     }
   },
   content: {
