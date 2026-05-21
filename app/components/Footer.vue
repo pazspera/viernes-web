@@ -35,5 +35,6 @@
 .link-line:focus {
   transition: all 0.25s ease-in-out;
   padding-bottom: 0.15rem;
+  border-color: #E3170A;
 }
 </style>
