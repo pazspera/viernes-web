@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { uiClasses } from '~/constants/ui';
+
+</script>
 
 <template>
   <footer class="py-4 md:py-6 text-white bg-black">
@@ -7,15 +10,12 @@
         <div class="col-span-9 flex items-center">
           <p>Sitio desarrollado con
             <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por <a
-              href="https://github.com/pazspera"
-              class="link-line hover:text-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-700"
+              href="https://github.com/pazspera" class="link-line hover:text-primary-500" :class="uiClasses.links.focus"
               target="_blank" rel="noreferrer">Paz Spera</a>
           </p>
         </div>
         <div class="col-span-3 flex justify-end items-center">
-          <a href="https://discord.gg/sHEkMhF"
-            class="focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-700"
-            target="_blank" rel="noreferrer">
+          <a href="https://discord.gg/sHEkMhF" :class="uiClasses.links.focus" target="_blank" rel="noreferrer">
             <FontAwesomeIcon :icon="['fab', 'discord']" size="lg" class="hover:text-primary-500 transition delay-150" />
           </a>
         </div>
