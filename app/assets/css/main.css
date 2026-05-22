@@ -12,3 +12,72 @@
     @apply font-serif font-bold;
   }
 }
+
+:root {
+  --white: #fef8ec;
+  --black: #151314;
+
+  --primary-50: #ffafad;
+  --primary-100: #ff7370;
+  --primary-200: #ff4a47;
+  --primary-300: #ff221f;
+  --primary-400: #f63528;
+  --primary-500: #ff0e0a;
+  --primary-600: #e00400;
+  --primary-700: #b80300;
+  --primary-800: #a30300;
+  --primary-900: #7a0200;
+  --primary-950: #660200;
+
+  --secondary-50: #f7f7f7;
+  --secondary-100: #efefef;
+  --secondary-200: #dcdcdc;
+  --secondary-300: #bfbfbf;
+  --secondary-400: #8a8a8a;
+  --secondary-500: #131316;
+  --secondary-600: #101013;
+  --secondary-700: #0d0d10;
+  --secondary-800: #09090b;
+  --secondary-900: #050505;
+  --secondary-950: #000000;
+
+  --accent-50: #fff7c2;
+  --accent-100: #fff4ad;
+  --accent-200: #ffef85;
+  --accent-300: #ffec70;
+  --accent-400: #ffe74c;
+  --accent-500: #ffe433;
+  --accent-600: #ffde0a;
+  --accent-700: #f5d400;
+  --accent-800: #e0c200;
+  --accent-900: #ccb100;
+  --accent-950: #b89f00;
+
+  --surface-50: #f1f6f9;
+  --surface-100: #e6eff5;
+  --surface-200: #d1e0ea;
+  --surface-300: #b1cbdc;
+  --surface-400: #7fa8c4;
+  --surface-500: #5483a0;
+  --surface-600: #476b88;
+  --surface-700: #3a556d;
+  --surface-800: #2d4252;
+  --surface-900: #1f2d38;
+  --surface-950: #151c23;
+
+  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
+  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
+  --font-size-xs: clamp(0.8rem, 0.9vw, 14px);
+  --font-size-sm: clamp(0.9rem, 1vw, 16px);
+  --font-size-md: clamp(1rem, 1.2vw, 18px);
+  --font-size-lg: clamp(1.125rem, 1.4vw, 20px);
+  --font-size-xl: clamp(1.25rem, 1.6vw, 24px);
+  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
+  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
+  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
+  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
+  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
+  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
+  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
+  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
+}
