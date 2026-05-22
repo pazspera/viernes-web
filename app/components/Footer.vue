@@ -9,9 +9,9 @@ import { uiClasses } from '~/constants/ui';
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-9 flex items-center">
           <BodyText>Sitio desarrollado con
-            <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por <ExternalLink
+            <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por&nbsp;<ExternalLink
               href="https://github.com/pazspera" class="link-line hover:text-primary-500" :class="uiClasses.links.focus"
-              target="_blank" rel="noreferrer">Paz Spera</ExternalLink>
+              target="_blank" rel="noreferrer">Paz&nbsp;Spera</ExternalLink>
           </BodyText>
         </div>
         <div class="col-span-3 flex justify-end items-center">
