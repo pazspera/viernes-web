@@ -65,6 +65,10 @@
   --surface-900: #1f2d38;
   --surface-950: #151c23;
 
+  --font-title: "Cardo", serif;
+  --font-text: "Karla", sans-serif;
+  --font-logo: "Major Mono Display", monospace;
+
   --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
   --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
   --font-size-xs: clamp(0.8rem, 0.9vw, 14px);
