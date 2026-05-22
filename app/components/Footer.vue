@@ -8,16 +8,17 @@ import { uiClasses } from '~/constants/ui';
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-9 flex items-center">
-          <p>Sitio desarrollado con
-            <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por <a
+          <BodyText>Sitio desarrollado con
+            <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por <ExternalLink
               href="https://github.com/pazspera" class="link-line hover:text-primary-500" :class="uiClasses.links.focus"
-              target="_blank" rel="noreferrer">Paz Spera</a>
-          </p>
+              target="_blank" rel="noreferrer">Paz Spera</ExternalLink>
+          </BodyText>
         </div>
         <div class="col-span-3 flex justify-end items-center">
-          <a href="https://discord.gg/sHEkMhF" :class="uiClasses.links.focus" target="_blank" rel="noreferrer">
+          <ExternalLink href="https://discord.gg/sHEkMhF" :class="uiClasses.links.focus" target="_blank"
+            rel="noreferrer">
             <FontAwesomeIcon :icon="['fab', 'discord']" size="lg" class="hover:text-primary-500 transition delay-150" />
-          </a>
+          </ExternalLink>
         </div>
       </div>
     </div>
