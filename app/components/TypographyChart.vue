@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import BodyText from './BodyText.vue';
 import ExternalLink from './ExternalLink.vue';
+import MainTitle from './MainTitle.vue';
 import SectionTitle from './SectionTitle.vue';
 
 const components = [
-  /* {
+  {
     component: "MainTitle",
     tag: "h1",
     description: "Título de las páginas de random, películas individuales e historial",
-    preview: h1
-  }, */
+    preview: MainTitle
+  },
   {
     component: "SectionTitle",
     tag: "h2",
