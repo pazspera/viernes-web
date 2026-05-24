@@ -53,7 +53,7 @@ const rel = computed(() => (target.value === '_blank' ? 'noopener noreferrer' : 
 
 @media (min-width: 961px) and (max-width: 1280px) {
   .external-link {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
   }
 }
 
@@ -65,7 +65,7 @@ const rel = computed(() => (target.value === '_blank' ? 'noopener noreferrer' : 
 
 @media (min-width: 1921px) {
   .external-link {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
   }
 }
 </style>
