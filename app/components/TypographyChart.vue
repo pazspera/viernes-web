@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BodyText from './BodyText.vue';
+import CardHeading from './CardHeading.vue';
 import ExternalLink from './ExternalLink.vue';
 import MainTitle from './MainTitle.vue';
 import SectionTitle from './SectionTitle.vue';
@@ -16,6 +17,12 @@ const components = [
     tag: "h2",
     description: "Subtítulo dentro de una página. En películas, va en sinopsis, elenco, trailer. En historial, va en cada mes",
     preview: SectionTitle
+  },
+  {
+    component: "CardHeading",
+    tag: "h3",
+    description: "Subtítulo solo en cards de películas",
+    preview: CardHeading
   },
   {
     component: "BodyText",
