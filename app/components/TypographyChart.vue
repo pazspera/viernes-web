@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import BodyText from './BodyText.vue';
+import ExternalLink from './ExternalLink.vue';
 import SectionTitle from './SectionTitle.vue';
 
 const components = [
@@ -13,6 +15,19 @@ const components = [
     tag: "h2",
     description: "Subtítulo dentro de una página. En películas, va en sinopsis, elenco, trailer. En historial, va en cada mes",
     preview: SectionTitle
+  },
+  {
+    component: "BodyText",
+    tag: "p",
+    description: "Texto común",
+    preview: BodyText
+  },
+  {
+    component: "ExternalLink",
+    tag: "a",
+    description: "Link del footer",
+    preview: ExternalLink,
+    props: { href: "#" }
   },
 ]
 </script>
@@ -35,7 +50,7 @@ const components = [
         <td class="table-cell" scope="row">{{ component.component }}</td>
         <td class="table-cell">{{ component.tag }}</td>
         <td class="table-cell">
-          <component :is="component.preview">{{ component.component }}</component>
+          <component :is="component.preview" v-bind="component.props ?? {}">{{ component.component }}</component>
         </td>
         <td class="table-cell">{{ component.description }}</td>
       </tr>

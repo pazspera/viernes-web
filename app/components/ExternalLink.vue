@@ -1,11 +1,6 @@
-<template>
-  <a :href="href" class="external-link" :target="target" :rel="rel">
-    <slot />
-  </a>
-</template>
-
 <script setup lang="ts">
 import { computed } from 'vue';
+import { uiClasses } from '~/constants/ui';
 
 defineOptions({ name: "ExternalLink" });
 
@@ -15,11 +10,33 @@ const target = computed(() => props.target ?? '_blank');
 const rel = computed(() => (target.value === '_blank' ? 'noopener noreferrer' : 'noopener'));
 </script>
 
+<template>
+  <a :href="href" class="external-link link-line hover:text-primary-500" :class="uiClasses.links.focus" :target="target"
+    :rel="rel">
+    <slot />
+  </a>
+</template>
+
 <style scoped>
 .external-link {
   font-family: var(--font-text);
   font-weight: 400;
   line-height: 1.6;
+}
+
+.link-line {
+  padding-bottom: 0.35rem;
+  border-bottom-style: solid;
+  border-bottom-width: 2.5px;
+  width: fit-content;
+  transition: all 0.25s ease-in-out;
+  border-color: currentColor;
+}
+
+.link-line:hover {
+  transition: all 0.25s ease-in-out;
+  padding-bottom: 0.15rem;
+  border-color: #E3170A;
 }
 
 @media (max-width: 600px) {
