@@ -11,7 +11,6 @@ defineOptions({ name: "SectionTitle" });
 <style scoped>
 .section-title {
   font-family: var(--font-title);
-  font-weight: 800;
   line-height: 1.15;
   margin-bottom: 0.5rem;
 }
