@@ -2,14 +2,14 @@
 import BodyText from './BodyText.vue';
 import CardHeading from './CardHeading.vue';
 import ExternalLink from './ExternalLink.vue';
-import MainTitle from './MainTitle.vue';
+import MainTitle from './HeroMainTitle.vue';
 import SectionTitle from './SectionTitle.vue';
 import NavigationLink from './NavigationLink.vue';
 import Logo from './Logo.vue';
 
 const components = [
   {
-    component: "MainTitle",
+    component: "HeroMainTitle",
     tag: "h1",
     description: "Título de las páginas de random, películas individuales e historial",
     preview: MainTitle
