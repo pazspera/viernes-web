@@ -1,12 +1,12 @@
 class Footer extends HTMLElement {
-	constructor() {
-		super();
-	}
+  constructor() {
+    super();
+  }
 
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <footer class="footer">
-            <div class="container">
+            <div class="container">div
                 <div class="row">
                 <div class="col-11">
                     <p>Sitio desarrollado con <i class="fas fa-heart footer__heart"></i> por <a href="https://github.com/pazspera" class="link-line" target="_blank" rel="noreferrer">Paz Spera</a></p>
@@ -18,7 +18,7 @@ class Footer extends HTMLElement {
             </div>
         </footer>
         `;
-	}
+  }
 }
 
 customElements.define("footer-component", Footer);

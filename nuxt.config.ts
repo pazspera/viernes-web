@@ -31,16 +31,23 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ['@/assets/css/main.css'],
+  css: ['@/assets/css/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],
   compatibilityDate: '2025-07-15',
   vite: {
     optimizeDeps: {
-      include: ['@vue/devtools-core', '@vue/devtools-kit']
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        '@fortawesome/fontawesome-svg-core',
+        '@fortawesome/vue-fontawesome',
+        '@fortawesome/free-brands-svg-icons',
+      ]
     }
   },
   content: {
     experimental: {
       nativeSqlite: true,
     }
-  }
+  },
+  plugins: ['./plugins/fontawesome.ts']
 })
