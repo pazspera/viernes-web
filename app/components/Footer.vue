@@ -7,11 +7,11 @@
         <div class="col-span-9 flex items-center">
           <BodyText>Sitio desarrollado con
             <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por&nbsp;<ExternalLink
-              href="https://github.com/pazspera" target="_blank" rel="noreferrer">Paz&nbsp;Spera</ExternalLink>
+              to="https://github.com/pazspera" target="_blank" :use-link-line="true">Paz&nbsp;Spera</ExternalLink>
           </BodyText>
         </div>
         <div class="col-span-3 flex justify-end items-center">
-          <ExternalLink href="https://discord.gg/sHEkMhF" target="_blank" rel="noreferrer">
+          <ExternalLink to="https://discord.gg/sHEkMhF" target="_blank" :use-link-line="false">
             <FontAwesomeIcon :icon="['fab', 'discord']" size="lg" class="hover:text-primary-500 transition delay-150" />
           </ExternalLink>
         </div>
