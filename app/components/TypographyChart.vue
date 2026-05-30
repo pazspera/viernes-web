@@ -9,6 +9,7 @@ import Logo from './Logo.vue';
 import HeroHomeTitle from './HeroHomeTitle.vue';
 import HeroEyebrow from './HeroEyebrow.vue';
 import HeroText from './HeroText.vue';
+import ButtonLabel from './ButtonLabel.vue';
 
 const components = [
   {
@@ -73,6 +74,12 @@ const components = [
     description: "Link del footer",
     preview: ExternalLink,
     props: { to: "https://github.com", useLinkLine: true }
+  },
+  {
+    component: "Button Label",
+    tag: "span",
+    description: "Texto para buttons",
+    preview: ButtonLabel
   },
 ]
 </script>
