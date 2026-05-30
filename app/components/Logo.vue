@@ -41,13 +41,13 @@ defineOptions({ name: "Logo" });
 
 @media (min-width: 1281px) and (max-width: 1920px) {
   .logo {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xl);
   }
 }
 
 @media (min-width: 1921px) {
   .logo {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xl);
   }
 }
 </style>
