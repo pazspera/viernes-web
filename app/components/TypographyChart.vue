@@ -5,6 +5,7 @@ import ExternalLink from './ExternalLink.vue';
 import MainTitle from './MainTitle.vue';
 import SectionTitle from './SectionTitle.vue';
 import NavigationLink from './NavigationLink.vue';
+import Logo from './Logo.vue';
 
 const components = [
   {
@@ -32,10 +33,18 @@ const components = [
     preview: BodyText
   },
   {
+    component: "loGo",
+    tag: "NuxtLink",
+    description: "Logo en Navbar",
+    preview: Logo,
+    props: { to: "#" }
+  },
+  {
     component: "NavigationLink",
     tag: "NuxtLink",
     description: "Links para Navigation",
     preview: NavigationLink,
+    props: { to: "#" }
   },
   {
     component: "ExternalLink",
@@ -48,8 +57,8 @@ const components = [
 </script>
 
 <template>
-  <table class="table-auto w-full">
-    <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4">
+    <table class="table-auto w-full">
       <caption>
         Chart de componentes de tipografía
       </caption>
@@ -71,6 +80,6 @@ const components = [
           <td class="table-cell">{{ component.description }}</td>
         </tr>
       </tbody>
-    </div>
-  </table>
+    </table>
+  </div>
 </template>
