@@ -7,6 +7,7 @@ import SectionTitle from './SectionTitle.vue';
 import NavigationLink from './NavigationLink.vue';
 import Logo from './Logo.vue';
 import HeroHomeTitle from './HeroHomeTitle.vue';
+import HeroEyebrow from './HeroEyebrow.vue';
 
 const components = [
   {
@@ -20,6 +21,12 @@ const components = [
     tag: "h1",
     description: "Título del hero del home, tiene que ser más chico que el común",
     preview: HeroHomeTitle
+  },
+  {
+    component: "Hero Eyebrow",
+    tag: "p",
+    description: "Eyebrow solo para hero del home",
+    preview: HeroEyebrow
   },
   {
     component: "SectionTitle",
