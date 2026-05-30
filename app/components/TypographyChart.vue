@@ -8,6 +8,7 @@ import NavigationLink from './NavigationLink.vue';
 import Logo from './Logo.vue';
 import HeroHomeTitle from './HeroHomeTitle.vue';
 import HeroEyebrow from './HeroEyebrow.vue';
+import HeroText from './HeroText.vue';
 
 const components = [
   {
@@ -27,6 +28,12 @@ const components = [
     tag: "p",
     description: "Eyebrow solo para hero del home",
     preview: HeroEyebrow
+  },
+  {
+    component: "Hero Text",
+    tag: "p",
+    description: "Texto del hero. Para páginas secundarias, cuando solo hay una frase. Para páginas de películas, para todos los datos de selección",
+    preview: HeroText
   },
   {
     component: "SectionTitle",
@@ -65,7 +72,7 @@ const components = [
     tag: "NuxtLink",
     description: "Link del footer",
     preview: ExternalLink,
-    props: { to: "https://github.com" }
+    props: { to: "https://github.com", useLinkLine: true }
   },
 ]
 </script>
