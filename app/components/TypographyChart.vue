@@ -2,17 +2,24 @@
 import BodyText from './BodyText.vue';
 import CardHeading from './CardHeading.vue';
 import ExternalLink from './ExternalLink.vue';
-import MainTitle from './HeroMainTitle.vue';
+import HeroMainTitle from './HeroMainTitle.vue';
 import SectionTitle from './SectionTitle.vue';
 import NavigationLink from './NavigationLink.vue';
 import Logo from './Logo.vue';
+import HeroHomeTitle from './HeroHomeTitle.vue';
 
 const components = [
   {
     component: "HeroMainTitle",
     tag: "h1",
     description: "Título de las páginas de random, películas individuales e historial",
-    preview: MainTitle
+    preview: HeroMainTitle,
+  },
+  {
+    component: "HeroHomeTitle",
+    tag: "h1",
+    description: "Título del hero del home, tiene que ser más chico que el común",
+    preview: HeroHomeTitle
   },
   {
     component: "SectionTitle",
