@@ -4,6 +4,7 @@ import CardHeading from './CardHeading.vue';
 import ExternalLink from './ExternalLink.vue';
 import MainTitle from './MainTitle.vue';
 import SectionTitle from './SectionTitle.vue';
+import NavigationLink from './NavigationLink.vue';
 
 const components = [
   {
@@ -31,6 +32,12 @@ const components = [
     preview: BodyText
   },
   {
+    component: "NavigationLink",
+    tag: "NuxtLink",
+    description: "Links para Navigation",
+    preview: NavigationLink,
+  },
+  {
     component: "ExternalLink",
     tag: "a",
     description: "Link del footer",
@@ -42,26 +49,28 @@ const components = [
 
 <template>
   <table class="table-auto w-full">
-    <caption>
-      Chart de componentes de tipografía
-    </caption>
-    <thead class="table-header-group">
-      <tr class="table-row">
-        <th class="table-cell" scope="col">Componente</th>
-        <th class="table-cell" scope="col">Etiqueta</th>
-        <th class="table-cell" scope="col">Preview</th>
-        <th class="table-cell" scope="col">Descripción</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="table-row" v-for="component in components" :key="component.component">
-        <td class="table-cell" scope="row">{{ component.component }}</td>
-        <td class="table-cell">{{ component.tag }}</td>
-        <td class="table-cell">
-          <component :is="component.preview" v-bind="component.props ?? {}">{{ component.component }}</component>
-        </td>
-        <td class="table-cell">{{ component.description }}</td>
-      </tr>
-    </tbody>
+    <div class="container mx-auto px-4">
+      <caption>
+        Chart de componentes de tipografía
+      </caption>
+      <thead class="table-header-group">
+        <tr class="table-row">
+          <th class="table-cell" scope="col">Componente</th>
+          <th class="table-cell" scope="col">Etiqueta</th>
+          <th class="table-cell" scope="col">Preview</th>
+          <th class="table-cell" scope="col">Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-row py-4" v-for="component in components" :key="component.component">
+          <td class="table-cell" scope="row">{{ component.component }}</td>
+          <td class="table-cell">{{ component.tag }}</td>
+          <td class="table-cell">
+            <component :is="component.preview" v-bind="component.props ?? {}">{{ component.component }}</component>
+          </td>
+          <td class="table-cell">{{ component.description }}</td>
+        </tr>
+      </tbody>
+    </div>
   </table>
 </template>
