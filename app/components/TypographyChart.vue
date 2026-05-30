@@ -48,10 +48,10 @@ const components = [
   },
   {
     component: "ExternalLink",
-    tag: "a",
+    tag: "NuxtLink",
     description: "Link del footer",
     preview: ExternalLink,
-    props: { href: "#" }
+    props: { to: "https://github.com" }
   },
 ]
 </script>

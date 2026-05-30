@@ -4,17 +4,17 @@ import { uiClasses } from '~/constants/ui';
 
 defineOptions({ name: "ExternalLink" });
 
-const props = defineProps<{ href: string; target?: string }>();
+const props = defineProps<{ to: any; target?: string }>();
 
 const target = computed(() => props.target ?? '_blank');
 const rel = computed(() => (target.value === '_blank' ? 'noopener noreferrer' : 'noopener'));
 </script>
 
 <template>
-  <a :href="href" class="external-link link-line hover:text-primary-500" :class="uiClasses.links.focus" :target="target"
-    :rel="rel">
+  <NuxtLink :to="to" class="external-link link-line hover:text-primary-500" :class="uiClasses.links.focus"
+    :target="target">
     <slot />
-  </a>
+  </NuxtLink>
 </template>
 
 <style scoped>
