@@ -53,9 +53,12 @@ const exampleMovie: Movie = {
 <template>
   <div class="bg-accent-100">
     <div class="container mx-auto px-4 my-6">
-      <div class="grid grid-cols-12 gap-4">
+      <div class="grid grid-cols-12 gap-4 mt-12">
         <div class="col-span-3">
           <ButtonPrimary to="/">Button test</ButtonPrimary>
+        </div>
+        <div class="col-span-6">
+          <CardMovie :movie="exampleMovie" />
         </div>
       </div>
     </div>
