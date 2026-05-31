@@ -6,14 +6,14 @@ const props = defineProps<{ movie: Movie }>();
 </script>
 
 <template>
-  <div class="card card-pelicula col-12 col-lg-6">
-    <img :src="props.movie.img_card" :alt="props.movie.img_card_alt" class="card-img-top" />
-    <div class="card-body card-pelicula__contenido">
-      <h3 class="card-pelicula__titulo">
-        <a :href="`peliculas/${props.movie.link_page}`" class="stretched-link">
+  <div class="col-12 col-lg-6 relative">
+    <img :src="props.movie.img_card" :alt="props.movie.img_card_alt" />
+    <div class="bg-black text-white py-2 px-4">
+      <CardHeading>
+        <NuxtLink :to="`peliculas/${props.movie.link_page}`" class="after:absolute after:inset-0">
           {{ props.movie.name }} ({{ props.movie.year }})
-        </a>
-      </h3>
+        </NuxtLink>
+      </CardHeading>
     </div>
   </div>
 </template>
