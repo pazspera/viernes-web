@@ -1,41 +1,23 @@
-<script setup lang="ts">
-import { uiClasses } from '~/constants/ui';
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <footer class="py-4 md:py-6 text-white bg-black">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-9 flex items-center">
-          <p>Sitio desarrollado con
-            <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por <a
-              href="https://github.com/pazspera" class="link-line hover:text-primary-500" :class="uiClasses.links.focus"
-              target="_blank" rel="noreferrer">Paz Spera</a>
-          </p>
+          <BodyText>Sitio desarrollado con
+            <FontAwesomeIcon :icon="['fa', 'heart']" size="lg" class="text-primary-500" /> por&nbsp;<ExternalLink
+              to="https://github.com/pazspera" target="_blank" :use-link-line="true">Paz&nbsp;Spera</ExternalLink>
+          </BodyText>
         </div>
         <div class="col-span-3 flex justify-end items-center">
-          <a href="https://discord.gg/sHEkMhF" :class="uiClasses.links.focus" target="_blank" rel="noreferrer">
+          <ExternalLink to="https://discord.gg/sHEkMhF" target="_blank" :use-link-line="false">
             <FontAwesomeIcon :icon="['fab', 'discord']" size="lg" class="hover:text-primary-500 transition delay-150" />
-          </a>
+          </ExternalLink>
         </div>
       </div>
     </div>
   </footer>
 </template>
 
-<style scoped>
-.link-line {
-  padding-bottom: 0.35rem;
-  border-bottom-style: solid;
-  border-bottom-width: 2.5px;
-  width: fit-content;
-  transition: all 0.25s ease-in-out;
-}
-
-.link-line:hover {
-  transition: all 0.25s ease-in-out;
-  padding-bottom: 0.15rem;
-  border-color: #E3170A;
-}
-</style>
+<style scoped></style>
