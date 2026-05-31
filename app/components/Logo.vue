@@ -1,11 +1,12 @@
 <script setup lang="ts">
-const propts = defineProps<{ to: any }>();
+import type { NuxtLinkProps } from '#app';
+const props = defineProps<NuxtLinkProps>();
 
 defineOptions({ name: "Logo" });
 </script>
 
 <template>
-  <NuxtLink :to="to" class="logo hover:text-primary-500">
+  <NuxtLink v-bind="props" class="logo hover:text-primary-500">
     <slot />
   </NuxtLink>
 </template>
