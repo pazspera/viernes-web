@@ -23,6 +23,7 @@ export interface Movie {
   director: string,
   duration: string,
   trailer: string,
+  trailer_link: string,
   cast: Actor[],
   img_row: MovieImage[],
 }
