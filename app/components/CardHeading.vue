@@ -8,7 +8,6 @@
 .card-heading {
   font-family: var(--font-title);
   line-height: 1.6;
-  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 600px) {
