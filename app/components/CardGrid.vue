@@ -7,13 +7,11 @@ defineOptions({ name: "CardGrid" });
 </script>
 
 <template>
-  <section>
-    <div class="container mx-auto px-4">
-      <div class="grid grid-cols-12 gap-2">
-        <CardMovie v-for="movie in movies" :key="movie.id" :movie="movie" />
-      </div>
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-12 gap-2">
+      <CardMovie v-for="movie in movies" :key="movie.id" :movie="movie" />
     </div>
-  </section>
+  </div>
 </template>
 
 <style scoped></style>
