@@ -62,6 +62,6 @@ const exampleMovie: Movie = {
         </div>
       </div>
     </div>
-    <TypographyChart />
+    <TypographyChart class="mb-32" />
   </div>
 </template>
