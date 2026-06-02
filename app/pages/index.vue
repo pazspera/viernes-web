@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Movie } from "~/types/movie.ts";
+import type { RandomPoster } from "~/types/random";
 
 const exampleMovie: Movie = {
   "id": "climax",
@@ -200,6 +201,34 @@ const exampleMovies: Movie[] = [
     ]
   },
 ]
+
+const random: RandomPoster[] = [
+  {
+    "id": "poster_northman",
+    "name": "The Northman",
+    "imdb": "https://www.imdb.com/title/tt11138512",
+    "src": "/img/posters/poster_northman.jpg"
+  },
+  {
+    "id": "poster_men",
+    "name": "Men",
+    "imdb": "https://www.imdb.com/title/tt13841850/",
+    "src": "/img/posters/poster_men.jpg"
+  },
+  {
+    "id": "poster_misery",
+    "name": "Misery",
+    "imdb": "https://www.imdb.com/title/tt0100157",
+    "src": "/img/posters/poster_misery.jpg"
+  },
+  {
+    "id": "poster_get_out",
+    "name": "Get Out",
+    "imdb": "https://www.imdb.com/title/tt5052448/",
+    "src": "/img/posters/poster_get_out.jpg"
+  },
+]
+
 </script>
 
 <template>
@@ -212,6 +241,10 @@ const exampleMovies: Movie[] = [
         <div class="col-span-6">
           <CardMovie :movie="exampleMovie" />
         </div>
+      </div>
+
+      <div class="grid grid-cols-12 gap-4 my-6">
+        <RandomPoster v-for="poster in random" :poster="poster" />
       </div>
     </div>
 
