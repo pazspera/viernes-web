@@ -10,6 +10,7 @@ import HeroHomeTitle from './HeroHomeTitle.vue';
 import HeroEyebrow from './HeroEyebrow.vue';
 import HeroText from './HeroText.vue';
 import ButtonLabel from './ButtonLabel.vue';
+import CastText from './CastText.vue';
 
 const components = [
   {
@@ -80,6 +81,12 @@ const components = [
     tag: "span",
     description: "Texto para buttons",
     preview: ButtonLabel
+  },
+  {
+    component: "Cast Text",
+    tag: "p",
+    description: "Texto elenco",
+    preview: CastText
   },
 ]
 </script>

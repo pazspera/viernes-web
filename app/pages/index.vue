@@ -20,15 +20,15 @@ const exampleMovie: Movie = {
   "cast": [
     {
       "img": "cast_1.jpg",
-      "actor": "Sofia Boutella"
+      "name": "Sofia Boutella"
     },
     {
       "img": "cast_2.jpg",
-      "actor": "Romain Guillermic"
+      "name": "Romain Guillermic"
     },
     {
       "img": "cast_3.jpg",
-      "actor": "Kiddy Smile"
+      "name": "Kiddy Smile"
     }
   ],
   "img_row": [
@@ -69,15 +69,15 @@ const exampleMovies: Movie[] = [
     "cast": [
       {
         "img": "cast_1.jpg",
-        "actor": "Tôru Emori"
+        "name": "Tôru Emori"
       },
       {
         "img": "cast_2.jpg",
-        "actor": "Yoshiaki Umegaki"
+        "name": "Yoshiaki Umegaki"
       },
       {
         "img": "cast_3.jpg",
-        "actor": "Aya Okamoto"
+        "name": "Aya Okamoto"
       }
     ],
     "img_row": [
@@ -116,15 +116,15 @@ const exampleMovies: Movie[] = [
     "cast": [
       {
         "img": "cast_1.jpg",
-        "actor": "Sofia Boutella"
+        "name": "Sofia Boutella"
       },
       {
         "img": "cast_2.jpg",
-        "actor": "Romain Guillermic"
+        "name": "Romain Guillermic"
       },
       {
         "img": "cast_3.jpg",
-        "actor": "Kiddy Smile"
+        "name": "Kiddy Smile"
       }
     ],
     "img_row": [
@@ -163,23 +163,23 @@ const exampleMovies: Movie[] = [
     "cast": [
       {
         "img": "cast_1.jpg",
-        "actor": "Ewan McGregor"
+        "name": "Ewan McGregor"
       },
       {
         "img": "cast_2.jpg",
-        "actor": "Jonny Lee Miller"
+        "name": "Jonny Lee Miller"
       },
       {
         "img": "cast_3.jpg",
-        "actor": "Ewen Bremmer"
+        "name": "Ewen Bremmer"
       },
       {
         "img": "cast_4.jpg",
-        "actor": "Robert Carlyle"
+        "name": "Robert Carlyle"
       },
       {
         "img": "cast_5.jpg",
-        "actor": "Kevin McKidd"
+        "name": "Kevin McKidd"
       }
     ],
     "img_row": [
@@ -247,6 +247,8 @@ const random: RandomPoster[] = [
         <RandomPoster v-for="poster in random" :poster="poster" />
       </div>
     </div>
+
+    <MovieCast :cast="exampleMovie.cast" :movieId="exampleMovie.id" />
 
     <CardGrid :movies="exampleMovies" />
 
