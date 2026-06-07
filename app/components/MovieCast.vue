@@ -13,16 +13,18 @@ const fullImgSrc = ((img: string) => {
 
 <template>
   <section class="container mx-auto px-4">
-    <div class="grid grid-cols-12 gap-4">
-      <div class="col-12">
+    <div class="grid grid-cols-12 gap-4 my-12">
+      <div class="col-span-12">
         <SectionTitle>Elenco</SectionTitle>
       </div>
-      <figure class="col-span-6 md:col-span-4" v-for="actor in props.cast" :key="actor.name">
-        <img :src="fullImgSrc(actor.img)" />
-        <figcaption>
-          <BodyText>{{ actor.name }}</BodyText>
-        </figcaption>
-      </figure>
+      <div class="col-span-12 gap-4">
+        <div class="flex gap-4">
+          <div v-for="actor in props.cast" :key="actor.name">
+            <img :src="fullImgSrc(actor.img)" class="size-40" />
+            <BodyText>{{ actor.name }}</BodyText>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
