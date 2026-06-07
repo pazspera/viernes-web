@@ -21,7 +21,7 @@ const fullImgSrc = ((img: string) => {
         <div class="flex gap-4">
           <div v-for="actor in props.cast" :key="actor.name">
             <img :src="fullImgSrc(actor.img)" class="size-40" />
-            <BodyText>{{ actor.name }}</BodyText>
+            <CastText>{{ actor.name }}</CastText>
           </div>
         </div>
       </div>
