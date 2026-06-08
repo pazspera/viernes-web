@@ -248,6 +248,8 @@ const random: RandomPoster[] = [
       </div>
     </div>
 
+    <MovieSynopsis :synopsis="exampleMovie.sinopsis" />
+
     <MovieCast :cast="exampleMovie.cast" :movieId="exampleMovie.id" />
 
     <CardGrid :movies="exampleMovies" />
