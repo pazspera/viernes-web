@@ -252,6 +252,8 @@ const random: RandomPoster[] = [
 
     <MovieCast :cast="exampleMovie.cast" :movieId="exampleMovie.id" />
 
+    <MovieTrailer :trailerLink="exampleMovie.trailer_link" :trailer="exampleMovie.trailer" />
+
     <CardGrid :movies="exampleMovies" />
 
     <TypographyChart class="mb-32" />
