@@ -22,7 +22,7 @@ const route = useRoute()
 const year = computed(() => parseInt(route.params.slug as string))
 const template = computed(() => YEAR_TEMPLATES[year.value] ?? { title: `Viernes ${year.value}`, tagline: '' })
 
-const heroYear: GeneralHero = computed(() => ({
+const heroYear = computed(() => ({
   title: template.value.title,
   text: template.value.tagline,
   id: String(year.value),
