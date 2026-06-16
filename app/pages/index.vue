@@ -232,32 +232,16 @@ const random: RandomPoster[] = [
 </script>
 
 <template>
-  <div class="bg-accent-100">
-    <div class="container mx-auto px-4 my-6">
-      <div class="grid grid-cols-12 gap-4 mt-12">
-        <div class="col-span-3">
-          <ButtonPrimary to="/">Button test</ButtonPrimary>
-        </div>
-        <div class="col-span-6">
-          <CardMovie :movie="exampleMovie" />
-        </div>
-      </div>
+  <div class="bg-accent-100 py-6">
+    <div class="container mx-auto px-4">
+      <MovieHero :movie="exampleMovie" />
+      <MovieSynopsis :synopsis="exampleMovie.sinopsis" />
 
-      <div class="grid grid-cols-12 gap-4 my-6">
-        <RandomPoster v-for="poster in random" :poster="poster" />
-      </div>
+      <MovieCast :cast="exampleMovie.cast" :movieId="exampleMovie.id" />
+
+      <MovieTrailer :trailerLink="exampleMovie.trailer_link" :trailer="exampleMovie.trailer" />
+
+      <MovieImageRow :img-row="exampleMovie.img_row" :movie-id="exampleMovie.id" />
     </div>
-
-    <MovieSynopsis :synopsis="exampleMovie.sinopsis" />
-
-    <MovieCast :cast="exampleMovie.cast" :movieId="exampleMovie.id" />
-
-    <MovieTrailer :trailerLink="exampleMovie.trailer_link" :trailer="exampleMovie.trailer" />
-
-    <MovieImageRow :img-row="exampleMovie.img_row" :movie-id="exampleMovie.id" />
-
-    <CardGrid :movies="exampleMovies" />
-
-    <TypographyChart class="mb-32" />
   </div>
 </template>
