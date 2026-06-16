@@ -6,7 +6,7 @@ const props = defineProps<{ movie: Movie }>();
 </script>
 
 <template>
-  <div class="col-span-12 lg:col-span-6 2xl:col-span-4 relative">
+  <div class="col-span-12 md:col-span-6 relative">
     <img :src="props.movie.img_card" :alt="props.movie.img_card_alt" class="aspect-3/2" />
     <div class="bg-black text-white py-2 px-4">
       <CardHeading>
