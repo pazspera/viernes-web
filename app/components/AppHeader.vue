@@ -43,17 +43,34 @@ watch(() => route.path, () => {
         </button>
       </div>
 
-      <div v-if="isMobileMenuOpen" class="lg:hidden pb-4">
-        <ul class="flex flex-col gap-4">
-          <li v-for="link in navLinks" :key="link.to">
-            <NuxtLink :to="link.to"
-              class="uppercase font-bold tracking-[1.3px] text-white hover:text-primary-500 transition-colors duration-500 block"
-              :class="{ 'text-primary-500': route.path === link.to }" @click="isMobileMenuOpen = false">
-              {{ link.label }}
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
+      <Transition name="menu">
+        <div v-show="isMobileMenuOpen" class="lg:hidden overflow-hidden">
+          <ul class="flex flex-col gap-4 pb-4">
+            <li v-for="link in navLinks" :key="link.to">
+              <NuxtLink :to="link.to"
+                class="uppercase font-bold tracking-[1.3px] text-white hover:text-primary-500 transition-colors duration-500 block"
+                :class="{ 'text-primary-500': route.path === link.to }" @click="isMobileMenuOpen = false">
+                {{ link.label }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
+      </Transition>
     </nav>
   </header>
 </template>
+
+<style scoped>
+.menu-enter-active,
+.menu-leave-active {
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  max-height: 200px;
+  opacity: 1;
+}
+
+.menu-enter-from,
+.menu-leave-to {
+  max-height: 0;
+  opacity: 0;
+}
+</style>
