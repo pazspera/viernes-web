@@ -13,7 +13,7 @@ const props = defineProps<{ historyYear: HistoryYear }>();
     <div v-if="props.historyYear.year" class="bg-black text-white py-2 px-4">
       <CardHeading>{{ props.historyYear.year }}</CardHeading>
     </div>
-    <NuxtLink :to="props.historyYear.to" target="_blank">
+    <NuxtLink :to="props.historyYear.to">
       <img :src="props.historyYear.src" :alt="props.historyYear.alt" />
     </NuxtLink>
   </div>

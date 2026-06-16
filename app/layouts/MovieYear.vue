@@ -20,13 +20,8 @@ const movies = computed(() => {
 
 <template>
   <div>
-    <AppHeader />
     <section class="hero-grid">
-      <div
-        class="hero-grid__img"
-        :id="`peliculas_${year}`"
-        :style="{ backgroundImage: `url(${heroImage})` }"
-      ></div>
+      <div class="hero-grid__img" :id="`peliculas_${year}`" :style="{ backgroundImage: `url(${heroImage})` }"></div>
       <div class="hero-grid__cartel hero-grid__cartel--cartel-corto">
         <h1 class="hero-grid__titulo">{{ template.title }}</h1>
         <p class="hero-grid__texto-final">{{ template.tagline }}</p>
@@ -36,7 +31,5 @@ const movies = computed(() => {
     <main class="main-content" id="main-content">
       <CardGrid :movies="movies" />
     </main>
-
-    <Footer />
   </div>
 </template>
