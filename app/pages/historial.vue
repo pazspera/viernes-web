@@ -8,19 +8,19 @@ const years: HistoryYear[] = [
     src: "/img/2020-brazil.jpg",
     alt: "Viernes del 2020",
     year: "2020",
-    to: "/2020"
+    to: "/historial/2020"
   },
   {
     src: "/img/2021-mulholland.jpg",
     alt: "Viernes del 2021",
     year: "2021",
-    to: "/2021"
+    to: "/historial/2021"
   },
   {
     src: "/img/2022-from-dusk.jpg",
     alt: "Viernes del 2022",
     year: "2022",
-    to: "/2022"
+    to: "/historial/2022"
   }
 ]
 
