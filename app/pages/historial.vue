@@ -35,9 +35,10 @@ const HystoryHero: GeneralHero = {
 
 <template>
   <div>
-    <section class="container mx-auto pt-4 pb-24">
+    <section class="container mx-auto pt
+    -4 pb-24">
       <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-12">
+        <div class="col-span-12 pb-12">
           <GeneralHero :hero="HystoryHero" />
         </div>
         <YearCard v-for="year in years" :key="year.year" :history-year="year"></YearCard>

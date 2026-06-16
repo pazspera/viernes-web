@@ -1,12 +1,12 @@
 export interface Actor {
   img: string,
-  name: string,
+  actor: string,
 }
 
 export interface MovieImage {
   img: string,
   alt: string,
-  class: "always_show" | "hidden_first",
+  class: string,
 }
 
 export interface Movie {
