@@ -5,8 +5,8 @@ const isMobileMenuOpen = ref(false);
 const route = useRoute();
 
 const navLinks = [
-  { to: "/historial", label: "Historial de películas" },
-  { to: "/random", label: "Opciones Aleatorias" },
+  { to: "/historial", label: "Historial" },
+  { to: "/random", label: "Random" },
 ];
 
 watch(() => route.path, () => {
