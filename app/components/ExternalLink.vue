@@ -1,17 +1,18 @@
 <script setup lang="ts">
+import type { NuxtLinkProps } from '#app';
 import { computed } from 'vue';
 import { uiClasses } from '~/constants/ui';
 
 defineOptions({ name: "ExternalLink" });
 
-const props = defineProps<{ to: string; target?: string, useLinkLine: boolean }>();
+const props = defineProps<NuxtLinkProps & { useLinkLine: boolean }>();
 
 const target = computed(() => props.target ?? '_blank');
 const rel = computed(() => (target.value === '_blank' ? 'noopener noreferrer' : 'noopener'));
 </script>
 
 <template>
-  <NuxtLink :to="to" class="external-link hover:text-primary-500"
+  <NuxtLink v-bind="props" class="external-link hover:text-primary-500"
     :class="[uiClasses.links.focus, { 'link-line': useLinkLine }]" :target="target">
     <slot />
   </NuxtLink>
