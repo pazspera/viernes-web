@@ -1,9 +1,59 @@
+<script setup lang="ts">
+defineOptions({ name: "AppHeader" });
+
+const isMobileMenuOpen = ref(false);
+const route = useRoute();
+
+const navLinks = [
+  { to: "/historial", label: "Historial de películas" },
+  { to: "/random", label: "Opciones Aleatorias" },
+];
+
+watch(() => route.path, () => {
+  isMobileMenuOpen.value = false;
+});
+</script>
+
 <template>
-  <header class="py-4">
+  <header class="sticky top-0 z-50 bg-black">
     <nav class="container mx-auto px-4">
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/historial">Historial</NuxtLink>
-      <NuxtLink to="/random">Random</NuxtLink>
+      <div class="flex items-center justify-between py-4">
+        <Logo to="/" class="text-white text-lg md:text-xl xl:text-2xl">
+          VieRnes
+        </Logo>
+
+        <ul class="hidden lg:flex lg:gap-6 lg:ml-auto">
+          <li v-for="link in navLinks" :key="link.to">
+            <NuxtLink :to="link.to"
+              class="uppercase font-bold tracking-[1.3px] text-white hover:text-primary-500 transition-colors duration-500"
+              :class="{ 'text-primary-500': route.path === link.to }">
+              {{ link.label }}
+            </NuxtLink>
+          </li>
+        </ul>
+
+        <button class="lg:hidden text-white p-2" @click="isMobileMenuOpen = !isMobileMenuOpen"
+          :aria-expanded="isMobileMenuOpen" aria-label="Toggle navigation">
+          <svg v-if="!isMobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg v-else class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div v-if="isMobileMenuOpen" class="lg:hidden pb-4">
+        <ul class="flex flex-col gap-4">
+          <li v-for="link in navLinks" :key="link.to">
+            <NuxtLink :to="link.to"
+              class="uppercase font-bold tracking-[1.3px] text-white hover:text-primary-500 transition-colors duration-500 block"
+              :class="{ 'text-primary-500': route.path === link.to }" @click="isMobileMenuOpen = false">
+              {{ link.label }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 </template>
