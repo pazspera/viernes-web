@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { HistoryYear } from '~/types/history';
+import type { GeneralHero } from '~/types/ui';
 
 
 const years: HistoryYear[] = [
@@ -23,6 +24,13 @@ const years: HistoryYear[] = [
   }
 ]
 
+const HystoryHero: GeneralHero = {
+  title: "Historial de películas",
+  text: "Todos los viernes todos.",
+  img_src: "/img/hero/hero_historial_peliculas.jpg",
+  id: "historial_peliculas"
+}
+
 </script>
 
 <template>
@@ -30,7 +38,7 @@ const years: HistoryYear[] = [
     <section class="container mx-auto pt-4 pb-24">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12">
-          <h1>Historial de películas</h1>
+          <GeneralHero :hero="HystoryHero" />
         </div>
         <YearCard v-for="year in years" :key="year.year" :history-year="year"></YearCard>
       </div>
