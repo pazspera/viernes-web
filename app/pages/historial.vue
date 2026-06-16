@@ -27,7 +27,7 @@ const years: HistoryYear[] = [
 
 <template>
   <div>
-    <section class="container mx-auto px-4">
+    <section class="container mx-auto pt-4 pb-24">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12">
           <h1>Historial de películas</h1>
