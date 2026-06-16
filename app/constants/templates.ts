@@ -5,7 +5,7 @@ export const YEAR_TEMPLATES: Record<number, { title: string; tagline: string }> 
 }
 
 export const YEAR_IMAGES: Record<number, string> = {
-  2020: "/img/2020-brazil.jpg",
-  2021: "/img/2021-mulholland.jpg",
-  2022: "/img/2022-from-dusk.jpg",
+  2020: "/img/hero/hero_2020.jpg",
+  2021: "/img/hero/hero_2021.jpg",
+  2022: "/img/hero/hero_2022.jpg",
 }
