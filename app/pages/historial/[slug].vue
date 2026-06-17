@@ -57,8 +57,8 @@ const moviesByMonth = computed(() => {
   <div>
     <main class="main-content container mx-auto pt-4 pb-24" id="main-content">
       <GeneralHero :hero="heroYear" />
-      <section v-for="group in moviesByMonth" :key="group.month" class="container mx-auto px-4 mb-12">
-        <SectionTitle class="ms-4">{{ group.name }}</SectionTitle>
+      <section v-for="group in moviesByMonth" :key="group.month" class="mb-12">
+        <SectionTitle>{{ group.name }}</SectionTitle>
         <CardGrid :movies="group.movies" />
       </section>
     </main>
