@@ -1,7 +1,7 @@
 <template>
   <AppHeader />
   <NuxtLayout>
-    <NuxtPage class="main-content container mx-auto py-4" />
+    <NuxtPage class="main-content container mx-auto" />
   </NuxtLayout>
   <Footer />
 </template>
