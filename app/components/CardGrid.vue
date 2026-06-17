@@ -8,7 +8,7 @@ defineOptions({ name: "CardGrid" });
 
 <template>
   <div class="container mx-auto px-0">
-    <div class="grid grid-cols-12 gap-2">
+    <div class="grid grid-cols-12 gap-4">
       <CardMovie v-for="movie in movies" :key="movie.id" :movie="movie" />
     </div>
   </div>
