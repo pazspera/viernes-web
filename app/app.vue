@@ -1,7 +1,7 @@
 <template>
   <AppHeader />
   <NuxtLayout>
-    <NuxtPage class="main-content container mx-auto" />
+    <NuxtPage class="main-content bg-accent-050" />
   </NuxtLayout>
   <Footer />
 </template>
