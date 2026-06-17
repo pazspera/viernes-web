@@ -49,7 +49,13 @@ const moviesByMonth = computed(() => {
   }
   return [...groups.entries()]
     .sort(([a], [b]) => a - b)
-    .map(([month, movies]) => ({ month, name: MONTH_NAMES[month], movies }))
+    .map(([month, movies]) => ({
+      month,
+      name: MONTH_NAMES[month],
+      movies: movies.sort(
+        (a, b) => new Date(a.date_seen).getTime() - new Date(b.date_seen).getTime()
+      )
+    }))
 })
 </script>
 
