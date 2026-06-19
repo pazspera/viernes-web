@@ -16,7 +16,7 @@ watch(() => route.path, () => {
 
 <template>
   <header class="sticky top-0 z-50 bg-black">
-    <nav class="container mx-auto px-4">
+    <nav class="container mx-auto">
       <div class="flex items-center justify-between py-4">
         <Logo to="/" class="text-white text-lg md:text-xl xl:text-2xl">
           VieRnes

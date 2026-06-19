@@ -232,8 +232,8 @@ const random: RandomPoster[] = [
 </script>
 
 <template>
-  <div class="bg-accent-100 py-6">
-    <div class="container mx-auto px-4">
+  <div>
+    <div class="container mx-auto pt-4 pb-24">
       <MovieHero :movie="exampleMovie" />
       <MovieSynopsis :synopsis="exampleMovie.sinopsis" />
 

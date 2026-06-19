@@ -30,7 +30,7 @@ const isDesktop = breakpoints.greaterOrEqual("desktop");
 
 <template>
 
-  <section class="container mx-auto px-4">
+  <section class="container mx-auto">
     <div class="grid grid-cols-12 gap-4 my-12">
       <div class="col-span-12">
         <SectionTitle>Trailer</SectionTitle>

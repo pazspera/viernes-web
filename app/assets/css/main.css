@@ -41,7 +41,7 @@
   --secondary-900: #050505;
   --secondary-950: #000000;
 
-  --accent-50: #fff7c2;
+  --accent-050: #fff7c2;
   --accent-100: #fff4ad;
   --accent-200: #ffef85;
   --accent-300: #ffec70;
@@ -84,4 +84,29 @@
   --font-size-7xl: clamp(2.75rem, 4vw, 48px);
   --font-size-8xl: clamp(3.5rem, 5vw, 56px);
   --font-size-9xl: clamp(4.25rem, 6vw, 68px);
+}
+
+/* box shadows*/
+.box-shadow-z1 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+.box-shadow-z2 {
+  box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.box-shadow-z3 {
+  box-shadow:
+    0 11px 7px 0 rgba(0, 0, 0, 0.19),
+    0 13px 25px 0 rgba(0, 0, 0, 0.3);
+}
+.box-shadow-z4 {
+  box-shadow:
+    0 14px 12px 0 rgba(0, 0, 0, 0.17),
+    0 20px 40px 0 rgba(0, 0, 0, 0.3);
+}
+.box-shadow-z5 {
+  box-shadow:
+    0 17px 17px 0 rgba(0, 0, 0, 0.15),
+    0 27px 55px 0 rgba(0, 0, 0, 0.3);
 }
