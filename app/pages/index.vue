@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import type { Movie } from "~/types/movie.ts";
 import type { RandomPoster } from "~/types/random";
+import { useDocumentTitle } from "../composables/useDocumentTitle";
+import { DOCUMENT_TITLE } from "~/constants/ui";
+
+useDocumentTitle(DOCUMENT_TITLE.HOME);
 
 const exampleMovie: Movie = {
   "id": "climax",
