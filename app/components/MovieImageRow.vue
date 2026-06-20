@@ -9,7 +9,7 @@ const fullImgSrc = (img: string) =>
 </script>
 
 <template>
-  <section class="2xl:container 2xl:mx-auto 2xl:px-4">
+  <section class="2xl:container 2xl:mx-auto">
     <div class="flex flex-wrap">
       <div v-for="image in props.imgRow" :key="image.img" :class="[
         'pelicula__img',

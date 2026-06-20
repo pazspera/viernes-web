@@ -20,7 +20,7 @@ const pickLink = computed(() => `/picks_${props.movie.pick_category.toLowerCase(
   <section class="hero-grid">
     <div class="hero-grid__img" :id="movie.id" :style="{ backgroundImage: `url(/img/hero/hero_${movie.id}.jpg)` }">
     </div>
-    <div class="hero-grid__cartel">
+    <div class="hero-grid__cartel box-shadow-z1">
       <HeroMainTitle>{{ movie.name }} ({{ movie.year }})</HeroMainTitle>
       <HeroText>Dirección: {{ movie.director }}</HeroText>
       <HeroText>{{ movie.duration }}</HeroText>

@@ -6,7 +6,7 @@ export interface Actor {
 export interface MovieImage {
   img: string,
   alt: string,
-  class: "always_show" | "hidden_first",
+  class: string,
 }
 
 export interface Movie {

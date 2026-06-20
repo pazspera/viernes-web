@@ -12,7 +12,7 @@ const alt = computed(() => {
 </script>
 
 <template>
-  <div class="col-span-6 md:col-span-4">
+  <div class="col-span-6 md:col-span-4 box-shadow-z1">
     <NuxtLink :to="poster.imdb" target="_blank">
       <img :src="poster.src" :alt="alt" />
     </NuxtLink>
