@@ -18,7 +18,7 @@ const fullImgSrc = ((img: string) => {
         <SectionTitle>Elenco</SectionTitle>
       </div>
       <div class="col-span-12 gap-4">
-        <div class="flex gap-4">
+        <div class="flex gap-4 flex-wrap">
           <div v-for="actor in props.cast" :key="actor.actor ?? actor.name">
             <img :src="fullImgSrc(actor.img)" class="size-40" />
             <CastText>{{ actor.actor ?? actor.name }}</CastText>

@@ -24,11 +24,10 @@ const pickLink = computed(() => `/picks_${props.movie.pick_category.toLowerCase(
       <HeroMainTitle>{{ movie.name }} ({{ movie.year }})</HeroMainTitle>
       <HeroText>Dirección: {{ movie.director }}</HeroText>
       <HeroText>{{ movie.duration }}</HeroText>
-      <p class="hero-text-final">
+      <p class="hero-text-final ">
         {{ pickPrefix }}<NuxtLink :to="pickLink" class="hero-pick-link">{{ movie.pick }}</NuxtLink>
       </p>
     </div>
-    <NuxtLink to="/" class="text-sm text-slate-500">← Volver</NuxtLink>
   </section>
 </template>
 
