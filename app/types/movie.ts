@@ -1,6 +1,7 @@
 export interface Actor {
   img: string,
-  name: string,
+  actor: string,
+  name?: string,
 }
 
 export interface MovieImage {
