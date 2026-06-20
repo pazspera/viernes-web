@@ -28,6 +28,7 @@ const pickLink = computed(() => `/picks_${props.movie.pick_category.toLowerCase(
         {{ pickPrefix }}<NuxtLink :to="pickLink" class="hero-pick-link">{{ movie.pick }}</NuxtLink>
       </p>
     </div>
+    <NuxtLink to="/" class="text-sm text-slate-500">← Volver</NuxtLink>
   </section>
 </template>
 

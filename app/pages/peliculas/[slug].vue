@@ -14,10 +14,11 @@ const movie = computed(() => moviesSorted.value.find(m => m.id === slug));
 
 <template>
   <div class="container mx-auto px-4 py-8">
-    <NuxtLink to="/" class="text-sm text-slate-500">← Volver</NuxtLink>
+
 
     <div v-if="movie" class="mt-6">
       <MovieHero :movie="movie" />
+
       <MovieSynopsis :sinopsis="movie.sinopsis" />
 
       <MovieCast :cast="movie.cast" :movieId="movie.id" />

@@ -10,7 +10,7 @@ const props = defineProps<{ movie: Movie }>();
     <img :src="props.movie.img_card" :alt="props.movie.img_card_alt" class="aspect-3/2" />
     <div class="bg-black text-white py-2 px-4">
       <CardHeading>
-        <NuxtLink :to="`peliculas/${props.movie.link_page}`" class="after:absolute after:inset-0">
+        <NuxtLink :to="`/peliculas/${props.movie.id}`" class="after:absolute after:inset-0">
           {{ props.movie.name }} ({{ props.movie.year }})
         </NuxtLink>
       </CardHeading>
