@@ -20,7 +20,7 @@ const movie = computed(() => moviesSorted.value.find(m => m.id === slug));
       <MovieHero :movie="movie" />
       <MovieSynopsis :sinopsis="movie.sinopsis" />
 
-      <MovieCast :cast="movie.cast" />
+      <MovieCast :cast="movie.cast" :movieId="movie.id" />
 
       <MovieTrailer :trailer="movie.trailer" :trailer-link="movie.trailer_link" />
 
