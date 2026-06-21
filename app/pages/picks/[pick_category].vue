@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import CardGrid from '~/components/CardGrid.vue'
+import GeneralHero from '~/components/GeneralHero.vue'
+import { PICK_HERO } from '~/constants/picks'
 
 const route = useRoute()
 const pick = String(route.params.pick_category ?? '')
@@ -13,11 +15,24 @@ const filteredMovies = computed(() => {
 })
 
 const displayCategory = computed(() => pick ? pick.charAt(0).toUpperCase() + pick.slice(1) : '')
+
+const hero = computed(() => {
+  const key = pick.toLowerCase()
+  if (PICK_HERO[key]) return PICK_HERO[key]
+  // find by id match
+  for (const k in PICK_HERO) {
+    if (PICK_HERO[k].id === pick) return PICK_HERO[k]
+  }
+  // try camelCase key (piden_pista -> pidenPista)
+  const camel = key.replace(/_([a-z])/g, (_, c) => c.toUpperCase())
+  if (PICK_HERO[camel]) return PICK_HERO[camel]
+  return null
+})
 </script>
 
 <template>
-  <div class="container mx-auto py-8">
-    <h1 class="text-2xl font-bold mb-4">Picks: {{ displayCategory }}</h1>
+  <div class="main-content container mx-auto pt-4 pb-24">
+    <GeneralHero v-if="hero" :hero="hero" />
 
     <CardGrid :movies="filteredMovies" />
 
