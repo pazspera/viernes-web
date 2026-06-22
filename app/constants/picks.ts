@@ -1,4 +1,6 @@
-export const PICK_HERO = {
+import type { GeneralHero } from '~/types/ui'
+
+export const PICK_HERO: Record<string, GeneralHero> = {
   paz: {
     title: "Picks de Paz",
     text: "Surrealismo y ovejas ocasionales.",

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import type { GeneralHero as GeneralHeroType } from '~/types/ui'
 import CardGrid from '~/components/CardGrid.vue'
 import GeneralHero from '~/components/GeneralHero.vue'
 import { PICK_HERO } from '~/constants/picks'
@@ -16,16 +17,17 @@ const filteredMovies = computed(() => {
 
 const displayCategory = computed(() => pick ? pick.charAt(0).toUpperCase() + pick.slice(1) : '')
 
-const hero = computed(() => {
+const hero = computed<GeneralHeroType | null>(() => {
   const key = pick.toLowerCase()
-  if (PICK_HERO[key]) return PICK_HERO[key]
+  const direct = (PICK_HERO as Record<string, GeneralHeroType>)[key]
+  if (direct) return direct
   // find by id match
-  for (const k in PICK_HERO) {
-    if (PICK_HERO[k].id === pick) return PICK_HERO[k]
-  }
+  const byId = Object.values(PICK_HERO as Record<string, GeneralHeroType>).find(h => h.id === pick)
+  if (byId) return byId
   // try camelCase key (piden_pista -> pidenPista)
   const camel = key.replace(/_([a-z])/g, (_, c) => c.toUpperCase())
-  if (PICK_HERO[camel]) return PICK_HERO[camel]
+  const camelEntry = (PICK_HERO as Record<string, GeneralHeroType>)[camel]
+  if (camelEntry) return camelEntry
   return null
 })
 </script>

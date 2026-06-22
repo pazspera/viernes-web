@@ -26,7 +26,7 @@ const heroYear = computed(() => ({
   title: template.value.title,
   text: template.value.tagline,
   id: String(year.value),
-  img_src: YEAR_IMAGES[year.value] ?? undefined
+  img_src: YEAR_IMAGES[year.value] ?? `/img/hero/hero_${year.value}.jpg`
 }))
 
 const { data } = await useAsyncData(`movies-${year}`, () =>
