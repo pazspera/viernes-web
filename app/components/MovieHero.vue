@@ -13,7 +13,7 @@ const pickPrefix = computed(() => {
   return 'Elección de ';
 });
 
-const pickLink = computed(() => `/picks_${props.movie.pick_category.toLowerCase()}`);
+const pickLink = computed(() => `/picks/${props.movie.pick_category.toLowerCase()}`);
 </script>
 
 <template>
