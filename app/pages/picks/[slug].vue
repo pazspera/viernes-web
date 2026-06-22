@@ -6,7 +6,7 @@ import GeneralHero from '~/components/GeneralHero.vue'
 import { PICK_HERO } from '~/constants/picks'
 
 const route = useRoute()
-const pick = String(route.params.pick_category ?? '')
+const pick = String(route.params.slug ?? '')
 
 const { data: moviesData } = await useAsyncData(`movies-pick-${pick}`, () => queryCollection('movies').first())
 
