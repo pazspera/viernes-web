@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { DOCUMENT_TITLE } from '~/constants/ui';
+
+useDocumentTitle(DOCUMENT_TITLE.HOME)
 
 </script>
 

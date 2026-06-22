@@ -2,6 +2,7 @@
 import { YEAR_TEMPLATES, YEAR_IMAGES } from '~/constants/templates'
 import type { GeneralHero } from '~/types/ui'
 import type { Movie } from '~/types/movie'
+import { DOCUMENT_TITLE } from '~/constants/ui'
 
 const MONTH_NAMES: Record<number, string> = {
   1: 'Enero',
@@ -21,6 +22,8 @@ const MONTH_NAMES: Record<number, string> = {
 const route = useRoute()
 const year = computed(() => parseInt(route.params.slug as string))
 const template = computed(() => YEAR_TEMPLATES[year.value] ?? { title: `Viernes ${year.value}`, tagline: '' })
+
+useDocumentTitle(DOCUMENT_TITLE.HISTORIAL_YEAR(year.value))
 
 const heroYear = computed(() => ({
   title: template.value.title,

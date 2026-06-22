@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import type { HistoryYear } from '~/types/history';
 import type { GeneralHero } from '~/types/ui';
+import { DOCUMENT_TITLE } from '~/constants/ui';
 
+useDocumentTitle(DOCUMENT_TITLE.HISTORIAL);
 
 const years: HistoryYear[] = [
   {

@@ -9,4 +9,5 @@ export const DOCUMENT_TITLE = {
   "HISTORIAL": "Historial - Viernes",
   "RANDOM": "Random - Viernes",
   HISTORIAL_YEAR: (year: number) => `Historial ${year} - Viernes`,
+  MOVIE: (name: string) => `${name} - Viernes`,
 }
