@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { YEAR_TEMPLATES } from '~/constants/templates'
+import { YEAR_TEMPLATES, YEAR_IMAGES } from '~/constants/templates'
 import type { GeneralHero } from '~/types/ui'
 import type { Movie } from '~/types/movie'
 
@@ -26,7 +26,7 @@ const heroYear = computed(() => ({
   title: template.value.title,
   text: template.value.tagline,
   id: String(year.value),
-  img_src: ''
+  img_src: YEAR_IMAGES[year.value] ?? `/img/hero/hero_${year.value}.jpg`
 }))
 
 const { data } = await useAsyncData(`movies-${year}`, () =>
