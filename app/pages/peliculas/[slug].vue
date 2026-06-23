@@ -6,14 +6,14 @@ const route = useRoute();
 const slug = String(route.params.slug ?? '');
 
 const { data: moviesData } = await useAsyncData("movies",
-  () => queryCollection("movies").first()
+  () => (queryCollection as any)("movies").first()
 )
 
-const moviesSorted = computed(() => (moviesData?.value?.movies ?? []).slice().sort((a, b) => a.id.localeCompare(b.id)));
-const movie = computed(() => moviesSorted.value.find(m => m.id === slug));
+const moviesSorted = computed(() => (((moviesData?.value as any)?.movies ?? []) as any[]).slice().sort((a: any, b: any) => a.id.localeCompare(b.id)));
+const movie = computed(() => moviesSorted.value.find((m: any) => m.id === slug));
 // movies ordered by date_seen (oldest -> newest)
-const moviesByDate = computed(() => (moviesData?.value?.movies ?? []).slice().sort((a, b) => new Date(a.date_seen).getTime() - new Date(b.date_seen).getTime()));
-const currentIndex = computed(() => moviesByDate.value.findIndex(m => m.id === slug));
+const moviesByDate = computed(() => (((moviesData?.value as any)?.movies ?? []) as any[]).slice().sort((a: any, b: any) => new Date(a.date_seen).getTime() - new Date(b.date_seen).getTime()));
+const currentIndex = computed(() => moviesByDate.value.findIndex((m: any) => m.id === slug));
 const previousMovie = computed(() => (currentIndex.value > 0 ? moviesByDate.value[currentIndex.value - 1] : null));
 const nextMovie = computed(() => (currentIndex.value !== -1 && currentIndex.value < moviesByDate.value.length - 1 ? moviesByDate.value[currentIndex.value + 1] : null));
 
