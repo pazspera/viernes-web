@@ -17,20 +17,26 @@ const pickLink = computed(() => `/picks/${props.movie.pick_category.toLowerCase(
 </script>
 
 <template>
-  <section class="hero-grid">
-    <div class="hero-grid__img" :id="movie.id" :style="{ backgroundImage: `url(/img/hero/hero_${movie.id}.jpg)` }">
-    </div>
-    <div class="hero-grid__cartel box-shadow-z1">
-      <HeroMainTitle>{{ movie.name }} ({{ movie.year }})</HeroMainTitle>
-      <HeroText>Dirección: {{ movie.director }}</HeroText>
-      <HeroText>{{ movie.duration }}</HeroText>
-      <p class="hero-text-final ">
-        {{ pickPrefix }}<NuxtLink :to="pickLink" class="hero-pick-link">{{ movie.pick }}</NuxtLink>
-      </p>
+  <section class="hero-section">
+    <div class="hero-grid">
+      <div class="hero-grid__img" :id="movie.id" :style="{ backgroundImage: `url(/img/hero/hero_${movie.id}.jpg)` }">
+      </div>
+      <div class="hero-grid__cartel box-shadow-z1">
+        <HeroMainTitle>{{ movie.name }} ({{ movie.year }})</HeroMainTitle>
+        <HeroText>Dirección: {{ movie.director }}</HeroText>
+        <HeroText>{{ movie.duration }}</HeroText>
+        <p class="hero-text-final ">
+          {{ pickPrefix }}<NuxtLink :to="pickLink" class="hero-pick-link">{{ movie.pick }}</NuxtLink>
+        </p>
+      </div>
     </div>
   </section>
 </template>
 
 <style scoped>
 @import '@/assets/css/components.css';
+
+.hero-section {
+  min-height: 300dvh;
+}
 </style>
