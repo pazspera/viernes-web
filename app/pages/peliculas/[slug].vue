@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ButtonPrimary from '~/components/ButtonPrimary.vue';
-
+import { DOCUMENT_TITLE } from '~/constants/ui';
 
 const route = useRoute();
 const slug = String(route.params.slug ?? '');
@@ -16,6 +16,10 @@ const moviesByDate = computed(() => (moviesData?.value?.movies ?? []).slice().so
 const currentIndex = computed(() => moviesByDate.value.findIndex(m => m.id === slug));
 const previousMovie = computed(() => (currentIndex.value > 0 ? moviesByDate.value[currentIndex.value - 1] : null));
 const nextMovie = computed(() => (currentIndex.value !== -1 && currentIndex.value < moviesByDate.value.length - 1 ? moviesByDate.value[currentIndex.value + 1] : null));
+
+const documentTitle = computed(() => DOCUMENT_TITLE.MOVIE(movie.value?.name ?? ''))
+console.log(documentTitle.value);
+useDocumentTitle(documentTitle)
 
 </script>
 
