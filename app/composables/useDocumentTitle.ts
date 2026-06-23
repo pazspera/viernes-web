@@ -1,9 +1,7 @@
-import { onMounted } from "vue";
+import { onMounted, unref } from "vue";
 
-export function useDocumentTitle(title: string) {
+export function useDocumentTitle(title: string | Ref<string>) {
   onMounted(() => {
-    document.title = title;
+    document.title = unref(title) ?? '';
   })
-
-  return { useDocumentTitle };
 }

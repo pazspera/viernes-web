@@ -18,7 +18,7 @@ const previousMovie = computed(() => (currentIndex.value > 0 ? moviesByDate.valu
 const nextMovie = computed(() => (currentIndex.value !== -1 && currentIndex.value < moviesByDate.value.length - 1 ? moviesByDate.value[currentIndex.value + 1] : null));
 
 const documentTitle = computed(() => DOCUMENT_TITLE.MOVIE(movie.value?.name ?? ''))
-console.log(documentTitle);
+console.log(documentTitle.value);
 useDocumentTitle(documentTitle)
 
 </script>
