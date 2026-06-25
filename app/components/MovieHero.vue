@@ -86,7 +86,19 @@ const pickLink = computed(() => `/picks/${props.movie.pick_category.toLowerCase(
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .hero-section-img {
-    min-height: 110dvh;
+    min-height: 100dvh;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .hero-section-img {
+    min-height: 100dvh;
+  }
+}
+
+@media (min-width: 1536px) {
+  .hero-section-img {
+    min-height: 100dvh;
   }
 }
 </style>
