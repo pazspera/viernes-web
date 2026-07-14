@@ -8,7 +8,7 @@ useDocumentTitle(DOCUMENT_TITLE.HOME)
 <template>
   <div>
     <div class="container mx-auto pt-4 pb-24">
-      Index
+      <IndexHero />
     </div>
   </div>
 </template>

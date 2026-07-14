@@ -19,7 +19,9 @@ const lastMovie = computed<Movie | undefined>(() => {
 
 <template>
   <section id="hero_index">
-    <div v-if="lastMovie" :id="lastMovie.id" class="hero">
+    <div v-if="lastMovie" :id="lastMovie.id"
+      class="hero"
+      :style="{ backgroundImage: `url(/img/hero/hero_${lastMovie.id}.jpg)` }">
       <div class="hero__cartel">
         <p class="hero__leyenda">El viernes pasado vimos</p>
         <h3 class="hero__titulo">{{ lastMovie.name }} ({{ lastMovie.year }})</h3>
