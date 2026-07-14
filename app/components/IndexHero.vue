@@ -19,12 +19,11 @@ const lastMovie = computed<Movie | undefined>(() => {
 
 <template>
   <section id="hero_index">
-    <div v-if="lastMovie" :id="lastMovie.id"
-      class="hero"
+    <div v-if="lastMovie" :id="lastMovie.id" class="hero"
       :style="{ backgroundImage: `url(/img/hero/hero_${lastMovie.id}.jpg)` }">
-      <div class="hero__cartel">
-        <p class="hero__leyenda">El viernes pasado vimos</p>
-        <h3 class="hero__titulo">{{ lastMovie.name }} ({{ lastMovie.year }})</h3>
+      <div class="hero__cartel p-6">
+        <HeroEyebrow>El viernes pasado vimos</HeroEyebrow>
+        <HeroHomeTitle>{{ lastMovie.name }} ({{ lastMovie.year }})</HeroHomeTitle>
       </div>
     </div>
   </section>
@@ -46,7 +45,6 @@ const lastMovie = computed<Movie | undefined>(() => {
   position: absolute;
   top: 5%;
   right: 0;
-  padding: 0.5rem 2.5rem 0.5em 1.5em;
   max-width: 390px;
 }
 
