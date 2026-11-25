@@ -33,14 +33,14 @@ const hero = computed<GeneralHeroType | null>(() => {
 </script>
 
 <template>
-  <div class="main-content container mx-auto pt-4 pb-24">
+  <div class="main-content">
     <GeneralHero v-if="hero" :hero="hero" />
-
-    <CardGrid :movies="filteredMovies" />
-
-    <p v-if="(filteredMovies || []).length === 0" class="mt-6 text-gray-600">
-      No hay películas para la categoría “{{ pick }}”.
-    </p>
+    <div class="container mx-auto pb-24">
+      <CardGrid :movies="filteredMovies" />
+      <p v-if="(filteredMovies || []).length === 0" class="mt-6 text-gray-600">
+        No hay películas para la categoría “{{ pick }}”.
+      </p>
+    </div>
   </div>
 </template>
 
