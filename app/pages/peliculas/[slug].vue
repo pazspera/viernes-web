@@ -24,8 +24,8 @@ useDocumentTitle(documentTitle)
 </script>
 
 <template>
-  <section class="main-content container mx-auto pt-4 pb-24">
-    <div v-if="movie" class="mt-6">
+  <section class="main-content mx-auto pb-24 w-screen">
+    <div v-if="movie">
       <MovieHero :movie="movie" />
 
       <MovieSynopsis :sinopsis="movie.sinopsis" />
