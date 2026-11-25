@@ -10,7 +10,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <section class="hero-grid">
+  <section class="hero-grid 2xl:container 2xl:mx-auto">
     <div class="hero-grid__img" :id="hero.id"
       :style="{ backgroundImage: `url(${hero.img_src ?? `/img/hero/hero_${hero.id}.jpg`})` }">
     </div>
