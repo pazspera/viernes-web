@@ -18,7 +18,7 @@ const lastMovie = computed<Movie | undefined>(() => {
 </script>
 
 <template>
-  <section id="hero_index">
+  <section id="hero_index" class="">
     <div v-if="lastMovie" :id="lastMovie.id" class="hero"
       :style="{ backgroundImage: `url(/img/hero/hero_${lastMovie.id}.jpg)` }">
       <div class="hero__cartel p-6">

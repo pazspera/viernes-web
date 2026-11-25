@@ -64,12 +64,14 @@ const moviesByMonth = computed(() => {
 
 <template>
   <div>
-    <section class="main-content container mx-auto pt-4 pb-24" id="main-content">
+    <section class="main-content pb-24" id="main-content">
       <GeneralHero :hero="heroYear" />
-      <section v-for="group in moviesByMonth" :key="group.month" class="mb-12">
-        <SectionTitle>{{ group.name }}</SectionTitle>
-        <CardGrid :movies="group.movies" />
-      </section>
+      <div class="container mx-auto">
+        <section v-for="group in moviesByMonth" :key="group.month" class="mb-12">
+          <SectionTitle>{{ group.name }}</SectionTitle>
+          <CardGrid :movies="group.movies" />
+        </section>
+      </div>
     </section>
   </div>
 </template>
