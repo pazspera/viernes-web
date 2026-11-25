@@ -24,9 +24,5 @@ const { data: movies } = await useAsyncData("movies",
     <p>{{ movie.name }}</p>
     <img :src="movie.img" />
   </div> -->
-  <h2>Pelis de viernes</h2>
-  <div v-for="movie in movies?.movies ?? []" :key="movie.id">
-    <p>{{ movie.name }} ({{ movie.year }}) - Dirección: {{ movie.director }}</p>
-    <img :src="movie.img_card" />
-  </div>
+  <TypographyChart />
 </template>

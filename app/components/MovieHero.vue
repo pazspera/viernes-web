@@ -17,7 +17,7 @@ const pickLink = computed(() => `/picks/${props.movie.pick_category.toLowerCase(
 </script>
 
 <template>
-  <section class="hero-grid">
+  <section class="hero-grid 2xl:container 2xl:mx-auto">
     <div class="hero-grid__img" :id="movie.id" :style="{ backgroundImage: `url(/img/hero/hero_${movie.id}.jpg)` }">
     </div>
     <div class="hero-grid__cartel box-shadow-z1">
