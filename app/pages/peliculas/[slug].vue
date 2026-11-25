@@ -28,29 +28,32 @@ useDocumentTitle(documentTitle)
     <div v-if="movie">
       <MovieHero :movie="movie" />
 
-      <MovieSynopsis :sinopsis="movie.sinopsis" />
+      <div>
+        <MovieSynopsis :sinopsis="movie.sinopsis" />
 
-      <MovieCast :cast="movie.cast" :movieId="movie.id" />
+        <MovieCast :cast="movie.cast" :movieId="movie.id" />
 
-      <MovieTrailer :trailer="movie.trailer" :trailer-link="movie.trailer_link" />
+        <MovieTrailer :trailer="movie.trailer" :trailer-link="movie.trailer_link" />
 
-      <MovieImageRow :img-row="movie.img_row" :movie-id="movie.id" />
+        <MovieImageRow :img-row="movie.img_row" :movie-id="movie.id" />
 
-      <!-- Navigation between movies (anterior / siguiente) -->
-      <div class="mt-8">
-        <div class="grid grid-cols-12 gap-4">
-          <div class="col-span-6">
-            <ButtonPrimary v-if="previousMovie" :to="`/peliculas/${previousMovie.id}`"
-              class="btn btn--previous btn__primary">Viernes Anterior</ButtonPrimary>
-          </div>
-          <div class="col-span-6 text-right">
-            <ButtonPrimary v-if="nextMovie" :to="`/peliculas/${nextMovie.id}`" class="btn btn__primary">Viernes
-              Siguiente
-            </ButtonPrimary>
+        <!-- Navigation between movies (anterior / siguiente) -->
+        <div class="container mx-auto">
+          <div class="mt-8">
+            <div class="grid grid-cols-12 gap-4">
+              <div class="col-span-6">
+                <ButtonPrimary v-if="previousMovie" :to="`/peliculas/${previousMovie.id}`"
+                  class="btn btn--previous btn__primary">Viernes Anterior</ButtonPrimary>
+              </div>
+              <div class="col-span-6 text-right">
+                <ButtonPrimary v-if="nextMovie" :to="`/peliculas/${nextMovie.id}`" class="btn btn__primary">Viernes
+                  Siguiente
+                </ButtonPrimary>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
 
     <div v-else class="mt-8">
