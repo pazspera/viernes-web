@@ -11,6 +11,7 @@ import HeroEyebrow from './HeroEyebrow.vue';
 import HeroText from './HeroText.vue';
 import ButtonLabel from './ButtonLabel.vue';
 import CastText from './CastText.vue';
+import HighlightText from './HighlightText.vue';
 
 const components = [
   {
@@ -48,6 +49,12 @@ const components = [
     tag: "h3",
     description: "Subtítulo solo en cards de películas",
     preview: CardHeading
+  },
+  {
+    component: "HighlightText",
+    tag: "p",
+    description: "Texto destacado para contenido",
+    preview: HighlightText
   },
   {
     component: "BodyText",
