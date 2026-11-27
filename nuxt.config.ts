@@ -1,13 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxt/test-utils/module',
-    '@nuxt/content',
-    '@nuxt/image',
-    '@vueuse/nuxt'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@nuxt/content', '@nuxt/image', '@vueuse/nuxt', 'v-gsap-nuxt'],
   // @ts-expect-error: El módulo @nuxt/fonts existe pero TypeScript no reconoce la propiedad
   fonts: {
     families: [
