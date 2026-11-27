@@ -66,7 +66,7 @@ const moviesByMonth = computed(() => {
   <div>
     <section class="main-content pb-24" id="main-content">
       <GeneralHero :hero="heroYear" />
-      <div class="container mx-auto">
+      <div class="container mx-auto px-4">
         <section v-for="group in moviesByMonth" :key="group.month" class="mb-12">
           <SectionTitle>{{ group.name }}</SectionTitle>
           <CardGrid :movies="group.movies" />

@@ -5,7 +5,7 @@ const props = defineProps<{ sinopsis: string }>();
 </script>
 
 <template>
-  <section class="container mx-auto">
+  <section class="container mx-auto px-4">
     <div class="grid grid-cols-12 gap-4 my-12">
       <div class="col-span-12">
         <SectionTitle>Sinopsis</SectionTitle>

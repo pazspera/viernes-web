@@ -38,7 +38,7 @@ useDocumentTitle(documentTitle)
         <MovieImageRow :img-row="movie.img_row" :movie-id="movie.id" />
 
         <!-- Navigation between movies (anterior / siguiente) -->
-        <div class="container mx-auto">
+        <div class="container mx-auto px-4">
           <div class="mt-8">
             <div class="grid grid-cols-12 gap-4">
               <div class="col-span-6">

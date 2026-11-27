@@ -40,7 +40,7 @@ const HystoryHero: GeneralHero = {
     <section>
       <GeneralHero :hero="HystoryHero" />
 
-      <div class="container mx-auto pb-24">
+      <div class="container mx-auto px-4 pb-24">
         <div class="grid grid-cols-12 gap-4">
           <div class="col-span-12 pb-12">
           </div>

@@ -9,7 +9,7 @@ useDocumentTitle(DOCUMENT_TITLE.HOME)
 <template>
   <main>
     <IndexHero />
-    <div class="container mx-auto pt-4 pb-24">
+    <div class="container mx-auto px-4 pt-4 pb-24">
       <section class="my-10 grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-7">
           <BodyText class="pb-4">

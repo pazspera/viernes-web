@@ -35,7 +35,7 @@ const hero = computed<GeneralHeroType | null>(() => {
 <template>
   <div class="main-content">
     <GeneralHero v-if="hero" :hero="hero" />
-    <div class="container mx-auto pb-24">
+    <div class="container mx-auto px-4 pb-24">
       <CardGrid :movies="filteredMovies" />
       <p v-if="(filteredMovies || []).length === 0" class="mt-6 text-gray-600">
         No hay películas para la categoría “{{ pick }}”.
